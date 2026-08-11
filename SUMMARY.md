@@ -6,7 +6,6 @@
 
 * [Quản lý hồ sơ cá nhân (Profile)](nguoi-dung-user-management/quan-ly-ho-so-ca-nhan-profile.md)
 * [Quản lý học viên (Student)](nguoi-dung-user-management/quan-ly-hoc-vien-student.md)
-* [Quản lý giảng viên (Teacher)](nguoi-dung-user-management/quan-ly-giang-vien-teacher.md)
 * [Quản lý nhân viên (Staff)](nguoi-dung-user-management/quan-ly-nhan-vien-staff.md)
 
 ## Khóa học (Course)
@@ -40,14 +39,11 @@
 * [Chỉnh sửa thông tin lớp học](lop-hoc-class/chinh-sua-thong-tin-lop-hoc.md)
 * [Quản lý học viên trong lớp (Student)](lop-hoc-class/quan-ly-hoc-vien-trong-lop-student.md)
 * [Quản lý trợ giảng trong lớp (Mentor)](lop-hoc-class/quan-ly-tro-giang-trong-lop-mentor.md)
-* [Thêm giảng viên cho lớp (Teacher)](lop-hoc-class/them-giang-vien-cho-lop-teacher.md)
 * [Quản lý bài kiểm tra trong lớp (Test/Quiz)](lop-hoc-class/quan-ly-bai-kiem-tra-trong-lop-test-quiz.md)
 * [Quản lý tài liệu trong lớp](lop-hoc-class/quan-ly-tai-lieu-trong-lop.md)
-* [Quản lý kỳ thi (Exam Management)](lop-hoc-class/quan-ly-ky-thi-exam-management/README.md)
-  * [Tạo kỳ thi (Exam)](lop-hoc-class/quan-ly-ky-thi-exam-management/tao-ky-thi-exam.md)
-  * [Chỉnh sửa & quản lý kỳ thi](lop-hoc-class/quan-ly-ky-thi-exam-management/chinh-sua-and-quan-ly-ky-thi.md)
 * [Business Rules — Class](lop-hoc-class/business-rules-class.md)
 
+<<<<<<< HEAD
 ## Vận hành lớp học (Operation)
 
 * [Tổng quan vận hành lớp học](van-hanh-lop-hoc-operation/tong-quan-van-hanh-lop-hoc.md)
@@ -102,6 +98,8 @@
 
 * [Chức năng cài đặt và vận hành lớp học Zoom](tich-hop-zoom-cho-lop-hoc/chuc-nang-cai-dat-va-van-hanh-lop-hoc-zoom.md)
 
+=======
+>>>>>>> f142580895bada080a6eb3ca9f223cde64165a4f
 ## Chấm điểm (Grading)
 
 * [Chấm điểm thủ công](cham-diem-grading/cham-diem-thu-cong/README.md)
@@ -109,6 +107,7 @@
   * [Quản lý & phân công](cham-diem-grading/cham-diem-thu-cong/quan-ly-and-phan-cong.md)
   * [Chấm lại (Regrading)](cham-diem-grading/cham-diem-thu-cong/cham-lai-regrading.md)
   * [Lịch sử chấm bài](cham-diem-grading/cham-diem-thu-cong/lich-su-cham-bai.md)
+<<<<<<< HEAD
 * [Chấm điểm bằng AI](cham-diem-grading/cham-diem-bang-ai/README.md)
   * [Cài đặt chấm điểm bằng AI](cham-diem-grading/cham-diem-bang-ai/cai-dat-cham-diem-bang-ai.md)
   * [AI tự động chấm & Mentor review](cham-diem-grading/cham-diem-bang-ai/ai-tu-dong-cham-and-mentor-review.md)
@@ -119,22 +118,19 @@
 
 * [Event Test](quan-ly-cac-bai-test/event-test.md)
 * [Entrance test](quan-ly-cac-bai-test/entrance-test.md)
+=======
+>>>>>>> f142580895bada080a6eb3ca9f223cde64165a4f
 
 ## Dashboard
 
 * [SIS Operational Dashboard](dashboard/sis-operational-dashboard.md)
-
-## Đồng bộ Hubspot & LMS
-
-* [Đồng bộ Hubspot Deal - LMS](dong-bo-hubspot-and-lms/dong-bo-hubspot-deal-lms.md)
-* [Đồng bộ Hubspot Contact - LMS](dong-bo-hubspot-and-lms/dong-bo-hubspot-contact-lms.md)
-* [Đồng bộ Hubspot Ticket - LMS](dong-bo-hubspot-and-lms/dong-bo-hubspot-ticket-lms.md)
 
 ## Quản lý thông báo & Email (Notice & Email)
 
 * [Danh sách thông báo & Email (Notice List & Email List)](quan-ly-thong-bao-and-email-notice-and-email/danh-sach-thong-bao-and-email-notice-list-and-email-list.md)
 * [Nhóm đối tượng gửi email (Recipients List)](quan-ly-thong-bao-and-email-notice-and-email/nhom-doi-tuong-gui-email-recipients-list.md)
 * [Lịch sử gửi email (Mail Logs) & Danh sách Email bị chặn (Blocked Email)](quan-ly-thong-bao-and-email-notice-and-email/lich-su-gui-email-mail-logs-and-danh-sach-email-bi-chan-blocked-email.md)
+<<<<<<< HEAD
 
 ## Payment
 
@@ -157,3 +153,5 @@
   * [Quản lý danh sách giao dịch](payment/order-list/quan-ly-danh-sach-giao-dich.md)
   * [Checkout](payment/order-list/checkout.md)
 
+=======
+>>>>>>> f142580895bada080a6eb3ca9f223cde64165a4f
