@@ -43,10 +43,6 @@
 * [Quản lý tài liệu trong lớp](lop-hoc-class/quan-ly-tai-lieu-trong-lop.md)
 * [Business Rules — Class](lop-hoc-class/business-rules-class.md)
 
-## Tích hợp Zoom cho lớp học
-
-* [Chức năng cài đặt và vận hành lớp học Zoom](tich-hop-zoom-cho-lop-hoc/chuc-nang-cai-dat-va-van-hanh-lop-hoc-zoom.md)
-
 ## Chấm điểm (Grading)
 
 * [Chấm điểm thủ công](cham-diem-grading/cham-diem-thu-cong/README.md)
