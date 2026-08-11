@@ -1,4 +1,4 @@
-# Chi tiết chấm công theo buổi
+# Chi tiết chấm công theo buổi (theo Lớp học)
 
 ## Record of changes
 

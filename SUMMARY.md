@@ -81,9 +81,9 @@
 * [Quản lý giải đáp khóa học (Course Comment)](van-hanh-lop-hoc-operation/quan-ly-giai-dap-khoa-hoc-course-comment.md)
 * [Quản lý chấm công giảng viên](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/README.md)
   * [Xem chấm công theo Lớp học](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/xem-cham-cong-theo-lop-hoc.md)
-  * [Chi tiết chấm công theo buổi](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/chi-tiet-cham-cong-theo-buoi.md)
+  * [Chi tiết chấm công theo buổi (theo Lớp học)](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/chi-tiet-cham-cong-theo-buoi.md)
   * [Bảng chấm công theo Giảng viên](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/bang-cham-cong-theo-giang-vien.md)
-  * [Chi tiết chấm công theo buổi](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/chi-tiet-cham-cong-theo-buoi-1.md)
+  * [Chi tiết chấm công theo buổi (theo Giảng viên)](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/chi-tiet-cham-cong-theo-buoi-1.md)
   * [Business Rules](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/business-rules.md)
   * [Export bảng chấm công giảng viên theo tháng](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/export-bang-cham-cong-giang-vien-theo-thang.md)
   * [Tạo Timeoff Request theo Lớp/Giảng viên](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/tao-timeoff-request-theo-lop-giang-vien.md)
@@ -119,13 +119,6 @@
 
 * [Event Test](quan-ly-cac-bai-test/event-test.md)
 * [Entrance test](quan-ly-cac-bai-test/entrance-test.md)
-
-## Đăng ký học, mở lớp (Enrollment)
-
-* [Tổng quan đăng ký học, mở lớp (Enrollment)](dang-ky-hoc-mo-lop-enrollment/tong-quan-dang-ky-hoc-mo-lop-enrollment.md)
-* [Tạo Enrollment Rule](dang-ky-hoc-mo-lop-enrollment/tao-enrollment-rule.md)
-* [Xem & chỉnh sửa Enrollment Rule](dang-ky-hoc-mo-lop-enrollment/xem-and-chinh-sua-enrollment-rule.md)
-* [Business Rules — Enrollment](dang-ky-hoc-mo-lop-enrollment/business-rules-enrollment.md)
 
 ## Dashboard
 
@@ -164,22 +157,3 @@
   * [Quản lý danh sách giao dịch](payment/order-list/quan-ly-danh-sach-giao-dich.md)
   * [Checkout](payment/order-list/checkout.md)
 
-## Minh họa Khóa học (Course)
-
-* [Tổng quan nhóm chức năng khóa học (Course)](minh-hoa-khoa-hoc-course/tong-quan-nhom-chuc-nang-khoa-hoc-course.md)
-* [(Template User guide) Question Bank](minh-hoa-khoa-hoc-course/template-user-guide-question-bank.md)
-* [Quản lý khóa học (Courses)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/README.md)
-  * [Xem danh sách khóa học (Course List)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/xem-danh-sach-khoa-hoc-course-list.md)
-  * [Tạo khóa học (Course Infor)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-khoa-hoc-course-infor.md)
-  * [Tạo nội dung khóa học (Course content)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/README.md)
-    * [Tạo cấu phần học (Section, Subsection, Unit, Activity,...)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-cau-phan-hoc-section-subsection-unit-activity-....md)
-    * [Tạo bài Test/Quiz cho khóa học](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-bai-test-quiz-cho-khoa-hoc.md)
-  * [Tải lên tài liệu cho khóa học (Resource)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tai-len-tai-lieu-cho-khoa-hoc-resource.md)
-  * [Gắn chứng chỉ cho khóa học (Certificate)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/gan-chung-chi-cho-khoa-hoc-certificate.md)
-  * [Business Rules — Course](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/business-rules-course.md)
-* [Case Study](minh-hoa-khoa-hoc-course/case-study.md)
-* [Storyline](minh-hoa-khoa-hoc-course/storyline.md)
-* [Program & Subject](minh-hoa-khoa-hoc-course/program-and-subject/README.md)
-  * [Program Category](minh-hoa-khoa-hoc-course/program-and-subject/program-category.md)
-  * [Subject Category](minh-hoa-khoa-hoc-course/program-and-subject/subject-category.md)
-* [Certificate Management](minh-hoa-khoa-hoc-course/certificate-management.md)
