@@ -1,13 +1,5 @@
 # Lịch sử gửi email (Mail Logs) & Danh sách Email bị chặn (Blocked Email)
 
-## Record of changes
-
-\*A - Add M - Modify D - Delete
-
-| Effective Date | Update Person | A,M,D | Change Description                | Version | Effective Date |
-| -------------- | ------------- | ----- | --------------------------------- | ------- | -------------- |
-| 30 May 2026    | Lê Thị Huế    | M     | Tái cấu trúc tài liệu lên gitbook | 1.5.0   | 30 May 2026    |
-
 ## I. Thông tin chung
 
 {% hint style="info" %}

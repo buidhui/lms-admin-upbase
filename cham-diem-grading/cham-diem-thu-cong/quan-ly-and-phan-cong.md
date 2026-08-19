@@ -1,13 +1,5 @@
 # Quản lý & phân công
 
-## Record of changes
-
-_A - Add M - Modify D - Delete_
-
-| Effective Date | Update Person   | A,M,D | Change Description             | Version |
-| -------------- | --------------- | ----- | ------------------------------ | ------- |
-| Jun 24, 2026   | Nguyễn Duy Hiếu | M     | Chuẩn hóa nội dung lên GitBook | 3.2.0   |
-
 ## I. Thông tin chung
 
 {% hint style="info" %}

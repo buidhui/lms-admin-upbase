@@ -1,14 +1,5 @@
 # Quản lý bài kiểm tra trong lớp (Test/Quiz)
 
-## Record of changes
-
-_A - Add · M - Modify · D - Delete_
-
-| Effective Date | Update Person | A,M,D | Change Description                                    | Version |
-| -------------- | ------------- | ----- | ----------------------------------------------------- | ------- |
-| May 25, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook                        | 4.7.0   |
-| Jun 18, 2026   | Nhà BA        | M     | Chuẩn hóa component theo template User guide mới nhất | 4.8.0   |
-
 ## I. Thông tin chung
 
 {% hint style="info" %}

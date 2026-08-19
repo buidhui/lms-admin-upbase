@@ -1,13 +1,5 @@
 # Danh sách thông báo & Email (Notice List & Email List)
 
-## Record of changes
-
-_A - Add M - Modify D - Delete_
-
-| Effective Date | Update Person | A,M,D | Change Description                | Version |
-| -------------- | ------------- | ----- | --------------------------------- | ------- |
-| 30 May 2026    | Lê Thị Huế    | M     | Tái cấu trúc tài liệu lên gitbook | 1.5.0   |
-
 ## I. Thông tin chung
 
 {% hint style="info" %}

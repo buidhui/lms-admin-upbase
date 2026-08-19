@@ -1,11 +1,5 @@
 # Storyline
 
-## Record of changes
-
-_A - Add M - Modify D - Delete_
-
-<table><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th width="119">Version</th></tr></thead><tbody><tr><td>May 18, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td></tr></tbody></table>
-
 ## I. Thông tin chung
 
 {% hint style="info" %}

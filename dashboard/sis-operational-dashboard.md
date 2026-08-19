@@ -7,14 +7,6 @@ description: >-
 
 # SIS Operational Dashboard
 
-## Record of changes
-
-_A - Add M - Modify D - Delete_
-
-| Effective Date | Update Person | A,M,D | Change Description             | Version |
-| -------------- | ------------- | ----- | ------------------------------ | ------- |
-| 23 Jun 2026    | Lê Thị Huế    | M     | Chuẩn hóa nội dung lên Gitbook | 3.2.0   |
-
 ## I. Thông tin chung
 
 {% hint style="info" %}

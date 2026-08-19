@@ -1,19 +1,5 @@
 # Quản lý hồ sơ cá nhân (Profile)
 
-## Record of changes
-
-_A - Add M - Modify D - Delete_
-
-| Effective Date | Update Person | A,M,D | Change Description             | Version |
-| -------------- | ------------- | ----- | ------------------------------ | ------- |
-| 26/05/2026     | Lê Thị Huế    | M     | Chuẩn hóa nội dung lên Gitbook | ….      |
-
-### Definitions and Acronyms
-
-| # | Term | Definition |
-| - | ---- | ---------- |
-| 1 | Ops  | Operations |
-
 ## I. Thông tin chung
 
 {% hint style="info" %}

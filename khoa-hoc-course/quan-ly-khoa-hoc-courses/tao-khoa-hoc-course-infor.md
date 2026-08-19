@@ -6,12 +6,6 @@ description: >-
 
 # Tạo khóa học (Course Infor)
 
-## Record of changes
-
-\*A - Add M - Modify D - Delete
-
-<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
-
 ## I. Giới Thiệu Chung
 
 {% hint style="info" %}

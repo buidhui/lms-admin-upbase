@@ -1,13 +1,5 @@
 # Quản lý học viên (Student)
 
-## Record of changes
-
-_A - Add M - Modify D - Delete_
-
-| Effective Date | Update Person | A,M,D | Change Description             | Version |
-| -------------- | ------------- | ----- | ------------------------------ | ------- |
-| 28/05/2026     | Lê Thị Huế    | M     | Chuẩn hóa nội dung lên GitBook | 4.2.0   |
-
 ## I. Thông tin chung
 
 {% hint style="info" %}
