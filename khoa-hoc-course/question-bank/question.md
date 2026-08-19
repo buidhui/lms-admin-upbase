@@ -400,7 +400,7 @@ Không thể xóa những câu hỏi đã được thêm vào Test/Quiz/Case Stu
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -435,7 +435,7 @@ Không thể xóa những câu hỏi đã được thêm vào Test/Quiz/Case Stu
 10. Trước khi xóa, nên kiểm tra câu hỏi đã được dùng trong Test/Quiz/Case Study hay chưa.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                  | Cách xử lý                                                                   |
 | ----------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------- |

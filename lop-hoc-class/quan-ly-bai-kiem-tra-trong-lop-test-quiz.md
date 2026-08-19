@@ -260,7 +260,7 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -300,7 +300,7 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 | **Bài chấm thủ công chưa chấm xong** | Thông tin điểm trong file Excel hiển thị rỗng.   |
 | **Bài đã có điểm hợp lệ**            | Hệ thống hiển thị điểm trong file Excel.         |
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                             | Nguyên nhân                                                   | Cách xử lý                                                        |
 | -------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |

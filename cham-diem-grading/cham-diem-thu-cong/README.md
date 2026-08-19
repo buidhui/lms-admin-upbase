@@ -34,7 +34,7 @@ Các chức năng được mô tả bao gồm: quản lý danh sách bài chấm
 
 <table><thead><tr><th width="105">STT</th><th>Chức năng</th><th>Mô tả ngắn</th></tr></thead><tbody><tr><td>1</td><td>Chấm điểm bài làm</td><td>Truy cập giao diện chấm bài, chấm câu tự luận (trả lời bằng File hoặc Word/Excel), thêm bình luận và hoàn tất gửi kết quả.</td></tr><tr><td>2</td><td>Quản lý &#x26; phân công chấm bài</td><td>Giao người chấm (Assign Grader), quản lý bài cần chấm theo lớp (màn Mark) và theo cá nhân (Grading List).</td></tr><tr><td>3</td><td>Chấm lại (Regrading)</td><td>Review bài trước khi gửi kết quả và xử lý yêu cầu chấm lại từ học viên.</td></tr><tr><td>4</td><td>Lịch sử chấm bài</td><td>Xem lịch sử các lần chấm (Grading History).</td></tr></tbody></table>
 
-## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
+## IV. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng

@@ -186,7 +186,7 @@ Không thể xóa các Item Set chứa những câu hỏi đã được thêm v�
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -206,7 +206,7 @@ Không thể xóa các Item Set chứa những câu hỏi đã được thêm v�
 2. Nên dùng **Reset** khi muốn quay lại danh sách mặc định sau nhiều lần tìm kiếm.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                            | Nguyên nhân                                              | Cách xử lý                                              |
 | ------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- |

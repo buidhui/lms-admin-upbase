@@ -433,7 +433,7 @@ Người dùng có thể tìm kiếm, lọc, hoặc sắp xếp theo tiến đ�
 
 </details>
 
-## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
+## IV. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -458,7 +458,7 @@ Người dùng có thể tìm kiếm, lọc, hoặc sắp xếp theo tiến đ�
 6. Đường ngưỡng **70% chuyên cần** (Dashboard Tỉ lệ chuyên cần) là tham chiếu nhanh để xác định buổi học cần can thiệp.
 {% endhint %}
 
-## V. Các Lỗi Thường Gặp & Cách Xử Lý
+## V. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                | Nguyên nhân                                                      | Cách xử lý                                                                                                   |
 | ----------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |

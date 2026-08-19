@@ -272,7 +272,7 @@ Chọn **Save** để lưu thông tin đã chỉnh sửa.
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -294,7 +294,7 @@ Chọn **Save** để lưu thông tin đã chỉnh sửa.
 4. Trước khi tạo Pinned Notification mới, kiểm tra danh sách Pinned đang **'Hẹn giờ gửi'** / **'Đang hiển thị'** để tránh trùng khoảng thời gian.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                     | Nguyên nhân                                                        | Cách xử lý                                                                                          |
 | ---------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |

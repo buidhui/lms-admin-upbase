@@ -282,7 +282,7 @@ Hệ thống xóa toàn bộ điều kiện đã nhập/chọn tại các trư�
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -303,7 +303,7 @@ Hệ thống xóa toàn bộ điều kiện đã nhập/chọn tại các trư�
 5. Nên dùng bộ lọc **Status = Block** để kiểm tra các khóa học đang bị chặn, không thể thêm vào lớp học.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                    | Nguyên nhân                                                              | Cách xử lý                                                           |
 | ----------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------- |

@@ -689,7 +689,7 @@ Sau khi thực hiện, nút này chuyển thành **Change CTA to Begin**. Admin 
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -715,7 +715,7 @@ Sau khi thực hiện, nút này chuyển thành **Change CTA to Begin**. Admin 
 5. Trước khi xóa cấu phần học, cần kiểm tra cấu phần đó có chứa nội dung con, Quiz/Test hoặc Case Study hay không.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                | Nguyên nhân                                                          | Cách xử lý                                                                 |
 | ----------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------- |

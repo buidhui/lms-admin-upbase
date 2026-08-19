@@ -292,7 +292,7 @@ Khi bài test/quiz đã có học viên làm, người dùng chỉ được ch�
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -325,7 +325,7 @@ Khi bài test/quiz đã có học viên làm, người dùng chỉ được ch�
 6. Với bài Test/Quiz đã có học viên làm, nên hạn chế chỉnh sửa để tránh ảnh hưởng dữ liệu học tập.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                       | Nguyên nhân                                                              | Cách xử lý                                                               |
 | ------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |

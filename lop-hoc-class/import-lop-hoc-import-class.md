@@ -114,7 +114,7 @@ Admin nhập dữ liệu lớp học vào file mẫu theo đúng cấu trúc đ�
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -136,7 +136,7 @@ Admin nhập dữ liệu lớp học vào file mẫu theo đúng cấu trúc đ�
 3. Sau khi import, nên mở **View Log** để xử lý các dòng bị bôi đỏ rồi import lại phần lỗi.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                     | Nguyên nhân                                    | Cách xử lý                                                           |
 | ------------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------- |

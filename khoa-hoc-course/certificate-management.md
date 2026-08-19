@@ -190,7 +190,7 @@ Chọn **Save** để lưu.
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -215,7 +215,7 @@ Chọn **Save** để lưu.
 6. Với các chứng chỉ đã đưa vào Course, nên hạn chế chỉnh sửa để tránh ảnh hưởng đến cấu hình khóa học đang sử dụng.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                         | Nguyên nhân                                            | Cách xử lý                                                                  |
 | -------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------- |

@@ -208,7 +208,7 @@ Chọn **Yes** khi hộp thoại xác nhận hiển thị để đồng ý xóa 
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -230,7 +230,7 @@ Chọn **Yes** khi hộp thoại xác nhận hiển thị để đồng ý xóa 
 5. Khi không còn nhu cầu sử dụng, **xóa Nhóm** để tránh nhầm lẫn khi chọn Nhóm cho thông báo mới.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                               | Nguyên nhân                                   | Cách xử lý                                                                                   |
 | ---------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------- |

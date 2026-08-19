@@ -179,7 +179,7 @@ Người dùng chọn tab **Test/Quiz** để xem danh sách bài kiểm tra tro
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -202,7 +202,7 @@ Người dùng chọn tab **Test/Quiz** để xem danh sách bài kiểm tra tro
 5. Khi cần kiểm tra lịch học, nên vào tab **Calendar** thay vì chỉ xem ngày bắt đầu/kết thúc ở Overview.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                        | Nguyên nhân                                                              | Cách xử lý                                                  |
 | --------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |

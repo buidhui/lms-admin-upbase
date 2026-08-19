@@ -130,7 +130,7 @@ Subject đã gán với khóa học thì không thể xóa.
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -154,7 +154,7 @@ Subject đã gán với khóa học thì không thể xóa.
 5. Với Subject đã sử dụng trong khóa học, nên hạn chế chỉnh sửa Program để tránh ảnh hưởng đến việc phân loại Course.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                             | Cách xử lý                                                             |
 | ----------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------- |

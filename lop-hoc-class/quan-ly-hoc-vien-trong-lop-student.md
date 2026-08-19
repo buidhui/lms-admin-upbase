@@ -301,7 +301,7 @@ Hệ thống cập nhật trạng thái học Foundation của học viên. Sau 
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -331,7 +331,7 @@ Hệ thống cập nhật trạng thái học Foundation của học viên. Sau 
 
 <table data-search="false"><thead><tr><th>Thao tác</th><th>Quy tắc</th></tr></thead><tbody><tr><td><strong>Chọn/Bỏ chọn All</strong></td><td>Tất cả checkbox cấu phần học được tick hoặc bỏ tick.</td></tr><tr><td><strong>Chọn Section</strong></td><td>Tất cả Subsection, Unit, Activity, Quiz thuộc Section được chọn.</td></tr><tr><td><strong>Chọn Subsection</strong></td><td>Section, các Unit, Activity, Case Study liên quan đến Subsection được chọn.</td></tr><tr><td><strong>Chọn Unit</strong></td><td>Section, Subsection và các Activity liên quan đến Unit được chọn.</td></tr><tr><td><strong>Chọn Activity</strong></td><td>Section, Subsection và Unit chứa Activity đó được chọn.</td></tr><tr><td><strong>Bỏ chọn cấu phần học</strong></td><td>Cấu phần bị bỏ chọn sẽ không xuất hiện trong chương trình học của học viên và học viên không cần học cấu phần đó.</td></tr><tr><td><strong>Xóa cấu phần đã học</strong></td><td>Không được phép xóa khỏi chương trình học của học viên.</td></tr><tr><td><strong>Xóa cấu phần chưa học</strong></td><td>Được phép xóa khỏi chương trình học của học viên.</td></tr></tbody></table>
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                               | Nguyên nhân                                                           | Cách xử lý                                                           |
 | ---------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------- |

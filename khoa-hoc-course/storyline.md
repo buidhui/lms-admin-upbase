@@ -321,7 +321,7 @@ Hệ thống hiển thị giao diện add storyline cho khóa học
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -345,7 +345,7 @@ Hệ thống hiển thị giao diện add storyline cho khóa học
 4. Khi cần thay đổi thứ tự nội dung, nên dùng **Reorder** hoặc **Enable Drag** thay vì xóa và tạo lại.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                              | Cách xử lý                                                           |
 | ----------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------- |

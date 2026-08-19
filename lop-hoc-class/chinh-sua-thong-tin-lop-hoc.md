@@ -218,7 +218,7 @@ Người dùng chọn **Save** để lưu thông tin Class Owner và CX Admin.
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -299,7 +299,7 @@ Hệ thống gửi mail và tạo ticket trên HubSpot cho **CX Supervisor** the
 4. Với các lớp đã bắt đầu, nên hạn chế thay đổi thông tin lịch học hoặc thời gian học để tránh ảnh hưởng đến học viên.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                     | Cách xử lý                                                            |
 | ----------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------- |

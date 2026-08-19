@@ -175,7 +175,7 @@ Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa các tr
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -196,7 +196,7 @@ Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa các tr
 | Xóa trợ giảng khỏi lớp Lesson có gắn Foundation | Trợ giảng cũng được xóa khỏi lớp Foundation tương ứng. |
 | Thao tác tại lớp không gắn Foundation           | Chỉ áp dụng cho lớp đang thao tác.                     |
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                              | Nguyên nhân                                             | Cách xử lý                                                  |
 | --------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------- |

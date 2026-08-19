@@ -101,7 +101,7 @@ Sau khi xác nhận, hệ thống đóng popup và gán mẫu chứng chỉ vào
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -120,7 +120,7 @@ Sau khi xác nhận, hệ thống đóng popup và gán mẫu chứng chỉ vào
 3. Nếu danh sách template nhiều, nên kiểm tra kỹ template cần chọn để tránh gán nhầm chứng chỉ.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                   | Nguyên nhân                                                                   | Cách xử lý                                                                      |
 | ---------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |

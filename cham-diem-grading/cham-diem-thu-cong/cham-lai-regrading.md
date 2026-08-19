@@ -67,7 +67,7 @@ Mentor được phân chấm lại sẽ nhận được email thông báo.
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -77,7 +77,7 @@ Mentor được phân chấm lại sẽ nhận được email thông báo.
 3. Mentor chính có thể giao bài chấm lại cho người chấm mới.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                | Nguyên nhân                              | Hướng dẫn khắc phục                    |
 | ------------------------------- | ---------------------------------------- | -------------------------------------- |

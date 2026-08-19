@@ -42,7 +42,7 @@ Người dùng chọn **Grading History** tại button **3 chấm** ở màn dan
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="info" %}
 ### Mẹo sử dụng

@@ -197,7 +197,7 @@ Hệ thống xóa tài liệu khỏi danh sách Resource của khóa học nếu
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -218,7 +218,7 @@ Hệ thống xóa tài liệu khỏi danh sách Resource của khóa học nếu
 2. Với tài liệu đã có sẵn trong hệ thống, nên dùng tab **Resources** để tái sử dụng thay vì upload lại.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                        | Nguyên nhân                                                         | Cách xử lý                                                 |
 | --------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |

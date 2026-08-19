@@ -130,7 +130,7 @@ Program đã tạo thì không thể xóa khỏi danh sách.
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -151,7 +151,7 @@ Program đã tạo thì không thể xóa khỏi danh sách.
 5. Khi chỉnh sửa tên, cần kiểm tra kỹ để tránh ảnh hưởng đến việc nhận diện nhóm chương trình học ở các màn hình liên quan.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                           | Nguyên nhân                                       | Cách xử lý                                                        |
 | ------------------------------------------ | ------------------------------------------------- | ----------------------------------------------------------------- |

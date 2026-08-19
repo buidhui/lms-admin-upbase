@@ -701,7 +701,7 @@ View log sẽ hiển thị như sau:
 
 </details>
 
-## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
+## IV. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -728,7 +728,7 @@ View log sẽ hiển thị như sau:
 5. Khi cần điều chuyển nội bộ, dùng tính năng **Edit Job Position** thay vì tạo tài khoản mới.
 {% endhint %}
 
-## V. Các Lỗi Thường Gặp & Cách Xử Lý
+## V. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                         | Nguyên nhân                                           | Cách xử lý                                                                                          |
 | -------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- |

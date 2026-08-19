@@ -106,7 +106,7 @@ _Màn Grading List_
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -115,7 +115,7 @@ _Màn Grading List_
 2. Grading List tổng hợp bài cần chấm ở **tất cả các lớp**, còn màn Mark chỉ theo **một lớp**.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống             | Nguyên nhân                         | Hướng dẫn khắc phục                                              |
 | ---------------------------- | ----------------------------------- | ---------------------------------------------------------------- |
