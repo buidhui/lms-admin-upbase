@@ -1,2 +1,0 @@
-# cham-diem-grading
-

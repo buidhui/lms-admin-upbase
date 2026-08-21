@@ -1,2 +1,0 @@
-# lop-hoc-class
-

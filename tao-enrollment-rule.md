@@ -1,2 +1,0 @@
-# Tạo Enrollment Rule
-
