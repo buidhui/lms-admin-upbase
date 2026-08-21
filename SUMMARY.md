@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to UpLMS Ops - UpBase](README.md)
+* [Welcome to UpLMS Ops](README.md)
 
 ## User Management
 
@@ -10,16 +10,14 @@
 
 ## Academic Management
 
-* [Tổng quan nhóm chức năng khóa học (Course)](academic-management/tong-quan-nhom-chuc-nang-khoa-hoc-course.md)
 * [Quản lý khóa học (Courses)](academic-management/quan-ly-khoa-hoc-courses/README.md)
-  * [Xem danh sách khóa học (Course List)](academic-management/quan-ly-khoa-hoc-courses/xem-danh-sach-khoa-hoc-course-list.md)
+  * [Danh sách khóa học (Course List)](academic-management/quan-ly-khoa-hoc-courses/xem-danh-sach-khoa-hoc-course-list.md)
   * [Tạo khóa học (Course Infor)](academic-management/quan-ly-khoa-hoc-courses/tao-khoa-hoc-course-infor.md)
   * [Tạo nội dung khóa học (Course content)](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/README.md)
     * [Tạo cấu phần học (Section, Subsection, Unit, Activity)](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-cau-phan-hoc-section-subsection-unit-activity.md)
     * [Tạo bài Test/Quiz cho khóa học](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-bai-test-quiz-cho-khoa-hoc.md)
   * [Tải lên tài liệu cho khóa học (Resource)](academic-management/quan-ly-khoa-hoc-courses/tai-len-tai-lieu-cho-khoa-hoc-resource.md)
   * [Gắn chứng chỉ cho khóa học (Certificate)](academic-management/quan-ly-khoa-hoc-courses/gan-chung-chi-cho-khoa-hoc-certificate.md)
-  * [Business Rules — Course](academic-management/quan-ly-khoa-hoc-courses/business-rules-course.md)
 * [Question Bank](academic-management/question-bank/README.md)
   * [Item Set](academic-management/question-bank/item-set.md)
   * [Question](academic-management/question-bank/question.md)

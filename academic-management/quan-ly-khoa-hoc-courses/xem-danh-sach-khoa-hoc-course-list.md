@@ -1,35 +1,11 @@
----
-description: 'Kết quả đạt được: Người dùng có thể xem, lọc danh sách khóa học trong hệ thống'
----
-
-# Xem danh sách khóa học (Course List)
-
-## Record of changes
-
-_A - Add | M - Modify | D - Delete_
-
-<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+# Danh sách khóa học (Course List)
 
 ## I. Giới thiệu chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, SX
+**Dành cho:** UpLMS Operator, L\&D
 
-**Đường dẫn:** [https://ops.upbase.asia/courses?page\_index=1\&page\_size=10](https://ops.upbase.asia/courses?page_index=1\&page_size=10)
-{% endhint %}
-
-{% hint style="info" %}
-#### Phạm vi & Module liên quan
-
-* **Module chính:** Academic Management > Course & Materials
-* **Chức năng chính:** Course 4 Level > Course List
-* **Module liên quan:**
-  * Program Category
-  * Subject Category
-  * Class
-  * Resources
-  * Certificates
-  * Learning Schedule
+**Đường dẫn:** UpLMS Ops → Academic Management → Course & Materials → Courses
 {% endhint %}
 
 {% hint style="warning" %}
@@ -43,11 +19,11 @@ _A - Add | M - Modify | D - Delete_
 
 <details>
 
-<summary>Xem danh sách khóa học</summary>
+<summary>Danh sách khóa học</summary>
 
 {% stepper %}
 {% step %}
-**Truy cập màn hình Course 4 Level**
+**Truy cập Danh sách khóa học**
 
 Admin truy cập theo đường dẫn:
 

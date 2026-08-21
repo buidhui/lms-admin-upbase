@@ -5,7 +5,7 @@
 {% hint style="info" %}
 **Dành cho:** UpLMS Operator
 
-**Đường dẫn:** [https://ops.upbase.asia](https://ops.upbase.asia/auth/login)
+**Đường dẫn:** [https://uplms-ops.upbase.asia](https://uplms-ops.upbase.asia/)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -63,7 +63,7 @@ Tại góc dưới bên trái màn hình, chọn vào avatar và chọn "**My pr
 {% step %}
 **Xem thông tin chung Truy cập tab Overview**
 
-Truy cập tab Overview, hệ thống hiển thị thông tin của tài khoản, bao gồm:&#x20;
+Truy cập tab Overview, hệ thống hiển thị thông tin của tài khoản, bao gồm:
 
 * Code
 * Fullname
