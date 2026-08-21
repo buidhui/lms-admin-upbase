@@ -239,7 +239,7 @@ Sau khi lưu thành công, Admin có thể tiếp tục chuyển sang bước ti
 4. Nếu khóa học chưa chắc chắn cấu hình điểm, nên thống nhất quy tắc tính điểm nội bộ trước khi tạo Course Info.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                               | Nguyên nhân                                              | Cách xử lý                                          |
 | -------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |

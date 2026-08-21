@@ -396,7 +396,7 @@ View log sẽ hiển thị như sau:
 5. Trước khi tạo tài khoản mới, dùng Search để kiểm tra học viên đã tồn tại hay chưa, tránh trùng dữ liệu.
 {% endhint %}
 
-## V. Các lỗi thường gặp & Cách xử lý
+## V. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                           | Nguyên nhân                                            | Cách xử lý                                                                                                |
 | ------------------------------------------ | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |

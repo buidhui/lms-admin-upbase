@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
@@ -307,7 +307,7 @@ Hệ thống gửi mail và tạo ticket trên HubSpot cho **CX Supervisor** the
 4. Với các lớp đã bắt đầu, nên hạn chế thay đổi thông tin lịch học hoặc thời gian học để tránh ảnh hưởng đến học viên.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                     | Cách xử lý                                                            |
 | ----------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------- |

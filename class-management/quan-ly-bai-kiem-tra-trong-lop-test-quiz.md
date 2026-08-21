@@ -26,7 +26,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản có quyền truy cập module **Class** và quyền xem chi tiết lớp học.
@@ -309,7 +309,7 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 | **Bài chấm thủ công chưa chấm xong** | Thông tin điểm trong file Excel hiển thị rỗng.   |
 | **Bài đã có điểm hợp lệ**            | Hệ thống hiển thị điểm trong file Excel.         |
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                             | Nguyên nhân                                                   | Cách xử lý                                                        |
 | -------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |

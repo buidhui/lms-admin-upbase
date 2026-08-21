@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống vận hành.
 * Tài khoản có quyền truy cập menu **Subject Category** và quyền thao tác với Subject.
@@ -162,7 +162,7 @@ Subject đã gán với khóa học thì không thể xóa.
 5. Với Subject đã sử dụng trong khóa học, nên hạn chế chỉnh sửa Program để tránh ảnh hưởng đến việc phân loại Course.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                             | Cách xử lý                                                             |
 | ----------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------- |

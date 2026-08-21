@@ -24,7 +24,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * User đăng nhập thành công vào hệ thống.
 * Học viên nộp bài thành công.

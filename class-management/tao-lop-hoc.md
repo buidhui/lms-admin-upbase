@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
@@ -288,6 +288,6 @@ Hệ thống đồng bộ thông tin từ lớp gốc sang lớp Hybrid, gồm: 
 
 <table data-search="false"><thead><tr><th>Thông tin</th><th>Quy tắc</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>Tên lớp gốc + "Hybrid".</td></tr><tr><td><strong>Construction Mode</strong></td><td>Mặc định là <strong>Hybrid</strong>.</td></tr><tr><td><strong>Origin Class</strong></td><td>Mã lớp gốc.</td></tr><tr><td><strong>Status, Facility, Type, Duration, Start Date, End Date, Standard Schedule, Course, Class Owner, CX Admin, Exam</strong></td><td>Đồng bộ giống lớp gốc.</td></tr><tr><td><strong>Classroom, Link Meeting, Description, Max Students</strong></td><td>Để rỗng.</td></tr><tr><td><strong>Student</strong></td><td>Lớp Hybrid lưu học viên riêng.</td></tr><tr><td><strong>Mentor</strong></td><td>Đồng bộ từ lớp gốc.</td></tr><tr><td><strong>Teacher</strong></td><td>Đồng bộ từ lớp gốc.</td></tr><tr><td><strong>Lịch học Offline của lớp gốc</strong></td><td>Đồng bộ sang lớp Hybrid với Learning Mode = Live Online, ngoại trừ thông tin phòng học.</td></tr><tr><td><strong>Lịch học Online LMS/Live Online của lớp gốc</strong></td><td>Đồng bộ toàn bộ thông tin sang lớp Hybrid.</td></tr><tr><td><strong>Tiến độ giảng viên</strong></td><td>Đồng bộ từ lớp gốc.</td></tr></tbody></table>
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 <table data-search="false"><thead><tr><th>Lỗi / Tình huống</th><th>Nguyên nhân</th><th>Cách xử lý</th></tr></thead><tbody><tr><td>Không lưu được lớp học</td><td>Chưa nhập đủ các trường bắt buộc (Name, Code, Construction Mode, Type, Số học viên tối đa)</td><td>Nhập đầy đủ các trường bắt buộc rồi bấm Save</td></tr><tr><td>Báo lỗi mã lớp (Code)</td><td>Code bị trùng hoặc thiếu ký tự "."</td><td>Đặt mã lớp duy nhất và đảm bảo có ký tự "."</td></tr><tr><td>Bắt buộc nhập Facility</td><td>Construction Mode là Offline/Blended</td><td>Chọn Facility cho lớp</td></tr><tr><td>Bắt buộc nhập Class Owner / CX Admin</td><td>Lớp Lesson có Course thuộc ACCA, CFA, CMA, Cert/Dip, CGMA</td><td>Nhập đầy đủ Class Owner và CX Admin</td></tr><tr><td>Bắt buộc nhập Reason of Extension</td><td>Đã nhập Number of Extended Days</td><td>Nhập lý do gia hạn tại Reason of Extension</td></tr><tr><td>Không thấy checkbox Create Hybrid Class</td><td>Construction Mode/Type không thỏa điều kiện (Offline/Blended + Lesson)</td><td>Checkbox chỉ hiển thị khi đúng điều kiện nêu trên</td></tr><tr><td>Không thấy Course/Exam mong muốn</td><td>Danh sách lọc theo Type của lớp và Program của Course</td><td>Chọn đúng Type trước; với Exam chọn Course có Program phù hợp</td></tr><tr><td>Lỗi Standard Schedule</td><td>Quá 3 lịch, hoặc Start/End time ngoài khung 08:00–23:00</td><td>Nhập tối đa 3 lịch, thời gian trong khung cho phép</td></tr></tbody></table>

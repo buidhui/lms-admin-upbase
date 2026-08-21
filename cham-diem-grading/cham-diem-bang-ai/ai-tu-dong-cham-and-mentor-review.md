@@ -194,7 +194,7 @@ Mentor có thể bôi đen từng ý trong bài học viên để thực hiện 
 3. Chỉ bấm "Finish" sau khi đã rà soát toàn bộ câu trong bài.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                           | Nguyên nhân                              | Cách xử lý                                                  |
 | ------------------------------------------ | ---------------------------------------- | ----------------------------------------------------------- |

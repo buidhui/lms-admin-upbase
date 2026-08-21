@@ -64,7 +64,7 @@ Màn hình **Staff Management** bao gồm các khu vực chính:
 
 <details>
 
-<summary>3.1 Quản lý Phòng ban (Department)</summary>
+<summary>3.1 Quản lý phòng ban (Department)</summary>
 
 Hệ thống tổ chức tài khoản nhân viên theo các cấp bậc phòng ban:
 
@@ -226,7 +226,7 @@ Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và kh�
 
 <details>
 
-<summary>3.2 Quản lý Chức danh (Title)</summary>
+<summary>3.2 Quản lý chức danh (Title)</summary>
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
@@ -400,7 +400,7 @@ Người dùng có thể thay đổi trạng thái chức danh trực tiếp t�
 
 <details>
 
-<summary>3.3 Quản lý Nhân viên (Staff)</summary>
+<summary>3.3 Quản lý nhân viên (Staff)</summary>
 
 **3.3.1 Xem danh sách nhân viên**
 
@@ -728,7 +728,7 @@ View log sẽ hiển thị như sau:
 5. Khi cần điều chuyển nội bộ, dùng tính năng **Edit Job Position** thay vì tạo tài khoản mới.
 {% endhint %}
 
-## V. Các lỗi thường gặp & Cách xử lý
+## V. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                         | Nguyên nhân                                           | Cách xử lý                                                                                          |
 | -------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- |

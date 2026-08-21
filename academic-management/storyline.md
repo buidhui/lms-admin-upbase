@@ -23,7 +23,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Admin**.
 * Tài khoản đã được cấp quyền truy cập menu **Storyline**.
@@ -351,7 +351,7 @@ Hệ thống hiển thị giao diện add storyline cho khóa học
 4. Khi cần thay đổi thứ tự nội dung, nên dùng **Reorder** hoặc **Enable Drag** thay vì xóa và tạo lại.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                              | Cách xử lý                                                           |
 | ----------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------- |

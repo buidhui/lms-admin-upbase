@@ -35,7 +35,7 @@ _A - Add | M - Modify | D - Delete_
 
 <details>
 
-<summary>Xem danh sách Nhóm người nhận</summary>
+<summary>Xem danh sách nhóm người nhận</summary>
 
 {% stepper %}
 {% step %}
@@ -53,7 +53,7 @@ Các trường thông tin hiển thị: Số thứ tự, Tên Nhóm người nh�
 
 <details>
 
-<summary>Tìm kiếm Nhóm người nhận</summary>
+<summary>Tìm kiếm nhóm người nhận</summary>
 
 {% stepper %}
 {% step %}
@@ -72,7 +72,7 @@ Tìm kiếm theo các trường: Tên Nhóm, Sort by, From Date – To Date.
 
 <details>
 
-<summary>Xem chi tiết Nhóm người nhận</summary>
+<summary>Xem chi tiết nhóm người nhận</summary>
 
 {% stepper %}
 {% step %}
@@ -108,7 +108,7 @@ Nhấn **Save** để lưu thông tin hoặc nhấn **Notification list** để 
 
 <details>
 
-<summary>Tạo mới Nhóm người nhận</summary>
+<summary>Tạo mới nhóm người nhận</summary>
 
 {% stepper %}
 {% step %}
@@ -154,7 +154,7 @@ Click **Finish** hoặc **Save** để lưu thông tin. Hệ thống hiển th�
 
 <details>
 
-<summary>Chỉnh sửa thông tin Nhóm người nhận</summary>
+<summary>Chỉnh sửa thông tin nhóm người nhận</summary>
 
 {% stepper %}
 {% step %}
@@ -194,7 +194,7 @@ Click **Finish** để lưu thông tin đã chỉnh sửa.
 
 <details>
 
-<summary>Xóa Nhóm người nhận</summary>
+<summary>Xóa nhóm người nhận</summary>
 
 {% stepper %}
 {% step %}
@@ -238,7 +238,7 @@ Chọn **Yes** khi hộp thoại xác nhận hiển thị để đồng ý xóa 
 5. Khi không còn nhu cầu sử dụng, **xóa Nhóm** để tránh nhầm lẫn khi chọn Nhóm cho thông báo mới.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                               | Nguyên nhân                                   | Cách xử lý                                                                                   |
 | ---------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------- |

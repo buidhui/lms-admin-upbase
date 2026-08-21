@@ -1,6 +1,6 @@
 # Chấm điểm bằng AI
 
-#### Tổng quan chức năng Chấm điểm tự luận bằng AI
+#### Tổng quan chức năng chấm điểm tự luận bằng AI
 
 Chấm điểm tự luận bằng AI là tính năng cho phép hệ thống sử dụng AI (Gemini) **tự động chấm điểm các câu hỏi tự luận** ngay sau khi học viên nộp bài. AI dựa trên **Rubric File** (cơ chế chấm điểm), **Context Files** (bối cảnh khóa học) và nội dung bài làm để đưa ra điểm số và nhận xét, giúp Mentor tiết kiệm thời gian và tăng tính nhất quán khi chấm bài. Tính năng áp dụng cho các khóa học có **Program Category = "ACCA"**.
 

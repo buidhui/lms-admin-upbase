@@ -17,7 +17,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * User đăng nhập thành công vào hệ thống.
 * Học viên nộp bài thành công.
@@ -152,7 +152,7 @@ Lưu ý: tổng điểm toàn bộ câu hỏi không được vượt quá số 
 3. Có thể thoát giữa chừng (đóng trình duyệt hoặc Exit) — việc chấm được lưu đến thời điểm thoát.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                | Nguyên nhân                                 | Hướng dẫn khắc phục                                    |
 | ------------------------------- | ------------------------------------------- | ------------------------------------------------------ |

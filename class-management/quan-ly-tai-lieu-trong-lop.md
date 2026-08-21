@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản có quyền truy cập module **Class**, quyền xem chi tiết lớp học và truy cập tab **Resources** trong Class Detail.
@@ -285,7 +285,7 @@ Tick chọn các tài liệu muốn tải → chọn **Download**.
 4. Với video/mp3, lưu ý quyền mặc định là Viewer nên học viên/giảng viên không tải về được.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                               | Nguyên nhân                                          | Cách xử lý                                              |
 | ---------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |

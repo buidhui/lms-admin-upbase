@@ -331,7 +331,7 @@ Khi bài test/quiz đã có học viên làm, người dùng chỉ được ch�
 6. Với bài Test/Quiz đã có học viên làm, nên hạn chế chỉnh sửa để tránh ảnh hưởng dữ liệu học tập.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                       | Nguyên nhân                                                              | Cách xử lý                                                               |
 | ------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |

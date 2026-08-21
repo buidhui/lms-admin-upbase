@@ -23,7 +23,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
@@ -142,7 +142,7 @@ Admin nhập dữ liệu lớp học vào file mẫu theo đúng cấu trúc đ�
 3. Sau khi import, nên mở **View Log** để xử lý các dòng bị bôi đỏ rồi import lại phần lỗi.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                     | Nguyên nhân                                    | Cách xử lý                                                           |
 | ------------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------- |

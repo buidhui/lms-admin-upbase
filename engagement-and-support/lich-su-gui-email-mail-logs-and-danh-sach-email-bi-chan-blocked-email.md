@@ -172,7 +172,7 @@ Tại danh sách Blocked Mail, truy cập **Action** → chọn **Unblock** đ�
 6. Đối với email Thất bại tạm thời (lỗi server, timeout), dùng chức năng **Resend** để gửi lại mà không cần tạo thông báo mới.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                | Nguyên nhân                                                       | Cách xử lý                                                                                              |
 | ----------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |

@@ -395,7 +395,7 @@ Sau khi import, các thông tin về **Teaching Program** (Primary Responsibilit
 5. Sử dụng tab **Teaching Program** để xem nhanh năng lực giảng dạy của giảng viên trước khi phân công lớp.
 {% endhint %}
 
-## V. Các lỗi thường gặp & Cách xử lý
+## V. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                     | Nguyên nhân                                                                | Cách xử lý                                                                                                            |
 | ---------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |

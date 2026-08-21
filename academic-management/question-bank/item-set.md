@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản đã được cấp quyền truy cập module **Question Bank** và quyền truy cập **Item Set**.
@@ -214,7 +214,7 @@ Không thể xóa các Item Set chứa những câu hỏi đã được thêm v�
 2. Nên dùng **Reset** khi muốn quay lại danh sách mặc định sau nhiều lần tìm kiếm.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                            | Nguyên nhân                                              | Cách xử lý                                              |
 | ------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- |

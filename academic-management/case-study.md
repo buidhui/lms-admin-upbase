@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản đã được cấp quyền truy cập module **Question Bank** và quyền xem danh sách **Case Study**.
@@ -236,7 +236,7 @@ Sau khi điền xong thì click **Save** để lưu, lúc này các Item Set s�
 5. Nên dùng bộ lọc **Case Study Name** hoặc khoảng thời gian để tìm nhanh khi dữ liệu nhiều.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                        | Nguyên nhân                                                                  | Cách xử lý                                                                   |
 | --------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |

@@ -17,7 +17,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * User đăng nhập thành công vào hệ thống.
 * Học viên nộp bài thành công.
@@ -53,7 +53,7 @@ _A - Add | M - Modify | D - Delete_
 
 <details>
 
-<summary>2. Quản lý bài cần chấm theo Lớp (màn Mark)</summary>
+<summary>2. Quản lý bài cần chấm theo lớp (màn Mark)</summary>
 
 **Truy cập:** Người dùng truy cập màn **Mark** tại Class Detail để xem danh sách bài cần chấm của mình. Giao diện gồm 2 phần: Filter và Danh sách bài chấm.
 
@@ -113,7 +113,7 @@ _Lưu ý: Mentor thường chỉ xem bài test/quiz bản thân được giao; M
 2. Grading List tổng hợp bài cần chấm ở **tất cả các lớp**, còn màn Mark chỉ theo **một lớp**.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống             | Nguyên nhân                         | Hướng dẫn khắc phục                                              |
 | ---------------------------- | ----------------------------------- | ---------------------------------------------------------------- |

@@ -463,7 +463,7 @@ Người dùng có thể tìm kiếm, lọc hoặc sắp xếp theo tiến độ
 6. Đường ngưỡng **70% chuyên cần** (Dashboard Tỉ lệ chuyên cần) là tham chiếu nhanh để xác định buổi học cần can thiệp.
 {% endhint %}
 
-## V. Các lỗi thường gặp & Cách xử lý
+## V. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                | Nguyên nhân                                                      | Cách xử lý                                                                                                   |
 | ----------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |

@@ -26,7 +26,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Admin**.
 * Tài khoản đã được cấp quyền truy cập chức năng **Certificates**.
@@ -36,7 +36,7 @@ _A - Add | M - Modify | D - Delete_
 
 <details>
 
-<summary>Xem danh sách / chi tiết Chứng chỉ</summary>
+<summary>Xem danh sách / chi tiết chứng chỉ</summary>
 
 {% stepper %}
 {% step %}
@@ -79,7 +79,7 @@ Tìm kiếm theo các trường Tên Chứng chỉ, Program, Sort by, From Date 
 
 <details>
 
-<summary>Tạo mới Chứng chỉ</summary>
+<summary>Tạo mới chứng chỉ</summary>
 
 {% stepper %}
 {% step %}
@@ -160,7 +160,7 @@ Chọn **Save** để lưu Chứng chỉ.
 
 <details>
 
-<summary>Chỉnh sửa Chứng chỉ</summary>
+<summary>Chỉnh sửa chứng chỉ</summary>
 
 {% stepper %}
 {% step %}
@@ -224,7 +224,7 @@ Chọn **Save** để lưu.
 6. Với các chứng chỉ đã đưa vào Course, nên hạn chế chỉnh sửa để tránh ảnh hưởng đến cấu hình khóa học đang sử dụng.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                         | Nguyên nhân                                            | Cách xử lý                                                                  |
 | -------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------- |

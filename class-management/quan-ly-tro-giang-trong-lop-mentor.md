@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản có quyền truy cập module **Class** và quyền xem chi tiết lớp học.
@@ -204,7 +204,7 @@ Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa các tr
 | Xóa trợ giảng khỏi lớp Lesson có gắn Foundation | Trợ giảng cũng được xóa khỏi lớp Foundation tương ứng. |
 | Thao tác tại lớp không gắn Foundation           | Chỉ áp dụng cho lớp đang thao tác.                     |
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                              | Nguyên nhân                                             | Cách xử lý                                                  |
 | --------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------- |

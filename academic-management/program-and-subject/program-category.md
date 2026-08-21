@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống vận hành.
 * Tài khoản có quyền truy cập menu **Program Category** và quyền xem danh sách Program Category.
@@ -159,7 +159,7 @@ Program đã tạo thì không thể xóa khỏi danh sách.
 5. Khi chỉnh sửa tên, cần kiểm tra kỹ để tránh ảnh hưởng đến việc nhận diện nhóm chương trình học ở các màn hình liên quan.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                           | Nguyên nhân                                       | Cách xử lý                                                        |
 | ------------------------------------------ | ------------------------------------------------- | ----------------------------------------------------------------- |

@@ -309,7 +309,7 @@ Hệ thống xóa toàn bộ điều kiện đã nhập/chọn tại các trư�
 5. Nên dùng bộ lọc **Status = Block** để kiểm tra các khóa học đang bị chặn, không thể thêm vào lớp học.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                    | Nguyên nhân                                                              | Cách xử lý                                                           |
 | ----------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------- |

@@ -224,7 +224,7 @@ Hệ thống xóa tài liệu khỏi danh sách Resource của khóa học nếu
 2. Với tài liệu đã có sẵn trong hệ thống, nên dùng tab **Resources** để tái sử dụng thay vì upload lại.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                        | Nguyên nhân                                                         | Cách xử lý                                                 |
 | --------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |

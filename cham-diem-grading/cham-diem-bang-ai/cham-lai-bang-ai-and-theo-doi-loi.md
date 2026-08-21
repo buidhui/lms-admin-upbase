@@ -143,7 +143,7 @@ Các màn hình sau có thêm cột **"AI Grading Failures"**:
 3. Lọc "AI Grading Failures = Yes" để ưu tiên xử lý các bài còn lỗi.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                          | Nguyên nhân                         | Cách xử lý                                           |
 | --------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------- |

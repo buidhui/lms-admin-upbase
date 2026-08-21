@@ -94,7 +94,7 @@ Bấm vào tên file để xem trước (file dưới 20MB) hoặc tải về (f
 2. Tham khảo Rubric/Other Files (nếu có) để biết tiêu chí chấm điểm.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống               | Nguyên nhân                              | Cách xử lý                                         |
 | ------------------------------ | ---------------------------------------- | -------------------------------------------------- |

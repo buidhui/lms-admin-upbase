@@ -243,7 +243,7 @@ Nếu Question có Requirement, cần cài điểm tối đa cho từng Requirem
 3. Điền Description for AI đầy đủ để AI hiểu đúng vai trò của từng file.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                      | Nguyên nhân                                                 | Cách xử lý                                                         |
 | ----------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------ |

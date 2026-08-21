@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
@@ -210,7 +210,7 @@ Người dùng chọn tab **Test/Quiz** để xem danh sách bài kiểm tra tro
 5. Khi cần kiểm tra lịch học, nên vào tab **Calendar** thay vì chỉ xem ngày bắt đầu/kết thúc ở Overview.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                        | Nguyên nhân                                                              | Cách xử lý                                                  |
 | --------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |

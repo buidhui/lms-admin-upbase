@@ -36,7 +36,7 @@ _A - Add | M - Modify | D - Delete_
 
 <details>
 
-<summary>Xem danh sách Thông báo &#x26; Email</summary>
+<summary>Xem danh sách thông báo &#x26; Email</summary>
 
 {% stepper %}
 {% step %}
@@ -75,7 +75,7 @@ Các trường thông tin hiển thị bao gồm:
 
 <details>
 
-<summary>Tìm kiếm Thông báo</summary>
+<summary>Tìm kiếm thông báo</summary>
 
 {% stepper %}
 {% step %}
@@ -110,7 +110,7 @@ Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị d
 
 <details>
 
-<summary>Xem chi tiết Thông báo</summary>
+<summary>Xem chi tiết thông báo</summary>
 
 {% stepper %}
 {% step %}
@@ -207,7 +207,7 @@ Chọn **Save** để lưu.
 
 <details>
 
-<summary>Chỉnh sửa trạng thái Thông báo</summary>
+<summary>Chỉnh sửa trạng thái thông báo</summary>
 
 Áp dụng cho:
 
@@ -244,7 +244,7 @@ Quy tắc:
 
 <details>
 
-<summary>Chỉnh sửa thông tin khác của Thông báo</summary>
+<summary>Chỉnh sửa thông tin khác của thông báo</summary>
 
 Áp dụng cho các thông báo có trạng thái **'Hẹn giờ gửi'**.
 
@@ -302,7 +302,7 @@ Chọn **Save** để lưu thông tin đã chỉnh sửa.
 4. Trước khi tạo Pinned Notification mới, kiểm tra danh sách Pinned đang **'Hẹn giờ gửi'** / **'Đang hiển thị'** để tránh trùng khoảng thời gian.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                     | Nguyên nhân                                                        | Cách xử lý                                                                                          |
 | ---------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |

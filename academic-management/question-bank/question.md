@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
 * Tài khoản đã được cấp quyền truy cập module **Question Bank** và quyền thao tác với câu hỏi.
@@ -441,7 +441,7 @@ Không thể xóa những câu hỏi đã được thêm vào Test/Quiz/Case Stu
 10. Trước khi xóa, nên kiểm tra câu hỏi đã được dùng trong Test/Quiz/Case Study hay chưa.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Cách xử lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                  | Cách xử lý                                                                   |
 | ----------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
