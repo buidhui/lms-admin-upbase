@@ -1,4 +1,4 @@
-# Quản lý học viên (Student)
+# Quản lý học viên (Students)
 
 ## I. Thông tin chung
 
@@ -21,7 +21,7 @@
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (crud).
 {% endhint %}
 
-## III. Hướng dẫn chi tiết
+## II. Hướng dẫn chi tiết
 
 <details>
 
@@ -31,7 +31,7 @@
 {% step %}
 **Truy cập Student List**
 
-Truy cập User **Management** → chọn **Students**.
+Truy cập **User Management** → chọn **Students**.
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
@@ -140,7 +140,7 @@ Khi học viên bị **Block**, hệ thống sẽ tự động đăng xuất t�
 
 </details>
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## III. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                                           | Nguyên nhân                          | Cách xử lý                                                                                              |
 | ---------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------- |

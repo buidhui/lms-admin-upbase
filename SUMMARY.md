@@ -5,8 +5,8 @@
 ## User Management
 
 * [Hồ sơ cá nhân (My Profile)](user-management/quan-ly-ho-so-ca-nhan-profile.md)
-* [Quản lý học viên (Student)](user-management/quan-ly-hoc-vien-student.md)
-* [Quản lý nhân viên (Staff)](user-management/quan-ly-nhan-vien-staff.md)
+* [Quản lý học viên (Students)](user-management/quan-ly-hoc-vien-student.md)
+* [Quản lý nhân viên (Staffs)](user-management/quan-ly-nhan-vien-staff.md)
 
 ## Academic Management
 
