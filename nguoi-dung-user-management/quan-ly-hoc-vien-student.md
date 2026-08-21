@@ -23,7 +23,7 @@
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 {% endhint %}
 
-## II. Tổng Quan Giao Diện
+## II. Tổng quan giao diện
 
 **Giao diện danh sách học viên**
 
@@ -44,7 +44,7 @@ Màn hình Chi tiết học viên gồm:
 * **Class & Course**: Chi tiết thông tin học viên đó đã tham gia những lớp học nào và chi tiết của lớp học đó.
 * **Security**: Quản lý trình duyệt và lịch sử đăng nhập.
 
-## III. Các Bước Thực Hiện Chi Tiết
+## III. Các bước thực hiện chi tiết
 
 <details>
 
@@ -384,7 +384,7 @@ View log sẽ hiển thị như sau:
 1. Tải file mẫu (template) trước khi import để đảm bảo đúng định dạng cột và dữ liệu.
 2. Dùng **View Log** sau import để kiểm tra chi tiết lỗi và sửa từng bản ghi lỗi trước khi import lại.
 3. Kết hợp nhiều bộ lọc (Search + Status + Gender + Date) để thu hẹp kết quả tìm kiếm nhanh hơn.
-4. Sắp xếp danh sách theo cột Họ tên (Sort by) để dễ dàng tìm kiếm thủ công.
+4. Sắp xếp danh sách theo cột Họ tên (Sort by) khi cần tìm kiếm thủ công.
 5. Trước khi tạo tài khoản mới, dùng Search để kiểm tra học viên đã tồn tại hay chưa, tránh trùng dữ liệu.
 {% endhint %}
 
@@ -401,7 +401,7 @@ View log sẽ hiển thị như sau:
 | Học viên bị Block báo không đăng nhập được | Tài khoản đã bị khóa trên hệ thống OPS                 | Vào Student Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do Block.    |
 | Danh sách không tải được                   | Mất kết nối hoặc lỗi server                            | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                                    |
 
-## VI. Câu Hỏi Thường Gặp
+## VI. Câu hỏi thường gặp
 
 <details>
 

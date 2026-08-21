@@ -26,20 +26,14 @@
 {% stepper %}
 {% step %}
 **Truy cập danh sách bài làm:** Mentor chính truy cập màn Danh sách bài làm của từng Test/Quiz.
-
-_Danh sách bài làm của Test/Quiz_
 {% endstep %}
 
 {% step %}
 **Chọn bài cần giao:** Tick checkbox ở đầu mỗi học viên (có thể chọn nhiều). Danh sách người chấm là danh sách Mentor của lớp.
-
-_Chọn bài cần giao chấm_
 {% endstep %}
 
 {% step %}
 **Chọn người chấm:** Chọn **Assign Grader** → chọn người chấm.
-
-_Assign Grader_
 {% endstep %}
 
 {% step %}
@@ -75,8 +69,6 @@ _Assign Grader_
 
 _Lưu ý: Mentor thường chỉ xem bài test/quiz bản thân được giao; Mentor chính xem được tất cả._
 
-_Màn Mark trong Class Detail_
-
 </details>
 
 <details>
@@ -101,8 +93,6 @@ _Màn Mark trong Class Detail_
 
 * Search by: Student name.
 * Filter by: Status, Class, Test/Quiz.
-
-_Màn Grading List_
 
 </details>
 

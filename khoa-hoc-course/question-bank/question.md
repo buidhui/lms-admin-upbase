@@ -114,7 +114,7 @@ Tại màn hình Create True/False question, người dùng nhập dữ liệu:
 * Belong to (\*): (không hiển thị với câu hỏi tự do) dùng để xác định câu hỏi thuộc cấu phần học nào, bao gồm: Course, Section, Subsection, Unit, Activity. Người dùng cần điền lần lượt theo thứ tự từ trái sang phải.
 * Nội dung câu hỏi (\*)
 * Danh sách đáp án (\*): gồm 2 lựa chọn, 1 lựa chọn Đúng và 1 lựa chọn Sai.
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -135,7 +135,7 @@ Tại màn hình Create One Choice question, người dùng nhập dữ liệu:
 * Belong to (\*): (không hiển thị với câu hỏi tự do) dùng để xác định câu hỏi thuộc cấu phần học nào, bao gồm: Course, Section, Subsection, Unit, Activity. Người dùng cần điền lần lượt theo thứ tự từ trái sang phải.
 * Nội dung câu hỏi (\*)
 * Danh sách đáp án (\*): gồm nhiều lựa chọn, trong đó có 1 đáp án Đúng và các đáp án còn lại là Sai.
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -156,7 +156,7 @@ Tại màn hình Create One Choice question, người dùng nhập dữ liệu:
 * Belong to (\*): (không hiển thị với câu hỏi tự do) dùng để xác định câu hỏi thuộc cấu phần học nào, bao gồm: Course, Section, Subsection, Unit, Activity. Người dùng cần điền lần lượt theo thứ tự từ trái sang phải.
 * Nội dung câu hỏi (\*)
 * Danh sách đáp án (\*): gồm nhiều lựa chọn, trong đó có ít nhất 2 đáp án Đúng và các đáp án còn lại là Sai.
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -177,7 +177,7 @@ Tại màn hình Create Matching question, người dùng nhập dữ liệu:
 * Danh sách đáp án (\*): gồm 2 phần, các bộ đáp án bị trống ở 1 trong 2 cột hoặc cả 2 cột đều sẽ bị hệ thống bỏ qua:
   * Đáp án
   * Đáp án tương ứng
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -196,7 +196,7 @@ Tại màn hình Create Select Word question, người dùng nhập dữ liệu:
 * Belong to (\*): (không hiển thị với câu hỏi tự do) dùng để xác định câu hỏi thuộc cấu phần học nào, bao gồm: Course, Section, Subsection, Unit, Activity. Người dùng cần điền lần lượt theo thứ tự từ trái sang phải.
 * Nội dung câu hỏi (\*): Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống để học viên chọn đáp án.
 * Danh sách đáp án (\*): Tương ứng với từng chỗ trống. Mỗi chỗ trống là một nhóm các đáp án, cần có ít nhất 1 đáp án đúng trong một chỗ trống. Người làm bài chỉ cần chọn 1 đáp án trong các đáp án đúng sẽ được tính là trả lời đúng câu hỏi.
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -215,7 +215,7 @@ Tại màn hình Create Fill Up question, người dùng nhập dữ liệu:
 * Belong to (\*): (không hiển thị với câu hỏi tự do) dùng để xác định câu hỏi thuộc cấu phần học nào, bao gồm: Course, Section, Subsection, Unit, Activity. Người dùng cần điền lần lượt theo thứ tự từ trái sang phải.
 * Nội dung câu hỏi (\*): Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống để học viên nhập đáp án.
 * Danh sách đáp án (\*): Các đáp án đúng tương ứng với từng chỗ trống. Mỗi chỗ trống có thể có 1 hoặc nhiều đáp án đúng. Người làm bài chỉ cần chọn 1 đáp án trong các đáp án đúng sẽ được tính là trả lời đúng câu hỏi.
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -234,7 +234,7 @@ Tại màn hình Create Drag Drop question, người dùng nhập dữ liệu:
 * Belong to (\*): (không hiển thị với câu hỏi tự do) dùng để xác định câu hỏi thuộc cấu phần học nào, bao gồm: Course, Section, Subsection, Unit, Activity. Người dùng cần điền lần lượt theo thứ tự từ trái sang phải.
 * Nội dung câu hỏi (\*): Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống để học viên chọn đáp án.
 * Danh sách đáp án (\*): Số lượng đáp án luôn lớn hơn hoặc bằng số lượng ô trống. Các đáp án tương ứng với từng ô trống là đáp án đúng của ô trống đó, còn lại là đáp án gây nhiễu.
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -257,7 +257,7 @@ Tại màn hình Create Constructed question, người dùng nhập dữ liệu:
 * Requirements (\*): câu hỏi nhỏ của câu tự luận.
 * Exhibit/Time Value Tables: tài liệu cho câu hỏi (chỉ áp dụng cho các câu hỏi cũ, với các câu hỏi mới thì không còn thông tin này)
 * Answer Template: Được sử dụng để thiết lập sẵn mẫu trả lời dưới dạng Word/Excel cho từng câu hỏi hoặc từng Requirement. Khi template được tạo, học viên có thể làm bài trực tiếp trên mẫu này thay vì phải soạn thảo từ đầu.
-* Solution (\*): lời giải cho chi tiết cho câu hỏi.
+* Solution (\*): lời giải chi tiết cho câu hỏi.
 * Gợi ý
 * Tag
 
@@ -271,7 +271,7 @@ Trong trường hợp User muốn thêm file **Answer Template** cho câu hỏi 
 
 <figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption><p>User click vào icon drop down để thực hiện thêm Answer Template</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Vùng add Answer Template cho câu hỏi không có requiement</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Vùng add Answer Template cho câu hỏi không có Requirement</p></figcaption></figure>
 
 * Trường thông tin _Answer Template Type_ được hiển thị dựa trên lựa chọn _Response Option_. Cụ thể, nếu người dùng chọn _Response Option_ là Word, hệ thống sẽ cho phép thêm _Answer Template_ dưới dạng Word; ngược lại, nếu chọn Excel, hệ thống sẽ cho phép thêm _Answer Template_ dưới dạng Excel.
 * _**Cách 1:**_ Người dùng chọn chức năng Upload File để tải lên file template Word/Excel tương ứng với Answer Template Type.
@@ -322,8 +322,6 @@ Sau khi hoàn thành nhập dữ liệu, người dùng chọn:
 **Mở màn hình chỉnh sửa câu hỏi**
 
 Đối với single question: tại màn hình danh sách câu hỏi, nhấp vào tên câu hỏi để chuyển đến màn hình chỉnh sửa.
-
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption><p><em>Click vào nội dung câu hỏi</em></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption><p><em>Click vào nội dung câu hỏi</em></p></figcaption></figure>
 

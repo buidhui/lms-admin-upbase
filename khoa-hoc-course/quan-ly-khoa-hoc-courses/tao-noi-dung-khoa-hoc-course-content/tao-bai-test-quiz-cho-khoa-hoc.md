@@ -1,6 +1,6 @@
 # Tạo bài Test/Quiz cho khóa học
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
@@ -46,7 +46,7 @@
 <table><thead><tr><th width="180">Tên trường thông tin</th><th>Mô tả</th></tr></thead><tbody><tr><td>Name</td><td>Nhập tên bài test</td></tr><tr><td>Type of Test</td><td><p>Loại bài kiểm tra:</p><ul><li>Multiple Choice: Dạng bài trắc nghiệm</li><li>Constructed: Dạng bài tự luận</li><li>Mixed (Multiple Choice + Constructed): Dạng bài mix, bao gồm cả trắc nghiệm và tự luận.</li><li>Mặc định chọn Multiple Choice</li></ul></td></tr><tr><td>Test Mode</td><td><p>Admin chọn một trong hai loại bài test dưới đây:</p><ul><li>Tutor: cho phép học viên làm bài không giới hạn thời gian</li><li>Timed: giới hạn thời gian làm bài → Nếu Admin chọn Timed, màn hình hiển thị Duration yêu cầu Admin nhập thời gian cho phép làm bài theo giờ và phút</li><li>Mặc định chọn Tutor</li></ul></td></tr><tr><td>Manual Grading</td><td><p>Chỉ hiển thị với Type of Test = Constructed/Mixed (Multiple Choice + Constructed)</p><ul><li>Yes: bài kiểm tra sẽ được chấm điểm thủ công bởi đội SX.</li><li>No: bài kiểm tra sẽ được hệ thống chấm điểm tự động.</li></ul></td></tr><tr><td>Graded Assignment</td><td><p>Đánh dấu bài kiểm tra được sử dụng để tính điểm cho toàn bộ khóa học, gồm 2 giá trị:</p><ul><li>Yes</li><li>No<br></li></ul></td></tr><tr><td>Grading Preference</td><td><p>Chọn cách hiển thị đáp án và Solution</p><ul><li>After each question: hiển thị sau khi trả lời mỗi câu hỏi</li><li>After all questions: hiển thị sau khi hoàn thành bài test</li><li>Mặc định chọn After all questions</li></ul></td></tr><tr><td>Pass Point</td><td><p>Điểm pass bài test</p><ul><li>Auto 50%: điểm pass point là 50%</li><li>Manual: cho phép Admin nhập số điểm pass point → Nếu Admin chọn ‘Manual’ màn hình hiển thị textbox cho phép Admin nhập số điểm</li><li>Mặc định chọn Auto 50%</li></ul></td></tr><tr><td>Attempt</td><td><p>Cho phép chọn số lần làm bài</p><ul><li>Unlimited: không giới hạn số lần làm bài</li><li>Limited: giới hạn số lần làm bài → Nếu Admin chọn ‘Limited' màn hình hiển thị textbox cho phép Admin nhập số lần học viên được phép nộp bài</li><li>Mặc định chọn Unlimited</li></ul></td></tr><tr><td>Total Score</td><td><ul><li>Tổng điểm của bài Test/Quiz, có thể điền khác thang điểm 100.</li><li>Chỉ nhập giá trị lớn hơn 0.</li><li>Phần thập phân tối đa 2 chữ số.</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
-Với các loại bài kiểm tra là Quiz/Chapter test/Topic Test/Midterm test/Final test, khi người dùng chọn Manual Grading = ‘Yes’ thì giá trị của Graded Assigment = ‘Yes’.
+Với các loại bài kiểm tra là Quiz/Chapter test/Topic Test/Midterm test/Final test, khi người dùng chọn Manual Grading = 'Yes' thì giá trị của Graded Assignment = 'Yes'.
 
 Với loại bài kiểm tra là Mocktest thì giá trị của Graded Assignment = 'No' trong mọi trường hợp.
 {% endhint %}
@@ -142,7 +142,7 @@ Các trường thông tin bao gồm:
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Total Score        | <p>Tổng điểm tối đa của bài Test/Quiz, cho phép người dùng điền số lớn hơn 0 và có thể khác 100.</p><p>Khi thay đổi Total Score, hệ thống sẽ tự động tính lại toàn bộ điểm của từng Question (Mark) nếu Score Distribution = Evenly across all questions hoặc Evenly by Question Type</p>                                                                                                                                                                                       |
 | Current Score      | <p>Tổng điểm hiện tại của toàn bộ câu hỏi, hệ thống tự tính:</p><ul><li>Nếu Tổng điểm của toàn bộ câu hỏi trong bài test <strong>lớn hơn</strong> hoặc <strong>nhỏ hơn</strong> Total Score: khi ấn Next để chuyển sang bước 3 báo lỗi ‘Mark of all questions not equal [Total Score]’</li><li>Nếu Tổng điểm của toàn bộ câu hỏi trong bài test <strong>bằng</strong> Total Score: click Next chuyển sang bước tiếp theo thành công</li></ul>                                   |
-| Score Distribution | <p>Cách phân phối điểm cho từng câu hỏi, chọn 1 trong 3 giá trị:</p><ul><li>Evenly across all questions: Hệ thống tự động chia đều <strong>Total Score</strong> cho toàn bộ câu hỏi trong bài Test/Quiz.</li><li>Evenly by Question Type (MCQ/Essay): cài đặt điểm cho nhóm câu hỏi trắc nghiệp (MCQ) và câu hỏi tự luận (Essay), sau đó hệ thống sẽ tự chia đều điểm cho các câu hỏi trong từng nhóm.</li><li>Custom: người dùng tự chỉnh sửa điểm của từng câu hỏi.</li></ul> |
+| Score Distribution | <p>Cách phân phối điểm cho từng câu hỏi, chọn 1 trong 3 giá trị:</p><ul><li>Evenly across all questions: Hệ thống tự động chia đều <strong>Total Score</strong> cho toàn bộ câu hỏi trong bài Test/Quiz.</li><li>Evenly by Question Type (MCQ/Essay): cài đặt điểm cho nhóm câu hỏi trắc nghiệm (MCQ) và câu hỏi tự luận (Essay), sau đó hệ thống sẽ tự chia đều điểm cho các câu hỏi trong từng nhóm.</li><li>Custom: người dùng tự chỉnh sửa điểm của từng câu hỏi.</li></ul> |
 | MCQ Score          | <p>Tổng điểm dành cho các câu hỏi trắc nghiệm, chỉ hiển thị nếu Score Distribution = Evenly by Question Type (MCQ/Essay).</p><p>Chỉ điền số lớn hơn 0 và nhỏ hơn Total Score, nếu không thỏa mãn thì khi click Next sang bước tiếp theo báo lỗi bên dưới trường thông tin như sau ‘MCQ Score must be between 0 and [Total Score]’</p>                                                                                                                                           |
 | Essay Score        | <p>Tổng điểm dành cho các câu hỏi tự luận, chỉ hiển thị nếu Score Distribution = Evenly by Question Type (MCQ/Essay)</p><p>Chỉ điền số lớn hơn 0 và nhỏ hơn Total Score, nếu không thỏa mãn thì khi click Next sang bước tiếp theo báo lỗi bên dưới trường thông tin như sau ‘Essay Score must be between 0 and [Total Score]’</p>                                                                                                                                              |
 {% endstep %}
@@ -279,7 +279,7 @@ Tại màn hình chi tiết bài Test/Quiz, người dùng có thể chỉnh s�
 {% endstep %}
 
 {% step %}
-**Sau khi hoàn tất viecj chỉnh sửa, chọn Save để lưu thay đổi**
+**Sau khi hoàn tất việc chỉnh sửa, chọn Save để lưu thay đổi**
 
 <figure><img src="../../../.gitbook/assets/image (934).png" alt=""><figcaption></figcaption></figure>
 

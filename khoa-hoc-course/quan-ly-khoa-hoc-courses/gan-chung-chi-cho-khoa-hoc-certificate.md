@@ -1,6 +1,6 @@
 # Gắn chứng chỉ cho khóa học (Certificate)
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX

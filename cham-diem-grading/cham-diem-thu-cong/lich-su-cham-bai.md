@@ -23,13 +23,13 @@
 
 {% stepper %}
 {% step %}
-## Mở lịch sử chấm
+**Mở lịch sử chấm**
 
 Người dùng chọn **Grading History** tại button **3 chấm** ở màn danh sách bài test.
 {% endstep %}
 
 {% step %}
-## Đọc thông tin lịch sử chấm bài
+**Đọc thông tin lịch sử chấm bài**
 
 | **Cột**          | **Mô tả**                     |
 | ---------------- | ----------------------------- |

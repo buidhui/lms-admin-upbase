@@ -4,7 +4,7 @@ description: 'Kết quả đạt được: Người dùng có thể xem, lọc d
 
 # Xem danh sách khóa học (Course List)
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX

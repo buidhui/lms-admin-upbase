@@ -35,7 +35,7 @@ Module **Hồ sơ cá nhân** cho phép người vận hành xem và chỉnh s�
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện.
 {% endhint %}
 
-## II. Tổng Quan Giao Diện
+## II. Tổng quan giao diện
 
 Quản lý hồ sơ cá nhân bao gồm các khu vực chính:
 

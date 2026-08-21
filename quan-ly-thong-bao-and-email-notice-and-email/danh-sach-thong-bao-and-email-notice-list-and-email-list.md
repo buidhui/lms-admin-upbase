@@ -46,7 +46,7 @@ Các trường thông tin hiển thị bao gồm:
   * Notification: thông báo được gửi trên hệ thống LMS Student.
   * Email: thông báo được gửi vào Email của học viên.
   * Noti & Email: thông báo được gửi trên hệ thống LMS Student và Email của học viên.
-  * Pinned Notifitcation: thông báo được ghim ở đầu trang tại giao diện học viên, sẽ hiển thị ở mọi màn hình.
+  * Pinned Notification: thông báo được ghim ở đầu trang tại giao diện học viên, hiển thị ở mọi màn hình.
 * Send to: Nhóm người nhận thông báo
 * Status:
   * Đối với thông báo có Type = Notification/Email/Noti & Email
@@ -82,7 +82,7 @@ Tìm kiếm theo các trường:
   * Notification: thông báo được gửi trên hệ thống LMS Student.
   * Email: thông báo được gửi vào Email của học viên.
   * Noti & Email: thông báo được gửi trên hệ thống LMS Student và Email của học viên.
-  * Pinned Notifitcation: thông báo được ghim ở đầu trang tại giao diện học viên, sẽ hiển thị ở mọi màn hình.
+  * Pinned Notification: thông báo được ghim ở đầu trang tại giao diện học viên, hiển thị ở mọi màn hình.
 * Send to: Nhóm người nhận thông báo
 * Trạng thái của thông báo (Status)
 * Thứ tự sắp xếp (Sort by)
@@ -92,7 +92,7 @@ Chọn **Search** để hiển thị các Thông báo theo điều kiện tìm k
 
 Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
-✅Kết quả: Hiển thị danh sách các thông báo theo điều kiện bộ lọc:
+✅ Kết quả: Hiển thị danh sách các thông báo theo điều kiện bộ lọc:
 
 <figure><img src="../.gitbook/assets/image (1341).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -110,7 +110,7 @@ Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị d
 
 <figure><img src="../.gitbook/assets/image (1342).png" alt=""><figcaption></figcaption></figure>
 
-✅Kết quả: Màn hình hiển thị chi tiết thông báo: Title, Type, Send to (với Notification/Email/Noti & Email), Action (thời gian gửi), Nội dung thông báo, Tài liệu đính kèm.
+✅ Kết quả: Màn hình hiển thị chi tiết thông báo: Title, Type, Send to (với Notification/Email/Noti & Email), Action (thời gian gửi), Nội dung thông báo, Tài liệu đính kèm.
 {% endstep %}
 {% endstepper %}
 

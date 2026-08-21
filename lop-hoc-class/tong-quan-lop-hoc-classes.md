@@ -8,7 +8,7 @@ description: (Tổng quan)
 
 Module Class là nơi đội ngũ CX (Vận hành lớp học) tạo và quản lý toàn bộ vòng đời của một lớp học — từ lúc lớp được mở ra cho đến khi kết thúc. Nếu module Course là nơi xây dựng "nội dung cần dạy", thì module Class là nơi quyết định "ai dạy, ai học, học lúc nào và học ở đâu".
 
-Mọi hoạt động diễn ra trong lớp — từ giảng viên được phân công, học viên được xếp vào lớp, bài kiểm tra được giao, cho đến kỳ thi chính thức — đều được quản lý tập trung tại đây
+Mọi hoạt động diễn ra trong lớp — từ giảng viên được phân công, học viên được xếp vào lớp, bài kiểm tra được giao, cho đến kỳ thi chính thức, đều được quản lý tập trung tại đây.
 
 ***
 

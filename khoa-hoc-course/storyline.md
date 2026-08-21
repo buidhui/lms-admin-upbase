@@ -297,7 +297,7 @@ Kéo thả Document tới vị trí mới, sau đó ấn **Upload** để lưu t
 {% endstep %}
 
 {% step %}
-**Truy cập vào Course Contect, tại UNIT cần add Storyline, chọn "Storyline"**
+**Truy cập Course Content, tại Unit cần thêm Storyline, chọn "Storyline"**
 
 <figure><img src="../.gitbook/assets/image (1397).png" alt=""><figcaption></figcaption></figure>
 

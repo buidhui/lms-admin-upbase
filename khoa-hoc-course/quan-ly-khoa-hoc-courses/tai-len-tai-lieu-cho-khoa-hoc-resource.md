@@ -1,6 +1,6 @@
 # Tải lên tài liệu cho khóa học (Resource)
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX

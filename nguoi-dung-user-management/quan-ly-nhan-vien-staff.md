@@ -43,7 +43,7 @@ _A - Add | M - Modify | D - Delete_
 * Đã nắm rõ cấu trúc Phòng ban (Department), Chức danh (Title), Cấp bậc (Level), Chương trình (Program) và Role hiện có trong hệ thống.
 {% endhint %}
 
-## II. Tổng Quan Giao Diện
+## II. Tổng quan giao diện
 
 Màn hình **Staff Management** bao gồm các khu vực chính:
 
@@ -60,7 +60,7 @@ Màn hình **Staff Management** bao gồm các khu vực chính:
 | Admin     | Quản trị hệ thống  | Toàn quyền — xem, tạo, chỉnh sửa, đổi trạng thái, import, export, gán Role |
 | Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống (xem / tạo / chỉnh sửa / import)     |
 
-## III. Các Bước Thực Hiện Chi Tiết
+## III. Các bước thực hiện chi tiết
 
 <details>
 
@@ -743,7 +743,7 @@ View log sẽ hiển thị như sau:
 | Nhân viên bị Block báo không đăng nhập được              | Tài khoản đã bị khóa trên hệ thống OPS                | Vào Staff Profile, đổi trạng thái về Active (nếu được phép) hoặc xác nhận với Admin lý do block.    |
 | Danh sách không tải được                                 | Mất kết nối hoặc lỗi server                           | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                              |
 
-## VI. Câu Hỏi Thường Gặp (FAQ)
+## VI. Câu hỏi thường gặp (FAQ)
 
 <details>
 

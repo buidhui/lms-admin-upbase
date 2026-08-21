@@ -47,7 +47,7 @@ Các chức năng được mô tả bao gồm: quản lý danh sách bài chấm
 {% hint style="info" %}
 ### Mẹo sử dụng
 
-1. Dùng bộ lọc Graded / Incorrect / Chưa chấm để nhanh chóng lọc câu hỏi cần xử lý.
+1. Dùng bộ lọc Graded / Incorrect / Chưa chấm để lọc ra câu hỏi cần xử lý.
 2. Việc chấm điểm được lưu tạm đến thời điểm thoát, có thể tiếp tục sau.
 {% endhint %}
 

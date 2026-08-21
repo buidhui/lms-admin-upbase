@@ -1,6 +1,6 @@
 # Tạo cấu phần học (Section, Subsection, Unit, Activity)
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX

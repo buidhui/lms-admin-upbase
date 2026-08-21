@@ -6,7 +6,7 @@ description: >-
 
 # Tạo khóa học (Course Infor)
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
@@ -153,7 +153,7 @@ Admin có thể:
 * Nhập ký tự để tìm kiếm khóa học Foundation đã tạo với level tương ứng.
 * Chọn hoặc không chọn khóa học Foundation cho từng level.
 
-Theo tài liệu gốc, với Normal Course, Admin có thể không chọn bất kỳ khóa học Foundation nào cho cả 4 level.
+Với Normal Course, Admin có thể không chọn khóa học Foundation nào cho cả 4 level.
 {% endtab %}
 
 {% tab title="Trial Course/ Practice Course" %}
