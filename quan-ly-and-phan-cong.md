@@ -1,0 +1,111 @@
+# Quản lý & phân công
+
+## Record of changes
+
+_A - Add M - Modify D - Delete_
+
+| Effective Date | Update Person   | A,M,D | Change Description             | Version |
+| -------------- | --------------- | ----- | ------------------------------ | ------- |
+| Jun 24, 2026   | Nguyễn Duy Hiếu | M     | Chuẩn hóa nội dung lên GitBook | 3.2.0   |
+
+## I. Thông tin chung
+
+**Dành cho:** Mentor chính (giao người chấm), Mentor (xem bài được giao)
+
+**Đường dẫn:** Class → Test/Quiz (Danh sách bài làm) / Class Detail → Mark / Class → Grading List
+
+#### Điều kiện tiên quyết:
+
+* User đăng nhập thành công vào hệ thống.
+* Học viên nộp bài thành công.
+* Tài khoản có quyền xem bài làm của học viên.
+* Người dùng được giao chấm bài làm của học viên.
+
+## II. Hướng dẫn chi tiết
+
+{% stepper %}
+{% step %}
+## Giao người chấm bài (Assign Grader)
+
+**Truy cập danh sách bài làm:** Mentor chính truy cập màn Danh sách bài làm của từng Test/Quiz.
+
+_Danh sách bài làm của Test/Quiz_
+
+**Chọn bài cần giao:** Tick checkbox ở đầu mỗi học viên (có thể chọn nhiều). Danh sách người chấm là danh sách Mentor của lớp.
+
+_Chọn bài cần giao chấm_
+
+**Chọn người chấm:** Chọn **Assign Grader** → chọn người chấm.
+
+_Assign Grader_
+
+**Lưu:** Chọn **Save** để lưu thông tin. Ngay sau khi assign, hệ thống gửi thông báo cho mentor được giao chấm.
+{% endstep %}
+
+{% step %}
+## Quản lý bài cần chấm theo Lớp (màn Mark)
+
+**Truy cập:** Người dùng truy cập màn **Mark** tại Class Detail để xem danh sách bài cần chấm của mình. Giao diện gồm 2 phần: Filter và Danh sách bài chấm.
+
+**Thông tin hiển thị:**
+
+| Cột              | Mô tả                                      |
+| ---------------- | ------------------------------------------ |
+| Student name     | Tên học viên                               |
+| Test/quiz        | Tên bài test/quiz                          |
+| Status           | Trạng thái chấm điểm                       |
+| Submission time  | Thời gian nộp bài                          |
+| Grading attempts | Số lần chấm điểm                           |
+| Final score      | Điểm cuối cùng                             |
+| Grader           | Người chấm (chỉ hiển thị với Mentor chính) |
+| Comment          | Bình luận                                  |
+
+**Tìm kiếm & lọc:**
+
+* Search by: Student name.
+* Filter by: Status, Test/Quiz, Mentor (chỉ Mentor chính có filter này).
+
+_Lưu ý: Mentor thường chỉ xem bài test/quiz bản thân được giao; Mentor chính xem được tất cả._
+
+_Màn Mark trong Class Detail_
+{% endstep %}
+
+{% step %}
+## Quản lý bài cần chấm theo cá nhân (Grading List)
+
+**Truy cập:** Người dùng truy cập màn **Grading List** tại sub-menu **Class** để xem danh sách bài cần chấm ở tất cả các lớp học. Giao diện gồm 2 phần: Filter và Danh sách bài chấm.
+
+**Thông tin hiển thị:**
+
+| Cột              | Mô tả                |
+| ---------------- | -------------------- |
+| Student name     | Tên học viên         |
+| Test/quiz        | Tên bài test/quiz    |
+| Status           | Trạng thái chấm điểm |
+| Submission time  | Thời gian nộp bài    |
+| Grading attempts | Số lần chấm điểm     |
+| Final score      | Điểm cuối cùng       |
+| Comment          | Bình luận            |
+
+**Tìm kiếm & lọc:**
+
+* Search by: Student name.
+* Filter by: Status, Class, Test/Quiz.
+
+_Màn Grading List_
+{% endstep %}
+{% endstepper %}
+
+## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+
+### Lưu ý quan trọng
+
+1. Chỉ Mentor chính mới có quyền giao người chấm (Assign Grader) và có filter Mentor tại màn Mark.
+2. Grading List tổng hợp bài cần chấm ở **tất cả các lớp**, còn màn Mark chỉ theo **một lớp**.
+
+## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+
+| Lỗi / Tình huống             | Nguyên nhân                         | Hướng dẫn khắc phục                                              |
+| ---------------------------- | ----------------------------------- | ---------------------------------------------------------------- |
+| Không thấy nút Assign Grader | Tài khoản không phải Mentor chính   | Chỉ Mentor chính mới giao được người chấm                        |
+| Không thấy bài cần chấm      | Chưa được giao chấm hoặc sai bộ lọc | Kiểm tra lại filter Status/Class/Test-Quiz; liên hệ Mentor chính |
