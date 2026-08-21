@@ -1,5 +1,13 @@
 # Quản lý & phân công
 
+## Record of changes
+
+_A - Add M - Modify D - Delete_
+
+| Effective Date | Update Person   | A,M,D | Change Description             | Version |
+| -------------- | --------------- | ----- | ------------------------------ | ------- |
+| Jun 24, 2026   | Nguyễn Duy Hiếu | M     | Chuẩn hóa nội dung lên GitBook | 3.2.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -26,14 +34,20 @@
 {% stepper %}
 {% step %}
 **Truy cập danh sách bài làm:** Mentor chính truy cập màn Danh sách bài làm của từng Test/Quiz.
+
+_Danh sách bài làm của Test/Quiz_
 {% endstep %}
 
 {% step %}
 **Chọn bài cần giao:** Tick checkbox ở đầu mỗi học viên (có thể chọn nhiều). Danh sách người chấm là danh sách Mentor của lớp.
+
+_Chọn bài cần giao chấm_
 {% endstep %}
 
 {% step %}
 **Chọn người chấm:** Chọn **Assign Grader** → chọn người chấm.
+
+_Assign Grader_
 {% endstep %}
 
 {% step %}
@@ -69,6 +83,8 @@
 
 _Lưu ý: Mentor thường chỉ xem bài test/quiz bản thân được giao; Mentor chính xem được tất cả._
 
+_Màn Mark trong Class Detail_
+
 </details>
 
 <details>
@@ -94,9 +110,11 @@ _Lưu ý: Mentor thường chỉ xem bài test/quiz bản thân được giao; M
 * Search by: Student name.
 * Filter by: Status, Class, Test/Quiz.
 
+_Màn Grading List_
+
 </details>
 
-## III. Lưu ý & Quy tắc nghiệp vụ
+## III. Lưu Ý & Quy Tắc Nghiệp Vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -105,7 +123,7 @@ _Lưu ý: Mentor thường chỉ xem bài test/quiz bản thân được giao; M
 2. Grading List tổng hợp bài cần chấm ở **tất cả các lớp**, còn màn Mark chỉ theo **một lớp**.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các Lỗi Thường Gặp & Cách Xử Lý
 
 | Lỗi / Tình huống             | Nguyên nhân                         | Hướng dẫn khắc phục                                              |
 | ---------------------------- | ----------------------------------- | ---------------------------------------------------------------- |

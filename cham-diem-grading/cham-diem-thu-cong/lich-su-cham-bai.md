@@ -1,5 +1,13 @@
 # Lịch sử chấm bài
 
+## Record of changes
+
+\*A - Add M - Modify D - Delete
+
+| Effective Date | Update Person   | A,M,D | Change Description             | Version | Effective Date |
+| -------------- | --------------- | ----- | ------------------------------ | ------- | -------------- |
+| Jun 24, 2026   | Nguyễn Duy Hiếu | M     | Chuẩn hóa nội dung lên GitBook | 3.2.0   | Jun 24, 2026   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -23,13 +31,13 @@
 
 {% stepper %}
 {% step %}
-**Mở lịch sử chấm**
+## Mở lịch sử chấm
 
 Người dùng chọn **Grading History** tại button **3 chấm** ở màn danh sách bài test.
 {% endstep %}
 
 {% step %}
-**Đọc thông tin lịch sử chấm bài**
+## Đọc thông tin lịch sử chấm bài
 
 | **Cột**          | **Mô tả**                     |
 | ---------------- | ----------------------------- |
@@ -42,7 +50,7 @@ Người dùng chọn **Grading History** tại button **3 chấm** ở màn dan
 
 </details>
 
-## III. Lưu ý & Quy tắc nghiệp vụ
+## III. Lưu Ý & Quy Tắc Nghiệp Vụ
 
 {% hint style="info" %}
 ### Mẹo sử dụng

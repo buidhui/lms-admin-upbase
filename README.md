@@ -1,4 +1,5 @@
 ---
+icon: hand-wave
 cover: .gitbook/assets/487834878_1083198370516326_676209918003308806_n.jpg
 coverY: 10.06697263239082
 layout:
@@ -25,11 +26,11 @@ layout:
     visible: true
 ---
 
-# Welcome to LMS Admin - UpBase
+# Giới thiệu tổng quan - OPS User Guide
 
 #### OPS là gì?
 
-OPS (Operations System) là hệ thống quản lý vận hành toàn bộ hoạt động đào tạo — từ lúc học viên đăng ký học cho đến khi hoàn thành khóa học và nhận chứng chỉ. Hệ thống này là công cụ làm việc hàng ngày của các bộ phận Admin, CX, SX và lễ tân, để các bộ phận cùng làm việc trên một nguồn dữ liệu duy nhất.
+OPS (Operations System) là hệ thống quản lý vận hành toàn bộ hoạt động đào tạo — từ lúc học viên đăng ký học cho đến khi hoàn thành khóa học và nhận chứng chỉ. Hệ thống này là công cụ làm việc hàng ngày của các bộ phận Admin, CX, SX và lễ tân, giúp tất cả các team phối hợp trên cùng một nền tảng, dữ liệu đồng nhất và minh bạch.
 
 ***
 
@@ -47,17 +48,13 @@ OPS (Operations System) là hệ thống quản lý vận hành toàn bộ hoạ
 
 OPS được thiết kế xuyên suốt theo **hành trình học tập của học viên**, chia làm 3 giai đoạn chính:
 
-**1. Trước khi học viên bắt đầu học**
+**1. Trước khi học viên bắt đầu học** Bao gồm toàn bộ công tác chuẩn bị: xây dựng nội dung khóa học, thiết lập tài khoản người dùng, tạo lớp học, phân công giảng viên, xếp lịch và phòng học, đồng thời xử lý đăng ký học — từ đồng bộ dữ liệu HubSpot, thu học phí, đến kiểm tra đầu vào và mở lớp chính thức.
 
-Toàn bộ công tác chuẩn bị: xây dựng nội dung khóa học, thiết lập tài khoản người dùng, tạo lớp học, phân công giảng viên, xếp lịch và phòng học, đồng thời xử lý đăng ký học — từ đồng bộ dữ liệu HubSpot, thu học phí, đến kiểm tra đầu vào và mở lớp chính thức.
+**2. Trong quá trình học viên học** Tập trung vào vận hành lớp học hàng ngày: theo dõi tiến độ học trên LMS, quản lý lịch nghỉ lễ, hỗ trợ học viên qua support ticket, giám sát tiến độ giảng viên, và thực hiện chấm điểm.
 
-**2. Trong quá trình học viên học**
+**3. Sau khi học viên học xong** Thông báo kết quả học tập, cấp chứng chỉ hoàn thành và tổng hợp số liệu lên Dashboard để theo dõi hiệu quả vận hành. Kết quả giai đoạn này cũng là đầu vào cho việc tái đăng ký hoặc mở lớp tiếp theo.
 
-Vận hành lớp học hàng ngày: theo dõi tiến độ học trên LMS, quản lý lịch nghỉ lễ, hỗ trợ học viên qua support ticket, giám sát tiến độ giảng viên và thực hiện chấm điểm.
-
-**3. Sau khi học viên học xong**
-
-Thông báo kết quả học tập, cấp chứng chỉ hoàn thành và tổng hợp số liệu lên Dashboard để theo dõi hiệu quả vận hành. Kết quả giai đoạn này cũng là đầu vào cho việc tái đăng ký hoặc mở lớp tiếp theo.
+<figure><img src=".gitbook/assets/LMS_HUB-Page-13.drawio (3).png" alt=""><figcaption><p>Luồng tổng quan quản lý hành trình học tập của học viên trên OPS</p></figcaption></figure>
 
 #### Một số điểm cần lưu ý khi sử dụng tài liệu này
 

@@ -10,34 +10,42 @@
 
 ## I. Thông tin chung
 
+{% hint style="info" %}
 **Dành cho:** Admin, Operator
 
 **Đường dẫn:**
 
 * Mail Logs: Engagement & Support → Mail Logs
 * Blocked Mail: Engagement & Support → Blocked Mail
+{% endhint %}
 
+{% hint style="info" %}
 #### Phạm vi & Module liên quan
 
 * **Module chính:** Notification & Email — Mail Logs, Blocked Mail
 * **Module liên quan:** Notification List & Email List (nguồn gốc các email được gửi)
 * **Hệ thống tích hợp:** Hệ thống Email (gửi email tới học viên và phản hồi trạng thái bị chặn)
+{% endhint %}
 
+{% hint style="warning" %}
 #### Điều kiện tiên quyết
 
 * Đã đăng nhập thành công vào hệ thống Ops.
 * Đã được cấp quyền tương ứng (xem Mail Logs, gửi lại email, xem và gỡ chặn Blocked Mail).
 * Đã có email được gửi từ hệ thống để hiển thị lịch sử trong Mail Logs.
+{% endhint %}
 
 ## II. Hướng dẫn chi tiết
 
-### Xem danh sách Mail Logs
+<details>
+
+<summary>Xem danh sách Mail Logs</summary>
 
 **Truy cập Mail Log List**
 
 Tại thanh Menu, truy cập **Engagement & Support** → click vào **Mail Logs**.
 
-![](<../.gitbook/assets/image (384)>)
+<figure><img src="../.gitbook/assets/image (1367).png" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin hiển thị gồm:
 
@@ -49,7 +57,11 @@ Các trường thông tin hiển thị gồm:
   * **Thất bại:** Mail chưa được gửi cho học viên.
 * **Sent time:** Thời gian gửi Mail.
 
-### Tìm kiếm Mail
+</details>
+
+<details>
+
+<summary>Tìm kiếm Mail</summary>
 
 **Sử dụng bộ lọc tìm kiếm**
 
@@ -58,35 +70,47 @@ Tìm kiếm theo các trường: Người nhận, Loại Mail (Action), Trạng 
 * Chọn **Search** để hiển thị các Mail theo điều kiện tìm kiếm.
 * Chọn **Reset** để xóa các giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
-![](<../.gitbook/assets/image (385)>)
+<figure><img src="../.gitbook/assets/image (1368).png" alt=""><figcaption></figcaption></figure>
 
-### Xem chi tiết Mail Logs
+</details>
+
+<details>
+
+<summary>Xem chi tiết Mail Logs</summary>
 
 **Click vào Title Mail để xem chi tiết**
 
 Tại danh sách Mail Logs, click vào **Title Mail** để xem chi tiết.
 
-![](https://sapp-academy.gitbook.io/sapp-academy/~gitbook/image?url=https%3A%2F%2F3507113425-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fn12m2mA5fvkTz%252Fuploads%252FFqKcYLfcUnPnZxOasavu%252Fimage.png%3Falt%3Dmedia%26token%3D4544107b-7417-4d89-8264-e81f7eee033c\&width=768\&dpr=3\&quality=100\&sign=6cccaa34\&sv=2)
+<figure><img src="../.gitbook/assets/image (1369).png" alt=""><figcaption></figcaption></figure>
 
 Màn hình hiển thị thông tin chi tiết của Mail:
 
-![](<../.gitbook/assets/image (386)>)
+<figure><img src="../.gitbook/assets/image (1371).png" alt=""><figcaption></figcaption></figure>
 
-### Resend Email
+</details>
+
+<details>
+
+<summary>Resend Email</summary>
 
 **Gửi lại email cho người nhận**
 
 Tại màn hình danh sách Mail Logs, chọn **Action** → chọn **Resend** để gửi lại email cho người nhận.
 
-![](<../.gitbook/assets/image (387)>)
+<figure><img src="../.gitbook/assets/image (1372).png" alt=""><figcaption></figcaption></figure>
 
-### Xem danh sách Email bị chặn
+</details>
+
+<details>
+
+<summary>Xem danh sách Email bị chặn</summary>
 
 **Truy cập Blocked Mail**
 
 Tại thanh Menu, truy cập **Engagement & Support** → chọn **Blocked Mail**.
 
-![](<../.gitbook/assets/image (388)>)
+<figure><img src="../.gitbook/assets/image (1373).png" alt=""><figcaption></figcaption></figure>
 
 Màn hình hiển thị danh sách Email bị chặn với các thông tin:
 
@@ -94,31 +118,40 @@ Màn hình hiển thị danh sách Email bị chặn với các thông tin:
 * **Date:** Thời gian email được gửi đi.
 * **Reason:** Lý do email bị chặn.
 
-### Tìm kiếm Email bị chặn
+</details>
+
+<details>
+
+<summary>Tìm kiếm Email bị chặn</summary>
 
 **Sử dụng bộ lọc tìm kiếm**
 
-![](<../.gitbook/assets/image (389)>)
+<figure><img src="../.gitbook/assets/image (1374).png" alt=""><figcaption></figcaption></figure>
 
 Tại danh sách Blocked Mail, sử dụng bộ lọc để tìm kiếm email.
 
 * Chọn **Search** để hiển thị kết quả.
 * Chọn **Reset** để xóa các giá trị tìm kiếm.
 
-### Gỡ chặn Email bị chặn
+</details>
+
+<details>
+
+<summary>Gỡ chặn Email bị chặn</summary>
 
 **Thực hiện Unblock email**
 
 Tại danh sách Blocked Mail, truy cập **Action** → chọn **Unblock** để bỏ chặn email.
 
-![](<../.gitbook/assets/image (390)>)
+<figure><img src="../.gitbook/assets/image (1375).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-Bỏ chặn email thành công, các thông báo có thể được gửi tới địa chỉ email này.
-{% endhint %}
+✅ Kết quả: Bỏ chặn email thành công, các thông báo có thể được gửi tới địa chỉ email này.
+
+</details>
 
 ## III. Lưu Ý & Quy Tắc Nghiệp Vụ
 
+{% hint style="warning" %}
 ### Lưu ý quan trọng
 
 1. **Mail Logs** chỉ ghi nhận các email **đã được hệ thống gửi đi** — không bao gồm Notification trên LMS Student.
@@ -126,7 +159,9 @@ Bỏ chặn email thành công, các thông báo có thể được gửi tới 
 3. Khi **Resend** email, hệ thống sẽ gửi lại nội dung gốc đã ghi nhận trong Mail Logs cho cùng người nhận.
 4. Email bị chặn (Blocked Mail) là email **không thể gửi đến học viên** do hệ thống email từ chối (bounce, spam, invalid, v.v.).
 5. Sau khi **Unblock** một email, các thông báo tiếp theo có thể được gửi đến địa chỉ này nhưng vẫn có thể bị chặn lại nếu nguyên nhân chưa được xử lý.
+{% endhint %}
 
+{% hint style="info" %}
 ### Mẹo sử dụng
 
 1. **Kiểm tra Mail Logs định kỳ** để phát hiện sớm các email gửi Thất bại và xử lý kịp thời.
@@ -135,6 +170,7 @@ Bỏ chặn email thành công, các thông báo có thể được gửi tới 
 4. Theo dõi **Blocked Mail** để cảnh báo học viên về email bị chặn (nếu cần) — đề nghị học viên cập nhật email khác hoặc kiểm tra hộp thư.
 5. Trước khi **Unblock** email, kiểm tra **Reason** để biết nguyên nhân và đảm bảo đã được xử lý trước khi gửi lại.
 6. Đối với email Thất bại tạm thời (lỗi server, timeout), dùng chức năng **Resend** để gửi lại mà không cần tạo thông báo mới.
+{% endhint %}
 
 ## IV. Các Lỗi Thường Gặp & Cách Xử Lý
 

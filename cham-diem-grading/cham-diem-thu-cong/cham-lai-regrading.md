@@ -1,5 +1,13 @@
 # Chấm lại (Regrading)
 
+## Record of changes
+
+\*A - Add M - Modify D - Delete
+
+| Effective Date | Update Person   | A,M,D | Change Description             | Version |
+| -------------- | --------------- | ----- | ------------------------------ | ------- |
+| Jun 24, 2026   | Nguyễn Duy Hiếu | M     | Chuẩn hóa nội dung lên GitBook | 3.2.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -67,7 +75,7 @@ Mentor được phân chấm lại sẽ nhận được email thông báo.
 
 </details>
 
-## III. Lưu ý & Quy tắc nghiệp vụ
+## III. Lưu Ý & Quy Tắc Nghiệp Vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -77,7 +85,7 @@ Mentor được phân chấm lại sẽ nhận được email thông báo.
 3. Mentor chính có thể giao bài chấm lại cho người chấm mới.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các Lỗi Thường Gặp & Cách Xử Lý
 
 | Lỗi / Tình huống                | Nguyên nhân                              | Hướng dẫn khắc phục                    |
 | ------------------------------- | ---------------------------------------- | -------------------------------------- |

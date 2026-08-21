@@ -1,5 +1,13 @@
 # Chấm điểm bài làm
 
+## Record of changes
+
+_A - Add M - Modify D - Delete_
+
+| Effective Date | Update Person   | A,M,D | Change Description             | Version | Effective Date |
+| -------------- | --------------- | ----- | ------------------------------ | ------- | -------------- |
+| Jun 24, 2026   | Nguyễn Duy Hiếu | M     | Chuẩn hóa nội dung lên GitBook | 3.2.0   | Jun 24, 2026   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -134,7 +142,7 @@ Lưu ý: tổng điểm toàn bộ câu hỏi không được vượt quá số 
 
 </details>
 
-## III. Lưu ý & Quy tắc nghiệp vụ
+## III. Lưu Ý & Quy Tắc Nghiệp Vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -144,7 +152,7 @@ Lưu ý: tổng điểm toàn bộ câu hỏi không được vượt quá số 
 3. Có thể thoát giữa chừng (đóng trình duyệt hoặc Exit) — việc chấm được lưu đến thời điểm thoát.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các Lỗi Thường Gặp & Cách Xử Lý
 
 | Lỗi / Tình huống                | Nguyên nhân                                 | Hướng dẫn khắc phục                                    |
 | ------------------------------- | ------------------------------------------- | ------------------------------------------------------ |

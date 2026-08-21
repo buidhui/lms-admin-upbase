@@ -10,33 +10,41 @@ _A - Add M - Modify D - Delete_
 
 ## I. Thông tin chung
 
+{% hint style="info" %}
 **Dành cho:** Admin, Operator
 
 **Đường dẫn:** Engagement & Support → Notice & Email → Notification List & Email List
+{% endhint %}
 
+{% hint style="info" %}
 #### Phạm vi & Module liên quan
 
 * **Module chính:** Notification & Email
 * **Module liên quan:** Recipients List (Nhóm người nhận), LMS Student (nơi học viên nhận Notification và Pinned Notification)
 * **Hệ thống tích hợp:** Hệ thống Email (gửi email tới học viên)
+{% endhint %}
 
+{% hint style="warning" %}
 #### Điều kiện tiên quyết
 
 * Đã đăng nhập thành công vào hệ thống Ops.
 * Đã được cấp quyền tương ứng với chức năng Notification (xem / tạo / chỉnh sửa).
 * Đối với gửi Notification/Email: cần có Nhóm người nhận đã được tạo trước đó tại **Recipients List**.
+{% endhint %}
 
 ## II. Hướng dẫn chi tiết
 
-### Xem danh sách Thông báo & Email
+<details>
+
+<summary>Xem danh sách Thông báo &#x26; Email</summary>
 
 {% stepper %}
 {% step %}
-## Truy cập Notification List & Email List
+**Truy cập Notification List & Email List**
 
 Tại thanh Menu, truy cập **Engagement & Support** → chọn **Notice & Email** → **Notification List & Email List**.
 
-![](<../.gitbook/assets/image (365)>)
+<figure><img src="../.gitbook/assets/image (1339).png" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin hiển thị bao gồm:
 
@@ -63,13 +71,17 @@ Các trường thông tin hiển thị bao gồm:
 {% endstep %}
 {% endstepper %}
 
-### Tìm kiếm Thông báo
+</details>
+
+<details>
+
+<summary>Tìm kiếm Thông báo</summary>
 
 {% stepper %}
 {% step %}
-## Sử dụng bộ lọc để tìm kiếm
+**Sử dụng bộ lọc để tìm kiếm**
 
-![](<../.gitbook/assets/image (367)>)
+<figure><img src="../.gitbook/assets/image (1340).png" alt=""><figcaption></figcaption></figure>
 
 Tìm kiếm theo các trường:
 
@@ -88,41 +100,45 @@ Chọn **Search** để hiển thị các Thông báo theo điều kiện tìm k
 
 Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
-{% hint style="success" %}
-**Kết quả:** Hiển thị danh sách các thông báo theo điều kiện bộ lọc:
-{% endhint %}
+✅Kết quả: Hiển thị danh sách các thông báo theo điều kiện bộ lọc:
 
-![](<../.gitbook/assets/image (368)>)
+<figure><img src="../.gitbook/assets/image (1341).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-### Xem chi tiết Thông báo
+</details>
+
+<details>
+
+<summary>Xem chi tiết Thông báo</summary>
 
 {% stepper %}
 {% step %}
-## Click vào Tiêu đề thông báo để xem chi tiết
+**Click vào Tiêu đề thông báo để xem chi tiết**
 
-![](<../.gitbook/assets/image (370)>)
+<figure><img src="../.gitbook/assets/image (1342).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-**Kết quả:** Màn hình hiển thị chi tiết thông báo: Title, Type, Send to (với Notification/Email/Noti & Email), Action (thời gian gửi), Nội dung thông báo, Tài liệu đính kèm.
-{% endhint %}
+✅Kết quả: Màn hình hiển thị chi tiết thông báo: Title, Type, Send to (với Notification/Email/Noti & Email), Action (thời gian gửi), Nội dung thông báo, Tài liệu đính kèm.
 {% endstep %}
 {% endstepper %}
 
-### Tạo mới Notification / Email / Noti & Email
+</details>
+
+<details>
+
+<summary>Tạo mới Notification / Email / Noti &#x26; Email</summary>
 
 {% stepper %}
 {% step %}
-## Mở màn hình tạo mới
+**Mở màn hình tạo mới**
 
 Tại màn hình danh sách thông báo, chọn **Create Notification**.
 
-![](<../.gitbook/assets/image (373)>)
+<figure><img src="../.gitbook/assets/image (1343).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-## Điền thông tin thông báo
+**Điền thông tin thông báo**
 
 Điền các thông tin (trường có **(\*)** là bắt buộc):
 
@@ -136,31 +152,35 @@ Tại màn hình danh sách thông báo, chọn **Create Notification**.
 * **Nội dung thông báo** (\*).
 * **Tệp đính kèm** (áp dụng với Email): chọn Upload File từ thiết bị hoặc tài liệu có sẵn trên hệ thống.
 
-![](<../.gitbook/assets/image (378)>)
+<figure><img src="../.gitbook/assets/image (1344).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-## Lưu thông tin
+**Lưu thông tin**
 
 Chọn **Save** để lưu thông báo. Hệ thống hiển thị thông báo tạo mới thành công.
 {% endstep %}
 {% endstepper %}
 
-### Tạo mới Pinned Notification
+</details>
 
-_Pinned Notification là các thông báo được ghim tại đầu trang giao diện học viên LMS, hiển thị ở mọi màn hình._
+<details>
+
+<summary>Tạo mới Pinned Notification</summary>
+
+_**Pinned Notification là các thông báo được ghim tại đầu trang giao diện học viên LMS, hiển thị ở mọi màn hình.**_
 
 {% stepper %}
 {% step %}
-## Mở màn hình tạo mới
+**Mở màn hình tạo mới**
 
 Tại mục Notification, chọn **Create Notification/Email**.
 
-![](<../.gitbook/assets/image (379)>)
+<figure><img src="../.gitbook/assets/image (573).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-## Điền thông tin
+**Điền thông tin**
 
 * **Title** (\*): tên thông báo.
 * **Pinned Notification** (\*): chọn **Yes**.
@@ -171,21 +191,23 @@ Tại mục Notification, chọn **Create Notification/Email**.
 
 Những trường có (\*) là những trường thông tin bắt buộc.
 
-![](<../.gitbook/assets/image (380)>)
+<figure><img src="../.gitbook/assets/image (1346).png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-Khoảng thời gian xuất hiện của Pinned Notification mới tạo **không được trùng** với khoảng thời gian hiển thị của các Pinned Notification đã tạo trước đó. Nội dung hiển thị cho **Tất cả** học viên LMS nên không có lựa chọn Send to.
-{% endhint %}
+⚠️ Khoảng thời gian xuất hiện của Pinned Notification mới tạo **không được trùng** với khoảng thời gian hiển thị của các Pinned Notification đã tạo trước đó. Nội dung hiển thị cho **Tất cả** học viên LMS nên không có lựa chọn Send to.
 {% endstep %}
 
 {% step %}
-## Lưu thông tin
+**Lưu thông tin**
 
 Chọn **Save** để lưu.
 {% endstep %}
 {% endstepper %}
 
-### Chỉnh sửa trạng thái Thông báo
+</details>
+
+<details>
+
+<summary>Chỉnh sửa trạng thái Thông báo</summary>
 
 Áp dụng cho:
 
@@ -195,9 +217,9 @@ Chọn **Save** để lưu.
 
 {% stepper %}
 {% step %}
-## Click vào giá trị trường Status để chọn trạng thái mới
+**Click vào giá trị trường Status để chọn trạng thái mới**
 
-![](<../.gitbook/assets/image (381)>)
+<figure><img src="../.gitbook/assets/image (1347).png" alt=""><figcaption></figcaption></figure>
 
 Quy tắc:
 
@@ -212,27 +234,31 @@ Quy tắc:
 {% endstep %}
 
 {% step %}
-## Xác nhận thay đổi trạng thái
+**Xác nhận thay đổi trạng thái**
 
-![](<../.gitbook/assets/image (382)>)
+<figure><img src="../.gitbook/assets/image (1348).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-### Chỉnh sửa thông tin khác của Thông báo
+</details>
+
+<details>
+
+<summary>Chỉnh sửa thông tin khác của Thông báo</summary>
 
 Áp dụng cho các thông báo có trạng thái **'Hẹn giờ gửi'**.
 
 {% stepper %}
 {% step %}
-## Mở thông báo cần chỉnh sửa
+**Mở thông báo cần chỉnh sửa**
 
 Click vào **Tiêu đề** thông báo muốn chỉnh sửa hoặc click **Action** → chọn **Edit**.
 
-![](<../.gitbook/assets/image (383)>)
+<figure><img src="../.gitbook/assets/image (1349).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-## Nhập giá trị mới
+**Nhập giá trị mới**
 
 Các trường có thể chỉnh sửa:
 
@@ -246,14 +272,17 @@ Các trường có thể chỉnh sửa:
 {% endstep %}
 
 {% step %}
-## Lưu thông tin
+**Lưu thông tin**
 
 Chọn **Save** để lưu thông tin đã chỉnh sửa.
 {% endstep %}
 {% endstepper %}
 
+</details>
+
 ## III. Lưu Ý & Quy Tắc Nghiệp Vụ
 
+{% hint style="warning" %}
 ### Lưu ý quan trọng
 
 1. Khoảng thời gian hiển thị của **Pinned Notification** mới không được trùng với khoảng thời gian của Pinned Notification đã tạo trước đó.
@@ -262,13 +291,16 @@ Chọn **Save** để lưu thông tin đã chỉnh sửa.
 4. Trường **Pinned Notification** không được chỉnh sửa sau khi tạo.
 5. Kích cỡ file đính kèm tối đa: **500MB/file** (khi chỉnh sửa thông báo).
 6. Định dạng thời gian gửi/hiển thị: dd/mm/yyyy hh:mm với phút **mm = 00 hoặc mm = 30**.
+{% endhint %}
 
+{% hint style="info" %}
 ### Mẹo sử dụng
 
 1. **Tạo Nhóm người nhận** trước tại Recipients List, sau đó tạo Thông báo để gán Nhóm — tránh phải tạo Nhóm giữa luồng.
 2. Sử dụng **Hẹn giờ gửi** để chuẩn bị thông báo trước, kiểm tra lại nội dung trước khi đến giờ gửi tự động.
 3. Khi cần truyền thông quan trọng tới toàn bộ học viên, dùng **Pinned Notification** thay vì gửi nhiều Notification riêng lẻ.
 4. Trước khi tạo Pinned Notification mới, kiểm tra danh sách Pinned đang **'Hẹn giờ gửi'** / **'Đang hiển thị'** để tránh trùng khoảng thời gian.
+{% endhint %}
 
 ## IV. Các Lỗi Thường Gặp & Cách Xử Lý
 

@@ -1,5 +1,13 @@
 # Chấm điểm thủ công
 
+## Record of changes
+
+\*A - Add M - Modify D - Delete
+
+| Effective Date | Update Person   | A,M,D | Change Description             | Version | Effective Date |
+| -------------- | --------------- | ----- | ------------------------------ | ------- | -------------- |
+| Jun 24, 2026   | Nguyễn Duy Hiếu | M     | Chuẩn hóa nội dung lên GitBook | 3.2.0   | Jun 24, 2026   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -34,7 +42,7 @@ Các chức năng được mô tả bao gồm: quản lý danh sách bài chấm
 
 <table><thead><tr><th width="105">STT</th><th>Chức năng</th><th>Mô tả ngắn</th></tr></thead><tbody><tr><td>1</td><td>Chấm điểm bài làm</td><td>Truy cập giao diện chấm bài, chấm câu tự luận (trả lời bằng File hoặc Word/Excel), thêm bình luận và hoàn tất gửi kết quả.</td></tr><tr><td>2</td><td>Quản lý &#x26; phân công chấm bài</td><td>Giao người chấm (Assign Grader), quản lý bài cần chấm theo lớp (màn Mark) và theo cá nhân (Grading List).</td></tr><tr><td>3</td><td>Chấm lại (Regrading)</td><td>Review bài trước khi gửi kết quả và xử lý yêu cầu chấm lại từ học viên.</td></tr><tr><td>4</td><td>Lịch sử chấm bài</td><td>Xem lịch sử các lần chấm (Grading History).</td></tr></tbody></table>
 
-## IV. Lưu ý & Quy tắc nghiệp vụ
+## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -47,7 +55,7 @@ Các chức năng được mô tả bao gồm: quản lý danh sách bài chấm
 {% hint style="info" %}
 ### Mẹo sử dụng
 
-1. Dùng bộ lọc Graded / Incorrect / Chưa chấm để lọc ra câu hỏi cần xử lý.
+1. Dùng bộ lọc Graded / Incorrect / Chưa chấm để nhanh chóng lọc câu hỏi cần xử lý.
 2. Việc chấm điểm được lưu tạm đến thời điểm thoát, có thể tiếp tục sau.
 {% endhint %}
 
