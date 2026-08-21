@@ -1,15 +1,15 @@
 # Table of contents
 
-* [Giới thiệu tổng quan - LMS Ops User Guide](README.md)
+* [Welcome to LMS Ops - UpBase](README.md)
 
-## Người dùng (User Management)
+## User Management
 
 * [Quản lý hồ sơ cá nhân (Profile)](user-management/quan-ly-ho-so-ca-nhan-profile.md)
 * [Quản lý học viên (Student)](user-management/quan-ly-hoc-vien-student.md)
 * [Quản lý giảng viên (Teacher)](user-management/quan-ly-giang-vien-teacher.md)
 * [Quản lý nhân viên (Staff)](user-management/quan-ly-nhan-vien-staff.md)
 
-## Khóa học (Course)
+## Academic Management
 
 * [Tổng quan nhóm chức năng khóa học (Course)](academic-management/tong-quan-nhom-chuc-nang-khoa-hoc-course.md)
 * [Quản lý khóa học (Courses)](academic-management/quan-ly-khoa-hoc-courses/README.md)
@@ -31,7 +31,7 @@
   * [Subject Category](academic-management/program-and-subject/subject-category.md)
 * [Certificate Management](academic-management/certificate-management.md)
 
-## Lớp học (Class)
+## Class Management
 
 * [Tổng quan lớp học (Classes)](class-management/tong-quan-lop-hoc-classes.md)
 * [Xem danh sách và thông tin chi tiết lớp học](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc.md)
@@ -62,7 +62,7 @@
 
 * [SIS Operational Dashboard](dashboard/sis-operational-dashboard.md)
 
-## Quản lý thông báo & Email (Notice & Email)
+## Engagement & Support
 
 * [Danh sách thông báo & Email (Notice List & Email List)](engagement-and-support/danh-sach-thong-bao-and-email-notice-list-and-email-list.md)
 * [Nhóm đối tượng gửi email (Recipients List)](engagement-and-support/nhom-doi-tuong-gui-email-recipients-list.md)
