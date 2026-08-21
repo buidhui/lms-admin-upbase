@@ -43,64 +43,7 @@
 * [Thêm giảng viên cho lớp (Teacher)](lop-hoc-class/them-giang-vien-cho-lop-teacher.md)
 * [Quản lý bài kiểm tra trong lớp (Test/Quiz)](lop-hoc-class/quan-ly-bai-kiem-tra-trong-lop-test-quiz.md)
 * [Quản lý tài liệu trong lớp](lop-hoc-class/quan-ly-tai-lieu-trong-lop.md)
-* [Quản lý kỳ thi (Exam Management)](lop-hoc-class/quan-ly-ky-thi-exam-management/README.md)
-  * [Tạo kỳ thi (Exam)](lop-hoc-class/quan-ly-ky-thi-exam-management/tao-ky-thi-exam.md)
-  * [Chỉnh sửa & quản lý kỳ thi](lop-hoc-class/quan-ly-ky-thi-exam-management/chinh-sua-and-quan-ly-ky-thi.md)
 * [Business Rules — Class](lop-hoc-class/business-rules-class.md)
-
-## Vận hành lớp học (Operation)
-
-* [Tổng quan vận hành lớp học](van-hanh-lop-hoc-operation/tong-quan-van-hanh-lop-hoc.md)
-* [Quản lý lịch nghỉ lễ (Holiday Schedules)](van-hanh-lop-hoc-operation/quan-ly-lich-nghi-le-holiday-schedules.md)
-* [Xếp lịch học (Schedule)](van-hanh-lop-hoc-operation/xep-lich-hoc-schedule/README.md)
-  * [Lịch học tiêu chuẩn (Learning Schedule)](van-hanh-lop-hoc-operation/xep-lich-hoc-schedule/lich-hoc-tieu-chuan-learning-schedule.md)
-  * [Xếp lịch thủ công (Add Lesson)](van-hanh-lop-hoc-operation/xep-lich-hoc-schedule/xep-lich-thu-cong-add-lesson.md)
-  * [Xếp lịch tự động (Generate Schedule)](van-hanh-lop-hoc-operation/xep-lich-hoc-schedule/xep-lich-tu-dong-generate-schedule.md)
-  * [Business Rules — Schedule](van-hanh-lop-hoc-operation/xep-lich-hoc-schedule/business-rules-schedule.md)
-* [Yêu cầu của giảng viên (Teacher Request)](van-hanh-lop-hoc-operation/yeu-cau-cua-giang-vien-teacher-request/README.md)
-  * [Xem yêu cầu giảng viên (View Teacher Request)](van-hanh-lop-hoc-operation/yeu-cau-cua-giang-vien-teacher-request/xem-yeu-cau-giang-vien-view-teacher-request.md)
-  * [Xử lý yêu cầu giảng viên (Teacher Request)](van-hanh-lop-hoc-operation/yeu-cau-cua-giang-vien-teacher-request/xu-ly-yeu-cau-giang-vien-teacher-request.md)
-* [Tiến độ giảng viên (Teaching Progress)](van-hanh-lop-hoc-operation/tien-do-giang-vien-teaching-progress.md)
-* [Quản lý phòng học (Classroom)](van-hanh-lop-hoc-operation/quan-ly-phong-hoc-classroom/README.md)
-  * [Quản lý cơ sở học (Facility)](van-hanh-lop-hoc-operation/quan-ly-phong-hoc-classroom/quan-ly-co-so-hoc-facility.md)
-  * [Xem và quản lý phòng học (Classroom)](van-hanh-lop-hoc-operation/quan-ly-phong-hoc-classroom/xem-va-quan-ly-phong-hoc-classroom.md)
-  * [Lịch phòng học (Classroom Calendar)](van-hanh-lop-hoc-operation/quan-ly-phong-hoc-classroom/lich-phong-hoc-classroom-calendar.md)
-* [Quản lý lễ tân (Receptionist)](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/README.md)
-  * [Xem danh sách lịch trực (Receptionist Shift)](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/xem-danh-sach-lich-truc-receptionist-shift.md)
-  * [Đăng ký ca trực (Lễ tân Part-time)](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/dang-ky-ca-truc-le-tan-part-time.md)
-  * [Chỉnh sửa lịch trực](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/chinh-sua-lich-truc.md)
-  * [Tạo đơn xin nghỉ / đổi ca](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/tao-don-xin-nghi-doi-ca.md)
-  * [Sửa / hủy / xóa đơn Receptionist Request](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/sua-huy-xoa-don-receptionist-request.md)
-  * [Duyệt / từ chối đơn xin nghỉ / đổi ca](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/duyet-tu-choi-don-xin-nghi-doi-ca.md)
-  * [Business Rules — Lễ tân](van-hanh-lop-hoc-operation/quan-ly-le-tan-receptionist/business-rules-le-tan.md)
-* [Phiếu yêu cầu dịch vụ (Support Ticket)](van-hanh-lop-hoc-operation/phieu-yeu-cau-dich-vu-support-ticket/README.md)
-  * [Xem & tìm kiếm Support Ticket](van-hanh-lop-hoc-operation/phieu-yeu-cau-dich-vu-support-ticket/xem-and-tim-kiem-support-ticket.md)
-  * [Tạo Support Ticket](van-hanh-lop-hoc-operation/phieu-yeu-cau-dich-vu-support-ticket/tao-support-ticket.md)
-  * [Xử lý & cập nhật trạng thái Support Ticket](van-hanh-lop-hoc-operation/phieu-yeu-cau-dich-vu-support-ticket/xu-ly-and-cap-nhat-trang-thai-support-ticket.md)
-  * [Đồng bộ support ticket từ HubSpot về LMS](van-hanh-lop-hoc-operation/phieu-yeu-cau-dich-vu-support-ticket/dong-bo-support-ticket-tu-hubspot-ve-lms.md)
-* [Quản lý giải đáp khóa học (Course Comment)](van-hanh-lop-hoc-operation/quan-ly-giai-dap-khoa-hoc-course-comment.md)
-* [Quản lý chấm công giảng viên](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/README.md)
-  * [Xem chấm công theo Lớp học](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/xem-cham-cong-theo-lop-hoc.md)
-  * [Chi tiết chấm công theo buổi](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/chi-tiet-cham-cong-theo-buoi.md)
-  * [Bảng chấm công theo Giảng viên](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/bang-cham-cong-theo-giang-vien.md)
-  * [Chi tiết chấm công theo buổi](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/chi-tiet-cham-cong-theo-buoi-1.md)
-  * [Business Rules](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/business-rules.md)
-  * [Export bảng chấm công giảng viên theo tháng](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/export-bang-cham-cong-giang-vien-theo-thang.md)
-  * [Tạo Timeoff Request theo Lớp/Giảng viên](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/tao-timeoff-request-theo-lop-giang-vien.md)
-  * [Chỉnh sửa Timeoff Request](van-hanh-lop-hoc-operation/quan-ly-cham-cong-giang-vien/chinh-sua-timeoff-request.md)
-* [Quản lý điểm danh học viên](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/README.md)
-  * [ZOOM 0\~1](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/zoom-0-1.md)
-  * [Xem thông tin chuyên cần](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/xem-thong-tin-chuyen-can.md)
-  * [Chi tiết chuyên cần theo buổi](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/chi-tiet-chuyen-can-theo-buoi.md)
-  * [Lịch sử check-in trong ngày](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/lich-su-check-in-trong-ngay.md)
-  * [Điểm danh bù](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/diem-danh-bu.md)
-  * [Chỉnh sửa điểm danh](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/chinh-sua-diem-danh.md)
-  * [Business Rules](van-hanh-lop-hoc-operation/quan-ly-diem-danh-hoc-vien/business-rules.md)
-* [Gen link zoom cho học viên học lớp Offline có lớp Hybrid đi kèm](van-hanh-lop-hoc-operation/gen-link-zoom-cho-hoc-vien-hoc-lop-offline-co-lop-hybrid-di-kem.md)
-
-## Tích hợp Zoom cho lớp học
-
-* [Chức năng cài đặt và vận hành lớp học Zoom](tich-hop-zoom-cho-lop-hoc/chuc-nang-cai-dat-va-van-hanh-lop-hoc-zoom.md)
 
 ## Chấm điểm (Grading)
 
@@ -115,71 +58,12 @@
   * [Chấm lại bằng AI & theo dõi lỗi](cham-diem-grading/cham-diem-bang-ai/cham-lai-bang-ai-and-theo-doi-loi.md)
   * [Học viên xem kết quả chấm](cham-diem-grading/cham-diem-bang-ai/hoc-vien-xem-ket-qua-cham.md)
 
-## Quản lý các bài test
-
-* [Event Test](quan-ly-cac-bai-test/event-test.md)
-* [Entrance test](quan-ly-cac-bai-test/entrance-test.md)
-
-## Đăng ký học, mở lớp (Enrollment)
-
-* [Tổng quan đăng ký học, mở lớp (Enrollment)](dang-ky-hoc-mo-lop-enrollment/tong-quan-dang-ky-hoc-mo-lop-enrollment.md)
-* [Tạo Enrollment Rule](dang-ky-hoc-mo-lop-enrollment/tao-enrollment-rule.md)
-* [Xem & chỉnh sửa Enrollment Rule](dang-ky-hoc-mo-lop-enrollment/xem-and-chinh-sua-enrollment-rule.md)
-* [Business Rules — Enrollment](dang-ky-hoc-mo-lop-enrollment/business-rules-enrollment.md)
-
 ## Dashboard
 
 * [SIS Operational Dashboard](dashboard/sis-operational-dashboard.md)
-
-## Đồng bộ Hubspot & LMS
-
-* [Đồng bộ Hubspot Deal - LMS](dong-bo-hubspot-and-lms/dong-bo-hubspot-deal-lms.md)
-* [Đồng bộ Hubspot Contact - LMS](dong-bo-hubspot-and-lms/dong-bo-hubspot-contact-lms.md)
-* [Đồng bộ Hubspot Ticket - LMS](dong-bo-hubspot-and-lms/dong-bo-hubspot-ticket-lms.md)
 
 ## Quản lý thông báo & Email (Notice & Email)
 
 * [Danh sách thông báo & Email (Notice List & Email List)](quan-ly-thong-bao-and-email-notice-and-email/danh-sach-thong-bao-and-email-notice-list-and-email-list.md)
 * [Nhóm đối tượng gửi email (Recipients List)](quan-ly-thong-bao-and-email-notice-and-email/nhom-doi-tuong-gui-email-recipients-list.md)
 * [Lịch sử gửi email (Mail Logs) & Danh sách Email bị chặn (Blocked Email)](quan-ly-thong-bao-and-email-notice-and-email/lich-su-gui-email-mail-logs-and-danh-sach-email-bi-chan-blocked-email.md)
-
-## Payment
-
-* [Tổng quan tính năng Payment](payment/tong-quan-tinh-nang-payment.md)
-* [Product](payment/product/README.md)
-  * [Xem danh sách/chi tiết sản phẩm đơn lẻ](payment/product/xem-danh-sach-chi-tiet-san-pham-don-le.md)
-  * [Tạo mới sản phẩm đơn lẻ](payment/product/tao-moi-san-pham-don-le.md)
-  * [Chỉnh sửa thông tin sản phẩm đơn lẻ](payment/product/chinh-sua-thong-tin-san-pham-don-le.md)
-  * [Xóa sản phẩm đơn lẻ](payment/product/xoa-san-pham-don-le.md)
-* [Combo](payment/combo/README.md)
-  * [Xem danh sách/chi tiết nhóm sản phẩm](payment/combo/xem-danh-sach-chi-tiet-nhom-san-pham.md)
-  * [Tạo mới nhóm sản phẩm](payment/combo/tao-moi-nhom-san-pham.md)
-  * [Chỉnh sửa thông tin nhóm sản phẩm](payment/combo/chinh-sua-thong-tin-nhom-san-pham.md)
-  * [Xóa nhóm sản phẩm](payment/combo/xoa-nhom-san-pham.md)
-* [Promotion Code](payment/promotion-code/README.md)
-  * [Xem danh sách/chi tiết mã khuyến mại](payment/promotion-code/xem-danh-sach-chi-tiet-ma-khuyen-mai.md)
-  * [Tạo mới mã khuyến mại](payment/promotion-code/tao-moi-ma-khuyen-mai.md)
-* [Order List](payment/order-list/README.md)
-  * [Quản lý danh sách đơn hàng](payment/order-list/quan-ly-danh-sach-don-hang.md)
-  * [Quản lý danh sách giao dịch](payment/order-list/quan-ly-danh-sach-giao-dich.md)
-  * [Checkout](payment/order-list/checkout.md)
-
-## Minh họa Khóa học (Course)
-
-* [Tổng quan nhóm chức năng khóa học (Course)](minh-hoa-khoa-hoc-course/tong-quan-nhom-chuc-nang-khoa-hoc-course.md)
-* [(Template User guide) Question Bank](minh-hoa-khoa-hoc-course/template-user-guide-question-bank.md)
-* [Quản lý khóa học (Courses)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/README.md)
-  * [Xem danh sách khóa học (Course List)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/xem-danh-sach-khoa-hoc-course-list.md)
-  * [Tạo khóa học (Course Infor)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-khoa-hoc-course-infor.md)
-  * [Tạo nội dung khóa học (Course content)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/README.md)
-    * [Tạo cấu phần học (Section, Subsection, Unit, Activity,...)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-cau-phan-hoc-section-subsection-unit-activity-....md)
-    * [Tạo bài Test/Quiz cho khóa học](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-bai-test-quiz-cho-khoa-hoc.md)
-  * [Tải lên tài liệu cho khóa học (Resource)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/tai-len-tai-lieu-cho-khoa-hoc-resource.md)
-  * [Gắn chứng chỉ cho khóa học (Certificate)](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/gan-chung-chi-cho-khoa-hoc-certificate.md)
-  * [Business Rules — Course](minh-hoa-khoa-hoc-course/quan-ly-khoa-hoc-courses/business-rules-course.md)
-* [Case Study](minh-hoa-khoa-hoc-course/case-study.md)
-* [Storyline](minh-hoa-khoa-hoc-course/storyline.md)
-* [Program & Subject](minh-hoa-khoa-hoc-course/program-and-subject/README.md)
-  * [Program Category](minh-hoa-khoa-hoc-course/program-and-subject/program-category.md)
-  * [Subject Category](minh-hoa-khoa-hoc-course/program-and-subject/subject-category.md)
-* [Certificate Management](minh-hoa-khoa-hoc-course/certificate-management.md)
