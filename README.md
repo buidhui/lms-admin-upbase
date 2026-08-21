@@ -1,7 +1,8 @@
 ---
 icon: hand-wave
-cover: .gitbook/assets/487834878_1083198370516326_676209918003308806_n.jpg
-coverY: 10.06697263239082
+cover: >-
+  https://images.unsplash.com/photo-1785228861910-afa6c4197203?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyODc0NDZ8&ixlib=rb-4.1.0&q=85
+coverY: 0
 layout:
   width: default
   cover:
@@ -36,7 +37,7 @@ LMS Ops là hệ thống quản lý vận hành toàn bộ hoạt động đào 
 
 #### Tài liệu này dành cho ai?
 
-| Đối tượng                  | Vai trò trong LMS Ops                                                                                             |
+| Đối tượng                  | Vai trò trong LMS Ops                                                                                         |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | **Business / Management**  | Theo dõi tổng quan vận hành qua Dashboard, nắm luồng xử lý giữa các bộ phận                                   |
 | **CX – Vận hành lớp học**  | Tạo và vận hành lớp học, xếp lịch, quản lý giảng viên,...                                                     |
@@ -60,7 +61,7 @@ Vận hành lớp học hàng ngày: theo dõi tiến độ học trên LMS, qu�
 
 Thông báo kết quả học tập, cấp chứng chỉ hoàn thành và tổng hợp số liệu lên Dashboard để theo dõi hiệu quả vận hành. Kết quả giai đoạn này cũng là đầu vào cho việc tái đăng ký hoặc mở lớp tiếp theo.
 
-<figure><img src=".gitbook/assets/LMS_HUB-Page-13.drawio (3).png" alt=""><figcaption><p>Luồng tổng quan quản lý hành trình học tập của học viên trên LMS Ops</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1)" alt=""><figcaption><p>Luồng tổng quan quản lý hành trình học tập của học viên trên LMS Ops</p></figcaption></figure>
 
 #### Một số điểm cần lưu ý khi sử dụng tài liệu này
 
