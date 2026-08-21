@@ -30,85 +30,27 @@
 {% endstep %}
 
 {% step %}
-Điền thông tin Section
+**Điền thông tin Section**
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin:
 
 * Section Name (bắt buộc): tên của section.
 * Section Short Name: tên viết tắt của section, dùng trong các trường hợp biều đồ hạn chế hiển thị tên quá dài.
 * Describe: mô tả nội dung section.
-
-Chọn Save để lưu section
 {% endstep %}
 
 {% step %}
-**Admin chọn Save để lưu Section.**
+**Chọn Save để lưu Section**
 
-Sau khi tạo thành công, Section được hiển thị trên cây nội dung khóa học.
+Nhân sự vận hành có thể Chỉnh sửa hoặc Xóa Section đã tạo.
 
-Lúc này, admin có thể thực hiện các thao tác với Section như sau:
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (963)" alt=""><figcaption></figcaption></figure>
-
-| Thao tác                | Mô tả                                |
-| ----------------------- | ------------------------------------ |
-| **Mở rộng/thu nhỏ**     | Mở hoặc ẩn nội dung con của Section. |
-| **New Subsection**      | Tạo Subsection trong Section.        |
-| **Copy Subsection**     | Copy Subsection từ khóa học khác.    |
-| **Add Part/Topic Test** | Tạo bài kiểm tra thuộc Section.      |
-| **Edit**                | Chỉnh sửa Section.                   |
-| **Preview**             | Xem trước nội dung Section.          |
-| **Delete**              | Xóa Section.                         |
-{% endstep %}
-{% endstepper %}
-
-</details>
-
-<details>
-
-<summary>Tạo Subsection</summary>
-
-{% stepper %}
-{% step %}
-**Tại Section cần tạo nội dung con, Admin chọn Action → New Subsection.**
-
-<figure><img src="../../../.gitbook/assets/image (964)" alt=""><figcaption></figcaption></figure>
-
-Hệ thống hiển thị form tạo mới Subsection ở phía bên phải màn hình.
-
-<figure><img src="../../../.gitbook/assets/image (965)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Nhập thông tin Subsection, các trường thông tin bao gồm:**
-
-| Trường thông tin          | Bắt buộc | Mô tả                                                                            |
-| ------------------------- | -------- | -------------------------------------------------------------------------------- |
-| **Subsection Name**       | Y        | Tên của Subsection.                                                              |
-| **Subsection Short name** | N        | Tên viết tắt của Subsection.                                                     |
-| **Foundation content**    | N        | Nội dung học quan trọng mà học viên cần hoàn thành trước khi học Subsection này. |
-| **Description**           | N        | Mô tả của Subsection.                                                            |
-{% endstep %}
-
-{% step %}
-**Admin chọn Save để lưu Subsection.**
-
-Lúc này, admin có thể thực hiện các thao tác với Subsection như sau:
-
-<figure><img src="../../../.gitbook/assets/image (966)" alt=""><figcaption></figcaption></figure>
-
-| Thao tác                    | Mô tả                                   |
-| --------------------------- | --------------------------------------- |
-| **Mở rộng/thu nhỏ**         | Mở hoặc ẩn nội dung con của Subsection. |
-| **Add Learning Outcome**    | Tạo mục tiêu học tập cho Subsection.    |
-| **Add Chapter/Module Test** | Tạo bài kiểm tra thuộc Subsection.      |
-| **Add Case Study**          | Thêm Case Study vào Subsection.         |
-| **Add Unit**                | Tạo Unit thuộc Subsection.              |
-| **Copy Unit**               | Copy Unit từ khóa học khác.             |
-| **Edit**                    | Chỉnh sửa Subsection.                   |
-| **Delete**                  | Xóa Subsection.                         |
+{% hint style="warning" %}
+Xóa section sẽ xóa toàn bộ nội dung có trong section đó.
+{% endhint %}
 {% endstep %}
 {% endstepper %}
 
@@ -120,81 +62,29 @@ Lúc này, admin có thể thực hiện các thao tác với Subsection như sa
 
 {% stepper %}
 {% step %}
-**Tại Subsection cần tạo mục tiêu học tập, Admin chọn Action → Add Learning Outcome.**
+**Để tạo mục tiêu học tập cho Seccion, chọn Action → Add Learning Outcome**
 
-<figure><img src="../../../.gitbook/assets/image (967)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-Hệ thống hiển thị form tạo mới Learning schedule như hình.
+{% step %}
+**Điền thông tin Learning Outcome**
 
 <figure><img src="../../../.gitbook/assets/image (968)" alt=""><figcaption></figcaption></figure>
+
+Các trường thông tin:
+
+* Name (bắt buộc): tên hiển thị của mục tiêu học tập trong khóa học.
+* Mô tả: mô tả chung về mục tiêu học tập của section.
+* Add more learning outcome: thêm các tiêu chí để hoàn thành mục tiêu học tập, các tiêu chí này sẽ được gắn với từng hoạt động học trong section đó
 {% endstep %}
 
 {% step %}
-**Nhập thông tin Learning Outcome, các trường thông tin bao gồm:**
+**Chọn Save để lưu Learning Outcome**
 
-| Trường thông tin              | Bắt buộc | Mô tả                                              |
-| ----------------------------- | -------- | -------------------------------------------------- |
-| **Name**                      | Y        | Tên hiển thị trên nội dung bài học.                |
-| **Mô tả**                     | Y        | Mô tả Learning Outcome.                            |
-| **Add more learning outcome** | N        | Tạo thêm nội dung mục tiêu học tập cho Subsection. |
-{% endstep %}
+Nhân sự vận hành có thể chỉnh sửa hoặc xóa Learning Outcome đã tạo
 
-{% step %}
-**Admin chọn Save để lưu Learning Outcome.**
-
-Lúc này, admin có thể thực hiện các thao tác với Learning Outcome như sau:
-
-<figure><img src="../../../.gitbook/assets/image (969)" alt=""><figcaption></figcaption></figure>
-
-| Thao tác   | Mô tả                       |
-| ---------- | --------------------------- |
-| **Edit**   | Chỉnh sửa Learning Outcome. |
-| **Delete** | Xóa Learning Outcome.       |
-{% endstep %}
-{% endstepper %}
-
-</details>
-
-<details>
-
-<summary>Tạo Unit</summary>
-
-{% stepper %}
-{% step %}
-**Tại Subsection cần tạo Unit, Admin chọn Action → Add Unit.**
-
-<figure><img src="../../../.gitbook/assets/image (970)" alt=""><figcaption></figcaption></figure>
-
-Hệ thống hiển thị form tạo mới Unit ở phía bên phải màn hình.
-
-<figure><img src="../../../.gitbook/assets/image (971)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Admin thực hiện nhập thông tin Unit, các trường thông tin bao gồm:**
-
-| Trường thông tin | Bắt buộc | Mô tả         |
-| ---------------- | -------- | ------------- |
-| **Unit name**    | Y        | Tên của Unit. |
-| **Mô tả**        | N        | Mô tả Unit.   |
-{% endstep %}
-
-{% step %}
-**Admin chọn Save để lưu Unit.**
-
-Khi này, admin có thể thực hiện các thao tác với Unit bao gồm:
-
-<figure><img src="../../../.gitbook/assets/image (972)" alt=""><figcaption></figcaption></figure>
-
-| Thao tác            | Mô tả                             |
-| ------------------- | --------------------------------- |
-| **Mở rộng/thu nhỏ** | Mở hoặc ẩn nội dung con của Unit. |
-| **New Activity**    | Tạo Activity thuộc Unit.          |
-| **Copy Activity**   | Copy Activity từ khóa học khác.   |
-| **Add Storyline**   | Tạo storyline cho khóa học        |
-| **Edit**            | Chỉnh sửa Unit.                   |
-| **Preview**         | Xem trước Unit.                   |
-| **Delete**          | Xóa Unit.                         |
+<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -206,43 +96,39 @@ Khi này, admin có thể thực hiện các thao tác với Unit bao gồm:
 
 {% stepper %}
 {% step %}
-**Tại Unit cần tạo Activity, Admin chọn Action → New Activity.**
+**Để tạo Activity, chọn Action → New Activity**
 
-<figure><img src="../../../.gitbook/assets/image (973)" alt=""><figcaption></figcaption></figure>
-
-Hệ thống hiển thị form tạo mới Activity như hình.
-
-<figure><img src="../../../.gitbook/assets/image (974)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Lúc này, admin có thể nhập thông tin Activity bao gồm:**
+**Điền thông tin Activity**
 
-| Trường thông tin            | Bắt buộc | Mô tả                                                                                                 |
-| --------------------------- | -------- | ----------------------------------------------------------------------------------------------------- |
-| **Activity Name**           | Y        | Tên hoạt động học tập.                                                                                |
-| **Duration (Hour/Minutes)** | Y        | Thời lượng của Activity.                                                                              |
-| **Type of Activity**        | Y        | Loại Activity hiển thị icon trên giao diện học viên UpLMS, gồm Text, Video, Quiz, Pass Exam Analysis. |
-| **Grade Activity**          | Y        | Xác định Activity có tính điểm hay không. Hệ thống mặc định chọn Yes.                                 |
-| **Choose Learning Outcome** | N        | Chọn một hoặc nhiều Learning Outcome đã tạo.                                                          |
-| **Upload File**             | N        | Đính kèm tài liệu vào nội dung Activity.                                                              |
+<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-Với phần upload file, Admin có thể chọn tài liệu từ kho tài liệu UpLMS hoặc upload trực tiếp từ thiết bị cá nhân; kích cỡ file tối đa là 500MB và có thể thêm một hoặc nhiều tài liệu đính kèm.
+Các trường thông tin:
+
+* Activity Name: tên hoạt động học.
+* Duration: thời lượng ước lượng cần thiết để hoàn thành hoạt động học.
+* Type of Activity: loại icon hiển thị định dạng nội dung học tập trên hệ thống UpLMS
+  * Text
+  * Video
+  * Quiz
+* Choose Learning Outcome: chọn một hoặc nhiều tiêu chí mục tiêu học tập đã tạo ở [#tao-learning-outcome](tao-cau-phan-hoc-section-subsection-unit-activity.md#tao-learning-outcome "mention") gắn với hoạt động học.
+* Upload File: đính kèm tài liệu gắn với hoạt động học đang tạo.
+
+{% hint style="info" %}
+- Phần uppload file, nhân sự tạo khóa học có thể chọn tài liệu từ kho tài liệu UpLMS hoặc upload trực tiếp từ thiết bị.&#x20;
+- Kích cỡ file tối đa là 500MB và có thể thêm một hoặc nhiều tài liệu.
+{% endhint %}
 {% endstep %}
 
 {% step %}
-**Admin chọn Save để lưu Activity.**
+**Chọn Save để lưu Activity.**
 
-Lúc này, admin có thể thực hiện các thao tác với Activity sau:
+Nhân sự vận hành có thể chỉnh sửa hoặc xóa Activity đã tạo
 
-<figure><img src="../../../.gitbook/assets/image (975)" alt=""><figcaption></figcaption></figure>
-
-| Thao tác    | Mô tả                            |
-| ----------- | -------------------------------- |
-| **Add Tab** | Tạo Tab nội dung trong Activity. |
-| **Edit**    | Chỉnh sửa Activity.              |
-| **Delete**  | Xóa Activity.                    |
-| **Preview** | Xem trước nội dung Activity.     |
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -250,84 +136,44 @@ Lúc này, admin có thể thực hiện các thao tác với Activity sau:
 
 <details>
 
-<summary>Tạo Tab nội dung cho Activity</summary>
+<summary>Tạo nội dung cho Activity</summary>
+
+Nội dung của hoạt động học được thể hiện trong các Tab, có ít nhất 1 Tab trong mỗi hoạt động học.
 
 {% stepper %}
 {% step %}
-**Tại Activity cần tạo nội dung, Admin chọn Action → Add Tab.**
+**Tại Activity cần tạo nội dung, chọn Action → Add Tab**
 
-<figure><img src="../../../.gitbook/assets/image (976)" alt=""><figcaption></figcaption></figure>
-
-Hệ thống hiển thị form tạo mới tab như hình.
-
-<figure><img src="../../../.gitbook/assets/image (977)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Admin nhập tên tại trường Tab Name.**
+**Điền tên Tab và lưu**
+
+<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Chọn Save. Sau khi tạo Tab thành công, Admin có thể tiếp tục thêm Document vào Tab.**
-{% endstep %}
-{% endstepper %}
+**Tạo nội dung trong Tab**
 
-</details>
+Tại Tab đã tạo, chọn Add Document.
 
-<details>
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-<summary>Tạo Document trong Tab</summary>
+Các loại document:
 
-{% stepper %}
-{% step %}
-**Tại Tab đã tạo, Admin chọn Add Document.**
-
-<figure><img src="../../../.gitbook/assets/image (978)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Chọn loại Document**
-
-Hệ thống hiển thị các loại Document sau:
-
-<figure><img src="../../../.gitbook/assets/image (979)" alt=""><figcaption></figcaption></figure>
-
-| Loại Document | Mô tả                                            |
-| ------------- | ------------------------------------------------ |
-| **Text**      | Admin nhập nội dung dạng chữ cho bài học.        |
-| **Video**     | Admin thêm video bài giảng cho chương trình học. |
-| **Quiz**      | Admin tạo bài test cho học viên.                 |
-{% endstep %}
-
-{% step %}
-**Tạo các loại Document như sau:**
+* Text: bao gồm chữ và hình ảnh (tạo trong Text Editor)
+* Video
+* Quiz
 
 {% tabs %}
-{% tab title="Dạng Text" %}
-{% stepper %}
-{% step %}
-**Admin chọn Text trong danh sách Document.**
+{% tab title="Text" %}
+Nhập nội dung.
 
-<figure><img src="../../../.gitbook/assets/image (980)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Admin nhập nội dung học tập vào khu vực mô tả.**
-
-<figure><img src="../../../.gitbook/assets/image (981)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Admin chọn Save Document để lưu nội dung.**
-
-<figure><img src="../../../.gitbook/assets/image (982)" alt=""><figcaption></figcaption></figure>
-
-Sau khi lưu, hệ thống hiển thị Document Text trong Tab. Admin có thể chỉnh sửa, xóa hoặc tiếp tục thêm Document khác.
-{% endstep %}
-{% endstepper %}
+<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Dạng Video" %}
+{% tab title="Video" %}
 {% stepper %}
 {% step %}
 **Admin chọn Video trong danh sách Document.**
@@ -361,6 +207,7 @@ Hệ thống hiển thị 2 cách upload video:
 | --------------------------- | ----------------------------------------------------------- |
 | **Upload file từ thiết bị** | Admin chọn video từ thiết bị đang sử dụng.                  |
 | **Chọn video từ Resource**  | Admin chọn video đã có sẵn trong kho tài liệu của hệ thống. |
+|                             |                                                             |
 {% endstep %}
 
 {% step %}
@@ -387,7 +234,7 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 {% endstepper %}
 {% endtab %}
 
-{% tab title="Dạng Quiz" %}
+{% tab title="Quiz" %}
 {% stepper %}
 {% step %}
 **Admin chọn Quiz trong danh sách Document.**
@@ -674,6 +521,7 @@ Sau khi thực hiện, nút này chuyển thành **Change CTA to Begin**. Admin 
 3. Với khóa Practice, nên dùng tính năng **Link** khi muốn tái sử dụng nội dung từ khóa học khác mà không cần sao chép thủ công.
 4. Nên dùng **Preview** sau khi tạo Section, Unit hoặc Activity để kiểm tra cách hiển thị trước khi Publish khóa học.
 5. Trước khi xóa cấu phần học, cần kiểm tra cấu phần đó có chứa nội dung con, Quiz/Test hoặc Case Study hay không.
+6. Với phần upload file, Admin có thể chọn tài liệu từ kho tài liệu UpLMS hoặc upload trực tiếp từ thiết bị cá nhân; kích cỡ file tối đa là 500MB và có thể thêm một hoặc nhiều tài liệu đính kèm.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
