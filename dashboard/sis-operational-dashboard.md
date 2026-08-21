@@ -40,8 +40,6 @@ description: >-
 
 Người dùng truy cập theo đường dẫn **Dashboard → SIS Operational Dashboard** để vào màn hình chức năng Dashboard vận hành SIS.
 
-<figure><img src="../.gitbook/assets/image (1376).png" alt=""><figcaption></figcaption></figure>
-
 Tại giao diện, bấm vào dropdown list **"Chọn loại biểu đồ"** để chọn dashboard muốn xem. Cụm dashboard vận hành gồm 5 dashboard:
 
 * Tỉ lệ chuyên cần
@@ -54,8 +52,6 @@ Mỗi dashboard gồm **2 vùng chính**:
 
 * **Vùng Filter:** thiết lập điều kiện lọc để xác định phạm vi dữ liệu.
 * **Vùng hiển thị Dashboard:** trực quan hóa dữ liệu bằng biểu đồ và cho phép tương tác (hover/click) để xem chi tiết.
-
-<figure><img src="../.gitbook/assets/image (1377).png" alt=""><figcaption></figcaption></figure>
 
 ## III. Hướng dẫn chi tiết
 
@@ -70,8 +66,6 @@ Theo dõi và phân tích **tỷ lệ chuyên cần (Attendance Rate)** của h�
 **Truy cập Dashboard Tỉ lệ chuyên cần**
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tỉ lệ chuyên cần**.
-
-<figure><img src="../.gitbook/assets/image (1378).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,13 +82,10 @@ Cấu trúc hiển thị của biểu đồ:
 * **Tên Dashboard:** _Attendance rate by sessions_ – Biểu đồ thể hiện tỷ lệ chuyên cần theo từng buổi học.
 * **Mã lớp học:** Hiển thị mã lớp tương ứng (ví dụ: `ACCA102.46AA`).
 * **Tổng số buổi học:** Dòng "Total: X ranges" thể hiện tổng số buổi học (mỗi cột tương ứng 1 buổi).
-*   **Biểu đồ cột:**
-
-    * Mỗi cột đại diện cho một buổi học, hiển thị tỷ lệ chuyên cần (%).
-    * Đường gạch ngang màu xanh lá thể hiện **ngưỡng mục tiêu 70%**.
-    * Cột cao hơn ngưỡng = buổi đạt mục tiêu; cột thấp hơn = chưa đạt.
-
-    <figure><img src="../.gitbook/assets/image (1379).png" alt=""><figcaption></figcaption></figure>
+* **Biểu đồ cột:**
+  * Mỗi cột đại diện cho một buổi học, hiển thị tỷ lệ chuyên cần (%).
+  * Đường gạch ngang màu xanh lá thể hiện **ngưỡng mục tiêu 70%**.
+  * Cột cao hơn ngưỡng = buổi đạt mục tiêu; cột thấp hơn = chưa đạt.
 {% endstep %}
 
 {% step %}
@@ -105,8 +96,6 @@ Khi di chuột lên một cột bất kỳ, tooltip hiển thị:
 * **Tên buổi học** (ví dụ: _Buổi 1 - Offline - 22/08/2025_)
 * **Tỷ lệ chuyên cần (%)** của buổi học
 * **Sĩ số** (số học viên có mặt / tổng học viên)
-
-<figure><img src="../.gitbook/assets/image (1380).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -121,8 +110,6 @@ Khi bấm vào cột, hệ thống mở popup danh sách học viên chi tiết 
 * **Status:** Trạng thái chuyên cần — **PRESENT** (Có mặt) / **ABSENT** (Vắng mặt)
 
 Người dùng có thể lọc danh sách theo tên học viên, email, trạng thái, hoặc sắp xếp theo cột bất kỳ.
-
-<figure><img src="../.gitbook/assets/image (1381).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -139,8 +126,6 @@ Theo dõi phân bố học viên theo từng **level đầu vào (IA, IIA, IB, I
 **Truy cập Dashboard Tỉ lệ đầu vào**
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tỉ lệ đầu vào**.
-
-<figure><img src="../.gitbook/assets/image (1382).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -168,8 +153,6 @@ Cấu trúc hiển thị:
   * Mỗi màu đại diện cho một level đầu vào (IA, IIA, IB, IIB, Other).
   * Tỷ lệ phần trăm thể hiện tỷ trọng học viên của từng level trên tổng số.
 * **Danh sách các nhóm học viên theo level** (bên phải biểu đồ), gồm: Ký hiệu level, Số lượng học viên / tổng, Tên level đầy đủ - đồng bộ theo màu sắc với biểu đồ.
-
-<figure><img src="../.gitbook/assets/image (1383).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -180,8 +163,6 @@ Khi hover vào từng phần của biểu đồ, tooltip hiển thị:
 * **Tổng số học viên** trong lớp
 * **Số học viên** thuộc level tương ứng
 * **Tỷ lệ phần trăm** học viên của level đó
-
-<figure><img src="../.gitbook/assets/image (1384).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -198,8 +179,6 @@ Danh sách bao gồm:
 * **Progress:** Tiến độ học tập (%)
 
 Người dùng có thể tìm kiếm, lọc, hoặc sắp xếp dữ liệu trong bảng theo các tiêu chí mong muốn.
-
-<figure><img src="../.gitbook/assets/image (1385).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -216,8 +195,6 @@ Theo dõi phân bố điểm của học viên trong một lớp cho từng bài
 **Truy cập Dashboard Phân phối điểm**
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Phân phối điểm các bài kiểm tra**.
-
-<figure><img src="../.gitbook/assets/image (1386).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -245,12 +222,9 @@ Cấu trúc hiển thị:
 * **Điểm trung bình của lớp (Average Score):**
   * Đường đứt nét màu xanh kèm nhãn "Aver. score: 56.06" thể hiện điểm trung bình toàn lớp.
   * Dùng để xác định tỷ lệ học viên đạt trên hoặc dưới điểm trung bình.
-*   **Biểu đồ cột (Score Distribution):**
-
-    * Mỗi cột tương ứng với một khoảng điểm (range).
-    * Chiều cao của cột thể hiện số lượng học viên đạt điểm nằm trong khoảng đó.
-
-    <figure><img src="../.gitbook/assets/image (1387).png" alt=""><figcaption></figcaption></figure>
+* **Biểu đồ cột (Score Distribution):**
+  * Mỗi cột tương ứng với một khoảng điểm (range).
+  * Chiều cao của cột thể hiện số lượng học viên đạt điểm nằm trong khoảng đó.
 {% endstep %}
 
 {% step %}
@@ -261,8 +235,6 @@ Khi di chuột lên một cột bất kỳ, tooltip hiển thị:
 * **Tổng số học viên** làm bài kiểm tra
 * **Số học viên** đạt điểm trong khoảng tương ứng
 * **Tỷ lệ phần trăm (%)** số học viên trong khoảng đó
-
-<figure><img src="../.gitbook/assets/image (1388).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -278,8 +250,6 @@ Khi bấm vào một cột bất kỳ, hệ thống mở popup danh sách học 
 * **Score:** Điểm đạt được
 
 Người dùng có thể tìm kiếm, lọc theo trạng thái, hoặc sắp xếp điểm tăng/giảm dần bằng các tùy chọn trên đầu bảng.
-
-<figure><img src="../.gitbook/assets/image (1389).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -296,8 +266,6 @@ Theo dõi **tỉ lệ ghi điểm (accuracy rate)** của học viên trên từ
 **Truy cập Dashboard Tỉ lệ ghi điểm**
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tỉ lệ ghi điểm trên từng câu/chủ đề kiến thức**.
-
-<figure><img src="../.gitbook/assets/image (1390).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -323,13 +291,10 @@ Cấu trúc hiển thị:
 * **Tên bài test:** Hiển thị tiêu đề biểu đồ.
 * **Mã lớp học:** Hiển thị ở góc phải phía trên, ví dụ: `CMA103.08 - Midterm Test - Final Test`.
 * **Tổng số câu hỏi:** Dòng "Total: X questions" (ví dụ: _Total: 62 questions_).
-*   **Biểu đồ dạng cột kết hợp đường (Column + Line chart):**
-
-    * **Cột màu xanh dương:** biểu thị tỉ lệ ghi điểm của lớp cho từng câu hỏi (Q1, Q2, Q3, …).
-    * **Đường màu xanh lá:** biểu thị tỉ lệ ghi điểm trung bình toàn hệ thống (average rate).
-    * Khi so sánh, người dùng thấy được câu nào học viên lớp làm tốt hơn hoặc kém hơn mức trung bình.
-
-    <figure><img src="../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
+* **Biểu đồ dạng cột kết hợp đường (Column + Line chart):**
+  * **Cột màu xanh dương:** biểu thị tỉ lệ ghi điểm của lớp cho từng câu hỏi (Q1, Q2, Q3, …).
+  * **Đường màu xanh lá:** biểu thị tỉ lệ ghi điểm trung bình toàn hệ thống (average rate).
+  * Khi so sánh, người dùng thấy được câu nào học viên lớp làm tốt hơn hoặc kém hơn mức trung bình.
 {% endstep %}
 
 {% step %}
@@ -340,8 +305,6 @@ Khi di chuột vào một cột bất kỳ, tooltip hiển thị:
 * **Nội dung kiểm tra:** Section / Topic tương ứng (VD: _Section 4 – Cost Management_)
 * **Tỉ lệ ghi điểm của lớp:** tỷ lệ phần trăm học viên trong lớp trả lời đúng câu hỏi đó
 * **Tỉ lệ ghi điểm trung bình:** mức trung bình chung giữa các lớp (hoặc toàn hệ thống)
-
-<figure><img src="../.gitbook/assets/image (616).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -358,8 +321,6 @@ Theo dõi mức độ tham gia học tập (engagement) của học viên trên 
 **Truy cập Dashboard Tiến độ học trên LMS**
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tiến độ học trên LMS**.
-
-<figure><img src="../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -394,8 +355,6 @@ Cấu trúc hiển thị:
     * **Studying:** Đang học
     * **Not Started:** Chưa bắt đầu
 * **Giá trị (%)** phía trên mỗi cột thể hiện tỉ lệ học viên ở trạng thái tương ứng trong topic đó.
-
-<figure><img src="../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -407,8 +366,6 @@ Khi di chuột lên một cột bất kỳ, tooltip hiển thị:
 * **Số học viên hoàn thành:** Học viên đã hoàn thành toàn bộ nội dung topic.
 * **Số học viên đang học:** Học viên đang trong quá trình học (progress < 100%).
 * **Số học viên chưa học:** Học viên chưa bắt đầu topic.
-
-<figure><img src="../.gitbook/assets/image (621).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -423,8 +380,6 @@ Khi click vào một topic bất kỳ, hệ thống mở popup danh sách chi ti
 * **Progress:** Tiến độ học tập (%) của học viên
 
 Người dùng có thể tìm kiếm, lọc hoặc sắp xếp theo tiến độ học (Progress).
-
-<figure><img src="../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

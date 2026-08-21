@@ -1,5 +1,4 @@
 ---
-icon: hand-wave
 cover: .gitbook/assets/487834878_1083198370516326_676209918003308806_n.jpg
 coverY: 10.06697263239082
 layout:
@@ -26,7 +25,7 @@ layout:
     visible: true
 ---
 
-# Giới thiệu tổng quan - OPS User Guide
+# Welcome to LMS Admin - UpBase
 
 #### OPS là gì?
 
@@ -59,8 +58,6 @@ Vận hành lớp học hàng ngày: theo dõi tiến độ học trên LMS, qu�
 **3. Sau khi học viên học xong**
 
 Thông báo kết quả học tập, cấp chứng chỉ hoàn thành và tổng hợp số liệu lên Dashboard để theo dõi hiệu quả vận hành. Kết quả giai đoạn này cũng là đầu vào cho việc tái đăng ký hoặc mở lớp tiếp theo.
-
-<figure><img src=".gitbook/assets/LMS_HUB-Page-13.drawio (3).png" alt=""><figcaption><p>Luồng tổng quan quản lý hành trình học tập của học viên trên OPS</p></figcaption></figure>
 
 #### Một số điểm cần lưu ý khi sử dụng tài liệu này
 
