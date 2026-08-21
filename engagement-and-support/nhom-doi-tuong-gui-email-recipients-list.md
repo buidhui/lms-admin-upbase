@@ -45,7 +45,7 @@ Tại thanh Menu, truy cập **Engagement & Support** → chọn **Notice & Emai
 
 Các trường thông tin hiển thị: Số thứ tự, Tên Nhóm người nhận, Số thành viên, Ngày tạo mới và ngày chỉnh sửa thông tin của Nhóm.
 
-<figure><img src="../.gitbook/assets/image (1350).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (358)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -64,7 +64,7 @@ Tìm kiếm theo các trường: Tên Nhóm, Sort by, From Date – To Date.
 * Chọn **Search** để hiển thị kết quả.
 * Chọn **Reset** để xóa các giá trị tìm kiếm.
 
-<figure><img src="../.gitbook/assets/image (1351).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (359)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -80,7 +80,7 @@ Tìm kiếm theo các trường: Tên Nhóm, Sort by, From Date – To Date.
 
 Tại màn hình Recipients List, click vào **Group name** cần xem chi tiết.
 
-<figure><img src="../.gitbook/assets/image (1352).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (360)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,11 +88,11 @@ Tại màn hình Recipients List, click vào **Group name** cần xem chi tiết
 
 * **Tab Group Settings:** xem thông tin chi tiết Tên nhóm.
 
-<figure><img src="../.gitbook/assets/image (1353).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (361)" alt=""><figcaption></figcaption></figure>
 
 * **Tab Add Member:** xem danh sách thành viên trong nhóm và thêm thành viên vào nhóm.
 
-<figure><img src="../.gitbook/assets/image (1354).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (362)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -100,7 +100,7 @@ Tại màn hình Recipients List, click vào **Group name** cần xem chi tiết
 
 Nhấn **Save** để lưu thông tin hoặc nhấn **Notification list** để quay về Recipients List.
 
-<figure><img src="../.gitbook/assets/image (1355).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (363)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -116,7 +116,7 @@ Nhấn **Save** để lưu thông tin hoặc nhấn **Notification list** để 
 
 Tại màn hình Recipients List, chọn **Create Group**.
 
-<figure><img src="../.gitbook/assets/image (1356).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (364)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -124,7 +124,7 @@ Tại màn hình Recipients List, chọn **Create Group**.
 
 Tại màn hình Group Settings, nhập tên cho Nhóm (trường bắt buộc) và chọn **Save**.
 
-<figure><img src="../.gitbook/assets/image (1357).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (366)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -132,7 +132,7 @@ Tại màn hình Group Settings, nhập tên cho Nhóm (trường bắt buộc) 
 
 Tại màn hình Add Member, click **Add Member** để chuyển tới màn hình chọn thành viên.
 
-<figure><img src="../.gitbook/assets/image (1358).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (369)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -162,13 +162,13 @@ Click **Finish** hoặc **Save** để lưu thông tin. Hệ thống hiển th�
 
 Tại màn hình Group List, chọn nút **Action** tương ứng với Nhóm cần chỉnh sửa → chọn **Edit**, hoặc click trực tiếp vào **Tên Nhóm (Group Name)**.
 
-<figure><img src="../.gitbook/assets/image (1360).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (371)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Truy cập tab chỉnh sửa thành viên trong nhóm**
 
-<figure><img src="../.gitbook/assets/image (1361).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (372)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -176,11 +176,11 @@ Thêm hoặc xóa thành viên trong nhóm
 
 * Chọn **Add Member** để thêm thành viên (các bước tương tự khi tạo Nhóm):
 
-<figure><img src="../.gitbook/assets/image (1362).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (374)" alt=""><figcaption></figcaption></figure>
 
 * Chọn biểu tượng **Xóa** để xóa thành viên khỏi Nhóm:
 
-<figure><img src="../.gitbook/assets/image (1363).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (375)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -202,7 +202,7 @@ Click **Finish** để lưu thông tin đã chỉnh sửa.
 
 Tại màn hình danh sách Nhóm, chọn nút **Action** tương ứng với Nhóm muốn xóa → chọn **Delete**.
 
-<figure><img src="../.gitbook/assets/image (1366).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (376)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -210,7 +210,7 @@ Tại màn hình danh sách Nhóm, chọn nút **Action** tương ứng với Nh
 
 Chọn **Yes** khi hộp thoại xác nhận hiển thị để đồng ý xóa nhóm đã chọn.
 
-<figure><img src="../.gitbook/assets/image (1365).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (377)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

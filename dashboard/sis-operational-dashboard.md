@@ -63,8 +63,6 @@ Mỗi dashboard gồm **2 vùng chính**:
 * **Vùng Filter:** thiết lập điều kiện lọc để xác định phạm vi dữ liệu.
 * **Vùng hiển thị Dashboard:** trực quan hóa dữ liệu bằng biểu đồ và cho phép tương tác (hover/click) để xem chi tiết.
 
-<figure><img src="../.gitbook/assets/image (1377).png" alt=""><figcaption></figcaption></figure>
-
 ## III. Hướng dẫn chi tiết
 
 <details>
@@ -79,7 +77,7 @@ Theo dõi và phân tích **tỷ lệ chuyên cần (Attendance Rate)** của h�
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tỉ lệ chuyên cần**.
 
-<figure><img src="../.gitbook/assets/image (1378).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (339)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -102,7 +100,7 @@ Cấu trúc hiển thị của biểu đồ:
     * Đường gạch ngang màu xanh lá thể hiện **ngưỡng mục tiêu 70%**.
     * Cột cao hơn ngưỡng = buổi đạt mục tiêu; cột thấp hơn = chưa đạt.
 
-    <figure><img src="../.gitbook/assets/image (1379).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (340)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -114,7 +112,7 @@ Khi di chuột lên một cột bất kỳ, tooltip hiển thị:
 * **Tỷ lệ chuyên cần (%)** của buổi học
 * **Sĩ số** (số học viên có mặt / tổng học viên)
 
-<figure><img src="../.gitbook/assets/image (1380).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (341)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -130,7 +128,7 @@ Khi bấm vào cột, hệ thống mở popup danh sách học viên chi tiết 
 
 Người dùng có thể lọc danh sách theo tên học viên, email, trạng thái, hoặc sắp xếp theo cột bất kỳ.
 
-<figure><img src="../.gitbook/assets/image (1381).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (342)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -148,7 +146,7 @@ Theo dõi phân bố học viên theo từng **level đầu vào (IA, IIA, IB, I
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tỉ lệ đầu vào**.
 
-<figure><img src="../.gitbook/assets/image (1382).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (343)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -177,7 +175,7 @@ Cấu trúc hiển thị:
   * Tỷ lệ phần trăm thể hiện tỷ trọng học viên của từng level trên tổng số.
 * **Danh sách các nhóm học viên theo level** (bên phải biểu đồ), gồm: Ký hiệu level, Số lượng học viên / tổng, Tên level đầy đủ - đồng bộ theo màu sắc với biểu đồ.
 
-<figure><img src="../.gitbook/assets/image (1383).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (344)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -189,7 +187,7 @@ Khi hover vào từng phần của biểu đồ, tooltip hiển thị:
 * **Số học viên** thuộc level tương ứng
 * **Tỷ lệ phần trăm** học viên của level đó
 
-<figure><img src="../.gitbook/assets/image (1384).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (345)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -207,7 +205,7 @@ Danh sách bao gồm:
 
 Người dùng có thể tìm kiếm, lọc, hoặc sắp xếp dữ liệu trong bảng theo các tiêu chí mong muốn.
 
-<figure><img src="../.gitbook/assets/image (1385).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (346)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -225,7 +223,7 @@ Theo dõi phân bố điểm của học viên trong một lớp cho từng bài
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Phân phối điểm các bài kiểm tra**.
 
-<figure><img src="../.gitbook/assets/image (1386).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (347)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -258,7 +256,7 @@ Cấu trúc hiển thị:
     * Mỗi cột tương ứng với một khoảng điểm (range).
     * Chiều cao của cột thể hiện số lượng học viên đạt điểm nằm trong khoảng đó.
 
-    <figure><img src="../.gitbook/assets/image (1387).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (348)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -270,7 +268,7 @@ Khi di chuột lên một cột bất kỳ, tooltip hiển thị:
 * **Số học viên** đạt điểm trong khoảng tương ứng
 * **Tỷ lệ phần trăm (%)** số học viên trong khoảng đó
 
-<figure><img src="../.gitbook/assets/image (1388).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (349)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -287,7 +285,7 @@ Khi bấm vào một cột bất kỳ, hệ thống mở popup danh sách học 
 
 Người dùng có thể tìm kiếm, lọc theo trạng thái, hoặc sắp xếp điểm tăng/giảm dần bằng các tùy chọn trên đầu bảng.
 
-<figure><img src="../.gitbook/assets/image (1389).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (350)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -305,7 +303,7 @@ Theo dõi **tỉ lệ ghi điểm (accuracy rate)** của học viên trên từ
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tỉ lệ ghi điểm trên từng câu/chủ đề kiến thức**.
 
-<figure><img src="../.gitbook/assets/image (1390).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (351)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -337,7 +335,7 @@ Cấu trúc hiển thị:
     * **Đường màu xanh lá:** biểu thị tỉ lệ ghi điểm trung bình toàn hệ thống (average rate).
     * Khi so sánh, người dùng thấy được câu nào học viên lớp làm tốt hơn hoặc kém hơn mức trung bình.
 
-    <figure><img src="../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (352)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -349,7 +347,7 @@ Khi di chuột vào một cột bất kỳ, tooltip hiển thị:
 * **Tỉ lệ ghi điểm của lớp:** tỷ lệ phần trăm học viên trong lớp trả lời đúng câu hỏi đó
 * **Tỉ lệ ghi điểm trung bình:** mức trung bình chung giữa các lớp (hoặc toàn hệ thống)
 
-<figure><img src="../.gitbook/assets/image (616).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (353)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -367,7 +365,7 @@ Theo dõi mức độ tham gia học tập (engagement) của học viên trên 
 
 Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tiến độ học trên LMS**.
 
-<figure><img src="../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (354)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -403,7 +401,7 @@ Cấu trúc hiển thị:
     * **Not Started:** Chưa bắt đầu
 * **Giá trị (%)** phía trên mỗi cột thể hiện tỉ lệ học viên ở trạng thái tương ứng trong topic đó.
 
-<figure><img src="../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (355)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -416,7 +414,7 @@ Khi di chuột lên một cột bất kỳ, tooltip hiển thị:
 * **Số học viên đang học:** Học viên đang trong quá trình học (progress < 100%).
 * **Số học viên chưa học:** Học viên chưa bắt đầu topic.
 
-<figure><img src="../.gitbook/assets/image (621).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (356)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -432,7 +430,7 @@ Khi click vào một topic bất kỳ, hệ thống mở popup danh sách chi ti
 
 Người dùng có thể tìm kiếm, lọc hoặc sắp xếp theo tiến độ học (Progress).
 
-<figure><img src="../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (357)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

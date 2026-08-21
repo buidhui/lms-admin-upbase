@@ -43,7 +43,7 @@ _A - Add | M - Modify | D - Delete_
 
 Sau khi đăng nhập thành công, tại mục Question Bank người dùng nhấp vào tab **Item Set**. Danh sách Item Set hiển thị theo thời gian tạo giảm dần.
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (499)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -51,9 +51,9 @@ Sau khi đăng nhập thành công, tại mục Question Bank người dùng nh�
 
 Click vào tên Item Set để xem thông tin chi tiết, bao gồm thông tin cơ bản và danh sách câu hỏi thuộc Item Set (Question List).
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (500)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (501)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -61,11 +61,11 @@ Click vào tên Item Set để xem thông tin chi tiết, bao gồm thông tin c
 
 Tại khu vực danh sách câu hỏi, nhấp vào tên câu hỏi để xem chi tiết.
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (502)" alt=""><figcaption></figcaption></figure>
 
 Để xem trước câu hỏi hiển thị bên giao diện học viên, chọn nút **Action** tương ứng và chọn **Preview**.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (503)" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -92,7 +92,7 @@ Tìm kiếm theo các trường Item Set Name, Sort By, From Date - To Date.
 
 Mở màn hình Item Set và chọn **Add Item Set**.
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (504)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -104,7 +104,7 @@ Mở màn hình Item Set và chọn **Add Item Set**.
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (505)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -112,7 +112,7 @@ Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
 Sau khi hoàn thành điền thông tin, click **Save** để lưu.
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (506)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -128,7 +128,7 @@ Sau khi hoàn thành điền thông tin, click **Save** để lưu.
 
 Mở màn hình Item Set và click vào Item Set muốn chỉnh sửa.
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (507)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -146,7 +146,7 @@ Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
 Sau khi hoàn thành thay đổi thông tin, click **Save** để lưu.
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (506)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -154,11 +154,11 @@ Sau khi hoàn thành thay đổi thông tin, click **Save** để lưu.
 
 Người dùng có thể thực hiện thêm/xóa câu hỏi khỏi Item Set theo các thao tác như trong ảnh.
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (509)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (510)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (511)" alt=""><figcaption></figcaption></figure>
 
 Nếu câu hỏi đã được thêm vào Test/Quiz/Case Study thì sẽ không thể xóa câu hỏi đó khỏi Item Set.
 {% endstep %}
@@ -176,7 +176,7 @@ Nếu câu hỏi đã được thêm vào Test/Quiz/Case Study thì sẽ không 
 
 Mở màn hình Item Set List và thao tác như trong ảnh.
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (512)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -184,7 +184,7 @@ Mở màn hình Item Set List và thao tác như trong ảnh.
 
 Click **Yes** khi hộp thoại xuất hiện để xóa Item Set đó.
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (513)" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Không thể xóa các Item Set chứa những câu hỏi đã được thêm vào Test/Quiz/Case Study.

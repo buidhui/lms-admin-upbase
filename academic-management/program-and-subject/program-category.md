@@ -45,7 +45,7 @@ _A - Add | M - Modify | D - Delete_
 
 Màn hình hiển thị danh sách Program như sau:
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (553)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -53,7 +53,7 @@ Màn hình hiển thị danh sách Program như sau:
 
 Tại màn hình Program Category, Admin có thể tìm kiếm/lọc danh sách theo tên hoặc ngày tạo tại khu vực tìm kiếm.
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (555)" alt=""><figcaption></figcaption></figure>
 
 Các thông tin hiển thị trong danh sách Program:
 
@@ -78,7 +78,7 @@ Các thông tin hiển thị trong danh sách Program:
 
 Admin click button **Add Category** tại màn hình.
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (556)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -86,7 +86,7 @@ Admin click button **Add Category** tại màn hình.
 
 Admin nhập thông tin vào form tạo mới Program hiển thị phía bên phải:
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (558)" alt=""><figcaption></figcaption></figure>
 
 * **Tên Program:** trường bắt buộc, không được phép trùng với Program đã tồn tại.
 * **Mô tả:** trường không bắt buộc, Admin có thể điền hoặc để trống.
@@ -111,7 +111,7 @@ Admin click button **Save** để lưu Program mới. Sau khi lưu, màn hình h
 
 Để chỉnh sửa Program đã tạo, Admin click vào biểu tượng **Action** tại Program muốn chỉnh sửa rồi chọn **Edit**.
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (560)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -119,7 +119,7 @@ Admin click button **Save** để lưu Program mới. Sau khi lưu, màn hình h
 
 Thông tin của Program hiển thị phía bên phải. Admin chỉnh sửa:
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (562)" alt=""><figcaption></figcaption></figure>
 
 * **Tên Program:** đảm bảo không trùng với Program đã tồn tại.
 * **Mô tả Program:** Admin có thể nhập/xóa nội dung mô tả.

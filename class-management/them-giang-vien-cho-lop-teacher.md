@@ -53,7 +53,7 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 
 Người dùng chọn tab **Teachers** tại màn hình **Class Detail**. Hệ thống hiển thị danh sách giảng viên của lớp.
 
-<figure><img src="../.gitbook/assets/image (688).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (244)" alt=""><figcaption></figcaption></figure>
 
 Danh sách giảng viên hiển thị theo thứ tự thời gian gắn (sớm nhất → muộn nhất):
 
@@ -90,7 +90,7 @@ Người dùng mở tab **Teachers** trong màn hình **Class Detail**.
 
 Người dùng chọn **Add/Edit Teacher** tại tab **Teachers**. Hệ thống mở màn hình **Add/Edit Teacher** và hiển thị danh sách Section của Course.
 
-<figure><img src="../.gitbook/assets/image (689).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (246)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -98,7 +98,7 @@ Người dùng chọn **Add/Edit Teacher** tại tab **Teachers**. Hệ thống 
 
 Người dùng chọn **Add Teacher** tại Section chưa có giảng viên. Hệ thống chuyển đến màn hình chọn giảng viên.
 
-<figure><img src="../.gitbook/assets/image (690).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (248)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -106,7 +106,7 @@ Người dùng chọn **Add Teacher** tại Section chưa có giảng viên. H�
 
 Người dùng tìm kiếm hoặc lọc giảng viên (Search, Belong To, Priority, From/To Date) tại màn hình chọn giảng viên nếu cần.
 
-<figure><img src="../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (250)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -146,7 +146,7 @@ Người dùng mở tab **Teachers** trong màn hình **Class Detail**.
 
 Người dùng chọn **Add/Edit Teacher** tại tab **Teachers**.
 
-<figure><img src="../.gitbook/assets/image (1270).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (252)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -154,7 +154,7 @@ Người dùng chọn **Add/Edit Teacher** tại tab **Teachers**.
 
 Người dùng chọn **Change Teacher** tại Section cần thay đổi giảng viên. Hệ thống chuyển đến màn hình chọn giảng viên.
 
-<figure><img src="../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (254)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -200,9 +200,9 @@ Người dùng chọn **Add/Edit Teacher** tại tab **Teachers**.
 
 Người dùng chọn **Action → History** tại Section đã từng gắn giảng viên. Hệ thống hiển thị màn hình **History**.
 
-<figure><img src="../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (255)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (257)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -234,7 +234,7 @@ Người dùng chọn **Add/Edit Teacher** tại tab **Teachers**.
 {% step %}
 **Chọn Action → Delete**
 
-<figure><img src="../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (260)" alt=""><figcaption></figcaption></figure>
 
 Người dùng chọn **Action → Delete** tại Section cần xóa giảng viên. Chỉ có thể xóa giảng viên khi request đặt lịch dạy của giảng viên có trạng thái **Pending**.
 {% endstep %}

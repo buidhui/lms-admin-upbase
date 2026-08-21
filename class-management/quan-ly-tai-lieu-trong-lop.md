@@ -46,7 +46,7 @@ _A - Add | M - Modify | D - Delete_
 
 Đường dẫn: Academic Management / Class / Class List / Class Detail / Resources.
 
-<figure><img src="../.gitbook/assets/image (1271).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (266)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -64,7 +64,7 @@ Danh sách tài liệu được sắp xếp theo thời gian tạo giảm dần.
 
 Đối với các thư mục, chọn vào từng thư mục để xem các thư mục con/tài liệu thuộc thư mục đó.
 
-<figure><img src="../.gitbook/assets/image (1272).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (267)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -78,7 +78,7 @@ Danh sách tài liệu được sắp xếp theo thời gian tạo giảm dần.
 {% step %}
 **Nhập/chọn điều kiện tìm kiếm**
 
-<figure><img src="../.gitbook/assets/image (1273).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (268)" alt=""><figcaption></figcaption></figure>
 
 Tìm kiếm theo các trường:
 
@@ -108,9 +108,9 @@ Tìm kiếm theo các trường:
 
 Tại nơi muốn tạo thư mục mới, chọn **New Folder** → nhập tên thư mục → click **Save** để lưu.
 
-<figure><img src="../.gitbook/assets/image (1274).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (269)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1275).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (270)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -118,13 +118,13 @@ Tại nơi muốn tạo thư mục mới, chọn **New Folder** → nhập tên 
 
 Tại vị trí muốn tải học liệu, chọn **Upload → Upload File/Media** và chọn hình thức Upload là File hoặc Media.
 
-<figure><img src="../.gitbook/assets/image (1276).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (271)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn tài liệu để tải lên**
 
-<figure><img src="../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (272)" alt=""><figcaption></figcaption></figure>
 
 Tùy chọn Upload Media hay Upload File, người dùng upload loại tài liệu tương ứng:
 
@@ -176,9 +176,9 @@ Sau khi chọn tài liệu và điền đầy đủ thông tin, chọn **Save** 
 
 Tại danh sách tài liệu, chọn **Action → Rename** tại thư mục/tài liệu muốn đổi tên → nhập tên mới → chọn **Save**.
 
-<figure><img src="../.gitbook/assets/image (1278).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (273)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1279).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (274)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -186,9 +186,9 @@ Tại danh sách tài liệu, chọn **Action → Rename** tại thư mục/tài
 
 Chọn **Action → Move to Folder** tại thư mục/tài liệu muốn di chuyển → chọn thư mục mới (chỉ chọn 1 thư mục) → chọn **Save** → chọn **Yes** tại hộp thoại xác nhận.
 
-<figure><img src="../.gitbook/assets/image (1280).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (275)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1281).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (276)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -196,9 +196,9 @@ Chọn **Action → Move to Folder** tại thư mục/tài liệu muốn di chuy
 
 Chọn **Action → Edit** tại tài liệu muốn chỉnh sửa, sau đó điều chỉnh:
 
-<figure><img src="../.gitbook/assets/image (1282).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (277)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1283).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (278)" alt=""><figcaption></figcaption></figure>
 
 | Trường               | Mô tả                                                                                                           |
 | -------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -223,7 +223,7 @@ Sau khi chỉnh sửa, chọn **Save** để lưu.
 
 Chọn **Action → Delete** tại thư mục/tài liệu muốn xóa → chọn **Yes** tại hộp thoại xác nhận.
 
-<figure><img src="../.gitbook/assets/image (1284).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (279)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -231,7 +231,7 @@ Chọn **Action → Delete** tại thư mục/tài liệu muốn xóa → chọn
 
 Tick chọn các thư mục/tài liệu muốn xóa → chọn **Delete** → chọn **Yes** tại hộp thoại xác nhận.
 
-<figure><img src="../.gitbook/assets/image (1285).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (280)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -247,7 +247,7 @@ Tick chọn các thư mục/tài liệu muốn xóa → chọn **Delete** → ch
 
 Chọn **Action → Download File** tại tài liệu muốn tải.
 
-<figure><img src="../.gitbook/assets/image (1286).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (281)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -255,7 +255,7 @@ Chọn **Action → Download File** tại tài liệu muốn tải.
 
 Tick chọn các tài liệu muốn tải → chọn **Download**.
 
-<figure><img src="../.gitbook/assets/image (1287).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (282)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

@@ -51,7 +51,7 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 
 Người dùng mở tab **Mentors** tại màn hình **Class Detail**.
 
-<figure><img src="../.gitbook/assets/image (674).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (237)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -59,9 +59,9 @@ Người dùng mở tab **Mentors** tại màn hình **Class Detail**.
 
 Người dùng chọn **Add Mentor** tại tab **Mentors**. Hệ thống chuyển đến màn hình **Add Mentor**.
 
-<figure><img src="../.gitbook/assets/image (676).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (238)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (677).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (239)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -107,7 +107,7 @@ Người dùng xác định trợ giảng cần đặt làm trợ giảng chính
 
 Người dùng tick vào ô tương ứng tại cột **Main Responsible**. Hệ thống ghi nhận trợ giảng được chọn là trợ giảng chính của lớp.
 
-<figure><img src="../.gitbook/assets/image (678).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (240)" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Trường **Main Responsible** liên quan đến tính năng chấm điểm.
@@ -133,7 +133,7 @@ Người dùng mở tab **Mentors** trong màn hình **Class Detail**.
 
 Người dùng chọn **Action → Delete** tại dòng trợ giảng cần xóa. Hệ thống hiển thị popup xác nhận xóa.
 
-<figure><img src="../.gitbook/assets/image (679).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (241)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -141,7 +141,7 @@ Người dùng chọn **Action → Delete** tại dòng trợ giảng cần xóa
 
 Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa trợ giảng khỏi lớp.
 
-<figure><img src="../.gitbook/assets/image (680).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (242)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -169,7 +169,7 @@ Người dùng tick chọn các trợ giảng cần xóa tại danh sách **Ment
 
 Người dùng chọn **Delete Selected** tại tab **Mentors**. Hệ thống hiển thị popup xác nhận xóa.
 
-<figure><img src="../.gitbook/assets/image (681).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (243)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -177,7 +177,7 @@ Người dùng chọn **Delete Selected** tại tab **Mentors**. Hệ thống hi
 
 Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa các trợ giảng đã chọn khỏi lớp.
 
-<figure><img src="../.gitbook/assets/image (682).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (245)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

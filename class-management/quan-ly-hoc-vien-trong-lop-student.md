@@ -55,7 +55,7 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 
 Người dùng mở tab **Student** tại màn hình **Class Detail**.
 
-<figure><img src="../.gitbook/assets/image (658).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (223)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -63,7 +63,7 @@ Người dùng mở tab **Student** tại màn hình **Class Detail**.
 
 Người dùng chọn **Add Student** tại tab **Student**. Hệ thống chuyển đến màn hình **Add Student**.
 
-<figure><img src="../.gitbook/assets/image (659).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (224)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -71,7 +71,7 @@ Người dùng chọn **Add Student** tại tab **Student**. Hệ thống chuy�
 
 Người dùng tìm kiếm học viên tại khu vực tìm kiếm của màn hình **Add Student** nếu cần.
 
-<figure><img src="../.gitbook/assets/image (660).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (225)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -105,7 +105,7 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 
 Người dùng chọn **Import Student** tại tab **Student**. Hệ thống hiển thị popup **Import Student**.
 
-<figure><img src="../.gitbook/assets/image (663).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (226)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -113,7 +113,7 @@ Người dùng chọn **Import Student** tại tab **Student**. Hệ thống hi�
 
 Người dùng chọn **Browse** tại popup **Import Student** để chọn file từ thiết bị. Hệ thống chỉ chấp nhận file định dạng **.csv** hoặc **.xlsx**.
 
-<figure><img src="../.gitbook/assets/image (664).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (227)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -159,7 +159,7 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 
 Người dùng chọn **Action → Delete** tại dòng học viên cần xóa. Hệ thống hiển thị popup xác nhận xóa.
 
-<figure><img src="../.gitbook/assets/image (665).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (228)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -167,7 +167,7 @@ Người dùng chọn **Action → Delete** tại dòng học viên cần xóa. 
 
 Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa học viên khỏi lớp.
 
-<figure><img src="../.gitbook/assets/image (666).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (229)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -195,7 +195,7 @@ Người dùng tick chọn các học viên cần xóa tại danh sách học vi
 
 Người dùng chọn **Delete Selected** tại tab **Student**. Hệ thống hiển thị popup xác nhận xóa.
 
-<figure><img src="../.gitbook/assets/image (667).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (230)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -203,7 +203,7 @@ Người dùng chọn **Delete Selected** tại tab **Student**. Hệ thống hi
 
 Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa các học viên đã chọn khỏi lớp.
 
-<figure><img src="../.gitbook/assets/image (668).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (231)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -225,7 +225,7 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 
 Người dùng chọn **Action → Update Duration** tại dòng học viên cần cập nhật thời hạn học. Hệ thống hiển thị popup **Update Duration**.
 
-<figure><img src="../.gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (232)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -233,7 +233,7 @@ Người dùng chọn **Action → Update Duration** tại dòng học viên c�
 
 Người dùng nhập **Start Date**, **End Date** và **Reason For Extension** tại popup **Update Duration**.
 
-<figure><img src="../.gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (233)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -261,7 +261,7 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 
 Người dùng chọn **Action → Edit Course Content** tại dòng học viên cần chỉnh sửa nội dung học. Hệ thống mở màn hình **Edit Course Content** của học viên.
 
-<figure><img src="../.gitbook/assets/image (671).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (234)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -269,7 +269,7 @@ Người dùng chọn **Action → Edit Course Content** tại dòng học viên
 
 Người dùng tick thêm hoặc bỏ tick các cấu phần học cần điều chỉnh tại màn hình **Edit Course Content**.
 
-<figure><img src="../.gitbook/assets/image (672).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (235)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -297,7 +297,7 @@ Người dùng mở tab **Student** trong màn hình **Class Detail** của lớ
 
 Người dùng chọn **Action → Allow Pass Foundation** tại dòng học viên chưa hoàn thành khóa Foundation. Hệ thống đánh dấu học viên hoàn thành khóa Foundation.
 
-<figure><img src="../.gitbook/assets/image (673).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (236)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

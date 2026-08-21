@@ -46,7 +46,7 @@ _A - Add | M - Modify | D - Delete_
 
 Sau khi đăng nhập thành công, tại mục Question Bank người dùng nhấp vào **Case Study**. Danh sách Case Study được hiển thị theo thời gian tạo giảm dần.
 
-<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (125)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -54,9 +54,9 @@ Sau khi đăng nhập thành công, tại mục Question Bank người dùng nh�
 
 Click vào tên Case Study để xem các thông tin chi tiết, bao gồm thông tin cơ bản và danh sách Item Set thuộc Case Study.
 
-<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (126)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (127)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -64,9 +64,9 @@ Click vào tên Case Study để xem các thông tin chi tiết, bao gồm thôn
 
 Tại khu vực danh sách Item Set, người dùng nhấp vào tên để xem chi tiết Item Set đó.
 
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (128)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (129)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -77,7 +77,7 @@ Tìm kiếm theo các trường Case Study Name, Sort By, From Date - To Date.
 * Chọn **Search** để hiển thị các Case Study theo điều kiện tìm kiếm.
 * Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
-<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -91,7 +91,7 @@ Tìm kiếm theo các trường Case Study Name, Sort By, From Date - To Date.
 {% step %}
 **Mở màn hình Case Study và chọn Create**
 
-<figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (131)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -102,7 +102,7 @@ Tìm kiếm theo các trường Case Study Name, Sort By, From Date - To Date.
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
-<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (132)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -110,9 +110,9 @@ Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
 Sau khi hoàn thành điền thông tin, click **Save** để lưu. Lúc này khu vực danh sách Item Set xuất hiện.
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p><em>Click Save để lưu thông tin</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (133)" alt=""><figcaption><p><em>Click Save để lưu thông tin</em></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption><p><em>Danh sách Item-set của Case Study</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134)" alt=""><figcaption><p><em>Danh sách Item-set của Case Study</em></p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -120,7 +120,7 @@ Sau khi hoàn thành điền thông tin, click **Save** để lưu. Lúc này kh
 
 Click **Add Item-set** để mở màn hình thêm các bộ câu hỏi vào Case Study.
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (135)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -128,7 +128,7 @@ Click **Add Item-set** để mở màn hình thêm các bộ câu hỏi vào Cas
 
 Lựa chọn Item Set muốn thêm và click **Add** để lưu. Sau đó người dùng được chuyển hướng về màn hình thông tin của Case Study.
 
-<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption><p><em>Thêm Item Set vào Case Study</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (137)" alt=""><figcaption><p><em>Thêm Item Set vào Case Study</em></p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -142,9 +142,9 @@ Lựa chọn Item Set muốn thêm và click **Add** để lưu. Sau đó ngư�
 {% step %}
 **Mở màn hình Case Study và click vào bản ghi muốn chỉnh sửa**
 
-<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption><p><em>Click vào tên Case Study</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139)" alt=""><figcaption><p><em>Click vào tên Case Study</em></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption><p><em>Màn hình chỉnh sửa hiển thị</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (141)" alt=""><figcaption><p><em>Màn hình chỉnh sửa hiển thị</em></p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -155,7 +155,7 @@ Lựa chọn Item Set muốn thêm và click **Add** để lưu. Sau đó ngư�
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (143)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -167,9 +167,9 @@ Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
 Người dùng có thể thực hiện thêm/xóa Item Set khỏi Case Study theo các thao tác như trong ảnh.
 
-<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption><p><em>Thêm Item Set vào Case Study</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (144)" alt=""><figcaption><p><em>Thêm Item Set vào Case Study</em></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p><em>Xóa Item Set khỏi Case Study</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (147)" alt=""><figcaption><p><em>Xóa Item Set khỏi Case Study</em></p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -183,7 +183,7 @@ Người dùng có thể thực hiện thêm/xóa Item Set khỏi Case Study the
 {% step %}
 **Mở màn hình Case Study và click vào bản ghi muốn chỉnh sửa thứ tự Item Set**
 
-<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (149)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -191,7 +191,7 @@ Người dùng có thể thực hiện thêm/xóa Item Set khỏi Case Study the
 
 Tại khu vực danh sách Item Set, chọn **Reorder** để chuyển đến màn hình sắp xếp thứ tự.
 
-<figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (151)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -205,7 +205,7 @@ Thực hiện điền thứ tự mới cho các Item Set trong danh sách:
 
 Sau khi điền xong thì click **Save** để lưu, lúc này các Item Set sẽ hiển thị theo thứ tự vừa thay đổi.
 
-<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (153)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

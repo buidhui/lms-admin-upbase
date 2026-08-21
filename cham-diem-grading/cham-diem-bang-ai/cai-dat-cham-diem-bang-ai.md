@@ -68,11 +68,11 @@ Câu hỏi có Type = "Essay" và thuộc khóa ACCA (Belong to → Program Cate
 
 * **Nếu Question không có Requirement:** Upload tại mục "Grading Files for AI" của Question.
 
-<figure><img src="../../.gitbook/assets/image (1308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (787)" alt=""><figcaption></figcaption></figure>
 
 * **Nếu Question có Requirement:** Upload tại mục "Grading Files for AI" cho _từng Requirement_.
 
-<figure><img src="../../.gitbook/assets/image (1309).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (789)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -148,13 +148,13 @@ Mục Context File for AI chỉ hiển thị khi chọn ACCA.
 {% step %}
 **Tại mục Resource → Context File for AI, upload các file bối cảnh**
 
-<figure><img src="../../.gitbook/assets/image (1310).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (792)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền Description for AI cho từng file (tối đa 500 ký tự)**
 
-<figure><img src="../../.gitbook/assets/image (1311).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (794)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -188,13 +188,13 @@ Bài Test chứa câu tự luận (Type of Test = Constructed hoặc Mixed) và 
 {% step %}
 **Tại mục List Questions, cài đặt câu hỏi tự luận bằng cách ấn "Configure Question"**
 
-<figure><img src="../../.gitbook/assets/image (1312).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (795)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn câu hỏi cần add vào bài Test/Quiz**
 
-<figure><img src="../../.gitbook/assets/image (1313).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (796)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -202,13 +202,13 @@ Bài Test chứa câu tự luận (Type of Test = Constructed hoặc Mixed) và 
 
 Nếu Question có Requirement, cần cài điểm tối đa cho từng Requirement sao cho _tổng điểm các R = điểm Q_.
 
-<figure><img src="../../.gitbook/assets/image (1314).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (797)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Sắp xếp thứ tự các câu trong bài Test/Quiz**
 
-<figure><img src="../../.gitbook/assets/image (1315).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (798)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

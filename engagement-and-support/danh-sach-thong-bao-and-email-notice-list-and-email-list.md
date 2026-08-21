@@ -44,7 +44,7 @@ _A - Add | M - Modify | D - Delete_
 
 Tại thanh Menu, truy cập **Engagement & Support** → chọn **Notice & Email** → **Notification List & Email List**.
 
-<figure><img src="../.gitbook/assets/image (1339).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (365)" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin hiển thị bao gồm:
 
@@ -81,7 +81,7 @@ Các trường thông tin hiển thị bao gồm:
 {% step %}
 **Sử dụng bộ lọc để tìm kiếm**
 
-<figure><img src="../.gitbook/assets/image (1340).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (367)" alt=""><figcaption></figcaption></figure>
 
 Tìm kiếm theo các trường:
 
@@ -102,7 +102,7 @@ Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị d
 
 ✅ Kết quả: Hiển thị danh sách các thông báo theo điều kiện bộ lọc:
 
-<figure><img src="../.gitbook/assets/image (1341).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (368)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -116,7 +116,7 @@ Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị d
 {% step %}
 **Click vào Tiêu đề thông báo để xem chi tiết**
 
-<figure><img src="../.gitbook/assets/image (1342).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (370)" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Màn hình hiển thị chi tiết thông báo: Title, Type, Send to (với Notification/Email/Noti & Email), Action (thời gian gửi), Nội dung thông báo, Tài liệu đính kèm.
 {% endstep %}
@@ -134,7 +134,7 @@ Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị d
 
 Tại màn hình danh sách thông báo, chọn **Create Notification**.
 
-<figure><img src="../.gitbook/assets/image (1343).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (373)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -152,7 +152,7 @@ Tại màn hình danh sách thông báo, chọn **Create Notification**.
 * **Nội dung thông báo** (\*).
 * **Tệp đính kèm** (áp dụng với Email): chọn Upload File từ thiết bị hoặc tài liệu có sẵn trên hệ thống.
 
-<figure><img src="../.gitbook/assets/image (1344).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (378)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -176,7 +176,7 @@ _**Pinned Notification là các thông báo được ghim tại đầu trang gia
 
 Tại mục Notification, chọn **Create Notification/Email**.
 
-<figure><img src="../.gitbook/assets/image (573).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (379)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -191,7 +191,7 @@ Tại mục Notification, chọn **Create Notification/Email**.
 
 Những trường có (\*) là những trường thông tin bắt buộc.
 
-<figure><img src="../.gitbook/assets/image (1346).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (380)" alt=""><figcaption></figcaption></figure>
 
 ⚠️ Khoảng thời gian xuất hiện của Pinned Notification mới tạo **không được trùng** với khoảng thời gian hiển thị của các Pinned Notification đã tạo trước đó. Nội dung hiển thị cho **Tất cả** học viên LMS nên không có lựa chọn Send to.
 {% endstep %}
@@ -219,7 +219,7 @@ Chọn **Save** để lưu.
 {% step %}
 **Click vào giá trị trường Status để chọn trạng thái mới**
 
-<figure><img src="../.gitbook/assets/image (1347).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (381)" alt=""><figcaption></figcaption></figure>
 
 Quy tắc:
 
@@ -236,7 +236,7 @@ Quy tắc:
 {% step %}
 **Xác nhận thay đổi trạng thái**
 
-<figure><img src="../.gitbook/assets/image (1348).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (382)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -254,7 +254,7 @@ Quy tắc:
 
 Click vào **Tiêu đề** thông báo muốn chỉnh sửa hoặc click **Action** → chọn **Edit**.
 
-<figure><img src="../.gitbook/assets/image (1349).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (383)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

@@ -46,7 +46,7 @@ _A - Add | M - Modify | D - Delete_
 {% step %}
 **Tại Section kết quả AI của câu muốn chấm lại, bấm "AI Regrade"**
 
-<figure><img src="../../.gitbook/assets/image (1324).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (780)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -54,7 +54,7 @@ _A - Add | M - Modify | D - Delete_
 
 _"Are you sure to use AI to regrade this question/requirement? All comments/grades you have added will be deleted."_
 
-<figure><img src="../../.gitbook/assets/image (1325).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (781)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -76,13 +76,13 @@ _"Are you sure to use AI to regrade this question/requirement? All comments/grad
 {% step %}
 **Tại màn chi tiết bài chấm, bấm "AI Grade All" (góc phải trên cùng)**
 
-<figure><img src="../../.gitbook/assets/image (1326).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (782)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Bấm "Yes" để xác nhận**
 
-<figure><img src="../../.gitbook/assets/image (1327).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (783)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

@@ -45,19 +45,19 @@ _A - Add | M - Modify | D - Delete_
 {% step %}
 **Admin chọn bước Certificate trên thanh process hoặc tiếp tục từ bước Resource.**
 
-<figure><img src="../../.gitbook/assets/image (853).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (494)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Choose Template để mở danh sách mẫu chứng chỉ.**
 
-<figure><img src="../../.gitbook/assets/image (854).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (495)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Hệ thống hiển thị popup Choose Certificate Template với danh sách các mẫu chứng chỉ có thể chọn.**
 
-<figure><img src="../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (496)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -71,7 +71,7 @@ Mỗi mẫu chứng chỉ hiển thị thông tin preview và tên template đ�
 
 Sau khi xác nhận, hệ thống đóng popup và gán mẫu chứng chỉ vào khóa học.
 
-<figure><img src="../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (497)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -89,7 +89,7 @@ Sau khi xác nhận, hệ thống đóng popup và gán mẫu chứng chỉ vào
 {% step %}
 **Admin chọn Icon đổi chứng chỉ để mở lại danh sách mẫu chứng chỉ.**
 
-<figure><img src="../../.gitbook/assets/image (852).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (498)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

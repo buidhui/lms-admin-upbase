@@ -47,7 +47,7 @@ _A - Add | M - Modify | D - Delete_
 {% step %}
 **Sau khi chọn loại bài test, Admin cần nhập các thông tin cho bài test như ảnh sau:**
 
-<figure><img src="../../../.gitbook/assets/image (916).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1011)" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="180">Tên trường thông tin</th><th>Mô tả</th></tr></thead><tbody><tr><td>Name</td><td>Nhập tên bài test</td></tr><tr><td>Type of Test</td><td><p>Loại bài kiểm tra:</p><ul><li>Multiple Choice: Dạng bài trắc nghiệm</li><li>Constructed: Dạng bài tự luận</li><li>Mixed (Multiple Choice + Constructed): Dạng bài mix, bao gồm cả trắc nghiệm và tự luận.</li><li>Mặc định chọn Multiple Choice</li></ul></td></tr><tr><td>Test Mode</td><td><p>Admin chọn một trong hai loại bài test dưới đây:</p><ul><li>Tutor: cho phép học viên làm bài không giới hạn thời gian</li><li>Timed: giới hạn thời gian làm bài → Nếu Admin chọn Timed, màn hình hiển thị Duration yêu cầu Admin nhập thời gian cho phép làm bài theo giờ và phút</li><li>Mặc định chọn Tutor</li></ul></td></tr><tr><td>Manual Grading</td><td><p>Chỉ hiển thị với Type of Test = Constructed/Mixed (Multiple Choice + Constructed)</p><ul><li>Yes: bài kiểm tra sẽ được chấm điểm thủ công bởi đội SX.</li><li>No: bài kiểm tra sẽ được hệ thống chấm điểm tự động.</li></ul></td></tr><tr><td>Graded Assignment</td><td><p>Đánh dấu bài kiểm tra được sử dụng để tính điểm cho toàn bộ khóa học, gồm 2 giá trị:</p><ul><li>Yes</li><li>No<br></li></ul></td></tr><tr><td>Grading Preference</td><td><p>Chọn cách hiển thị đáp án và Solution</p><ul><li>After each question: hiển thị sau khi trả lời mỗi câu hỏi</li><li>After all questions: hiển thị sau khi hoàn thành bài test</li><li>Mặc định chọn After all questions</li></ul></td></tr><tr><td>Pass Point</td><td><p>Điểm pass bài test</p><ul><li>Auto 50%: điểm pass point là 50%</li><li>Manual: cho phép Admin nhập số điểm pass point → Nếu Admin chọn ‘Manual’ màn hình hiển thị textbox cho phép Admin nhập số điểm</li><li>Mặc định chọn Auto 50%</li></ul></td></tr><tr><td>Attempt</td><td><p>Cho phép chọn số lần làm bài</p><ul><li>Unlimited: không giới hạn số lần làm bài</li><li>Limited: giới hạn số lần làm bài → Nếu Admin chọn ‘Limited' màn hình hiển thị textbox cho phép Admin nhập số lần học viên được phép nộp bài</li><li>Mặc định chọn Unlimited</li></ul></td></tr><tr><td>Total Score</td><td><ul><li>Tổng điểm của bài Test/Quiz, có thể điền khác thang điểm 100.</li><li>Chỉ nhập giá trị lớn hơn 0.</li><li>Phần thập phân tối đa 2 chữ số.</li></ul></td></tr></tbody></table>
 
@@ -65,7 +65,7 @@ Với loại bài kiểm tra là Mocktest thì giá trị của Graded Assignmen
 * Setup Score: cài đặt điểm cho bài test và cho từng câu hỏi trong bài Test
 * Reorder: sắp xếp thứ tự hiển thị của câu hỏi trong bài test.
 
-<figure><img src="../../../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1012)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -73,7 +73,7 @@ Với loại bài kiểm tra là Mocktest thì giá trị của Graded Assignmen
 
 Tại bước **Add Question**, màn hình hiển thị danh sách câu hỏi đã được tạo trên hệ thống theo loại bài Test/Quiz mà người dùng đã chọn trước đó (Multiple choice, Constructed hoặc Mixed)
 
-<figure><img src="../../../.gitbook/assets/image (918).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1013)" alt=""><figcaption></figcaption></figure>
 
 Người dùng sử dụng bộ lọc để tìm kiếm câu hỏi cần thêm vào bài Test/Quiz.
 
@@ -109,7 +109,7 @@ Người dùng sử dụng bộ lọc để tìm kiếm câu hỏi cần thêm v
 
 Số lượng câu hỏi đã chọn được hiển thị ở góc màn hình như ảnh sau:
 
-<figure><img src="../../../.gitbook/assets/image (919).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1014)" alt=""><figcaption></figcaption></figure>
 
 Thứ tự câu hỏi tại bước **Setup Score** và **Reorder** phụ thuộc vào thứ tự người dùng chọn câu hỏi tại bước **Add Question**.
 
@@ -138,7 +138,7 @@ Màn hình gồm 2 khu vực chính:
 1. Khu vực cài đặt điểm cho bài Test/Quiz.
 2. Khu vực hiển thị danh sách câu hỏi.
 
-<figure><img src="../../../.gitbook/assets/image (920).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1015)" alt=""><figcaption></figcaption></figure>
 
 Người dùng thực hiện điền thông tin tại Khu vực cài đặt điểm cho toàn bộ bài Test/Quiz.
 
@@ -171,10 +171,10 @@ Tại khu vực hiển thị danh sách câu hỏi, các thông tin được hi�
     * Người dùng có thể thiết lập điểm hàng loạt cho nhiều câu hỏi bằng cách:
       *   Tick chọn từ 2 câu hỏi trở lên. Lúc này hệ thống hiển thị nút **Setup Score** kèm số lượng câu hỏi đã chọn.
 
-          <figure><img src="../../../.gitbook/assets/image (921).png" alt=""><figcaption></figcaption></figure>
+          <figure><img src="../../../.gitbook/assets/image (1016)" alt=""><figcaption></figcaption></figure>
       *   Click vào nút **Setup Score** và điền điểm tại popup, sau đó chọn **Save** để lưu
 
-          <figure><img src="../../../.gitbook/assets/image (922).png" alt=""><figcaption></figcaption></figure>
+          <figure><img src="../../../.gitbook/assets/image (1017)" alt=""><figcaption></figcaption></figure>
 * Converted Mark:
   * Điểm của câu hỏi sau khi quy đổi về thang 100.
   * Công thức: Converted Mark = Mark / Total Score × 100.
@@ -200,7 +200,7 @@ Người dùng có thể sử dụng Filter để lọc ra danh sách câu hỏi
 {% step %}
 **Chọn Next để chuyển qua bước Reorder (sắp xếp thứ tự hiển thị của câu hỏi)**
 
-<figure><img src="../../../.gitbook/assets/image (923).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1018)" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Nếu bài Test/Quiz đã có người làm, người dùng chỉ xem thông tin tại bước **Setup Score** và không thể chỉnh sửa.
@@ -213,7 +213,7 @@ Nếu bài Test/Quiz đã có người làm, người dùng chỉ xem thông tin
 * Thứ tự mặc định là thứ tự người dùng đã tick câu hỏi tại bước **Add Question**.
 * STT phản ánh thứ tự thực tế của câu hỏi trong bài Test/Quiz.
 
-<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1019)" alt=""><figcaption></figcaption></figure>
 
 Người dùng sắp xếp lại thứ tự câu hỏi bằng một trong các cách sau:
 
@@ -221,15 +221,15 @@ Người dùng sắp xếp lại thứ tự câu hỏi bằng một trong các c
 {% tab title="Di chuyển 1 câu hỏi" %}
 **Cách 1:** Kéo thả câu hỏi: Di chuyển con trỏ chuột đến icon di chuyển và nhấn giữ để thay đổi vị trí câu hỏi
 
-<figure><img src="../../../.gitbook/assets/image (925).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1020)" alt=""><figcaption></figcaption></figure>
 
 **Cách 2:** Chọn **Move to top/Move to bottom**: Di chuyển câu hỏi đến vị trí đầu danh sách/cuối danh sách bằng cách chọn **Action > Move to top/Move to bottom**
 
-<figure><img src="../../../.gitbook/assets/image (926).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1021)" alt=""><figcaption></figcaption></figure>
 
 **Cách 3:** Chọn **Move to position**: Di chuyển câu hỏi đến một vị trí xác định bằng cách chọn **Action > Move to position > Điền vị trí muốn chuyển câu hỏi đến > Save.**
 
-<figure><img src="../../../.gitbook/assets/image (927).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1022)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Di chuyển nhiều câu hỏi cùng một lúc" %}
@@ -244,7 +244,7 @@ Người dùng có thể lựa chọn di chuyển nhóm câu hỏi này đến 1
 * Cuối danh sách (Move to bottom)
 * Vị trí xác định (Move to position)
 
-<figure><img src="../../../.gitbook/assets/image (928).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1023)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -254,13 +254,13 @@ Người dùng có thể lựa chọn di chuyển nhóm câu hỏi này đến 1
 
 Lúc này người dùng sẽ được điều hướng quay lại màn hình Test/Quiz Detail
 
-<figure><img src="../../../.gitbook/assets/image (930).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1024)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Save để hoàn thành việc tạo bài Test/Quiz**
 
-<figure><img src="../../../.gitbook/assets/image (932).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1025)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -281,13 +281,13 @@ Tại màn hình chi tiết bài Test/Quiz, người dùng có thể chỉnh s�
 * Điểm của từng câu hỏi tại bước **Setup Score**.
 * Thứ tự câu hỏi tại bước **Reorder**.
 
-<figure><img src="../../../.gitbook/assets/image (933).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1026)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Sau khi hoàn tất việc chỉnh sửa, chọn Save để lưu thay đổi**
 
-<figure><img src="../../../.gitbook/assets/image (934).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1027)" alt=""><figcaption></figcaption></figure>
 
 Khi bài test/quiz đã có học viên làm, người dùng chỉ được chỉnh sửa các thông tin sau:
 

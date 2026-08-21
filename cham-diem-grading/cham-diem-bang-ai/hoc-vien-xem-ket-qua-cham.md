@@ -52,13 +52,13 @@ _A - Add | M - Modify | D - Delete_
 {% step %}
 **Bấm "Result" để xem màn kết quả**
 
-<figure><img src="../../.gitbook/assets/image (1328).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (799)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Bấm vào từng câu hỏi tự luận để xem chi tiết điểm và nhận xét**
 
-<figure><img src="../../.gitbook/assets/image (1329).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (800)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -66,7 +66,7 @@ _A - Add | M - Modify | D - Delete_
 
 Bấm vào tên file để xem trước (file dưới 20MB) hoặc tải về (file trên 20MB).
 
-<figure><img src="../../.gitbook/assets/image (1330).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (803)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

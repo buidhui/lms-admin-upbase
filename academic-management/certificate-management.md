@@ -50,7 +50,7 @@ Sau khi đăng nhập thành công, tại thanh Menu click vào **Certificates**
 * Trạng thái: **Published** (có thể thêm vào làm Certificate của Khóa học) / **Block** (không xuất hiện trong danh sách chứng chỉ có thể thêm vào Khóa học)
 * Ngày tạo và ngày cập nhật Chứng chỉ
 
-<figure><img src="../.gitbook/assets/image (1401).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (172)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -58,15 +58,15 @@ Sau khi đăng nhập thành công, tại thanh Menu click vào **Certificates**
 
 Click vào tên Chứng chỉ (Template Name) để xem hình ảnh chi tiết của Chứng chỉ.
 
-<figure><img src="../.gitbook/assets/image (1402).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (173)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1403).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (174)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tìm kiếm Chứng chỉ**
 
-<figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (175)" alt=""><figcaption></figcaption></figure>
 
 Tìm kiếm theo các trường Tên Chứng chỉ, Program, Sort by, From Date - To Date.
 
@@ -87,9 +87,9 @@ Tìm kiếm theo các trường Tên Chứng chỉ, Program, Sort by, From Date 
 
 Tại màn hình danh sách Chứng chỉ, chọn **Create Template** để chuyển đến màn hình tạo mới Chứng chỉ.
 
-<figure><img src="../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (176)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (177)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -98,7 +98,7 @@ Tại màn hình danh sách Chứng chỉ, chọn **Create Template** để chuy
 * **Tên Chứng chỉ**
 * **Program:** chọn 1 giá trị trong các giá trị có sẵn.
 
-<figure><img src="../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (178)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -106,15 +106,15 @@ Tại màn hình danh sách Chứng chỉ, chọn **Create Template** để chuy
 
 Click **Upload File** để mở màn hình chọn ảnh làm Chứng chỉ — có thể chọn ảnh từ thiết bị hoặc chọn ảnh có sẵn trên hệ thống.
 
-<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (179)" alt=""><figcaption></figcaption></figure>
 
 * **Tải ảnh từ thiết bị:** Tại thẻ Upload File, chọn **Browse** để chọn ảnh. Định dạng cho phép: _.jpg, .jpeg, .png, .gif, .webp_. Chỉ được chọn một ảnh để tải lên.
 
-<figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (180)" alt=""><figcaption></figcaption></figure>
 
 * **Chọn ảnh có sẵn trên hệ thống:** Chuyển qua màn hình **Resources** và chọn hình ảnh cho Chứng chỉ.
 
-<figure><img src="../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (181)" alt=""><figcaption></figcaption></figure>
 
 Có thể tìm kiếm hình ảnh theo các điều kiện:
 
@@ -129,9 +129,9 @@ Click **Search** để tìm kiếm theo điều kiện đã nhập; click **Rese
 {% step %}
 **Click Upload để lưu ảnh**
 
-<figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption><p>Tải file template chứng chỉ lên hệ thống</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (182)" alt=""><figcaption><p>Tải file template chứng chỉ lên hệ thống</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption><p>Chọn ảnh chứng chỉ từ hệ thống</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (183)" alt=""><figcaption><p>Chọn ảnh chứng chỉ từ hệ thống</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -139,7 +139,7 @@ Click **Search** để tìm kiếm theo điều kiện đã nhập; click **Rese
 
 Click **Add Student Name** để thêm khu vực hiển thị tên học viên.
 
-<figure><img src="../.gitbook/assets/image (1404).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (184)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -168,7 +168,7 @@ Chọn **Save** để lưu Chứng chỉ.
 
 Tại màn hình danh sách chứng chỉ, có thể đổi trạng thái từ **Published** sang **Block** và ngược lại.
 
-<figure><img src="../.gitbook/assets/image (1405).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (185)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -176,7 +176,7 @@ Tại màn hình danh sách chứng chỉ, có thể đổi trạng thái từ *
 
 Click vào Tên Chứng chỉ (Template Name) muốn chỉnh sửa để chuyển đến màn hình chỉnh sửa.
 
-<figure><img src="../.gitbook/assets/image (1406).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (186)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

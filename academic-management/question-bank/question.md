@@ -43,7 +43,7 @@ _A - Add | M - Modify | D - Delete_
 
 Sau khi đăng nhập thành công, tại mục Question Bank người dùng nhấp vào **Item Set List**. Danh sách các Item Set hiển thị theo thời gian tạo giảm dần.
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (514)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -51,7 +51,7 @@ Sau khi đăng nhập thành công, tại mục Question Bank người dùng nh�
 
 Click vào tên Item Set để xem thông tin chi tiết, bao gồm thông tin cơ bản và danh sách câu hỏi thuộc Item Set (Question List).
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (515)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -59,9 +59,9 @@ Click vào tên Item Set để xem thông tin chi tiết, bao gồm thông tin c
 
 Để xem trước câu hỏi hiển thị bên giao diện học viên, chọn nút **Action** tương ứng với câu hỏi muốn xem và chọn **Preview**.
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (516)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (517)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -72,7 +72,7 @@ Tìm kiếm theo các trường Item Set Name, Sort By, From Date - To Date.
 * Chọn **Search** để hiển thị kết quả theo điều kiện tìm kiếm.
 * Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (518)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -88,7 +88,7 @@ Tìm kiếm theo các trường Item Set Name, Sort By, From Date - To Date.
 
 Người dùng có thể tạo câu hỏi đơn lẻ bằng cách chọn **Add single question** tại màn hình danh sách Item Set.
 
-<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (519)" alt=""><figcaption></figcaption></figure>
 
 Màn hình hiển thị hộp thoại chọn loại câu hỏi gồm 8 loại:
 
@@ -101,11 +101,11 @@ Màn hình hiển thị hộp thoại chọn loại câu hỏi gồm 8 loại:
 * Kéo thả
 * Tự luận
 
-<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (520)" alt=""><figcaption></figcaption></figure>
 
 Đối với câu hỏi cần soạn, Admin có thể chọn loại câu hỏi tự phản chiếu bằng cách chọn **Yes** tại **Self Reflection**. Câu hỏi tự phản chiếu áp dụng được với cả 8 dạng câu hỏi.
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (521)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -128,9 +128,9 @@ Tại màn hình Create True/False question, người dùng nhập dữ liệu:
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (522)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (523)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Một lựa chọn" %}
@@ -149,9 +149,9 @@ Tại màn hình Create One Choice question, người dùng nhập dữ liệu:
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 
-<figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (524)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (525)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Nhiều lựa chọn" %}
@@ -168,9 +168,9 @@ Tại màn hình Create One Choice question, người dùng nhập dữ liệu:
 * Gợi ý
 * Tag
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (526)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (527)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Ghép đáp án" %}
@@ -189,9 +189,9 @@ Tại màn hình Create Matching question, người dùng nhập dữ liệu:
 * Gợi ý
 * Tag
 
-<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (528)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (529)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Chọn từ" %}
@@ -208,9 +208,9 @@ Tại màn hình Create Select Word question, người dùng nhập dữ liệu:
 * Gợi ý
 * Tag
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (530)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (531)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Điền từ" %}
@@ -227,9 +227,9 @@ Tại màn hình Create Fill Up question, người dùng nhập dữ liệu:
 * Gợi ý
 * Tag
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (532)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (533)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Kéo thả" %}
@@ -246,9 +246,9 @@ Tại màn hình Create Drag Drop question, người dùng nhập dữ liệu:
 * Gợi ý
 * Tag
 
-<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (534)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (535)" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Tự luận" %}
@@ -269,41 +269,41 @@ Tại màn hình Create Constructed question, người dùng nhập dữ liệu:
 * Gợi ý
 * Tag
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (536)" alt=""><figcaption></figcaption></figure>
 
 Nếu câu tự luận có câu hỏi nhỏ thì điền nội dung câu hỏi trường ‘Requirement’, bỏ trống trường ‘Nội dung câu hỏi’
 
-<figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (537)" alt=""><figcaption></figcaption></figure>
 
 Trong trường hợp User muốn thêm file **Answer Template** cho câu hỏi không có nhiều requirement, user click vào biểu tượng drop down để hiển thị vùng _add answer template_.
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption><p>User click vào icon drop down để thực hiện thêm Answer Template</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (538)" alt=""><figcaption><p>User click vào icon drop down để thực hiện thêm Answer Template</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption><p>Vùng add Answer Template cho câu hỏi không có Requirement</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (539)" alt=""><figcaption><p>Vùng add Answer Template cho câu hỏi không có Requirement</p></figcaption></figure>
 
 * Trường thông tin _Answer Template Type_ được hiển thị dựa trên lựa chọn _Response Option_. Cụ thể, nếu người dùng chọn _Response Option_ là Word, hệ thống sẽ cho phép thêm _Answer Template_ dưới dạng Word; ngược lại, nếu chọn Excel, hệ thống sẽ cho phép thêm _Answer Template_ dưới dạng Excel.
 * _**Cách 1:**_ Người dùng chọn chức năng Upload File để tải lên file template Word/Excel tương ứng với Answer Template Type.
   * Sau khi upload thành công, hệ thống hiển thị file tại vùng Preview để người dùng xem trước và có thể chỉnh sửa trực tiếp.
   * Trường hợp muốn xóa file Word/Excel vừa tải lên, người dùng click vào icon thùng rác bên cạnh tên file trên giao diện.
 
-<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption><p>Tải file Word/Excel từ máy tính</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (540)" alt=""><figcaption><p>Tải file Word/Excel từ máy tính</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption><p>Chọn file Word/Excel từ Resource</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (541)" alt=""><figcaption><p>Chọn file Word/Excel từ Resource</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption><p>Giao diện Preview hiển thị template đã được tải lên</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (542)" alt=""><figcaption><p>Giao diện Preview hiển thị template đã được tải lên</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption><p>Xóa file template vừa tải</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (543)" alt=""><figcaption><p>Xóa file template vừa tải</p></figcaption></figure>
 
 * _**Cách 2:**_ User thao tác trực tiếp trên giao diện tại vùng “Preview”.
 
-<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption><p>Tạo Answer Template trực tiếp trên giao diện Preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (544)" alt=""><figcaption><p>Tạo Answer Template trực tiếp trên giao diện Preview</p></figcaption></figure>
 
 Trong trường hợp câu hỏi có nhiều Requirement, nếu người dùng muốn thêm file Answer Template, tại popup **Add More Requirements** họ click vào biểu tượng Dropdown để mở vùng thêm **Answer Template**.\
 Sau khi vùng này hiển thị, người dùng tiến hành thiết lập template trả lời tương tự như quy trình đối với câu hỏi không có Requirement.
 
-<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption><p>User click vào icon drop down để thực hiện thêm Answer Template</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (545)" alt=""><figcaption><p>User click vào icon drop down để thực hiện thêm Answer Template</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption><p>Vùng add Answer Template cho từng Requirement</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (546)" alt=""><figcaption><p>Vùng add Answer Template cho từng Requirement</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -331,11 +331,11 @@ Sau khi hoàn thành nhập dữ liệu, người dùng chọn:
 
 Đối với single question: tại màn hình danh sách câu hỏi, nhấp vào tên câu hỏi để chuyển đến màn hình chỉnh sửa.
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption><p><em>Click vào nội dung câu hỏi</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (547)" alt=""><figcaption><p><em>Click vào nội dung câu hỏi</em></p></figcaption></figure>
 
 Đối với question trong Item Set: tại màn hình Item Set Detail > Question List, nhấp vào tên câu hỏi để chuyển đến màn hình chỉnh sửa.
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption><p><em>Click vào nội dung câu hỏi tại màn Item Set Detail</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (548)" alt=""><figcaption><p><em>Click vào nội dung câu hỏi tại màn Item Set Detail</em></p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -343,7 +343,7 @@ Sau khi hoàn thành nhập dữ liệu, người dùng chọn:
 
 Thực hiện chỉnh sửa các trường thông tin của câu hỏi, sau đó click **Save** để lưu.
 
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (549)" alt=""><figcaption></figcaption></figure>
 
 Việc chỉnh sửa phụ thuộc vào trạng thái câu hỏi:
 
@@ -386,9 +386,9 @@ Việc chỉnh sửa phụ thuộc vào trạng thái câu hỏi:
 
 Tại màn hình danh sách câu hỏi muốn xóa, nhấp nút **Action** và chọn **Delete**.
 
-<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption><p>Xóa câu hỏi tại question list</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (550)" alt=""><figcaption><p>Xóa câu hỏi tại question list</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption><p>Xóa câu hỏi tại Item Set Detail</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (551)" alt=""><figcaption><p>Xóa câu hỏi tại Item Set Detail</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -396,7 +396,7 @@ Tại màn hình danh sách câu hỏi muốn xóa, nhấp nút **Action** và c
 
 Click **Yes** khi hộp thoại xuất hiện để đồng ý xóa câu hỏi.
 
-<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (552)" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Không thể xóa những câu hỏi đã được thêm vào Test/Quiz/Case Study.

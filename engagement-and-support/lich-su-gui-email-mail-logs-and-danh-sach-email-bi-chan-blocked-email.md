@@ -45,7 +45,7 @@ _A - Add | M - Modify | D - Delete_
 
 Tại thanh Menu, truy cập **Engagement & Support** → click vào **Mail Logs**.
 
-<figure><img src="../.gitbook/assets/image (1367).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (384)" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin hiển thị gồm:
 
@@ -70,7 +70,7 @@ Tìm kiếm theo các trường: Người nhận, Loại Mail (Action), Trạng 
 * Chọn **Search** để hiển thị các Mail theo điều kiện tìm kiếm.
 * Chọn **Reset** để xóa các giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
-<figure><img src="../.gitbook/assets/image (1368).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (385)" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -86,7 +86,7 @@ Tại danh sách Mail Logs, click vào **Title Mail** để xem chi tiết.
 
 Màn hình hiển thị thông tin chi tiết của Mail:
 
-<figure><img src="../.gitbook/assets/image (1371).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (386)" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -98,7 +98,7 @@ Màn hình hiển thị thông tin chi tiết của Mail:
 
 Tại màn hình danh sách Mail Logs, chọn **Action** → chọn **Resend** để gửi lại email cho người nhận.
 
-<figure><img src="../.gitbook/assets/image (1372).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (387)" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -110,7 +110,7 @@ Tại màn hình danh sách Mail Logs, chọn **Action** → chọn **Resend** �
 
 Tại thanh Menu, truy cập **Engagement & Support** → chọn **Blocked Mail**.
 
-<figure><img src="../.gitbook/assets/image (1373).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (388)" alt=""><figcaption></figcaption></figure>
 
 Màn hình hiển thị danh sách Email bị chặn với các thông tin:
 
@@ -126,7 +126,7 @@ Màn hình hiển thị danh sách Email bị chặn với các thông tin:
 
 **Sử dụng bộ lọc tìm kiếm**
 
-<figure><img src="../.gitbook/assets/image (1374).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (389)" alt=""><figcaption></figcaption></figure>
 
 Tại danh sách Blocked Mail, sử dụng bộ lọc để tìm kiếm email.
 
@@ -143,7 +143,7 @@ Tại danh sách Blocked Mail, sử dụng bộ lọc để tìm kiếm email.
 
 Tại danh sách Blocked Mail, truy cập **Action** → chọn **Unblock** để bỏ chặn email.
 
-<figure><img src="../.gitbook/assets/image (1375).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (390)" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Bỏ chặn email thành công, các thông báo có thể được gửi tới địa chỉ email này.
 

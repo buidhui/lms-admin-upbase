@@ -50,7 +50,7 @@ _A - Add | M - Modify | D - Delete_
 
 Trạng thái bài làm chuyển sang **"Awaiting Grading"**.
 
-<figure><img src="../../.gitbook/assets/image (1316).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (784)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -79,7 +79,7 @@ Câu tự luận học viên không làm (Status = Unsubmitted) → Tự động
 | AI Error            | AI gặp lỗi sau 3 lần thử, không trả về kết quả     |
 | Not Graded          | AI không xử lý chấm điểm (với các câu Unsubmitted) |
 
-<figure><img src="../../.gitbook/assets/image (1317).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (785)" alt=""><figcaption></figcaption></figure>
 
 AI chấm theo Rubric với thang điểm tùy chỉnh, hệ thống tự quy đổi về thang điểm của bài Test:
 
@@ -129,15 +129,15 @@ Tại màn chấm bài, mỗi Question hoặc Requirement có một **Section k�
 {% step %}
 **Bấm "Edit" để sửa Comment và điểm**
 
-<figure><img src="../../.gitbook/assets/image (1319).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (786)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1321).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (788)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Bấm "Delete" để xóa nhận xét/điểm**
 
-<figure><img src="../../.gitbook/assets/image (1320).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (790)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -161,9 +161,9 @@ Mentor có thể bôi đen từng ý trong bài học viên để thực hiện 
 {% step %}
 **Click "Finish" → Bấm "Yes"**
 
-<figure><img src="../../.gitbook/assets/image (1322).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (791)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1323).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (793)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

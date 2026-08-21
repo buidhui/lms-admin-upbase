@@ -54,7 +54,7 @@ _A - Add | M - Modify | D - Delete_
 
 Hệ thống hiển thị màn hình danh sách khóa học.
 
-<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (480)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -62,9 +62,9 @@ Hệ thống hiển thị màn hình danh sách khóa học.
 
 Lúc này, hệ thống chuyển đến bước **Course Info.**
 
-<figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (481)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (482)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -80,7 +80,7 @@ Lúc này, hệ thống chuyển đến bước **Course Info.**
 
 Đây là trường bắt buộc dùng để hiển thị tên khóa học trên hệ thống và hiển thị cho học viên tại LMS.
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (483)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,7 +88,7 @@ Lúc này, hệ thống chuyển đến bước **Course Info.**
 
 Trường này dùng để mô tả nội dung hoặc mục tiêu chính của khóa học.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (484)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -96,13 +96,13 @@ Trường này dùng để mô tả nội dung hoặc mục tiêu chính của k
 
 Đây là trường bắt buộc. Hệ thống không cho phép lưu nếu mã khóa học trùng với mã đã tồn tại.
 
-<figure><img src="../../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (485)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhập hoặc chọn Tag. Admin có thể tạo tag mới bằng cách nhập nội dung tag.**
 
-<figure><img src="../../.gitbook/assets/image (943).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (486)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -110,13 +110,13 @@ Trường này dùng để mô tả nội dung hoặc mục tiêu chính của k
 
 Đây là trường bắt buộc, nhờ vào trường này, hệ thống mới xác định được chương trình học và từ đó cho phép admin chọn môn học tương ứng.
 
-<figure><img src="../../.gitbook/assets/image (944).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (487)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn hoặc nhập Subject tương ứng với Program đã chọn.**
 
-<figure><img src="../../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (488)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -132,7 +132,7 @@ Trường này dùng để mô tả nội dung hoặc mục tiêu chính của k
 
 Hệ thống hỗ trợ các loại khóa học: **Foundation Course**, **Trial Course**, **Practice Course** và **Normal Course**.
 
-<figure><img src="../../.gitbook/assets/image (946).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (489)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -140,7 +140,7 @@ Hệ thống hỗ trợ các loại khóa học: **Foundation Course**, **Trial 
 
 {% tabs %}
 {% tab title="Foundation Course" %}
-<figure><img src="../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (490)" alt=""><figcaption></figcaption></figure>
 
 **Bước 2.1.** Khi Admin chọn **Foundation Course**, hệ thống hiển thị danh sách checkbox level của khóa học.
 
@@ -150,7 +150,7 @@ Ví dụ level có thể bao gồm các mức như IA, IB, IIA, IIB tùy theo c�
 {% endtab %}
 
 {% tab title="Normal Course" %}
-<figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (491)" alt=""><figcaption></figcaption></figure>
 
 **Bước 2.2:** Khi Admin chọn **Normal Course**, hệ thống hiển thị danh sách combobox các khóa học **Foundation Course** theo từng level.
 
@@ -175,7 +175,7 @@ Với Normal Course, Admin có thể không chọn khóa học Foundation nào c
 
 <summary>Nhập Pass Point</summary>
 
-<figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (492)" alt=""><figcaption></figcaption></figure>
 
 Admin nhập **Pass Point**. Đây là trường bắt buộc. Pass Point là mức điểm yêu cầu mà học viên phải đạt để có thể nhận được chứng chỉ của khóa học.
 
@@ -185,7 +185,7 @@ Admin nhập **Pass Point**. Đây là trường bắt buộc. Pass Point là m�
 
 <summary>Nhập điểm các thành phần</summary>
 
-<figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (493)" alt=""><figcaption></figcaption></figure>
 
 Admin nhập hệ số điểm cho từng thành phần:
 

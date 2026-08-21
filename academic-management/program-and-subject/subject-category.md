@@ -43,7 +43,7 @@ _A - Add | M - Modify | D - Delete_
 
 Màn hình hiển thị danh sách Subject như sau:
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (554)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -51,7 +51,7 @@ Màn hình hiển thị danh sách Subject như sau:
 
 Tại màn hình Subject Category, Admin có thể tìm kiếm/lọc danh sách Subject theo tên, Program hoặc ngày tạo tại khu vực tìm kiếm.
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (557)" alt=""><figcaption></figcaption></figure>
 
 Các thông tin hiển thị trong danh sách Subject:
 
@@ -76,7 +76,7 @@ Các thông tin hiển thị trong danh sách Subject:
 
 Admin click button **Add Subject** tại màn hình.
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (559)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -84,7 +84,7 @@ Admin click button **Add Subject** tại màn hình.
 
 Admin nhập thông tin vào form tạo mới Subject hiển thị phía bên phải:
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (561)" alt=""><figcaption></figcaption></figure>
 
 * **Tên Subject:** trường bắt buộc phải nhập để có thể tạo mới.
 * **Code:** trường không bắt buộc, người dùng nhập mã của môn học.
@@ -110,7 +110,7 @@ Admin click button **Save** để lưu Subject mới. Sau khi lưu, màn hình h
 
 Để chỉnh sửa Subject đã tạo, Admin click vào biểu tượng **Action** tại Subject muốn chỉnh sửa rồi chọn **Edit**.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (563)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -118,7 +118,7 @@ Admin click button **Save** để lưu Subject mới. Sau khi lưu, màn hình h
 
 Thông tin của Subject hiển thị phía bên phải. Admin chỉnh sửa:
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (565)" alt=""><figcaption></figcaption></figure>
 
 * **Tên Subject**
 * **Code:** Admin có thể nhập/xóa code của Subject.

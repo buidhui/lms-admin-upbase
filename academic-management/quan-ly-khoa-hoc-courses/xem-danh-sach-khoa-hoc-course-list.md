@@ -55,13 +55,13 @@ Admin truy cập theo đường dẫn:
 
 Hệ thống hiển thị màn hình danh sách khóa học.
 
-<figure><img src="../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (457)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xem thông tin khóa học trên danh sách**
 
-<figure><img src="../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (458)" alt=""><figcaption></figcaption></figure>
 
 Admin xem thông tin tổng quan của từng khóa học tại bảng danh sách, bao gồm:
 
@@ -76,7 +76,7 @@ Admin xem thông tin tổng quan của từng khóa học tại bảng danh sác
 {% step %}
 **Chuyển trang nếu danh sách có nhiều khóa học**
 
-<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (459)" alt=""><figcaption></figcaption></figure>
 
 Nếu danh sách có nhiều khóa học, Admin sử dụng khu vực phân trang ở cuối bảng để:
 
@@ -96,7 +96,7 @@ Nếu danh sách có nhiều khóa học, Admin sử dụng khu vực phân tran
 {% step %}
 **Nhập từ khóa**
 
-<figure><img src="../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (460)" alt=""><figcaption></figcaption></figure>
 
 Tại ô **Search course name**, Admin nhập từ hoặc cụm từ mà tên khóa học cần tìm có chứa.
 {% endstep %}
@@ -108,7 +108,7 @@ Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học có tên phù hợp với từ khóa đã nhập.
 
-<figure><img src="../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (461)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -122,7 +122,7 @@ Hệ thống hiển thị danh sách khóa học có tên phù hợp với từ 
 {% step %}
 **Chọn Program**
 
-<figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (462)" alt=""><figcaption></figcaption></figure>
 
 Tại trường **Program**, Admin chọn một giá trị trong danh sách Program có sẵn.
 {% endstep %}
@@ -134,7 +134,7 @@ Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học thuộc Program đã chọn.
 
-<figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (463)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -148,7 +148,7 @@ Hệ thống hiển thị danh sách khóa học thuộc Program đã chọn.
 {% step %}
 **Chọn Status**
 
-<figure><img src="../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (464)" alt=""><figcaption></figcaption></figure>
 
 Tại trường **Status**, Admin chọn một trong các trạng thái:
 
@@ -165,7 +165,7 @@ Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học tương ứng với trạng thái đã chọn.
 
-<figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (465)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -179,7 +179,7 @@ Hệ thống hiển thị danh sách khóa học tương ứng với trạng th�
 {% step %}
 **Chọn Type**
 
-<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (466)" alt=""><figcaption></figcaption></figure>
 
 Tại trường **Type**, Admin chọn loại khóa học cần lọc:
 
@@ -196,7 +196,7 @@ Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học thuộc loại đã chọn.
 
-<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (467)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -210,7 +210,7 @@ Hệ thống hiển thị danh sách khóa học thuộc loại đã chọn.
 {% step %}
 **Nhập khoảng thời gian**
 
-<figure><img src="../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (468)" alt=""><figcaption></figcaption></figure>
 
 Admin nhập hoặc chọn khoảng thời gian tại các trường:
 
@@ -227,7 +227,7 @@ Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học trong khoảng thời gian đã nhập.
 
-<figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (469)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -241,7 +241,7 @@ Hệ thống hiển thị danh sách khóa học trong khoảng thời gian đã
 {% step %}
 **Chọn Sort by**
 
-<figure><img src="../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (470)" alt=""><figcaption></figcaption></figure>
 
 Tại trường **Sort by**, Admin chọn một trong các kiểu sắp xếp:
 
@@ -260,7 +260,7 @@ Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học theo tiêu chí sắp xếp đã chọn.
 
-<figure><img src="../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (471)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -274,7 +274,7 @@ Hệ thống hiển thị danh sách khóa học theo tiêu chí sắp xếp đ�
 {% step %}
 **Chọn Reset**
 
-<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (472)" alt=""><figcaption></figcaption></figure>
 
 Admin chọn **Reset** tại khu vực tìm kiếm.
 {% endstep %}

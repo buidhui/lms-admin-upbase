@@ -44,7 +44,7 @@ _A - Add | M - Modify | D - Delete_
 {% step %}
 **Sau khi hoàn thành bước Course Content, Admin chuyển sang bước Resource.**
 
-<figure><img src="../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (474)" alt=""><figcaption></figcaption></figure>
 
 Hệ thống hiển thị màn hình danh sách tài liệu của khóa học.
 {% endstep %}
@@ -70,13 +70,13 @@ Hệ thống hiển thị màn hình danh sách tài liệu của khóa học.
 {% step %}
 **Admin nhập từ khóa vào ô Search.**
 
-<figure><img src="../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (475)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Search.**
 
-<figure><img src="../../.gitbook/assets/image (848).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (476)" alt=""><figcaption></figcaption></figure>
 
 Hệ thống hiển thị danh sách tài liệu có tên phù hợp với từ khóa đã nhập.
 {% endstep %}
@@ -92,13 +92,13 @@ Hệ thống hiển thị danh sách tài liệu có tên phù hợp với từ 
 {% step %}
 **Tại màn hình Resource, Admin chọn Upload File.**
 
-<figure><img src="../../.gitbook/assets/image (849).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (477)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn tab Upload File.**
 
-<figure><img src="../../.gitbook/assets/image (850).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (478)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -139,7 +139,7 @@ Sau khi upload thành công, tài liệu được thêm vào danh sách Resource
 {% step %}
 **Trong popup upload, Admin chuyển sang tab Resources.**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-05-25 111408.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (479)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
