@@ -1,9 +1,15 @@
 # Import lớp học (Import Class)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 25, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Ops User, Academic/CX User
+**Dành cho:** Admin, Operator, Academic/CX User
 
 **Đường dẫn:** Class → Class List → Import Class
 {% endhint %}
@@ -35,24 +41,32 @@
 **Chọn Import Class**
 
 Admin chọn **Import Class** tại màn hình **Class List**. Hệ thống hiển thị popup tải file import.
+
+<figure><img src="../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Browse để chọn file**
 
 Admin chọn **Browse** tại popup **Import Class** để chọn file từ thiết bị. Hệ thống chỉ chấp nhận file định dạng **.csv** hoặc **.xlsx**.
+
+<figure><img src="../.gitbook/assets/image (891).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn đúng file import**
 
 Admin chọn đúng file import cần tải lên. Mỗi lần import, hệ thống chỉ cho phép chọn **01 file**.
+
+<figure><img src="../.gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Import**
 
 Admin chọn **Import** tại popup **Import Class**. Hệ thống tải file lên và bắt đầu xử lý dữ liệu lớp học trong file.
+
+<figure><img src="../.gitbook/assets/image (893).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -65,12 +79,16 @@ Hệ thống hiển thị hộp thoại kết quả import sau khi xử lý file
 **Chọn View Log**
 
 Admin chọn **View Log** tại hộp thoại kết quả import để xem chi tiết trạng thái từng bản ghi. Hệ thống mở màn hình chi tiết log import.
+
+<figure><img src="../.gitbook/assets/image (894).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Kiểm tra các dòng lỗi**
 
 Admin kiểm tra các dòng lỗi tại màn hình **Import Detail**. Các trường dữ liệu không hợp lệ được bôi đỏ và lý do lỗi được hiển thị tại cột **Errors**.
+
+<figure><img src="../.gitbook/assets/image (895).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -124,7 +142,7 @@ Admin nhập dữ liệu lớp học vào file mẫu theo đúng cấu trúc đ�
 3. Sau khi import, nên mở **View Log** để xử lý các dòng bị bôi đỏ rồi import lại phần lỗi.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                     | Nguyên nhân                                    | Cách xử lý                                                           |
 | ------------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------- |

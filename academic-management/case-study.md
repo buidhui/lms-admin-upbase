@@ -1,11 +1,17 @@
 # Case Study
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 18, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/question-bank/case-study](https://ops.sapp.edu.vn/question-bank/case-study)
+**Đường dẫn:** [https://ops.upbase.asia/question-bank/case-study](https://ops.upbase.asia/question-bank/case-study)
 {% endhint %}
 
 {% hint style="info" %}
@@ -39,18 +45,28 @@
 **Truy cập Question Bank → Case Study**
 
 Sau khi đăng nhập thành công, tại mục Question Bank người dùng nhấp vào **Case Study**. Danh sách Case Study được hiển thị theo thời gian tạo giảm dần.
+
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xem thông tin chi tiết Case Study**
 
 Click vào tên Case Study để xem các thông tin chi tiết, bao gồm thông tin cơ bản và danh sách Item Set thuộc Case Study.
+
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xem chi tiết một Item Set**
 
 Tại khu vực danh sách Item Set, người dùng nhấp vào tên để xem chi tiết Item Set đó.
+
+<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -60,6 +76,8 @@ Tìm kiếm theo các trường Case Study Name, Sort By, From Date - To Date.
 
 * Chọn **Search** để hiển thị các Case Study theo điều kiện tìm kiếm.
 * Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
+
+<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -72,6 +90,8 @@ Tìm kiếm theo các trường Case Study Name, Sort By, From Date - To Date.
 {% stepper %}
 {% step %}
 **Mở màn hình Case Study và chọn Create**
+
+<figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -81,24 +101,34 @@ Tìm kiếm theo các trường Case Study Name, Sort By, From Date - To Date.
 * **Description:** mô tả của Case Study.
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
+
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Click 'Save' để lưu**
 
 Sau khi hoàn thành điền thông tin, click **Save** để lưu. Lúc này khu vực danh sách Item Set xuất hiện.
+
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p><em>Click Save để lưu thông tin</em></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption><p><em>Danh sách Item-set của Case Study</em></p></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Mở màn hình 'Add Item-set'**
 
 Click **Add Item-set** để mở màn hình thêm các bộ câu hỏi vào Case Study.
+
+<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Lựa chọn Item Set và click 'Add'**
 
 Lựa chọn Item Set muốn thêm và click **Add** để lưu. Sau đó người dùng được chuyển hướng về màn hình thông tin của Case Study.
+
+<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption><p><em>Thêm Item Set vào Case Study</em></p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -111,6 +141,10 @@ Lựa chọn Item Set muốn thêm và click **Add** để lưu. Sau đó ngư�
 {% stepper %}
 {% step %}
 **Mở màn hình Case Study và click vào bản ghi muốn chỉnh sửa**
+
+<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption><p><em>Click vào tên Case Study</em></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption><p><em>Màn hình chỉnh sửa hiển thị</em></p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -120,6 +154,8 @@ Lựa chọn Item Set muốn thêm và click **Add** để lưu. Sau đó ngư�
 * **Description:** nội dung Case Study.
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
+
+<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -130,6 +166,10 @@ Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 **Thay đổi Item Set thuộc Case Study**
 
 Người dùng có thể thực hiện thêm/xóa Item Set khỏi Case Study theo các thao tác như trong ảnh.
+
+<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption><p><em>Thêm Item Set vào Case Study</em></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p><em>Xóa Item Set khỏi Case Study</em></p></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -142,12 +182,16 @@ Người dùng có thể thực hiện thêm/xóa Item Set khỏi Case Study the
 {% stepper %}
 {% step %}
 **Mở màn hình Case Study và click vào bản ghi muốn chỉnh sửa thứ tự Item Set**
+
+<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Reorder**
 
 Tại khu vực danh sách Item Set, chọn **Reorder** để chuyển đến màn hình sắp xếp thứ tự.
+
+<figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -160,6 +204,8 @@ Thực hiện điền thứ tự mới cho các Item Set trong danh sách:
 * Không được điền thứ tự trùng nhau.
 
 Sau khi điền xong thì click **Save** để lưu, lúc này các Item Set sẽ hiển thị theo thứ tự vừa thay đổi.
+
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -190,7 +236,7 @@ Sau khi điền xong thì click **Save** để lưu, lúc này các Item Set s�
 5. Nên dùng bộ lọc **Case Study Name** hoặc khoảng thời gian để tìm nhanh khi dữ liệu nhiều.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                        | Nguyên nhân                                                                  | Cách xử lý                                                                   |
 | --------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |

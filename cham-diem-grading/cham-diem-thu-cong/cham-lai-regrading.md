@@ -2,7 +2,7 @@
 
 ## Record of changes
 
-\*A - Add M - Modify D - Delete
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person   | A,M,D | Change Description             | Version |
 | -------------- | --------------- | ----- | ------------------------------ | ------- |
@@ -75,7 +75,7 @@ Mentor được phân chấm lại sẽ nhận được email thông báo.
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -85,7 +85,7 @@ Mentor được phân chấm lại sẽ nhận được email thông báo.
 3. Mentor chính có thể giao bài chấm lại cho người chấm mới.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                | Nguyên nhân                              | Hướng dẫn khắc phục                    |
 | ------------------------------- | ---------------------------------------- | -------------------------------------- |

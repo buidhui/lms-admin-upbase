@@ -1,5 +1,13 @@
 # Lịch sử gửi email (Mail Logs) & Danh sách Email bị chặn (Blocked Email)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description                | Version | Effective Date |
+| -------------- | ------------- | ----- | --------------------------------- | ------- | -------------- |
+| 30 May 2026    | Lê Thị Huế    | M     | Tái cấu trúc tài liệu lên gitbook | 1.5.0   | 30 May 2026    |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -22,7 +30,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống Ops.
+* Đã đăng nhập thành công vào hệ thống LMS Admin.
 * Đã được cấp quyền tương ứng (xem Mail Logs, gửi lại email, xem và gỡ chặn Blocked Mail).
 * Đã có email được gửi từ hệ thống để hiển thị lịch sử trong Mail Logs.
 {% endhint %}
@@ -36,6 +44,8 @@
 **Truy cập Mail Log List**
 
 Tại thanh Menu, truy cập **Engagement & Support** → click vào **Mail Logs**.
+
+<figure><img src="../.gitbook/assets/image (1367).png" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin hiển thị gồm:
 
@@ -60,6 +70,8 @@ Tìm kiếm theo các trường: Người nhận, Loại Mail (Action), Trạng 
 * Chọn **Search** để hiển thị các Mail theo điều kiện tìm kiếm.
 * Chọn **Reset** để xóa các giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
+<figure><img src="../.gitbook/assets/image (1368).png" alt=""><figcaption></figcaption></figure>
+
 </details>
 
 <details>
@@ -70,7 +82,11 @@ Tìm kiếm theo các trường: Người nhận, Loại Mail (Action), Trạng 
 
 Tại danh sách Mail Logs, click vào **Title Mail** để xem chi tiết.
 
+<figure><img src="../.gitbook/assets/image (1369).png" alt=""><figcaption></figcaption></figure>
+
 Màn hình hiển thị thông tin chi tiết của Mail:
+
+<figure><img src="../.gitbook/assets/image (1371).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -82,6 +98,8 @@ Màn hình hiển thị thông tin chi tiết của Mail:
 
 Tại màn hình danh sách Mail Logs, chọn **Action** → chọn **Resend** để gửi lại email cho người nhận.
 
+<figure><img src="../.gitbook/assets/image (1372).png" alt=""><figcaption></figcaption></figure>
+
 </details>
 
 <details>
@@ -91,6 +109,8 @@ Tại màn hình danh sách Mail Logs, chọn **Action** → chọn **Resend** �
 **Truy cập Blocked Mail**
 
 Tại thanh Menu, truy cập **Engagement & Support** → chọn **Blocked Mail**.
+
+<figure><img src="../.gitbook/assets/image (1373).png" alt=""><figcaption></figcaption></figure>
 
 Màn hình hiển thị danh sách Email bị chặn với các thông tin:
 
@@ -106,6 +126,8 @@ Màn hình hiển thị danh sách Email bị chặn với các thông tin:
 
 **Sử dụng bộ lọc tìm kiếm**
 
+<figure><img src="../.gitbook/assets/image (1374).png" alt=""><figcaption></figcaption></figure>
+
 Tại danh sách Blocked Mail, sử dụng bộ lọc để tìm kiếm email.
 
 * Chọn **Search** để hiển thị kết quả.
@@ -120,6 +142,8 @@ Tại danh sách Blocked Mail, sử dụng bộ lọc để tìm kiếm email.
 **Thực hiện Unblock email**
 
 Tại danh sách Blocked Mail, truy cập **Action** → chọn **Unblock** để bỏ chặn email.
+
+<figure><img src="../.gitbook/assets/image (1375).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Bỏ chặn email thành công, các thông báo có thể được gửi tới địa chỉ email này.
 
@@ -148,7 +172,7 @@ Tại danh sách Blocked Mail, truy cập **Action** → chọn **Unblock** đ�
 6. Đối với email Thất bại tạm thời (lỗi server, timeout), dùng chức năng **Resend** để gửi lại mà không cần tạo thông báo mới.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                | Nguyên nhân                                                       | Cách xử lý                                                                                              |
 | ----------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |

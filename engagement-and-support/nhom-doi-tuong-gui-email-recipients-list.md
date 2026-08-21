@@ -1,5 +1,13 @@
 # Nhóm đối tượng gửi email (Recipients List)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description                | Version |
+| -------------- | ------------- | ----- | --------------------------------- | ------- |
+| 23 Jun 2026    | Lê Thị Huế    | M     | Tái cấu trúc tài liệu lên gitbook | 1.5.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -18,7 +26,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống Ops.
+* Đã đăng nhập thành công vào hệ thống LMS Admin.
 * Đã được cấp quyền tương ứng với chức năng Recipients List (xem / tạo / chỉnh sửa / xóa Nhóm người nhận).
 * Hệ thống có sẵn danh sách User để chọn làm thành viên Nhóm.
 {% endhint %}
@@ -36,6 +44,8 @@
 Tại thanh Menu, truy cập **Engagement & Support** → chọn **Notice & Email** → **Recipients List**.
 
 Các trường thông tin hiển thị: Số thứ tự, Tên Nhóm người nhận, Số thành viên, Ngày tạo mới và ngày chỉnh sửa thông tin của Nhóm.
+
+<figure><img src="../.gitbook/assets/image (1350).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -53,6 +63,8 @@ Tìm kiếm theo các trường: Tên Nhóm, Sort by, From Date – To Date.
 
 * Chọn **Search** để hiển thị kết quả.
 * Chọn **Reset** để xóa các giá trị tìm kiếm.
+
+<figure><img src="../.gitbook/assets/image (1351).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -67,19 +79,28 @@ Tìm kiếm theo các trường: Tên Nhóm, Sort by, From Date – To Date.
 **Truy cập chi tiết nhóm người nhận**
 
 Tại màn hình Recipients List, click vào **Group name** cần xem chi tiết.
+
+<figure><img src="../.gitbook/assets/image (1352).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xem chi tiết thông tin Nhóm**
 
 * **Tab Group Settings:** xem thông tin chi tiết Tên nhóm.
+
+<figure><img src="../.gitbook/assets/image (1353).png" alt=""><figcaption></figcaption></figure>
+
 * **Tab Add Member:** xem danh sách thành viên trong nhóm và thêm thành viên vào nhóm.
+
+<figure><img src="../.gitbook/assets/image (1354).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Lưu hoặc quay về danh sách**
 
 Nhấn **Save** để lưu thông tin hoặc nhấn **Notification list** để quay về Recipients List.
+
+<figure><img src="../.gitbook/assets/image (1355).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -94,24 +115,32 @@ Nhấn **Save** để lưu thông tin hoặc nhấn **Notification list** để 
 **Mở màn hình tạo Nhóm**
 
 Tại màn hình Recipients List, chọn **Create Group**.
+
+<figure><img src="../.gitbook/assets/image (1356).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhập tên Nhóm**
 
 Tại màn hình Group Settings, nhập tên cho Nhóm (trường bắt buộc) và chọn **Save**.
+
+<figure><img src="../.gitbook/assets/image (1357).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Thêm thành viên**
 
 Tại màn hình Add Member, click **Add Member** để chuyển tới màn hình chọn thành viên.
+
+<figure><img src="../.gitbook/assets/image (1358).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn thành viên**
 
 Chọn người để thêm vào nhóm (có thể chọn nhiều người trong 1 lần) và click **Add**. Sau đó được chuyển hướng về màn hình Add Member.
+
+<figure><img src="../.gitbook/assets/image (588).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -132,17 +161,26 @@ Click **Finish** hoặc **Save** để lưu thông tin. Hệ thống hiển th�
 **Mở Nhóm cần chỉnh sửa**
 
 Tại màn hình Group List, chọn nút **Action** tương ứng với Nhóm cần chỉnh sửa → chọn **Edit**, hoặc click trực tiếp vào **Tên Nhóm (Group Name)**.
+
+<figure><img src="../.gitbook/assets/image (1360).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Truy cập tab chỉnh sửa thành viên trong nhóm**
+
+<figure><img src="../.gitbook/assets/image (1361).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Thêm hoặc xóa thành viên trong nhóm
 
 * Chọn **Add Member** để thêm thành viên (các bước tương tự khi tạo Nhóm):
+
+<figure><img src="../.gitbook/assets/image (1362).png" alt=""><figcaption></figcaption></figure>
+
 * Chọn biểu tượng **Xóa** để xóa thành viên khỏi Nhóm:
+
+<figure><img src="../.gitbook/assets/image (1363).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -163,12 +201,16 @@ Click **Finish** để lưu thông tin đã chỉnh sửa.
 **Chọn Nhóm cần xóa**
 
 Tại màn hình danh sách Nhóm, chọn nút **Action** tương ứng với Nhóm muốn xóa → chọn **Delete**.
+
+<figure><img src="../.gitbook/assets/image (1366).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xác nhận xóa**
 
 Chọn **Yes** khi hộp thoại xác nhận hiển thị để đồng ý xóa nhóm đã chọn.
+
+<figure><img src="../.gitbook/assets/image (1365).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -196,7 +238,7 @@ Chọn **Yes** khi hộp thoại xác nhận hiển thị để đồng ý xóa 
 5. Khi không còn nhu cầu sử dụng, **xóa Nhóm** để tránh nhầm lẫn khi chọn Nhóm cho thông báo mới.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                               | Nguyên nhân                                   | Cách xử lý                                                                                   |
 | ---------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------- |

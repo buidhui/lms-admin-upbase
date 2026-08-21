@@ -4,12 +4,18 @@ description: 'Kết quả đạt được: Người dùng có thể xem, lọc d
 
 # Xem danh sách khóa học (Course List)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+
 ## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/courses?page\_index=1\&page\_size=10](https://ops.sapp.edu.vn/courses?page_index=1\&page_size=10)
+**Đường dẫn:** [https://ops.upbase.asia/courses?page\_index=1\&page\_size=10](https://ops.upbase.asia/courses?page_index=1\&page_size=10)
 {% endhint %}
 
 {% hint style="info" %}
@@ -29,7 +35,7 @@ description: 'Kết quả đạt được: Người dùng có thể xem, lọc d
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống vận hành OPS.
+* Người dùng đã đăng nhập thành công vào hệ thống vận hành LMS Admin.
 * Tài khoản người dùng có quyền truy cập nhóm chức năng **Course**.
 {% endhint %}
 
@@ -48,10 +54,14 @@ Admin truy cập theo đường dẫn:
 **Academic Management → Course & Materials → Course 4 Level**
 
 Hệ thống hiển thị màn hình danh sách khóa học.
+
+<figure><img src="../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xem thông tin khóa học trên danh sách**
+
+<figure><img src="../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
 
 Admin xem thông tin tổng quan của từng khóa học tại bảng danh sách, bao gồm:
 
@@ -65,6 +75,8 @@ Admin xem thông tin tổng quan của từng khóa học tại bảng danh sác
 
 {% step %}
 **Chuyển trang nếu danh sách có nhiều khóa học**
+
+<figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
 
 Nếu danh sách có nhiều khóa học, Admin sử dụng khu vực phân trang ở cuối bảng để:
 
@@ -84,6 +96,8 @@ Nếu danh sách có nhiều khóa học, Admin sử dụng khu vực phân tran
 {% step %}
 **Nhập từ khóa**
 
+<figure><img src="../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
+
 Tại ô **Search course name**, Admin nhập từ hoặc cụm từ mà tên khóa học cần tìm có chứa.
 {% endstep %}
 
@@ -93,6 +107,8 @@ Tại ô **Search course name**, Admin nhập từ hoặc cụm từ mà tên kh
 Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học có tên phù hợp với từ khóa đã nhập.
+
+<figure><img src="../../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -106,6 +122,8 @@ Hệ thống hiển thị danh sách khóa học có tên phù hợp với từ 
 {% step %}
 **Chọn Program**
 
+<figure><img src="../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
+
 Tại trường **Program**, Admin chọn một giá trị trong danh sách Program có sẵn.
 {% endstep %}
 
@@ -115,6 +133,8 @@ Tại trường **Program**, Admin chọn một giá trị trong danh sách Prog
 Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học thuộc Program đã chọn.
+
+<figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -127,6 +147,8 @@ Hệ thống hiển thị danh sách khóa học thuộc Program đã chọn.
 {% stepper %}
 {% step %}
 **Chọn Status**
+
+<figure><img src="../../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
 
 Tại trường **Status**, Admin chọn một trong các trạng thái:
 
@@ -142,6 +164,8 @@ Tại trường **Status**, Admin chọn một trong các trạng thái:
 Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học tương ứng với trạng thái đã chọn.
+
+<figure><img src="../../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -154,6 +178,8 @@ Hệ thống hiển thị danh sách khóa học tương ứng với trạng th�
 {% stepper %}
 {% step %}
 **Chọn Type**
+
+<figure><img src="../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
 
 Tại trường **Type**, Admin chọn loại khóa học cần lọc:
 
@@ -169,6 +195,8 @@ Tại trường **Type**, Admin chọn loại khóa học cần lọc:
 Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học thuộc loại đã chọn.
+
+<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -181,6 +209,8 @@ Hệ thống hiển thị danh sách khóa học thuộc loại đã chọn.
 {% stepper %}
 {% step %}
 **Nhập khoảng thời gian**
+
+<figure><img src="../../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
 
 Admin nhập hoặc chọn khoảng thời gian tại các trường:
 
@@ -196,6 +226,8 @@ Admin nhập hoặc chọn khoảng thời gian tại các trường:
 Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học trong khoảng thời gian đã nhập.
+
+<figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -208,6 +240,8 @@ Hệ thống hiển thị danh sách khóa học trong khoảng thời gian đã
 {% stepper %}
 {% step %}
 **Chọn Sort by**
+
+<figure><img src="../../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
 
 Tại trường **Sort by**, Admin chọn một trong các kiểu sắp xếp:
 
@@ -225,6 +259,8 @@ Tại trường **Sort by**, Admin chọn một trong các kiểu sắp xếp:
 Admin chọn **Search**.
 
 Hệ thống hiển thị danh sách khóa học theo tiêu chí sắp xếp đã chọn.
+
+<figure><img src="../../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -237,6 +273,8 @@ Hệ thống hiển thị danh sách khóa học theo tiêu chí sắp xếp đ�
 {% stepper %}
 {% step %}
 **Chọn Reset**
+
+<figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
 
 Admin chọn **Reset** tại khu vực tìm kiếm.
 {% endstep %}
@@ -271,7 +309,7 @@ Hệ thống xóa toàn bộ điều kiện đã nhập/chọn tại các trư�
 5. Nên dùng bộ lọc **Status = Block** để kiểm tra các khóa học đang bị chặn, không thể thêm vào lớp học.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                    | Nguyên nhân                                                              | Cách xử lý                                                           |
 | ----------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------- |

@@ -1,9 +1,17 @@
 # Quản lý học viên trong lớp (Student)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description             | Version |
+| -------------- | ------------- | ----- | ------------------------------ | ------- |
+| May 25, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook | 4.7.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Ops User, CX
+**Dành cho:** Admin, Operator, CX
 
 **Đường dẫn:** LMS → Class List → Chọn lớp học → Student
 {% endhint %}
@@ -46,18 +54,24 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 **Mở tab Student**
 
 Người dùng mở tab **Student** tại màn hình **Class Detail**.
+
+<figure><img src="../.gitbook/assets/image (658).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Add Student**
 
 Người dùng chọn **Add Student** tại tab **Student**. Hệ thống chuyển đến màn hình **Add Student**.
+
+<figure><img src="../.gitbook/assets/image (659).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tìm kiếm học viên**
 
 Người dùng tìm kiếm học viên tại khu vực tìm kiếm của màn hình **Add Student** nếu cần.
+
+<figure><img src="../.gitbook/assets/image (660).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -90,12 +104,16 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 **Chọn Import Student**
 
 Người dùng chọn **Import Student** tại tab **Student**. Hệ thống hiển thị popup **Import Student**.
+
+<figure><img src="../.gitbook/assets/image (663).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Browse để chọn file**
 
 Người dùng chọn **Browse** tại popup **Import Student** để chọn file từ thiết bị. Hệ thống chỉ chấp nhận file định dạng **.csv** hoặc **.xlsx**.
+
+<figure><img src="../.gitbook/assets/image (664).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -140,12 +158,16 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 **Chọn Action → Delete**
 
 Người dùng chọn **Action → Delete** tại dòng học viên cần xóa. Hệ thống hiển thị popup xác nhận xóa.
+
+<figure><img src="../.gitbook/assets/image (665).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xác nhận xóa**
 
 Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa học viên khỏi lớp.
+
+<figure><img src="../.gitbook/assets/image (666).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -172,12 +194,16 @@ Người dùng tick chọn các học viên cần xóa tại danh sách học vi
 **Chọn Delete Selected**
 
 Người dùng chọn **Delete Selected** tại tab **Student**. Hệ thống hiển thị popup xác nhận xóa.
+
+<figure><img src="../.gitbook/assets/image (667).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xác nhận xóa**
 
 Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa các học viên đã chọn khỏi lớp.
+
+<figure><img src="../.gitbook/assets/image (668).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -198,12 +224,16 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 **Chọn Action → Update Duration**
 
 Người dùng chọn **Action → Update Duration** tại dòng học viên cần cập nhật thời hạn học. Hệ thống hiển thị popup **Update Duration**.
+
+<figure><img src="../.gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhập thông tin thời hạn học**
 
 Người dùng nhập **Start Date**, **End Date** và **Reason For Extension** tại popup **Update Duration**.
+
+<figure><img src="../.gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -230,12 +260,16 @@ Người dùng mở tab **Student** trong màn hình **Class Detail**.
 **Chọn Action → Edit Course Content**
 
 Người dùng chọn **Action → Edit Course Content** tại dòng học viên cần chỉnh sửa nội dung học. Hệ thống mở màn hình **Edit Course Content** của học viên.
+
+<figure><img src="../.gitbook/assets/image (671).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điều chỉnh cấu phần học**
 
 Người dùng tick thêm hoặc bỏ tick các cấu phần học cần điều chỉnh tại màn hình **Edit Course Content**.
+
+<figure><img src="../.gitbook/assets/image (672).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -262,6 +296,8 @@ Người dùng mở tab **Student** trong màn hình **Class Detail** của lớ
 **Chọn Action → Allow Pass Foundation**
 
 Người dùng chọn **Action → Allow Pass Foundation** tại dòng học viên chưa hoàn thành khóa Foundation. Hệ thống đánh dấu học viên hoàn thành khóa Foundation.
+
+<figure><img src="../.gitbook/assets/image (673).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -303,7 +339,7 @@ Hệ thống cập nhật trạng thái học Foundation của học viên. Sau 
 
 <table data-search="false"><thead><tr><th>Thao tác</th><th>Quy tắc</th></tr></thead><tbody><tr><td><strong>Chọn/Bỏ chọn All</strong></td><td>Tất cả checkbox cấu phần học được tick hoặc bỏ tick.</td></tr><tr><td><strong>Chọn Section</strong></td><td>Tất cả Subsection, Unit, Activity, Quiz thuộc Section được chọn.</td></tr><tr><td><strong>Chọn Subsection</strong></td><td>Section, các Unit, Activity, Case Study liên quan đến Subsection được chọn.</td></tr><tr><td><strong>Chọn Unit</strong></td><td>Section, Subsection và các Activity liên quan đến Unit được chọn.</td></tr><tr><td><strong>Chọn Activity</strong></td><td>Section, Subsection và Unit chứa Activity đó được chọn.</td></tr><tr><td><strong>Bỏ chọn cấu phần học</strong></td><td>Cấu phần bị bỏ chọn sẽ không xuất hiện trong chương trình học của học viên và học viên không cần học cấu phần đó.</td></tr><tr><td><strong>Xóa cấu phần đã học</strong></td><td>Không được phép xóa khỏi chương trình học của học viên.</td></tr><tr><td><strong>Xóa cấu phần chưa học</strong></td><td>Được phép xóa khỏi chương trình học của học viên.</td></tr></tbody></table>
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                               | Nguyên nhân                                                           | Cách xử lý                                                           |
 | ---------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------- |

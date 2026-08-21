@@ -1,11 +1,17 @@
 # Tải lên tài liệu cho khóa học (Resource)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+
 ## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/course-full/undefined](https://ops.sapp.edu.vn/course-full/undefined)
+**Đường dẫn:** [https://ops.upbase.asia/course-full/undefined](https://ops.upbase.asia/course-full/undefined)
 {% endhint %}
 
 {% hint style="info" %}
@@ -23,7 +29,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống OPS.
+* Người dùng đã đăng nhập thành công vào hệ thống LMS Admin.
 * Tài khoản người dùng có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công tại bước **Course Info**.
 {% endhint %}
@@ -37,6 +43,8 @@
 {% stepper %}
 {% step %}
 **Sau khi hoàn thành bước Course Content, Admin chuyển sang bước Resource.**
+
+<figure><img src="../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
 
 Hệ thống hiển thị màn hình danh sách tài liệu của khóa học.
 {% endstep %}
@@ -61,10 +69,14 @@ Hệ thống hiển thị màn hình danh sách tài liệu của khóa học.
 {% stepper %}
 {% step %}
 **Admin nhập từ khóa vào ô Search.**
+
+<figure><img src="../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Search.**
+
+<figure><img src="../../.gitbook/assets/image (848).png" alt=""><figcaption></figcaption></figure>
 
 Hệ thống hiển thị danh sách tài liệu có tên phù hợp với từ khóa đã nhập.
 {% endstep %}
@@ -79,10 +91,14 @@ Hệ thống hiển thị danh sách tài liệu có tên phù hợp với từ 
 {% stepper %}
 {% step %}
 **Tại màn hình Resource, Admin chọn Upload File.**
+
+<figure><img src="../../.gitbook/assets/image (849).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn tab Upload File.**
+
+<figure><img src="../../.gitbook/assets/image (850).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -122,6 +138,8 @@ Sau khi upload thành công, tài liệu được thêm vào danh sách Resource
 
 {% step %}
 **Trong popup upload, Admin chuyển sang tab Resources.**
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-05-25 111408.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -206,7 +224,7 @@ Hệ thống xóa tài liệu khỏi danh sách Resource của khóa học nếu
 2. Với tài liệu đã có sẵn trong hệ thống, nên dùng tab **Resources** để tái sử dụng thay vì upload lại.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                        | Nguyên nhân                                                         | Cách xử lý                                                 |
 | --------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |

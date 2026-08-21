@@ -2,18 +2,18 @@
 
 ## Record of changes
 
-_A - Add M - Modify D - Delete_
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person   | A,M,D | Change Description | Version | Effective Date |
 | -------------- | --------------- | ----- | ------------------ | ------- | -------------- |
 | 18/06/2026     | Nguyễn Duy Hiếu | A     |                    | 1.0.0   | 18/06/2026     |
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** SX (Study Experience)
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/](https://ops.sapp.edu.vn/)
+**Đường dẫn:** [https://ops.upbase.asia/](https://ops.upbase.asia/)
 {% endhint %}
 
 {% hint style="info" %}
@@ -31,7 +31,7 @@ _A - Add M - Modify D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống OPS.
+* Người dùng đã đăng nhập thành công vào hệ thống LMS Admin.
 * Tài khoản có quyền tạo/chỉnh sửa Question và Course.
 * Khóa học có **Program Category = "ACCA"** (mục Grading Files / Context File chỉ hiển thị với khóa ACCA).
 {% endhint %}
@@ -46,7 +46,7 @@ _A - Add M - Modify D - Delete_
 
 {% stepper %}
 {% step %}
-**Đăng nhập hệ thống OPS**
+**Đăng nhập hệ thống LMS Admin**
 {% endstep %}
 
 {% step %}
@@ -132,7 +132,7 @@ Mỗi file/text cần điền thêm:
 
 {% stepper %}
 {% step %}
-**Đăng nhập hệ thống OPS**
+**Đăng nhập hệ thống LMS Admin**
 {% endstep %}
 
 {% step %}
@@ -176,7 +176,7 @@ Mục Context File for AI chỉ hiển thị khi chọn ACCA.
 
 {% stepper %}
 {% step %}
-**Đăng nhập hệ thống OPS**
+**Đăng nhập hệ thống LMS Admin**
 {% endstep %}
 
 {% step %}
@@ -222,7 +222,7 @@ Nếu Question có Requirement, cần cài điểm tối đa cho từng Requirem
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -243,7 +243,7 @@ Nếu Question có Requirement, cần cài điểm tối đa cho từng Requirem
 3. Điền Description for AI đầy đủ để AI hiểu đúng vai trò của từng file.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                      | Nguyên nhân                                                 | Cách xử lý                                                         |
 | ----------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------ |

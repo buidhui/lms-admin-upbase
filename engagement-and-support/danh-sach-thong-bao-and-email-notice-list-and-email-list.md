@@ -1,5 +1,13 @@
 # Danh sách thông báo & Email (Notice List & Email List)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description                | Version |
+| -------------- | ------------- | ----- | --------------------------------- | ------- |
+| 30 May 2026    | Lê Thị Huế    | M     | Tái cấu trúc tài liệu lên gitbook | 1.5.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -19,7 +27,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống Ops.
+* Đã đăng nhập thành công vào hệ thống LMS Admin.
 * Đã được cấp quyền tương ứng với chức năng Notification (xem / tạo / chỉnh sửa).
 * Đối với gửi Notification/Email: cần có Nhóm người nhận đã được tạo trước đó tại **Recipients List**.
 {% endhint %}
@@ -36,6 +44,8 @@
 
 Tại thanh Menu, truy cập **Engagement & Support** → chọn **Notice & Email** → **Notification List & Email List**.
 
+<figure><img src="../.gitbook/assets/image (1339).png" alt=""><figcaption></figcaption></figure>
+
 Các trường thông tin hiển thị bao gồm:
 
 * Số thứ tự
@@ -44,7 +54,7 @@ Các trường thông tin hiển thị bao gồm:
   * Notification: thông báo được gửi trên hệ thống LMS Student.
   * Email: thông báo được gửi vào Email của học viên.
   * Noti & Email: thông báo được gửi trên hệ thống LMS Student và Email của học viên.
-  * Pinned Notification: thông báo được ghim ở đầu trang tại giao diện học viên, hiển thị ở mọi màn hình.
+  * Pinned Notification: thông báo được ghim ở đầu trang tại giao diện học viên, sẽ hiển thị ở mọi màn hình.
 * Send to: Nhóm người nhận thông báo
 * Status:
   * Đối với thông báo có Type = Notification/Email/Noti & Email
@@ -71,6 +81,8 @@ Các trường thông tin hiển thị bao gồm:
 {% step %}
 **Sử dụng bộ lọc để tìm kiếm**
 
+<figure><img src="../.gitbook/assets/image (1340).png" alt=""><figcaption></figcaption></figure>
+
 Tìm kiếm theo các trường:
 
 * Tiêu đề của Thông báo (Title)
@@ -78,7 +90,7 @@ Tìm kiếm theo các trường:
   * Notification: thông báo được gửi trên hệ thống LMS Student.
   * Email: thông báo được gửi vào Email của học viên.
   * Noti & Email: thông báo được gửi trên hệ thống LMS Student và Email của học viên.
-  * Pinned Notification: thông báo được ghim ở đầu trang tại giao diện học viên, hiển thị ở mọi màn hình.
+  * Pinned Notification: thông báo được ghim ở đầu trang tại giao diện học viên, sẽ hiển thị ở mọi màn hình.
 * Send to: Nhóm người nhận thông báo
 * Trạng thái của thông báo (Status)
 * Thứ tự sắp xếp (Sort by)
@@ -89,6 +101,8 @@ Chọn **Search** để hiển thị các Thông báo theo điều kiện tìm k
 Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị danh sách theo thời gian tạo.
 
 ✅ Kết quả: Hiển thị danh sách các thông báo theo điều kiện bộ lọc:
+
+<figure><img src="../.gitbook/assets/image (1341).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -101,6 +115,8 @@ Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị d
 {% stepper %}
 {% step %}
 **Click vào Tiêu đề thông báo để xem chi tiết**
+
+<figure><img src="../.gitbook/assets/image (1342).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Màn hình hiển thị chi tiết thông báo: Title, Type, Send to (với Notification/Email/Noti & Email), Action (thời gian gửi), Nội dung thông báo, Tài liệu đính kèm.
 {% endstep %}
@@ -117,6 +133,8 @@ Chọn **Reset** để xóa tất cả giá trị tìm kiếm và hiển thị d
 **Mở màn hình tạo mới**
 
 Tại màn hình danh sách thông báo, chọn **Create Notification**.
+
+<figure><img src="../.gitbook/assets/image (1343).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -133,6 +151,8 @@ Tại màn hình danh sách thông báo, chọn **Create Notification**.
   * **Gửi ngay:** gửi thông báo ngay tại thời điểm tạo.
 * **Nội dung thông báo** (\*).
 * **Tệp đính kèm** (áp dụng với Email): chọn Upload File từ thiết bị hoặc tài liệu có sẵn trên hệ thống.
+
+<figure><img src="../.gitbook/assets/image (1344).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -155,6 +175,8 @@ _**Pinned Notification là các thông báo được ghim tại đầu trang gia
 **Mở màn hình tạo mới**
 
 Tại mục Notification, chọn **Create Notification/Email**.
+
+<figure><img src="../.gitbook/assets/image (573).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -168,6 +190,8 @@ Tại mục Notification, chọn **Create Notification/Email**.
 * **Nội dung** (\*): Nội dung thông báo
 
 Những trường có (\*) là những trường thông tin bắt buộc.
+
+<figure><img src="../.gitbook/assets/image (1346).png" alt=""><figcaption></figcaption></figure>
 
 ⚠️ Khoảng thời gian xuất hiện của Pinned Notification mới tạo **không được trùng** với khoảng thời gian hiển thị của các Pinned Notification đã tạo trước đó. Nội dung hiển thị cho **Tất cả** học viên LMS nên không có lựa chọn Send to.
 {% endstep %}
@@ -195,6 +219,8 @@ Chọn **Save** để lưu.
 {% step %}
 **Click vào giá trị trường Status để chọn trạng thái mới**
 
+<figure><img src="../.gitbook/assets/image (1347).png" alt=""><figcaption></figcaption></figure>
+
 Quy tắc:
 
 * **Type = Notification / Email / Noti & Email:**
@@ -209,6 +235,8 @@ Quy tắc:
 
 {% step %}
 **Xác nhận thay đổi trạng thái**
+
+<figure><img src="../.gitbook/assets/image (1348).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -225,6 +253,8 @@ Quy tắc:
 **Mở thông báo cần chỉnh sửa**
 
 Click vào **Tiêu đề** thông báo muốn chỉnh sửa hoặc click **Action** → chọn **Edit**.
+
+<figure><img src="../.gitbook/assets/image (1349).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -272,7 +302,7 @@ Chọn **Save** để lưu thông tin đã chỉnh sửa.
 4. Trước khi tạo Pinned Notification mới, kiểm tra danh sách Pinned đang **'Hẹn giờ gửi'** / **'Đang hiển thị'** để tránh trùng khoảng thời gian.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                     | Nguyên nhân                                                        | Cách xử lý                                                                                          |
 | ---------------------------------------------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |

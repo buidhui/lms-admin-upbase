@@ -1,9 +1,18 @@
 # Quản lý bài kiểm tra trong lớp (Test/Quiz)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description                                    | Version |
+| -------------- | ------------- | ----- | ----------------------------------------------------- | ------- |
+| May 25, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook                        | 4.7.0   |
+| Jun 18, 2026   | Nhà BA        | M     | Chuẩn hóa component theo template User guide mới nhất | 4.8.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Ops User, CX
+**Dành cho:** Admin, Operator, CX
 
 **Đường dẫn:** LMS → Class List → Chọn lớp học → Test/Quiz
 {% endhint %}
@@ -41,6 +50,8 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 **Chọn tab Test/Quiz**
 
 Người dùng chọn tab **Test/Quiz** tại màn hình **Class Detail**. Hệ thống hiển thị danh sách bài kiểm tra thuộc khóa học đang gắn với lớp.
+
+<figure><img src="../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -48,7 +59,7 @@ Người dùng chọn tab **Test/Quiz** tại màn hình **Class Detail**. Hệ 
 
 Người dùng xem thông tin tại bảng danh sách **Test/Quiz**:
 
-<table data-search="false"><thead><tr><th>Cột thông tin</th><th>Mô tả</th></tr></thead><tbody><tr><td><strong>Quiz Name</strong></td><td>Tên bài kiểm tra.</td></tr><tr><td><strong>Quiz Type</strong></td><td>Loại bài kiểm tra.</td></tr><tr><td><strong>Mode</strong></td><td>Hình thức kiểm tra (online hoặc offline).</td></tr><tr><td><strong>Start Time</strong></td><td>Thời điểm học viên bắt đầu có thể truy cập và làm bài.</td></tr><tr><td><strong>End Time</strong></td><td>Thời điểm đóng bài; sau thời điểm này học viên không thể truy cập bài kiểm tra.</td></tr><tr><td><strong>Total attempts</strong></td><td>Số lượng học viên tham gia bài kiểm tra.</td></tr><tr><td><strong>Manual Grading</strong></td><td>Hình thức chấm bài: hệ thống tự động chấm hoặc đội ngũ SAPP chấm thủ công.</td></tr><tr><td><strong>Graded attempt</strong></td><td>Số bài đã được chấm xong trên tổng số bài học viên đã nộp.</td></tr><tr><td><strong>Action</strong></td><td>Menu thao tác: Detail, Edit Access Time, Delete Access Time, Export Result.</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th>Cột thông tin</th><th>Mô tả</th></tr></thead><tbody><tr><td><strong>Quiz Name</strong></td><td>Tên bài kiểm tra.</td></tr><tr><td><strong>Quiz Type</strong></td><td>Loại bài kiểm tra.</td></tr><tr><td><strong>Mode</strong></td><td>Hình thức kiểm tra (online hoặc offline).</td></tr><tr><td><strong>Start Time</strong></td><td>Thời điểm học viên bắt đầu có thể truy cập và làm bài.</td></tr><tr><td><strong>End Time</strong></td><td>Thời điểm đóng bài; sau thời điểm này học viên không thể truy cập bài kiểm tra.</td></tr><tr><td><strong>Total attempts</strong></td><td>Số lượng học viên tham gia bài kiểm tra.</td></tr><tr><td><strong>Manual Grading</strong></td><td>Hình thức chấm bài: hệ thống tự động chấm hoặc đội ngũ UpBase chấm thủ công.</td></tr><tr><td><strong>Graded attempt</strong></td><td>Số bài đã được chấm xong trên tổng số bài học viên đã nộp.</td></tr><tr><td><strong>Action</strong></td><td>Menu thao tác: Detail, Edit Access Time, Delete Access Time, Export Result.</td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
@@ -63,6 +74,8 @@ Người dùng xem thông tin tại bảng danh sách **Test/Quiz**:
 **Nhập/chọn điều kiện tìm kiếm**
 
 Người dùng nhập hoặc chọn điều kiện tại vùng bộ lọc của tab **Test/Quiz** (tên bài kiểm tra, loại bài kiểm tra, hình thức chấm bài).
+
+<figure><img src="../.gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -89,12 +102,20 @@ Người dùng chọn **Reset** nếu muốn xóa toàn bộ điều kiện. H�
 **Mở chi tiết bài kiểm tra**
 
 Người dùng chọn **tên bài kiểm tra** tại tab **Test/Quiz**. Hệ thống mở màn hình chi tiết bài kiểm tra theo học viên.
+
+<figure><img src="../.gitbook/assets/image (700).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (701).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Hoặc chọn Action → Detail**
 
 Người dùng chọn **Action → Detail** tại bài kiểm tra cần xem nếu không mở bằng tên bài kiểm tra. Hệ thống mở màn hình chi tiết bài kiểm tra theo học viên.
+
+<figure><img src="../.gitbook/assets/image (702).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (701).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -115,6 +136,8 @@ Hệ thống hiển thị thông tin: Student Name, Email, Access Period, Submis
 **Nhập/chọn điều kiện tìm kiếm**
 
 Người dùng nhập hoặc chọn điều kiện tại màn hình chi tiết bài kiểm tra (tên học viên, trạng thái bài làm, người chấm).
+
+<figure><img src="../.gitbook/assets/image (703).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -142,7 +165,11 @@ Người dùng chọn **Reset** nếu muốn xóa điều kiện. Hệ thống h
 
 Người dùng chọn **Action → Edit Access Time** tại bài kiểm tra cần cài đặt trong tab **Test/Quiz**. Hệ thống hiển thị popup cài đặt thời gian truy cập.
 
+<figure><img src="../.gitbook/assets/image (706).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị popup cài đặt thời gian truy cập.
+
+<figure><img src="../.gitbook/assets/image (705).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -175,6 +202,10 @@ Người dùng mở màn hình chi tiết của bài kiểm tra cần cài đặ
 **Chọn Action → Edit Access Time tại dòng học viên**
 
 Người dùng chọn **Action → Edit Access Time** tại dòng học viên cần cài đặt. Hệ thống hiển thị popup cài đặt thời gian truy cập cho học viên.
+
+<figure><img src="../.gitbook/assets/image (704).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (705).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -201,6 +232,10 @@ Người dùng chọn **Save**. Hệ thống lưu thời gian truy cập và ch�
 **Chọn Action → Delete Access Time**
 
 Người dùng chọn **Action → Delete Access Time** tại bài kiểm tra cần xóa thời gian truy cập trong tab **Test/Quiz**. Hệ thống hiển thị popup xác nhận xóa.
+
+<figure><img src="../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (708).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -221,6 +256,8 @@ Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa thời 
 **Chọn Action → Export Result**
 
 Người dùng chọn **Action → Export Result** tại bài kiểm tra cần xuất kết quả trong tab **Test/Quiz**. Hệ thống tạo file Excel chứa điểm của toàn bộ học viên theo bài kiểm tra được chọn.
+
+<figure><img src="../.gitbook/assets/image (709).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -272,7 +309,7 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 | **Bài chấm thủ công chưa chấm xong** | Thông tin điểm trong file Excel hiển thị rỗng.   |
 | **Bài đã có điểm hợp lệ**            | Hệ thống hiển thị điểm trong file Excel.         |
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                             | Nguyên nhân                                                   | Cách xử lý                                                        |
 | -------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |

@@ -2,18 +2,18 @@
 
 ## Record of changes
 
-_A - Add M - Modify D - Delete_
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person   | A,M,D | Change Description | Version |
 | -------------- | --------------- | ----- | ------------------ | ------- |
 | 18/06/2026     | Nguyễn Duy Hiếu | A     |                    | 1.0.0   |
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Mentor phụ trách
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/](https://ops.sapp.edu.vn/)
+**Đường dẫn:** [https://ops.upbase.asia/](https://ops.upbase.asia/)
 {% endhint %}
 
 {% hint style="info" %}
@@ -31,7 +31,7 @@ _A - Add M - Modify D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập OPS với role **Mentor phụ trách** của bài làm.
+* Người dùng đã đăng nhập LMS Admin với role **Mentor phụ trách** của bài làm.
 * Học viên đã nộp bài và có ít nhất 1 câu được AI chấm thành công.
 * Trạng thái bài làm = **"Awaiting Grading"** hoặc **"Regrading"**.
 {% endhint %}
@@ -173,7 +173,7 @@ Mentor có thể bôi đen từng ý trong bài học viên để thực hiện 
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -194,7 +194,7 @@ Mentor có thể bôi đen từng ý trong bài học viên để thực hiện 
 3. Chỉ bấm "Finish" sau khi đã rà soát toàn bộ câu trong bài.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                           | Nguyên nhân                              | Cách xử lý                                                  |
 | ------------------------------------------ | ---------------------------------------- | ----------------------------------------------------------- |

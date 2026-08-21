@@ -1,5 +1,11 @@
 # Storyline
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th width="119">Version</th></tr></thead><tbody><tr><td>May 18, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td></tr></tbody></table>
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -19,7 +25,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết:
 
-* Người dùng đã đăng nhập thành công vào hệ thống vận hành **OPS**.
+* Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Admin**.
 * Tài khoản đã được cấp quyền truy cập menu **Storyline**.
 * Xem danh sách: cần quyền xem danh sách Storyline.
 * Tạo mới: cần quyền tạo Storyline.
@@ -39,7 +45,11 @@
 
 Đường dẫn: Academic Management / Course & Materials / Storyline.
 
+<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+
 Danh sách Storyline hiển thị theo thời gian tạo giảm dần.
+
+<figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
 
 Các thông tin hiển thị trên màn hình danh sách:
 
@@ -77,6 +87,8 @@ Người dùng nhập Filter.
 **Chọn Create để tạo mới Storyline**
 
 Tại màn hình danh sách Storyline, ấn nút **Create**.
+
+<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -95,6 +107,8 @@ Tại màn hình danh sách Storyline, ấn nút **Create**.
 
 Ấn nút **Save** để chuyển tới màn hình Storyline Content, hiển thị danh sách các Storyline Item.
 
+<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+
 | Name                    | Description                                                                                             |
 | ----------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Filter**              |                                                                                                         |
@@ -111,16 +125,24 @@ Tại màn hình danh sách Storyline, ấn nút **Create**.
 
 Tại màn hình Storyline Content, ấn **Create Storyline Item**.
 
+<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
+
 Nhập tên Storyline Item → **Save**.
 
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+
 Chọn **Add Document** để tạo Document cho Storyline Item. Document gồm 4 loại: **Text**, **Question**, **Video**, **Interaction**.
+
+<figure><img src="../.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="Text" %}
 | Name        | Description                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên Ops, không hiển thị trên giao diện học Storyline của học viên_ |
+| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học Storyline của học viên_ |
 | Description | Nội dung Content của Text                                                                                                   |
+
+<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% endtab %}
@@ -128,8 +150,10 @@ Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% tab title="Question" %}
 | Name        | Description                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên Ops, không hiển thị trên giao diện học Storyline của học viên_ |
+| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học Storyline của học viên_ |
 | Description | Nội dung Content của Text                                                                                                   |
+
+<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% endtab %}
@@ -137,8 +161,10 @@ Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% tab title="Video" %}
 | Name       | Description                                                                                                |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| Video Name | Tên của Video. _Lưu ý: Tên Document chỉ hiển thị trên Ops, không hiển thị trên giao diện học của học viên_ |
+| Video Name | Tên của Video. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học của học viên_ |
 | Upload     | Button Upload Video: chọn Upload từ thiết bị hoặc chọn Video có sẵn trên hệ thống                          |
+
+<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% endtab %}
@@ -146,14 +172,20 @@ Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% tab title="Interaction" %}
 Sau khi chọn **Interaction**, trường **Interaction Type** mặc định là **"Labeled Graphic"**. Màn hình **New Interaction Document** hiển thị như sau:
 
+<figure><img src="../.gitbook/assets/image (860).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (861).png" alt=""><figcaption></figcaption></figure>
+
 | Name             | Mandatory                    | Description                                                                                                |
 | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Document Name    | Yes                          | Tên Document. _Lưu ý: Tên Document chỉ hiển thị trên OPS, không hiển thị trên giao diện học của học viên._ |
+| Document Name    | Yes                          | Tên Document. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học của học viên._ |
 | Interaction Type | Yes                          | Loại Interaction. Giai đoạn này mặc định là **Labeled Graphic**.                                           |
 | Background Image | Yes                          | Ảnh nền để đặt Marker. Hỗ trợ: JPG, JPEG, PNG, GIF, WEBP.                                                  |
 | Marker List      | Yes (tối thiểu 1, tối đa 10) | Danh sách Marker đã thêm vào ảnh. Mỗi Marker gồm: Marker Title, Marker Content, Marker Style.              |
 
 **Cách tạo Marker:** Upload ảnh nền thành công → click vào vị trí bất kỳ trên ảnh, hệ thống hiển thị icon dấu "+" và mở form nhập thông tin Marker ở panel bên trái.
+
+<figure><img src="../.gitbook/assets/image (862).png" alt=""><figcaption></figcaption></figure>
 
 | Name           | Mandatory | Description                                                                         |
 | -------------- | --------- | ----------------------------------------------------------------------------------- |
@@ -181,12 +213,16 @@ Sau khi chọn **Interaction**, trường **Interaction Type** mặc định là
 {% endhint %}
 
 Lưu Storyline Item: ấn nút **Save** ở góc phải màn hình.
+
+<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Hoàn tất Storyline**
 
 Sau khi hoàn thành tạo nội dung, ấn nút **Finish** để lưu Storyline.
+
+<figure><img src="../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -201,18 +237,24 @@ Sau khi hoàn thành tạo nội dung, ấn nút **Finish** để lưu Storyline
 **Chỉnh sửa thông tin Storyline**
 
 Tại màn hình danh sách Storyline, chọn Storyline hoặc chọn Action: **Edit** tại Storyline cần chỉnh sửa.
+
+<figure><img src="../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xóa/Chỉnh sửa Storyline Item**
 
 Tại màn hình List Storyline Item, click nút Action tại Storyline Item tương ứng để xóa/chỉnh sửa.
+
+<figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xóa/Chỉnh sửa Document**
 
 Tại màn hình Edit Storyline Item, click nút Action tại Storyline Item / Document tương ứng để xóa/chỉnh sửa.
+
+<figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 _Lưu ý:_
 
@@ -225,7 +267,11 @@ _Lưu ý:_
 
 Tại màn hình Storyline Content, bấm nút **Reorder** để chỉnh sửa thứ tự Storyline Item.
 
+<figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+
 Nhập số thứ tự mới của từng Storyline Item, ấn **Save** để lưu.
+
+<figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -233,7 +279,11 @@ Nhập số thứ tự mới của từng Storyline Item, ấn **Save** để l�
 
 Tại màn hình Edit Storyline Item, ấn nút **Enable Drag** để Reorder danh sách Document.
 
+<figure><img src="../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
+
 Kéo thả Document tới vị trí mới, sau đó ấn **Upload** để lưu thay đổi.
+
+<figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -248,20 +298,30 @@ Kéo thả Document tới vị trí mới, sau đó ấn **Upload** để lưu t
 **Truy cập Course cần add Storyline**
 
 Đường dẫn: Academic Management / Course & Materials / Course 4 Level / Truy cập vào course cần add Storyline.
+
+<figure><img src="../.gitbook/assets/image (1256).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Truy cập Course Content, tại Unit cần thêm Storyline, chọn "Storyline"**
 
+<figure><img src="../.gitbook/assets/image (1397).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị giao diện add storyline cho khóa học
+
+<figure><img src="../.gitbook/assets/image (1398).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhập thông tin và chọn Storyline mong muốn**
+
+<figure><img src="../.gitbook/assets/image (1399).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Ấn Save để lưu thông tin Storyline**
+
+<figure><img src="../.gitbook/assets/image (1400).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -291,7 +351,7 @@ Hệ thống hiển thị giao diện add storyline cho khóa học
 4. Khi cần thay đổi thứ tự nội dung, nên dùng **Reorder** hoặc **Enable Drag** thay vì xóa và tạo lại.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                              | Cách xử lý                                                           |
 | ----------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------- |

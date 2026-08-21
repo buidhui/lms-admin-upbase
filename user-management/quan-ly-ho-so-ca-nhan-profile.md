@@ -2,7 +2,7 @@
 
 ## Record of changes
 
-_A - Add M - Modify D - Delete_
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person | A,M,D | Change Description             | Version |
 | -------------- | ------------- | ----- | ------------------------------ | ------- |
@@ -12,14 +12,14 @@ _A - Add M - Modify D - Delete_
 
 | # | Term | Definition |
 | - | ---- | ---------- |
-| 1 | Ops  | Operations |
+| 1 | LMS Admin | Hệ thống quản lý vận hành |
 
 ## I. Thông tin chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, Operator
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/auth/login](https://ops.sapp.edu.vn/auth/login) (truy cập hồ sơ qua avatar góc dưới bên trái → **My profile**)
+**Đường dẫn:** [https://ops.upbase.asia/auth/login](https://ops.upbase.asia/auth/login) (truy cập hồ sơ qua avatar góc dưới bên trái → **My profile**)
 {% endhint %}
 
 ### 1.1 Mục đích
@@ -44,12 +44,12 @@ Module **Hồ sơ cá nhân** cho phép người vận hành xem và chỉnh s�
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống OPS.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện.
 {% endhint %}
 
-## II. Tổng Quan Giao Diện
+## II. Tổng quan giao diện
 
 Quản lý hồ sơ cá nhân bao gồm các khu vực chính:
 
@@ -66,13 +66,13 @@ Quản lý hồ sơ cá nhân bao gồm các khu vực chính:
 
 <summary>Login</summary>
 
-🎯 **Mục tiêu:** Đăng nhập thành công vào hệ thống OPS để thực hiện các thao tác quản lý.
+🎯 **Mục tiêu:** Đăng nhập thành công vào hệ thống LMS Admin để thực hiện các thao tác quản lý.
 
 {% stepper %}
 {% step %}
-**Truy cập hệ thống OPS**
+**Truy cập hệ thống LMS Admin**
 
-Mở trình duyệt và truy cập đường dẫn hệ thống OPS [tại đây](https://ops.sapp.edu.vn/auth/login).
+Mở trình duyệt và truy cập đường dẫn hệ thống LMS Admin [tại đây](https://ops.upbase.asia/auth/login).
 {% endstep %}
 
 {% step %}

@@ -6,12 +6,18 @@ description: >-
 
 # Tạo khóa học (Course Infor)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+
 ## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/course-full/undefined](https://ops.sapp.edu.vn/course-full/undefined)
+**Đường dẫn:** [https://ops.upbase.asia/course-full/undefined](https://ops.upbase.asia/course-full/undefined)
 {% endhint %}
 
 {% hint style="info" %}
@@ -32,7 +38,7 @@ description: >-
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống OPS.
+* Người dùng đã đăng nhập thành công vào hệ thống LMS Admin.
 * Tài khoản người dùng có quyền tạo mới khóa học.
 {% endhint %}
 
@@ -47,12 +53,18 @@ description: >-
 **Admin truy cập Academic Management → Course & Materials → Course 4 Level**
 
 Hệ thống hiển thị màn hình danh sách khóa học.
+
+<figure><img src="../../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tại màn hình danh sách khóa học, Admin chọn Create Course.**
 
 Lúc này, hệ thống chuyển đến bước **Course Info.**
+
+<figure><img src="../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -67,32 +79,44 @@ Lúc này, hệ thống chuyển đến bước **Course Info.**
 **Admin cần nhập Tên khóa học (Course Name)**
 
 Đây là trường bắt buộc dùng để hiển thị tên khóa học trên hệ thống và hiển thị cho học viên tại LMS.
+
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin nhập mô tả khóa học (Describe)**
 
 Trường này dùng để mô tả nội dung hoặc mục tiêu chính của khóa học.
+
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin nhập mã khóa học (Code)**
 
 Đây là trường bắt buộc. Hệ thống không cho phép lưu nếu mã khóa học trùng với mã đã tồn tại.
+
+<figure><img src="../../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhập hoặc chọn Tag. Admin có thể tạo tag mới bằng cách nhập nội dung tag.**
+
+<figure><img src="../../.gitbook/assets/image (943).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Program (Category) từ danh sách hiển thị**
 
 Đây là trường bắt buộc, nhờ vào trường này, hệ thống mới xác định được chương trình học và từ đó cho phép admin chọn môn học tương ứng.
+
+<figure><img src="../../.gitbook/assets/image (944).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn hoặc nhập Subject tương ứng với Program đã chọn.**
+
+<figure><img src="../../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -107,6 +131,8 @@ Trường này dùng để mô tả nội dung hoặc mục tiêu chính của k
 **Admin chọn Type của khóa học**
 
 Hệ thống hỗ trợ các loại khóa học: **Foundation Course**, **Trial Course**, **Practice Course** và **Normal Course**.
+
+<figure><img src="../../.gitbook/assets/image (946).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -114,6 +140,8 @@ Hệ thống hỗ trợ các loại khóa học: **Foundation Course**, **Trial 
 
 {% tabs %}
 {% tab title="Foundation Course" %}
+<figure><img src="../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
+
 **Bước 2.1.** Khi Admin chọn **Foundation Course**, hệ thống hiển thị danh sách checkbox level của khóa học.
 
 Admin cần chọn ít nhất **01 level**.
@@ -122,6 +150,8 @@ Ví dụ level có thể bao gồm các mức như IA, IB, IIA, IIB tùy theo c�
 {% endtab %}
 
 {% tab title="Normal Course" %}
+<figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
+
 **Bước 2.2:** Khi Admin chọn **Normal Course**, hệ thống hiển thị danh sách combobox các khóa học **Foundation Course** theo từng level.
 
 Admin có thể:
@@ -145,6 +175,8 @@ Với Normal Course, Admin có thể không chọn khóa học Foundation nào c
 
 <summary>Nhập Pass Point</summary>
 
+<figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
+
 Admin nhập **Pass Point**. Đây là trường bắt buộc. Pass Point là mức điểm yêu cầu mà học viên phải đạt để có thể nhận được chứng chỉ của khóa học.
 
 </details>
@@ -152,6 +184,8 @@ Admin nhập **Pass Point**. Đây là trường bắt buộc. Pass Point là m�
 <details>
 
 <summary>Nhập điểm các thành phần</summary>
+
+<figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 
 Admin nhập hệ số điểm cho từng thành phần:
 
@@ -205,7 +239,7 @@ Sau khi lưu thành công, Admin có thể tiếp tục chuyển sang bước ti
 4. Nếu khóa học chưa chắc chắn cấu hình điểm, nên thống nhất quy tắc tính điểm nội bộ trước khi tạo Course Info.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                               | Nguyên nhân                                              | Cách xử lý                                          |
 | -------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------- |

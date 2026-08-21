@@ -2,7 +2,7 @@
 
 ## Record of changes
 
-\*A - Add M - Modify D - Delete
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person   | A,M,D | Change Description             | Version | Effective Date |
 | -------------- | --------------- | ----- | ------------------------------ | ------- | -------------- |
@@ -31,13 +31,13 @@
 
 {% stepper %}
 {% step %}
-## Mở lịch sử chấm
+**Mở lịch sử chấm**
 
 Người dùng chọn **Grading History** tại button **3 chấm** ở màn danh sách bài test.
 {% endstep %}
 
 {% step %}
-## Đọc thông tin lịch sử chấm bài
+**Đọc thông tin lịch sử chấm bài**
 
 | **Cột**          | **Mô tả**                     |
 | ---------------- | ----------------------------- |
@@ -50,7 +50,7 @@ Người dùng chọn **Grading History** tại button **3 chấm** ở màn dan
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="info" %}
 ### Mẹo sử dụng

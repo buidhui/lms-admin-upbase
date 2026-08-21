@@ -2,7 +2,7 @@
 
 ## Record of changes
 
-_A - Add M - Modify D - Delete_
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person | A,M,D | Change Description             | Version |
 | -------------- | ------------- | ----- | ------------------------------ | ------- |
@@ -26,12 +26,12 @@ _A - Add M - Modify D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống OPS.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 {% endhint %}
 
-## II. Tổng Quan Giao Diện
+## II. Tổng quan giao diện
 
 **Giao diện danh sách học viên**
 
@@ -52,7 +52,7 @@ Màn hình Chi tiết học viên gồm:
 * **Class & Course**: Chi tiết thông tin học viên đó đã tham gia những lớp học nào và chi tiết của lớp học đó.
 * **Security**: Quản lý trình duyệt và lịch sử đăng nhập.
 
-## III. Các Bước Thực Hiện Chi Tiết
+## III. Các bước thực hiện chi tiết
 
 <details>
 
@@ -148,8 +148,8 @@ Truy cập **User & Org Management**. Tại màn hình Student List, nhấn nút
 
 * **Avatar**: tải ảnh đại diện từ thiết bị.
 * **Account Type**:
-  * _Employee Account_: Dành cho nhân viên nội bộ SAPP. Code = mã nhân viên. Dùng để xem trước dữ liệu khóa học, bài test mà không ảnh hưởng dữ liệu.
-  * _Student Account_: Dành cho học viên đăng ký khóa học tại SAPP. Code = Record ID Contract trên HubSpot.
+  * _Employee Account_: Dành cho nhân viên nội bộ UpBase. Code = mã nhân viên. Dùng để xem trước dữ liệu khóa học, bài test mà không ảnh hưởng dữ liệu.
+  * _Student Account_: Dành cho học viên đăng ký khóa học tại UpBase. Code = Record ID Contract trên HubSpot.
 * **Full Name (\*)**: tối đa 100 ký tự.
 * **Code**: mã nhân viên (với Employee Account) hoặc Record ID HubSpot (với Student Account).
 * **Username (\*)**: 6–40 ký tự, không chứa khoảng trắng, không ký tự tiếng Việt có dấu và ký tự đặc biệt, không trùng.
@@ -158,7 +158,7 @@ Truy cập **User & Org Management**. Tại màn hình Student List, nhấn nút
 * **Phone number (\*)**: 10–11 số, bắt đầu bằng 0, không trùng SĐT đã tồn tại.
 * **Gender**: chọn 1 giá trị.
 * **Entrance Level**: chọn 1 giá trị (cấp độ đầu vào).
-* **Test Account**: Yes (tài khoản test cho nhân viên SAPP) / No (học viên bình thường).
+* **Test Account**: Yes (tài khoản test cho nhân viên UpBase) / No (học viên bình thường).
 * **CFA Level**: Level test đầu vào tiếng Anh của chương trình CFA.
 * **CMA Level**: Level test đầu vào tiếng Anh của chương trình CMA.
 * **ACCA Level**: Level test đầu vào tiếng Anh của chương trình ACCA.
@@ -227,7 +227,7 @@ Các trường **có thể** chỉnh sửa:
 * **Employee Code**: Nhập mã nhân viên theo chuẩn nội bộ doanh nghiệp.
 * **HubSpot Contact ID**: Không cập nhật thủ công. Giá trị được đồng bộ từ HubSpot. Nhấn nút để cập nhật HubSpot ID.
 * **Status**: Chọn Active (tài khoản hoạt động) hoặc Block (tài khoản bị khóa, không thể đăng nhập).
-* **Test Account**: Chọn Yes (tài khoản nhân viên SAPP/test account) hoặc No (tài khoản học viên thông thường).
+* **Test Account**: Chọn Yes (tài khoản nhân viên UpBase/test account) hoặc No (tài khoản học viên thông thường).
 
 Các trường **KHÔNG** được phép chỉnh sửa:
 
@@ -372,7 +372,7 @@ View log sẽ hiển thị như sau:
 
 </details>
 
-## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
+## IV. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -380,7 +380,7 @@ View log sẽ hiển thị như sau:
 1. **Fullname KHÔNG được phép chỉnh sửa** sau khi tạo tài khoản.
 2. Người có quyền Edit thông tin Students/Teachers/Staffs có quyền **Thay đổi Email** — yêu cầu xác thực OTP gửi về email cũ, cần đảm bảo email cũ còn hoạt động.
 3. Tài khoản học viên bị **Block** sẽ không thể đăng nhập vào LMS Student.
-4. Mỗi học viên chỉ được phép đăng nhập tối đa **3 thiết bị**. Nếu vượt quá, học viên cần liên hệ Ops để xóa thiết bị tại tab Security.
+4. Mỗi học viên chỉ được phép đăng nhập tối đa **3 thiết bị**. Nếu vượt quá, học viên cần liên hệ LMS Admin để xóa thiết bị tại tab Security.
 5. File Import chỉ chấp nhận định dạng **.csv** hoặc **.xlsx**; mỗi lần chỉ import 1 file.
 6. Các trường Username, Email, SĐT trong file import phải là duy nhất, không trùng dữ liệu đã có trong hệ thống.
 7. Học viên thuộc Account Type **Student Account** cần có Record ID HubSpot để đồng bộ Contact.
@@ -392,11 +392,11 @@ View log sẽ hiển thị như sau:
 1. Tải file mẫu (template) trước khi import để đảm bảo đúng định dạng cột và dữ liệu.
 2. Dùng **View Log** sau import để kiểm tra chi tiết lỗi và sửa từng bản ghi lỗi trước khi import lại.
 3. Kết hợp nhiều bộ lọc (Search + Status + Gender + Date) để thu hẹp kết quả tìm kiếm nhanh hơn.
-4. Sắp xếp danh sách theo cột Họ tên (Sort by) để dễ dàng tìm kiếm thủ công.
+4. Sắp xếp danh sách theo cột Họ tên (Sort by) khi cần tìm kiếm thủ công.
 5. Trước khi tạo tài khoản mới, dùng Search để kiểm tra học viên đã tồn tại hay chưa, tránh trùng dữ liệu.
 {% endhint %}
 
-## V. Các Lỗi Thường Gặp & Cách Xử Lý
+## V. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                           | Nguyên nhân                                            | Cách xử lý                                                                                                |
 | ------------------------------------------ | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -406,10 +406,10 @@ View log sẽ hiển thị như sau:
 | File import bị lỗi một số dòng             | Dữ liệu các cột không đúng định dạng yêu cầu           | Nhấn **View Log** để xem chi tiết dòng lỗi, sửa file theo hướng dẫn tại cột **Errors** và import lại.     |
 | File import không tải được                 | Định dạng file không phải .csv/.xlsx hoặc file quá lớn | Kiểm tra lại định dạng file. Tách nhỏ file nếu quá lớn và import từng lần.                                |
 | Học viên không đăng nhập được thiết bị mới | Đã đăng nhập đủ 3 thiết bị                             | Vào Student Profile → tab **Security** → xóa bớt thiết bị cũ.                                             |
-| Học viên bị Block báo không đăng nhập được | Tài khoản đã bị khóa trên hệ thống OPS                 | Vào Student Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do Block.    |
+| Học viên bị Block báo không đăng nhập được | Tài khoản đã bị khóa trên hệ thống LMS Admin                 | Vào Student Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do Block.    |
 | Danh sách không tải được                   | Mất kết nối hoặc lỗi server                            | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                                    |
 
-## VI. Câu Hỏi Thường Gặp
+## VI. Câu hỏi thường gặp
 
 <details>
 
@@ -439,7 +439,7 @@ A: Sau khi import, nhấn **View Log** để xem chi tiết các dòng lỗi. M�
 
 <summary>Q: Học viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
 
-A: Không. Chỉ người dùng có quyền trên hệ thống OPS (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
+A: Không. Chỉ người dùng có quyền trên hệ thống LMS Admin (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
 
 </details>
 
@@ -447,7 +447,7 @@ A: Không. Chỉ người dùng có quyền trên hệ thống OPS (Admin / Oper
 
 <summary>Q: Sự khác biệt giữa Employee Account và Student Account là gì?</summary>
 
-A: Employee Account dùng cho nhân viên nội bộ SAPP (cần điền mã nhân viên ở trường Code). Student Account dùng cho học viên đăng ký khóa học thực tế (cần điền Record ID HubSpot để đồng bộ Contact).
+A: Employee Account dùng cho nhân viên nội bộ UpBase (cần điền mã nhân viên ở trường Code). Student Account dùng cho học viên đăng ký khóa học thực tế (cần điền Record ID HubSpot để đồng bộ Contact).
 
 </details>
 
@@ -455,6 +455,6 @@ A: Employee Account dùng cho nhân viên nội bộ SAPP (cần điền mã nh�
 
 <summary>Q: Học viên đăng nhập tối đa bao nhiêu thiết bị?</summary>
 
-A: Tối đa 3 thiết bị. Khi vượt quá, học viên cần liên hệ Ops để xóa bớt thiết bị tại tab Security trong Student Profile.
+A: Tối đa 3 thiết bị. Khi vượt quá, học viên cần liên hệ LMS Admin để xóa bớt thiết bị tại tab Security trong Student Profile.
 
 </details>

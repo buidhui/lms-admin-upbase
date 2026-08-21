@@ -2,16 +2,16 @@
 
 ## Record of changes
 
-\*A - Add M - Modify D - Delete
+_A - Add | M - Modify | D - Delete_
 
 <table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>18/06/2026</td><td>Nguyễn Duy Hiếu</td><td>A</td><td></td><td>1.0.0</td><td>18/06/2026</td></tr></tbody></table>
 
-## I. Giới Thiệu Chung
+## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Mentor phụ trách
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/](https://ops.sapp.edu.vn/)
+**Đường dẫn:** [https://ops.upbase.asia/](https://ops.upbase.asia/)
 {% endhint %}
 
 {% hint style="info" %}
@@ -123,7 +123,7 @@ Các màn hình sau có thêm cột **"AI Grading Failures"**:
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -143,7 +143,7 @@ Các màn hình sau có thêm cột **"AI Grading Failures"**:
 3. Lọc "AI Grading Failures = Yes" để ưu tiên xử lý các bài còn lỗi.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                          | Nguyên nhân                         | Cách xử lý                                           |
 | --------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------- |

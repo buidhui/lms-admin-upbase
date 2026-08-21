@@ -1,11 +1,17 @@
 # Tạo cấu phần học (Section, Subsection, Unit, Activity)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+
 ## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/courses?page\_index=1\&page\_size=10](https://ops.sapp.edu.vn/courses?page_index=1\&page_size=10)
+**Đường dẫn:** [https://ops.upbase.asia/courses?page\_index=1\&page\_size=10](https://ops.upbase.asia/courses?page_index=1\&page_size=10)
 {% endhint %}
 
 {% hint style="info" %}
@@ -26,7 +32,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Admin đã đăng nhập thành công vào hệ thống OPS.
+* Admin đã đăng nhập thành công vào hệ thống LMS Admin.
 * Tài khoản Admin có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công ở bước **Course Info**.
 {% endhint %}
@@ -40,10 +46,14 @@
 {% stepper %}
 {% step %}
 **Admin hoàn thành bước Course Info và chọn Save để tạo khóa học.**
+
+<figure><img src="../../../.gitbook/assets/image (1054).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Sau khi lưu Course Info, hệ thống chuyển sang bước Course Content.**
+
+<figure><img src="../../../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure>
 
 Tại đây, Admin có thể bắt đầu tạo cấu trúc nội dung khóa học.
 {% endstep %}
@@ -59,7 +69,11 @@ Tại đây, Admin có thể bắt đầu tạo cấu trúc nội dung khóa h�
 {% step %}
 **Tại màn hình Course Content, Admin chọn New Section.**
 
+<figure><img src="../../../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị form tạo mới Section ở phía bên phải màn hình.
+
+<figure><img src="../../../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -80,6 +94,8 @@ Hệ thống hiển thị form tạo mới Section ở phía bên phải màn h�
 Sau khi tạo thành công, Section được hiển thị trên cây nội dung khóa học.
 
 Lúc này, admin có thể thực hiện các thao tác với Section như sau:
+
+<figure><img src="../../../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 
 | Thao tác                | Mô tả                                |
 | ----------------------- | ------------------------------------ |
@@ -103,7 +119,11 @@ Lúc này, admin có thể thực hiện các thao tác với Section như sau:
 {% step %}
 **Tại Section cần tạo nội dung con, Admin chọn Action → New Subsection.**
 
+<figure><img src="../../../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị form tạo mới Subsection ở phía bên phải màn hình.
+
+<figure><img src="../../../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -121,6 +141,8 @@ Hệ thống hiển thị form tạo mới Subsection ở phía bên phải màn
 **Admin chọn Save để lưu Subsection.**
 
 Lúc này, admin có thể thực hiện các thao tác với Subsection như sau:
+
+<figure><img src="../../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
 
 | Thao tác                    | Mô tả                                   |
 | --------------------------- | --------------------------------------- |
@@ -145,7 +167,11 @@ Lúc này, admin có thể thực hiện các thao tác với Subsection như sa
 {% step %}
 **Tại Subsection cần tạo mục tiêu học tập, Admin chọn Action → Add Learning Outcome.**
 
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị form tạo mới Learning schedule như hình.
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -162,6 +188,8 @@ Hệ thống hiển thị form tạo mới Learning schedule như hình.
 **Admin chọn Save để lưu Learning Outcome.**
 
 Lúc này, admin có thể thực hiện các thao tác với Learning Outcome như sau:
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 | Thao tác   | Mô tả                       |
 | ---------- | --------------------------- |
@@ -180,7 +208,11 @@ Lúc này, admin có thể thực hiện các thao tác với Learning Outcome n
 {% step %}
 **Tại Subsection cần tạo Unit, Admin chọn Action → Add Unit.**
 
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị form tạo mới Unit ở phía bên phải màn hình.
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -196,6 +228,8 @@ Hệ thống hiển thị form tạo mới Unit ở phía bên phải màn hình
 **Admin chọn Save để lưu Unit.**
 
 Khi này, admin có thể thực hiện các thao tác với Unit bao gồm:
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 | Thao tác            | Mô tả                             |
 | ------------------- | --------------------------------- |
@@ -219,7 +253,11 @@ Khi này, admin có thể thực hiện các thao tác với Unit bao gồm:
 {% step %}
 **Tại Unit cần tạo Activity, Admin chọn Action → New Activity.**
 
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị form tạo mới Activity như hình.
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -242,6 +280,8 @@ Với phần upload file, Admin có thể chọn tài liệu từ kho tài liệ
 
 Lúc này, admin có thể thực hiện các thao tác với Activity sau:
 
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
 | Thao tác    | Mô tả                            |
 | ----------- | -------------------------------- |
 | **Add Tab** | Tạo Tab nội dung trong Activity. |
@@ -261,7 +301,11 @@ Lúc này, admin có thể thực hiện các thao tác với Activity sau:
 {% step %}
 **Tại Activity cần tạo nội dung, Admin chọn Action → Add Tab.**
 
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị form tạo mới tab như hình.
+
+<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -282,12 +326,16 @@ Hệ thống hiển thị form tạo mới tab như hình.
 {% stepper %}
 {% step %}
 **Tại Tab đã tạo, Admin chọn Add Document.**
+
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn loại Document**
 
 Hệ thống hiển thị các loại Document sau:
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 | Loại Document | Mô tả                                            |
 | ------------- | ------------------------------------------------ |
@@ -304,14 +352,20 @@ Hệ thống hiển thị các loại Document sau:
 {% stepper %}
 {% step %}
 **Admin chọn Text trong danh sách Document.**
+
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin nhập nội dung học tập vào khu vực mô tả.**
+
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Save Document để lưu nội dung.**
+
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi lưu, hệ thống hiển thị Document Text trong Tab. Admin có thể chỉnh sửa, xóa hoặc tiếp tục thêm Document khác.
 {% endstep %}
@@ -322,12 +376,16 @@ Sau khi lưu, hệ thống hiển thị Document Text trong Tab. Admin có thể
 {% stepper %}
 {% step %}
 **Admin chọn Video trong danh sách Document.**
+
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn loại upload video**
 
 Admin có 2 lựa chọn:
+
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 | Lựa chọn            | Mô tả                                                                         |
 | ------------------- | ----------------------------------------------------------------------------- |
@@ -338,7 +396,11 @@ Admin có 2 lựa chọn:
 {% step %}
 **Admin chọn Upload.**
 
+<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
 Hệ thống hiển thị 2 cách upload video:
+
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 | Cách upload                 | Mô tả                                                       |
 | --------------------------- | ----------------------------------------------------------- |
@@ -350,6 +412,8 @@ Hệ thống hiển thị 2 cách upload video:
 **Cấu hình video nếu upload từ thiết bị**
 
 Sau khi video được tải lên thành công, hệ thống chuyển tới giao diện cài đặt video. Admin có thể cấu hình:
+
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 | Tab cấu hình | Mô tả                                                                                                              |
 | ------------ | ------------------------------------------------------------------------------------------------------------------ |
@@ -372,10 +436,14 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 {% stepper %}
 {% step %}
 **Admin chọn Quiz trong danh sách Document.**
+
+<figure><img src="../../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin thực hiện tạo bài Quiz/Test theo tài liệu hướng dẫn riêng về Tạo bài Test/Quiz.**
+
+<figure><img src="../../../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -396,10 +464,14 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 {% stepper %}
 {% step %}
 **Tại Subsection cần thêm Case Study, Admin chọn Action → Add Case Study.**
+
+<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin nhập thông tin chung cho Case Study trong khóa học**
+
+<figure><img src="../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
 
 | Trường thông tin    | Mô tả                                 |
 | ------------------- | ------------------------------------- |
@@ -409,6 +481,8 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 
 {% step %}
 **Admin bấm Choose Case Study. Sau đó chọn Case Study đã được tạo trước đó.**
+
+<figure><img src="../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -425,10 +499,14 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 {% stepper %}
 {% step %}
 **Tại Unit cần thêm Storyline, Admin chọn Action → Add Story Line.**
+
+<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin nhập thông tin chung cho Storyline trong khóa học**
+
+<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
 
 | Trường thông tin   | Mô tả                                |
 | ------------------ | ------------------------------------ |
@@ -438,6 +516,8 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 
 {% step %}
 **Admin bấm Choose Storyline. Sau đó chọn Storyline đã được tạo trước đó.**
+
+<figure><img src="../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -459,6 +539,10 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 | **Subsection** | Chọn **Action → Copy Subsection**                   | Subsection, Part/Topic Test                                        |
 | **Unit**       | Chọn **Action → Copy Unit**                         | Learning Outcome, Unit, Case Study, Chapter/Module Test            |
 | **Activity**   | Chọn **Action → Copy Activity**                     | Activity                                                           |
+
+<figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
 #### Luồng thao tác chung
 
@@ -486,24 +570,34 @@ Sau khi video được tải lên thành công, hệ thống chuyển tới giao
 | **Link Subsection** | Chọn Action của Section → Link Subsection.            |
 | **Link Unit**       | Chọn Action của Subsection → Link Unit.               |
 | **Link Activity**   | Chọn Action của Unit → Link Activity.                 |
+
+<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin nhập tên khóa học chứa nội dung cần link.**
+
+<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
 
 Hệ thống hiển thị danh sách gợi ý các khóa học chứa từ khóa đã nhập.
 {% endstep %}
 
 {% step %}
 **Admin chọn khóa học chứa học phần cần link.**
+
+<figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin tick chọn một hoặc nhiều học phần muốn link, sau đó chọn Confirm.**
+
+<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Hệ thống quay về màn hình Course Content và hiển thị học phần đã link với ký hiệu tương ứng.**
+
+<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
 **Bỏ link học phần:** Nếu muốn gỡ học phần đã link, Admin chọn **Unlink** từ Action của học phần muốn gỡ. Sau đó chọn **Yes** tại popup xác nhận để gỡ nội dung đã link.
 {% endstep %}
@@ -518,10 +612,14 @@ Hệ thống hiển thị danh sách gợi ý các khóa học chứa từ khóa
 {% stepper %}
 {% step %}
 **Admin chọn Preview từ Action của học phần muốn xem.**
+
+<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Hệ thống hiển thị nội dung đã tạo.**
+
+<figure><img src="../../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
 
 Với Activity có nhiều Tab, Admin có thể chuyển giữa các Tab để xem nội dung. Tại giao diện Preview Activity, Admin cũng có thể xem video hoặc chuyển giữa các câu hỏi của bài Quiz.
 {% endstep %}
@@ -538,10 +636,14 @@ Với Activity có nhiều Tab, Admin có thể chuyển giữa các Tab để x
 {% stepper %}
 {% step %}
 **Admin chọn Action tại nội dung muốn khóa.**
+
+<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Lock.**
+
+<figure><img src="../../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi khóa, nút **Lock** chuyển thành **Unlock**. Admin thực hiện tương tự để mở khóa lại nội dung.
 {% endstep %}
@@ -556,10 +658,14 @@ Sau khi khóa, nút **Lock** chuyển thành **Unlock**. Admin thực hiện tư
 {% stepper %}
 {% step %}
 **Admin chọn Action tại nội dung cần thao tác.**
+
+<figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Show Lock Icon.**
+
+<figure><img src="../../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi thực hiện, nút **Show Lock** chuyển thành **Hide Lock**. Admin thực hiện tương tự để ẩn trạng thái khóa.
 {% endstep %}
@@ -574,10 +680,14 @@ Sau khi thực hiện, nút **Show Lock** chuyển thành **Hide Lock**. Admin t
 {% stepper %}
 {% step %}
 **Admin chọn Action tại nội dung muốn thay đổi CTA.**
+
+<figure><img src="../../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Change CTA to Preview.**
+
+<figure><img src="../../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi thực hiện, nút này chuyển thành **Change CTA to Begin**. Admin thực hiện tương tự nếu muốn đổi lại CTA về Begin.
 {% endstep %}
@@ -611,7 +721,7 @@ Sau khi thực hiện, nút này chuyển thành **Change CTA to Begin**. Admin 
 5. Trước khi xóa cấu phần học, cần kiểm tra cấu phần đó có chứa nội dung con, Quiz/Test hoặc Case Study hay không.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                | Nguyên nhân                                                          | Cách xử lý                                                                 |
 | ----------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------- |

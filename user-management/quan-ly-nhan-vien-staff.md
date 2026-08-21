@@ -1,10 +1,10 @@
 ---
-description: Tài liệu hướng dẫn quản lý toàn bộ tài khoản Nhân viên trong hệ thống OPS
+description: Tài liệu hướng dẫn quản lý toàn bộ tài khoản Nhân viên trong hệ thống LMS Admin
 ---
 
 # Quản lý nhân viên (Staff)
 
-## Record of Changes
+## Record of changes
 
 _A - Add | M - Modify | D - Delete_
 
@@ -14,7 +14,7 @@ _A - Add | M - Modify | D - Delete_
 
 | # | Term       | Definition                                               |
 | - | ---------- | -------------------------------------------------------- |
-| 1 | OPS        | Operations — Hệ thống quản lý vận hành                   |
+| 1 | LMS Admin  | Hệ thống quản lý vận hành                   |
 | 2 | LMS        | Learning Management System — Hệ thống quản lý học tập    |
 | 3 | OTP        | One-Time Password — Mã xác thực một lần                  |
 | 4 | Import Log | Lịch sử file đã import, hiển thị trạng thái từng bản ghi |
@@ -37,7 +37,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống OPS.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 * Đã nắm rõ cấu trúc Phòng ban (Department), Chức danh (Title), Cấp bậc (Level), Chương trình (Program) và Role hiện có trong hệ thống.
@@ -82,7 +82,11 @@ Hệ thống tổ chức tài khoản nhân viên theo các cấp bậc phòng b
 
 Từ thanh điều hướng bên trái, chọn **User & Org Management** → chọn **Departments**. Danh sách bộ phận hiển thị dưới dạng cấp bậc phòng ban.
 
-Có thể rút gọn nếu không muốn xem chi tiết, chọn :
+<figure><img src="../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
+
+Có thể rút gọn nếu không muốn xem chi tiết, chọn ![](<../.gitbook/assets/image (1125).png>):
+
+<figure><img src="../.gitbook/assets/image (1126).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -98,7 +102,11 @@ Có thể rút gọn nếu không muốn xem chi tiết, chọn :
 
 Tại danh sách phòng ban, chọn tên phòng ban muốn xem chi tiết.
 
+<figure><img src="../.gitbook/assets/image (1128).png" alt=""><figcaption></figcaption></figure>
+
 ✅ Kết quả: Thông tin chi tiết của phòng ban sẽ hiển thị. Người dùng có thể chỉnh sửa thông tin phòng ban đó.
+
+<figure><img src="../.gitbook/assets/image (1129).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -116,9 +124,15 @@ Có 3 cách truy cập chỉnh sửa phòng ban:
 
 **Cách 1:** Tại Department List chọn **Action** → **Edit** phòng ban cần chỉnh sửa:
 
+<figure><img src="../.gitbook/assets/image (1130).png" alt=""><figcaption></figcaption></figure>
+
 **Cách 2:** Truy cập Department Detail → chọn **Edit Department**:
 
+<figure><img src="../.gitbook/assets/image (1131).png" alt=""><figcaption></figcaption></figure>
+
 **Cách 3:** Truy cập Department Detail → chọn **Setting**:
+
+<figure><img src="../.gitbook/assets/image (1132).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -132,12 +146,16 @@ Cho phép chỉnh sửa các thông tin sau (\*: trường bắt buộc):
 * **Department Parent** (\*): Phòng ban cha của nó
 * **Unit** (\*): Đơn vị kinh doanh
 * **Description:** Mô tả phòng ban
+
+<figure><img src="../.gitbook/assets/image (1133).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhấn lưu và xác nhận thông tin**
 
-Nhấn  và xác nhận lưu thông tin.
+Nhấn <img src="../.gitbook/assets/image (1135).png" alt="" data-size="line"> và xác nhận lưu thông tin.
+
+<figure><img src="../.gitbook/assets/image (1134).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Thông tin phòng ban được cập nhật thành công.
 {% endstep %}
@@ -154,6 +172,8 @@ Nhấn  và xác nhận lưu thông tin.
 **Truy cập Create Department**
 
 Truy cập danh mục **Department**, tại Department List chọn **Create Department**.
+
+<figure><img src="../.gitbook/assets/image (1136).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -165,14 +185,18 @@ Truy cập danh mục **Department**, tại Department List chọn **Create Depa
 * **Department Parent** (\*): chọn phòng ban cấp trên từ dropdown
 * **Unit** (\*): chọn đơn vị kinh doanh từ dropdown
 * **Description:** nhập mô tả (tùy chọn)
+
+<figure><img src="../.gitbook/assets/image (1137).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhấn Submit và xác nhận để lưu thông tin**
 
-Người dùng chọn  để hoàn tất lưu thông tin.
+Người dùng chọn ![](<../.gitbook/assets/image (1138).png>) để hoàn tất lưu thông tin.
 
 ✅ Kết quả: Thông tin phòng ban mới sẽ được tạo, hệ thống hiển thị thông báo
+
+![](<../.gitbook/assets/image (1139).png>)
 {% endstep %}
 {% endstepper %}
 
@@ -185,10 +209,14 @@ Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và kh�
 {% stepper %}
 {% step %}
 **Truy cập Department List → chọn Action → Delete**
+
+<figure><img src="../.gitbook/assets/image (1140).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xác nhận xóa**
+
+<figure><img src="../.gitbook/assets/image (1141).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Hệ thống xóa thành công phòng ban và hiển thị
 {% endstep %}
@@ -203,7 +231,7 @@ Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và kh�
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống Ops.
+* Người dùng đã đăng nhập thành công vào hệ thống LMS Admin.
 * Người dùng được cấp quyền tương ứng (xem / tạo / chỉnh sửa chức danh).
 {% endhint %}
 
@@ -218,6 +246,8 @@ Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và kh�
 **Truy cập màn hình Title List**
 
 Từ menu điều hướng bên trái, chọn: **User & Org Management** → **Title List**.
+
+<figure><img src="../.gitbook/assets/image (1142).png" alt=""><figcaption></figcaption></figure>
 
 Màn hình Title List gồm các khu vực chính:
 
@@ -246,6 +276,8 @@ Các trường thông tin trong danh sách:
 * Sử dụng bộ lọc **Filter** để thu hẹp kết quả theo Department Level, Department, Status hoặc khoảng thời gian From Date – To Date.
 * Nhấn **Search** để áp dụng điều kiện lọc. Nhấn **Reset** để xóa bộ lọc.
 
+<figure><img src="../.gitbook/assets/image (1143).png" alt=""><figcaption></figcaption></figure>
+
 ✅ Kết quả:
 
 Danh sách chức danh hiển thị theo bảng với các thông tin: Name, Code, Department, Status, Description, Date.
@@ -265,10 +297,14 @@ Click trực tiếp vào Name để mở màn hình chỉnh sửa, hoặc chọn
 **Truy cập màn hình tạo mới**
 
 Tại màn hình Title List, nhấn nút **Create** (góc phải phía trên).
+
+<figure><img src="../.gitbook/assets/image (1144).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhập thông tin chức danh**
+
+<figure><img src="../.gitbook/assets/image (1145).png" alt=""><figcaption></figcaption></figure>
 
 Điền đầy đủ các trường thông tin:
 
@@ -303,11 +339,17 @@ Tại màn hình Title List, nhấn nút **Create** (góc phải phía trên).
 
 **Cách 1:** Tại màn hình Title List, click trực tiếp vào **Name** của chức danh cần chỉnh sửa.
 
+<figure><img src="../.gitbook/assets/image (1146).png" alt=""><figcaption></figcaption></figure>
+
 **Cách 2:** Tại dòng chức danh, chọn icon **Action (⋮)** → **Edit**.
+
+<figure><img src="../.gitbook/assets/image (1147).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chỉnh sửa thông tin**
+
+<figure><img src="../.gitbook/assets/image (1148).png" alt=""><figcaption></figcaption></figure>
 
 Cập nhật các trường thông tin theo nhu cầu:
 
@@ -341,10 +383,14 @@ Người dùng có thể thay đổi trạng thái chức danh trực tiếp t�
 {% stepper %}
 {% step %}
 **Truy cập Title List, cập nhật thông tin tại cột Status**
+
+<figure><img src="../.gitbook/assets/image (1149).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xác nhận thay đổi trạng thái**
+
+<figure><img src="../.gitbook/assets/image (1150).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Hệ thống cập nhật thành công trạng thái của chức danh.
 {% endstep %}
@@ -365,10 +411,14 @@ Người dùng có thể thay đổi trạng thái chức danh trực tiếp t�
 **Truy cập Staff List**
 
 Từ thanh điều hướng bên trái, nhấn **User & Org Management** → chọn **Staff**. Danh sách nhân viên hiển thị theo thời gian tạo giảm dần.
+
+<figure><img src="../.gitbook/assets/image (1151).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tìm kiếm và lọc**
+
+<figure><img src="../.gitbook/assets/image (1152).png" alt=""><figcaption></figcaption></figure>
 
 Sử dụng các bộ lọc phía trên bảng danh sách:
 
@@ -379,7 +429,7 @@ Sử dụng các bộ lọc phía trên bảng danh sách:
 * **Gender:** chọn giới tính.
 * **From Date – To Date:** lọc theo ngày cập nhật thông tin.
 
-Nhấn  để áp dụng. Nhấn  để xóa toàn bộ bộ lọc.
+Nhấn ![](<../.gitbook/assets/image (1153).png>) để áp dụng. Nhấn ![](<../.gitbook/assets/image (1154).png>) để xóa toàn bộ bộ lọc.
 {% endstep %}
 
 {% step %}
@@ -389,7 +439,11 @@ Có 2 cách truy cập thông tin chi tiết nhân viên:
 
 **Cách 1:** Từ **List Staffs** chọn **Action** → **View Profile**:
 
+<figure><img src="../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
+
 **Cách 2:** Nhấn trực tiếp vào tên Staff:
+
+<figure><img src="../.gitbook/assets/image (1156).png" alt=""><figcaption></figcaption></figure>
 
 Màn hình **Staff Profile** hiển thị các thông tin Overview:
 
@@ -399,10 +453,14 @@ Màn hình **Staff Profile** hiển thị các thông tin Overview:
 * Role
 * Trạng thái, Giới tính
 * Thời gian cập nhật.
+
+<figure><img src="../.gitbook/assets/image (1157).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xuất danh sách ra Excel**
+
+<figure><img src="../.gitbook/assets/image (1158).png" alt=""><figcaption></figcaption></figure>
 
 Tại Staff List, nhấn **Export**. Hệ thống xuất danh sách nhân viên (theo điều kiện tìm kiếm hiện tại) thành file Excel và tự động tải về thiết bị.
 
@@ -414,17 +472,21 @@ Tại Staff List, nhấn **Export**. Hệ thống xuất danh sách nhân viên 
 
 **3.3.2 Tạo tài khoản nhân viên**
 
-🎯 Mục tiêu: Tạo mới một tài khoản nhân viên vận hành trong hệ thống OPS.
+🎯 Mục tiêu: Tạo mới một tài khoản nhân viên vận hành trong hệ thống LMS Admin.
 
 {% stepper %}
 {% step %}
 **Truy cập màn hình tạo tài khoản**
 
 Tại Staff List, nhấn nút **Create** để mở màn hình Create Staff.
+
+<figure><img src="../.gitbook/assets/image (1159).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền thông tin nhân viên**
+
+<figure><img src="../.gitbook/assets/image (1160).png" alt=""><figcaption></figcaption></figure>
 
 Điền các trường thông tin. Các trường có dấu **(\*)** là bắt buộc:
 
@@ -446,6 +508,8 @@ Tại Staff List, nhấn nút **Create** để mở màn hình Create Staff.
 
 Nhấn **Save** tại góc phải màn hình → chọn **Yes** khi hộp thoại xác nhận hiển thị.
 
+<figure><img src="../.gitbook/assets/image (1161).png" alt=""><figcaption></figcaption></figure>
+
 ✅ Kết quả: Tài khoản nhân viên được tạo thành công và xuất hiện ở đầu danh sách Staff List.
 {% endstep %}
 {% endstepper %}
@@ -464,13 +528,21 @@ Có 3 cách truy cập màn hình chỉnh sửa thông tin nhân viên:
 
 **Cách 1:** Tại Staff List → nhấn **Action** → chọn **Edit**:
 
+<figure><img src="../.gitbook/assets/image (1162).png" alt=""><figcaption></figcaption></figure>
+
 **Cách 2:** Nhấn vào tên nhân viên → chọn **Edit Profile**:
 
+<figure><img src="../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
+
 **Cách 3:** Nhấn vào tên nhân viên → chọn tab **Setting**:
+
+<figure><img src="../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chỉnh sửa thông tin**
+
+<figure><img src="../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 
 **Các trường có thể chỉnh sửa:** Avatar, Full Name (\*), Gender (\*), Department, Job Position (Title & Level — tối đa 2 vị trí), Program, Role, Status.
 
@@ -481,9 +553,13 @@ Có 3 cách truy cập màn hình chỉnh sửa thông tin nhân viên:
 
 **Thay đổi Email** (có quy trình riêng — cần xác thực OTP):
 
-Tại trang edit profile nhấn , hệ thống sẽ gửi OTP xác nhận đổi email vào tài khoản email gốc.
+Tại trang edit profile nhấn ![](<../.gitbook/assets/image (1167).png>), hệ thống sẽ gửi OTP xác nhận đổi email vào tài khoản email gốc.
+
+<figure><img src="../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
 
 Nhập tài khoản email mới và mã OTP (có hiệu lực trong 15 giây) được gửi về email gốc:
+
+<figure><img src="../.gitbook/assets/image (1168).png" alt=""><figcaption></figcaption></figure>
 
 Nhấn **Save** để hoàn tất chỉnh sửa email.
 
@@ -491,7 +567,12 @@ Nhấn **Save** để hoàn tất chỉnh sửa email.
 
 * Mỗi nhân viên tối thiểu 1, tối đa 2 Job Position.
 * Dùng nút **Add job position** để thêm vị trí:
+
+<figure><img src="../.gitbook/assets/image (1169).png" alt=""><figcaption></figcaption></figure>
+
 * Dùng nút **Delete** để xóa bớt vị trí (chỉ xóa được khi còn nhiều hơn 1 Job Position):
+
+<figure><img src="../.gitbook/assets/image (1170).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -500,6 +581,8 @@ Nhấn **Save** để hoàn tất chỉnh sửa email.
 Nhấn **Save Changes** để lưu thay đổi.
 
 ✅ Kết quả: Thông tin nhân viên được cập nhật thành công.
+
+<figure><img src="../.gitbook/assets/image (1171).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -516,12 +599,16 @@ Nhấn **Save Changes** để lưu thay đổi.
 **Truy cập List Staffs**
 
 Tại Staff List, nhấn **Action** tương ứng với nhân viên cần đổi trạng thái → chọn **Block** (áp dụng cho tài khoản đang Active) hoặc **Active** (áp dụng cho tài khoản đang Block).
+
+<figure><img src="../.gitbook/assets/image (1172).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xác nhận thay đổi trạng thái**
 
 Chọn **Yes** để cập nhật trạng thái thành công.
+
+<figure><img src="../.gitbook/assets/image (1173).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -532,6 +619,8 @@ Chọn **Yes** để cập nhật trạng thái thành công.
 **Truy cập Staff Profile**
 
 Nhấn trực tiếp vào giá trị trường **Status** trong bảng danh sách hoặc trên trang Staff Profile → chọn giá trị mới (Active / Block) để chuyển đổi trạng thái.
+
+<figure><img src="../.gitbook/assets/image (1174).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -556,12 +645,16 @@ Nhấn trực tiếp vào giá trị trường **Status** trong bảng danh sác
 **Mở hộp thoại Import**
 
 Tại màn hình Staff List, nhấn nút **Import** để hiển thị hộp thoại tải file.
+
+<figure><img src="../.gitbook/assets/image (1175).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn file từ thiết bị**
 
 Chọn **Browse** để chọn file từ thiết bị (chỉ chấp nhận `.csv` hoặc `.xlsx`; mỗi lần chỉ được chọn 1 file). Người dùng có thể tải file mẫu về để tham khảo cách điền các thông tin hợp lệ.
+
+<figure><img src="../.gitbook/assets/image (910).png" alt=""><figcaption></figcaption></figure>
 
 Các trường bắt buộc trong file Import:
 
@@ -578,6 +671,8 @@ Các trường bắt buộc trong file Import:
 
 {% step %}
 **Click "Import" để tải file lên hệ thống**
+
+<figure><img src="../.gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -592,7 +687,11 @@ Hộp thoại hiển thị trạng thái tạo tài khoản:
 
 Nhấp vào **View Log** để xem chi tiết tình trạng tạo tài khoản. Những trường không hợp lệ sẽ được bôi đỏ, kèm lỗi cụ thể tại cột **'Errors'**.
 
+<figure><img src="../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
+
 View log sẽ hiển thị như sau:
+
+<figure><img src="../.gitbook/assets/image (913).png" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Tài khoản nhân viên hợp lệ được tạo thành công. Tài khoản lỗi được ghi nhận trong log để người dùng kiểm tra, sửa và import lại.
 
@@ -609,7 +708,7 @@ View log sẽ hiển thị như sau:
 
 1. **Username** và **Số điện thoại** KHÔNG được phép chỉnh sửa sau khi tạo tài khoản — đây là định danh duy nhất của nhân viên.
 2. Thay đổi **Email** yêu cầu xác thực OTP gửi về Email cũ — cần đảm bảo Email cũ còn hoạt động.
-3. Tài khoản nhân viên bị **Block** sẽ không thể đăng nhập vào hệ thống OPS.
+3. Tài khoản nhân viên bị **Block** sẽ không thể đăng nhập vào hệ thống LMS Admin.
 4. Mỗi nhân viên có tối thiểu **1**, tối đa **2 Job Position** (tổ hợp Title + Level).
 5. Phòng ban khác **'HO'** BẮT BUỘC phải chọn Chương trình (Program); phòng ban 'HO' thì không bắt buộc.
 6. Danh sách Title (chức danh) hiển thị phụ thuộc vào Department đã chọn — chọn Department trước, rồi mới chọn Title.
@@ -629,7 +728,7 @@ View log sẽ hiển thị như sau:
 5. Khi cần điều chuyển nội bộ, dùng tính năng **Edit Job Position** thay vì tạo tài khoản mới.
 {% endhint %}
 
-## V. Các lỗi thường gặp & Hướng dẫn xử lý
+## V. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                         | Nguyên nhân                                           | Cách xử lý                                                                                          |
 | -------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -641,7 +740,7 @@ View log sẽ hiển thị như sau:
 | Không xóa được Job Position                              | Chỉ còn 1 Job Position duy nhất                       | Mỗi nhân viên phải có tối thiểu 1 Job Position. Thêm vị trí mới trước khi xóa vị trí cũ.            |
 | File import bị lỗi một số dòng                           | Dữ liệu các cột không đúng định dạng yêu cầu          | Nhấn **View Log** để xem chi tiết dòng lỗi, sửa file theo hướng dẫn tại cột 'Errors' và import lại. |
 | Nhân viên đăng nhập được nhưng không thấy menu/chức năng | Chưa được gán Role hoặc Role không có quyền tương ứng | Vào Staff Profile → Edit → gán Role phù hợp với công việc của nhân viên.                            |
-| Nhân viên bị Block báo không đăng nhập được              | Tài khoản đã bị khóa trên hệ thống OPS                | Vào Staff Profile, đổi trạng thái về Active (nếu được phép) hoặc xác nhận với Admin lý do block.    |
+| Nhân viên bị Block báo không đăng nhập được              | Tài khoản đã bị khóa trên hệ thống LMS Admin                | Vào Staff Profile, đổi trạng thái về Active (nếu được phép) hoặc xác nhận với Admin lý do block.    |
 | Danh sách không tải được                                 | Mất kết nối hoặc lỗi server                           | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                              |
 
 ## VI. Câu hỏi thường gặp (FAQ)
@@ -706,7 +805,7 @@ A: Sau khi import, nhấn **View Log** để xem chi tiết các dòng lỗi. M�
 
 <summary>Q: Sau khi import, tại sao nhân viên không truy cập được hệ thống?</summary>
 
-A: Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone, Full Name, Status). Các thông tin về Department, Job Position, Program và đặc biệt là **Role** cần được bổ sung thủ công qua màn hình Edit. Nhân viên chưa có Role sẽ không thấy được menu/chức năng trong OPS.
+A: Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone, Full Name, Status). Các thông tin về Department, Job Position, Program và đặc biệt là **Role** cần được bổ sung thủ công qua màn hình Edit. Nhân viên chưa có Role sẽ không thấy được menu/chức năng trong LMS Admin.
 
 </details>
 
@@ -714,7 +813,7 @@ A: Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone,
 
 <summary>Q: Nhân viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
 
-A: Không. Chỉ người dùng có quyền trên hệ thống OPS (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
+A: Không. Chỉ người dùng có quyền trên hệ thống LMS Admin (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
 
 </details>
 

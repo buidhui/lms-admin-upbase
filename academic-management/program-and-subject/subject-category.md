@@ -1,5 +1,13 @@
 # Subject Category
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description             | Version | Effective Date |
+| -------------- | ------------- | ----- | ------------------------------ | ------- | -------------- |
+| May 18, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook | 4.7.0   | May 18, 2026   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -34,12 +42,16 @@
 **Mở màn hình Subject Category**
 
 Màn hình hiển thị danh sách Subject như sau:
+
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tìm kiếm/lọc danh sách Subject**
 
 Tại màn hình Subject Category, Admin có thể tìm kiếm/lọc danh sách Subject theo tên, Program hoặc ngày tạo tại khu vực tìm kiếm.
+
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 Các thông tin hiển thị trong danh sách Subject:
 
@@ -63,12 +75,16 @@ Các thông tin hiển thị trong danh sách Subject:
 **Click Add Subject**
 
 Admin click button **Add Subject** tại màn hình.
+
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Nhập thông tin Subject**
 
 Admin nhập thông tin vào form tạo mới Subject hiển thị phía bên phải:
+
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 * **Tên Subject:** trường bắt buộc phải nhập để có thể tạo mới.
 * **Code:** trường không bắt buộc, người dùng nhập mã của môn học.
@@ -93,12 +109,16 @@ Admin click button **Save** để lưu Subject mới. Sau khi lưu, màn hình h
 **Chọn Action → Edit**
 
 Để chỉnh sửa Subject đã tạo, Admin click vào biểu tượng **Action** tại Subject muốn chỉnh sửa rồi chọn **Edit**.
+
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chỉnh sửa thông tin Subject**
 
 Thông tin của Subject hiển thị phía bên phải. Admin chỉnh sửa:
+
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
 * **Tên Subject**
 * **Code:** Admin có thể nhập/xóa code của Subject.
@@ -142,7 +162,7 @@ Subject đã gán với khóa học thì không thể xóa.
 5. Với Subject đã sử dụng trong khóa học, nên hạn chế chỉnh sửa Program để tránh ảnh hưởng đến việc phân loại Course.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                             | Cách xử lý                                                             |
 | ----------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------- |

@@ -2,7 +2,7 @@
 
 ## Record of changes
 
-_A - Add M - Modify D - Delete_
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person | A,M,D | Change Description             | Version |
 | -------------- | ------------- | ----- | ------------------------------ | ------- |
@@ -11,7 +11,7 @@ _A - Add M - Modify D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Ops User, CX/Admin lớp
+**Dành cho:** Admin, Operator, CX/Admin lớp
 
 **Đường dẫn:** LMS → Class List → Chọn lớp học → Teachers
 {% endhint %}
@@ -248,7 +248,7 @@ Người dùng chọn **Save** tại màn hình **Add/Edit Teacher**. Hệ thố
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -295,7 +295,7 @@ Nội dung popup cảnh báo có dạng: _"The class schedule overlaps with lect
 | **Rejected**       | Giảng viên đã từ chối request. Hệ thống hiển thị Reason.                                          |
 | **Cancelled**      | Request đã bị hủy. Hệ thống hiển thị Reason.                                                      |
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                               | Nguyên nhân                                                                                                        | Cách xử lý                                                  |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |

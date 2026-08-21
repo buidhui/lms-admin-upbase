@@ -1,11 +1,19 @@
 # Item Set
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description             | Version | Effective Date |
+| -------------- | ------------- | ----- | ------------------------------ | ------- | -------------- |
+| May 18, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook | 4.7.0   | May 18, 2026   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Ops User
+**Dành cho:** Admin, Operator
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/question-bank/item-set](https://ops.sapp.edu.vn/question-bank/item-set)
+**Đường dẫn:** [https://ops.upbase.asia/question-bank/item-set](https://ops.upbase.asia/question-bank/item-set)
 {% endhint %}
 
 {% hint style="info" %}
@@ -34,12 +42,18 @@
 **Truy cập Question Bank → tab Item Set**
 
 Sau khi đăng nhập thành công, tại mục Question Bank người dùng nhấp vào tab **Item Set**. Danh sách Item Set hiển thị theo thời gian tạo giảm dần.
+
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xem thông tin chi tiết Item Set**
 
 Click vào tên Item Set để xem thông tin chi tiết, bao gồm thông tin cơ bản và danh sách câu hỏi thuộc Item Set (Question List).
+
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -47,7 +61,13 @@ Click vào tên Item Set để xem thông tin chi tiết, bao gồm thông tin c
 
 Tại khu vực danh sách câu hỏi, nhấp vào tên câu hỏi để xem chi tiết.
 
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+
 Để xem trước câu hỏi hiển thị bên giao diện học viên, chọn nút **Action** tương ứng và chọn **Preview**.
+
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -71,6 +91,8 @@ Tìm kiếm theo các trường Item Set Name, Sort By, From Date - To Date.
 **Chọn Add Item Set**
 
 Mở màn hình Item Set và chọn **Add Item Set**.
+
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -81,12 +103,16 @@ Mở màn hình Item Set và chọn **Add Item Set**.
 * **Exhibit/Time Value Tables:** gợi ý/tài liệu để trả lời các câu hỏi trong Item Set. Với dạng Exhibit/Time Value Tables là File thì kích cỡ tối đa để tải lên là **500MB**.
 
 Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
+
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Click 'Save' để lưu**
 
 Sau khi hoàn thành điền thông tin, click **Save** để lưu.
+
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -101,6 +127,8 @@ Sau khi hoàn thành điền thông tin, click **Save** để lưu.
 **Mở Item Set muốn chỉnh sửa**
 
 Mở màn hình Item Set và click vào Item Set muốn chỉnh sửa.
+
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -117,12 +145,20 @@ Những trường kèm dấu '\*' là những trường thông tin bắt buộc.
 **Click 'Save' để lưu**
 
 Sau khi hoàn thành thay đổi thông tin, click **Save** để lưu.
+
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Thay đổi câu hỏi thuộc Item Set**
 
 Người dùng có thể thực hiện thêm/xóa câu hỏi khỏi Item Set theo các thao tác như trong ảnh.
+
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Nếu câu hỏi đã được thêm vào Test/Quiz/Case Study thì sẽ không thể xóa câu hỏi đó khỏi Item Set.
 {% endstep %}
@@ -139,12 +175,16 @@ Nếu câu hỏi đã được thêm vào Test/Quiz/Case Study thì sẽ không 
 **Thao tác xóa tại màn hình Item Set List**
 
 Mở màn hình Item Set List và thao tác như trong ảnh.
+
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xác nhận xóa**
 
 Click **Yes** khi hộp thoại xuất hiện để xóa Item Set đó.
+
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Không thể xóa các Item Set chứa những câu hỏi đã được thêm vào Test/Quiz/Case Study.
@@ -174,7 +214,7 @@ Không thể xóa các Item Set chứa những câu hỏi đã được thêm v�
 2. Nên dùng **Reset** khi muốn quay lại danh sách mặc định sau nhiều lần tìm kiếm.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                            | Nguyên nhân                                              | Cách xử lý                                              |
 | ------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- |

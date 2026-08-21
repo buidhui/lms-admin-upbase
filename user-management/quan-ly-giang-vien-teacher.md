@@ -2,7 +2,7 @@
 
 ## Record of changes
 
-_A - Add, M - Modify, D - Delete_
+_A - Add | M - Modify | D - Delete_
 
 | Effective Date | Update Person | A,M,D | Change Description             | Version |
 | -------------- | ------------- | ----- | ------------------------------ | ------- |
@@ -12,9 +12,9 @@ _A - Add, M - Modify, D - Delete_
 
 | # | Term             | Definition                                            |
 | - | ---------------- | ----------------------------------------------------- |
-| 1 | OPS              | Operations — Hệ thống quản lý vận hành                |
+| 1 | LMS Admin        | Hệ thống quản lý vận hành                |
 | 2 | LMS              | Learning Management System — Hệ thống quản lý học tập |
-| 3 | Person in charge | Nhân viên SAPP phụ trách giảng viên                   |
+| 3 | Person in charge | Nhân viên UpBase phụ trách giảng viên                   |
 | 4 | Facility         | Cơ sở giảng dạy của giảng viên                        |
 | 5 | DOB              | Date of Birth — Ngày sinh                             |
 | 6 | OTP              | One-Time Password — Mã xác thực một lần               |
@@ -37,13 +37,13 @@ _A - Add, M - Modify, D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống OPS.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 * Đã nắm danh sách Chương trình (Program) và các môn học (Subject) hiện có trong hệ thống.
 {% endhint %}
 
-## II. Tổng Quan Giao Diện
+## II. Tổng quan giao diện
 
 Màn hình **Teacher Management** bao gồm các khu vực chính:
 
@@ -60,7 +60,7 @@ Màn hình **Teacher Management** bao gồm các khu vực chính:
 | Admin     | Quản trị hệ thống  | Toàn quyền — xem, tạo, chỉnh sửa, đổi trạng thái, import, export       |
 | Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống (xem / tạo / chỉnh sửa / import) |
 
-## III. Các Bước Thực Hiện Chi Tiết
+## III. Các bước thực hiện chi tiết
 
 <details>
 
@@ -163,8 +163,8 @@ Tại màn hình Teacher List, nhấn nút **Create** để chuyển đến màn
 
 * **Facility (\*):** cơ sở giảng dạy.
 * **Job Title:** chức vụ.
-* **Teaching Status (\*):** trạng thái giảng dạy tại SAPP.
-* **Person in Charge (\*):** nhân viên SAPP phụ trách.
+* **Teaching Status (\*):** trạng thái giảng dạy tại UpBase.
+* **Person in Charge (\*):** nhân viên UpBase phụ trách.
 
 **Liên kết mạng xã hội (tùy chọn):** Facebook, LinkedIn, Youtube.
 
@@ -369,7 +369,7 @@ Sau khi import, các thông tin về **Teaching Program** (Primary Responsibilit
 
 </details>
 
-## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
+## IV. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -395,7 +395,7 @@ Sau khi import, các thông tin về **Teaching Program** (Primary Responsibilit
 5. Sử dụng tab **Teaching Program** để xem nhanh năng lực giảng dạy của giảng viên trước khi phân công lớp.
 {% endhint %}
 
-## V. Các Lỗi Thường Gặp & Cách Xử Lý
+## V. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                                     | Nguyên nhân                                                                | Cách xử lý                                                                                                            |
 | ---------------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -405,10 +405,10 @@ Sau khi import, các thông tin về **Teaching Program** (Primary Responsibilit
 | Không chọn được môn học cho giảng viên               | Chưa chọn Primary Responsibility hoặc môn không thuộc chương trình đã chọn | Vào tab **Teaching Program**, chọn **Primary Responsibility** trước, sau đó tick chọn các môn học tương ứng.          |
 | File import bị lỗi một số dòng                       | Dữ liệu các cột không đúng định dạng yêu cầu                               | Nhấn **View Log** để xem chi tiết dòng lỗi, sửa file theo hướng dẫn tại cột **Errors** và import lại.                 |
 | File import không tải được                           | Định dạng file không phải .csv / .xlsx hoặc file quá lớn                   | Kiểm tra lại định dạng file. Tách nhỏ file nếu quá lớn và import từng lần.                                            |
-| Giảng viên bị Block báo không đăng nhập được LMS Pro | Tài khoản đã bị khóa trên hệ thống OPS                                     | Vào Teacher Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do block.                |
+| Giảng viên bị Block báo không đăng nhập được LMS Pro | Tài khoản đã bị khóa trên hệ thống LMS Admin                                     | Vào Teacher Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do block.                |
 | Danh sách không tải được                             | Mất kết nối hoặc lỗi server                                                | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                                                |
 
-## VI. Câu Hỏi Thường Gặp (FAQ)
+## VI. Câu hỏi thường gặp (FAQ)
 
 <details>
 
@@ -462,7 +462,7 @@ Import chỉ tạo các thông tin tài khoản cơ bản (Username, Email, Phon
 
 <summary>Giảng viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
 
-Không. Chỉ người dùng có quyền trên hệ thống OPS (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
+Không. Chỉ người dùng có quyền trên hệ thống LMS Admin (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
 
 </details>
 

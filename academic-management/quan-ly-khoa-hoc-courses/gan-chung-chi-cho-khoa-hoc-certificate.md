@@ -1,11 +1,17 @@
 # Gắn chứng chỉ cho khóa học (Certificate)
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+
 ## I. Giới thiệu chung
 
 {% hint style="info" %}
 **Dành cho:** Admin, SX
 
-**Đường dẫn:** [https://ops.sapp.edu.vn/course-full/undefined](https://ops.sapp.edu.vn/course-full/undefined)
+**Đường dẫn:** [https://ops.upbase.asia/course-full/undefined](https://ops.upbase.asia/course-full/undefined)
 {% endhint %}
 
 {% hint style="info" %}
@@ -24,7 +30,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống OPS.
+* Người dùng đã đăng nhập thành công vào hệ thống LMS Admin.
 * Tài khoản người dùng có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công tại bước **Course Info**.
 {% endhint %}
@@ -38,14 +44,20 @@
 {% stepper %}
 {% step %}
 **Admin chọn bước Certificate trên thanh process hoặc tiếp tục từ bước Resource.**
+
+<figure><img src="../../.gitbook/assets/image (853).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Admin chọn Choose Template để mở danh sách mẫu chứng chỉ.**
+
+<figure><img src="../../.gitbook/assets/image (854).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Hệ thống hiển thị popup Choose Certificate Template với danh sách các mẫu chứng chỉ có thể chọn.**
+
+<figure><img src="../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -58,6 +70,8 @@ Mỗi mẫu chứng chỉ hiển thị thông tin preview và tên template đ�
 **Admin chọn Confirm để xác nhận mẫu chứng chỉ đã chọn.**
 
 Sau khi xác nhận, hệ thống đóng popup và gán mẫu chứng chỉ vào khóa học.
+
+<figure><img src="../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -74,6 +88,8 @@ Sau khi xác nhận, hệ thống đóng popup và gán mẫu chứng chỉ vào
 
 {% step %}
 **Admin chọn Icon đổi chứng chỉ để mở lại danh sách mẫu chứng chỉ.**
+
+<figure><img src="../../.gitbook/assets/image (852).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -110,7 +126,7 @@ Sau khi xác nhận, hệ thống đóng popup và gán mẫu chứng chỉ vào
 3. Nếu danh sách template nhiều, nên kiểm tra kỹ template cần chọn để tránh gán nhầm chứng chỉ.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                   | Nguyên nhân                                                                   | Cách xử lý                                                                      |
 | ---------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |

@@ -1,5 +1,13 @@
 # Quản lý tài liệu trong lớp
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description             | Version |
+| -------------- | ------------- | ----- | ------------------------------ | ------- |
+| May 29, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook | 4.7.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
@@ -37,6 +45,8 @@
 **Truy cập màn hình Class Resources**
 
 Đường dẫn: Academic Management / Class / Class List / Class Detail / Resources.
+
+<figure><img src="../.gitbook/assets/image (1271).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -53,6 +63,8 @@ Danh sách tài liệu được sắp xếp theo thời gian tạo giảm dần.
 **Mở thư mục để xem nội dung bên trong**
 
 Đối với các thư mục, chọn vào từng thư mục để xem các thư mục con/tài liệu thuộc thư mục đó.
+
+<figure><img src="../.gitbook/assets/image (1272).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -65,6 +77,8 @@ Danh sách tài liệu được sắp xếp theo thời gian tạo giảm dần.
 {% stepper %}
 {% step %}
 **Nhập/chọn điều kiện tìm kiếm**
+
+<figure><img src="../.gitbook/assets/image (1273).png" alt=""><figcaption></figcaption></figure>
 
 Tìm kiếm theo các trường:
 
@@ -93,16 +107,24 @@ Tìm kiếm theo các trường:
 **Tạo mới thư mục**
 
 Tại nơi muốn tạo thư mục mới, chọn **New Folder** → nhập tên thư mục → click **Save** để lưu.
+
+<figure><img src="../.gitbook/assets/image (1274).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1275).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Mở hộp thoại Upload**
 
 Tại vị trí muốn tải học liệu, chọn **Upload → Upload File/Media** và chọn hình thức Upload là File hoặc Media.
+
+<figure><img src="../.gitbook/assets/image (1276).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn tài liệu để tải lên**
+
+<figure><img src="../.gitbook/assets/image (1277).png" alt=""><figcaption></figcaption></figure>
 
 Tùy chọn Upload Media hay Upload File, người dùng upload loại tài liệu tương ứng:
 
@@ -153,18 +175,30 @@ Sau khi chọn tài liệu và điền đầy đủ thông tin, chọn **Save** 
 **Đổi tên tài liệu/thư mục**
 
 Tại danh sách tài liệu, chọn **Action → Rename** tại thư mục/tài liệu muốn đổi tên → nhập tên mới → chọn **Save**.
+
+<figure><img src="../.gitbook/assets/image (1278).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1279).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Thay đổi thư mục lưu trữ (Move to Folder)**
 
 Chọn **Action → Move to Folder** tại thư mục/tài liệu muốn di chuyển → chọn thư mục mới (chỉ chọn 1 thư mục) → chọn **Save** → chọn **Yes** tại hộp thoại xác nhận.
+
+<figure><img src="../.gitbook/assets/image (1280).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1281).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chỉnh sửa buổi học, quyền và đối tượng hiển thị**
 
 Chọn **Action → Edit** tại tài liệu muốn chỉnh sửa, sau đó điều chỉnh:
+
+<figure><img src="../.gitbook/assets/image (1282).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1283).png" alt=""><figcaption></figcaption></figure>
 
 | Trường               | Mô tả                                                                                                           |
 | -------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -188,12 +222,16 @@ Sau khi chỉnh sửa, chọn **Save** để lưu.
 **Xóa 1 thư mục/tài liệu**
 
 Chọn **Action → Delete** tại thư mục/tài liệu muốn xóa → chọn **Yes** tại hộp thoại xác nhận.
+
+<figure><img src="../.gitbook/assets/image (1284).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xóa nhiều thư mục/tài liệu**
 
 Tick chọn các thư mục/tài liệu muốn xóa → chọn **Delete** → chọn **Yes** tại hộp thoại xác nhận.
+
+<figure><img src="../.gitbook/assets/image (1285).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -208,12 +246,16 @@ Tick chọn các thư mục/tài liệu muốn xóa → chọn **Delete** → ch
 **Tải một tài liệu**
 
 Chọn **Action → Download File** tại tài liệu muốn tải.
+
+<figure><img src="../.gitbook/assets/image (1286).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tải nhiều tài liệu**
 
 Tick chọn các tài liệu muốn tải → chọn **Download**.
+
+<figure><img src="../.gitbook/assets/image (1287).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -243,7 +285,7 @@ Tick chọn các tài liệu muốn tải → chọn **Download**.
 4. Với video/mp3, lưu ý quyền mặc định là Viewer nên học viên/giảng viên không tải về được.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                               | Nguyên nhân                                          | Cách xử lý                                              |
 | ---------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |

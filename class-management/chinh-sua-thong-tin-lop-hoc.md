@@ -1,9 +1,17 @@
 # Chỉnh sửa thông tin lớp học
 
+## Record of changes
+
+_A - Add | M - Modify | D - Delete_
+
+| Effective Date | Update Person | A,M,D | Change Description             | Version |
+| -------------- | ------------- | ----- | ------------------------------ | ------- |
+| May 25, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook | 4.7.0   |
+
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Ops User, Academic/CX User
+**Dành cho:** Admin, Operator, Academic/CX User
 
 **Đường dẫn:** Class → Class List → (Action → Edit) hoặc Class Detail → Settings
 {% endhint %}
@@ -35,18 +43,24 @@
 **Chọn Action → Edit**
 
 Người dùng chọn **Action → Edit** tại lớp cần chỉnh sửa trên màn hình **Class List**. Hệ thống mở màn hình chỉnh sửa thông tin lớp học.
+
+<figure><img src="../.gitbook/assets/image (651).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chỉnh sửa các thông tin được phép**
 
 Người dùng chỉnh sửa các thông tin được phép tại màn hình **Edit Class Info**. Các trường được phép chỉnh sửa phụ thuộc vào loại lớp, hình thức học và trạng thái học tập của học viên trong lớp.
+
+<figure><img src="../.gitbook/assets/image (652).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Save**
 
 Người dùng chọn **Save** tại màn hình **Edit Class Info**. Hệ thống lưu thông tin mới và cập nhật dữ liệu lớp học.
+
+<figure><img src="../.gitbook/assets/image (653).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -67,6 +81,8 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 **Chọn Edit Class Info tại tab Overview**
 
 Người dùng chọn **Edit Class Info** tại tab **Overview**. Hệ thống mở màn hình chỉnh sửa thông tin lớp học.
+
+<figure><img src="../.gitbook/assets/image (654).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -87,6 +103,8 @@ Người dùng cập nhật thông tin cần thay đổi tại màn hình **Edit
 **Mở màn hình Class Detail**
 
 Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
+
+<figure><img src="../.gitbook/assets/image (655).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -119,6 +137,8 @@ Người dùng chọn trường **Classroom** tại màn hình **Edit Class Info
 **Tìm kiếm phòng học**
 
 Người dùng tìm kiếm phòng học bằng **Search** hoặc bộ lọc **Type** nếu cần. Hệ thống hiển thị danh sách phòng học phù hợp với điều kiện của lớp.
+
+<figure><img src="../.gitbook/assets/image (657).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -287,7 +307,7 @@ Hệ thống gửi mail và tạo ticket trên HubSpot cho **CX Supervisor** the
 4. Với các lớp đã bắt đầu, nên hạn chế thay đổi thông tin lịch học hoặc thời gian học để tránh ảnh hưởng đến học viên.
 {% endhint %}
 
-## IV. Các lỗi thường gặp & Hướng dẫn xử lý
+## IV. Các lỗi thường gặp & Cách xử lý
 
 | Lỗi / Tình huống                          | Nguyên nhân                                                     | Cách xử lý                                                            |
 | ----------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------- |
