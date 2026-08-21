@@ -1,4 +1,4 @@
-# Quản lý học viên (Student)
+# quan ly hoc vien student
 
 ## Record of changes
 
@@ -10,20 +10,26 @@ _A - Add M - Modify D - Delete_
 
 ## I. Thông tin chung
 
+{% hint style="info" %}
 **Dành cho:** Admin, Operator
 
 **Đường dẫn:** User & Org Management → Students
+{% endhint %}
 
+{% hint style="info" %}
 #### Phạm vi & Module liên quan
 
 * **Module chính:** Student Management (thuộc User Management)
 * **Hệ thống tích hợp:** LMS Pro (giao diện học viên), HubSpot (Contact, thông tin học viên)
+{% endhint %}
 
+{% hint style="warning" %}
 #### Điều kiện tiên quyết
 
 * Đã có tài khoản và được cấp quyền truy cập hệ thống OPS.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
+{% endhint %}
 
 ## II. Tổng Quan Giao Diện
 
@@ -48,7 +54,9 @@ Màn hình Chi tiết học viên gồm:
 
 ## III. Các Bước Thực Hiện Chi Tiết
 
-### 3.1 Xem danh sách và chi tiết học viên
+<details>
+
+<summary>3.1 Xem danh sách và chi tiết học viên</summary>
 
 {% stepper %}
 {% step %}
@@ -56,7 +64,7 @@ Màn hình Chi tiết học viên gồm:
 
 Từ thanh điều hướng bên trái, truy cập **User & Org Management** → chọn **Students**. Danh sách học viên hiển thị theo thời gian tạo giảm dần.
 
-![](<.gitbook/assets/image (23)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Hr5xRP6wuEEZ5meFInET" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -72,7 +80,7 @@ Sử dụng các bộ lọc phía trên bảng danh sách:
 
 Nhấn **Search** để hiển thị kết quả. Nhấn **Reset** để xóa toàn bộ bộ lọc.
 
-![](<.gitbook/assets/image (25)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/mIYOXXqsHeAZNPtAJFfw" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -80,29 +88,27 @@ Nhấn **Search** để hiển thị kết quả. Nhấn **Reset** để xóa to
 
 Nhấn vào tên tài khoản học viên hoặc nhấn **Action → View Profile**.
 
-![](<.gitbook/assets/image (27)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/gbQJa8qwfoJPZMGfVtzL" alt=""><figcaption></figcaption></figure>
 
 Màn hình Student Profile hiển thị các tab:
 
-* _**Overview**_: Hiển thị Personal Information (các thông tin cá nhân của học viên), Account Information (Account type, HubSpot Contact ID, Username, Status, Test Account) và các Profile học viên.
+*   _**Overview**_: Hiển thị Personal Information (các thông tin cá nhân của học viên), Account Information (Account type, HubSpot Contact ID, Username, Status, Test Account) và các Profile học viên.
 
-![](<.gitbook/assets/image (29)>)
+    <figure><img src="https://sapp-academy.gitbook.io/files/pMyG8X6VmAQE57ZBuMWo" alt=""><figcaption></figcaption></figure>
+*   _**Setting**_: Hiển thị các thông tin:
 
-* _**Setting**_: Hiển thị các thông tin:
-  * **General Information**: Full name, Email, Phone number, CCCD, Major, University, Field of Work, Avatar, Account Type.
-  * **CFA Information**: Các thông tin liên quan đến Level kiểm tra tiếng Anh đầu vào, lịch đăng ký thi, kết quả bài thi CFA.
-  * **ACCA Information**: Các thông tin liên quan đến Level kiểm tra tiếng Anh đầu vào, lịch đăng ký thi, kết quả bài thi ACCA.
-  * **CMA Information**: Các thông tin liên quan đến Level kiểm tra tiếng Anh đầu vào, lịch đăng ký thi, kết quả bài thi CMA.
+    * **General Information**: Full name, Email, Phone number, CCCD, Major, University, Field of Work, Avatar, Account Type.
+    * **CFA Information**: Các thông tin liên quan đến Level kiểm tra tiếng Anh đầu vào, lịch đăng ký thi, kết quả bài thi CFA.
+    * **ACCA Information**: Các thông tin liên quan đến Level kiểm tra tiếng Anh đầu vào, lịch đăng ký thi, kết quả bài thi ACCA.
+    * **CMA Information**: Các thông tin liên quan đến Level kiểm tra tiếng Anh đầu vào, lịch đăng ký thi, kết quả bài thi CMA.
 
-![](<.gitbook/assets/image (31)>)
+    <figure><img src="https://sapp-academy.gitbook.io/files/SG9cHalBftrPvHh3ImWJ" alt=""><figcaption></figcaption></figure>
+*   _**Class and Course**_: Danh sách lớp và khóa học học viên đã đăng ký. Có thể tìm kiếm lớp học theo Code, Course (Khóa học), Program (Chương trình học), Status (Trạng thái học tập).
 
-* _**Class and Course**_: Danh sách lớp và khóa học học viên đã đăng ký. Có thể tìm kiếm lớp học theo Code, Course (Khóa học), Program (Chương trình học), Status (Trạng thái học tập).
+    <figure><img src="https://sapp-academy.gitbook.io/files/PqtZk1sDU2J9MzGA0xm6" alt=""><figcaption></figcaption></figure>
+*   _**Security**_: Quản lý trình duyệt đã đăng nhập (tối đa 3 trình duyệt), lịch sử đăng nhập gần đây.
 
-![](<.gitbook/assets/image (33)>)
-
-* _**Security**_: Quản lý trình duyệt đã đăng nhập (tối đa 3 trình duyệt), lịch sử đăng nhập gần đây.
-
-![](<.gitbook/assets/image (35)>)
+    <figure><img src="https://sapp-academy.gitbook.io/files/HsMidoz5UIrtujD9frzj" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -110,13 +116,17 @@ Màn hình Student Profile hiển thị các tab:
 
 Tại màn hình Student List, nhấn **Export**. Hệ thống xuất danh sách học viên (theo điều kiện tìm kiếm hiện tại) thành file Excel và tự động tải về thiết bị.
 
-![](<.gitbook/assets/image (36)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/uy6WI3mBTU0fygsfEMwH" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin được trích xuất ra file Excel bao gồm: ID, Full name, Username, Email, Phone, Type User, Status.
 {% endstep %}
 {% endstepper %}
 
-### 3.2 Tạo tài khoản học viên
+</details>
+
+<details>
+
+<summary>3.2 Tạo tài khoản học viên</summary>
 
 {% stepper %}
 {% step %}
@@ -124,13 +134,13 @@ Các trường thông tin được trích xuất ra file Excel bao gồm: ID, Fu
 
 Truy cập **User & Org Management**. Tại màn hình Student List, nhấn nút **Create** để chuyển đến màn hình **Create Student**.
 
-![](<.gitbook/assets/image (38)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Okd7OWrfpc7HaziJ7xmD" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Điền thông tin học viên
 
-![](<.gitbook/assets/image (40)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/oIzGcWq8EeNIDDf9Bm6L" alt=""><figcaption></figcaption></figure>
 
 Điền các trường thông tin. Các trường có dấu **(\*)** là bắt buộc:
 
@@ -155,23 +165,25 @@ Truy cập **User & Org Management**. Tại màn hình Student List, nhấn nút
 {% step %}
 ## Lưu tài khoản
 
-Nhấn ![](<.gitbook/assets/image (42)>) để lưu thông tin.
+Nhấn ![](https://sapp-academy.gitbook.io/files/xHHFFw63p07Tv6rwhcCY) để lưu thông tin.
 {% endstep %}
 
 {% step %}
 ## Xác nhận
 
-![](<.gitbook/assets/image (43)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/ZKsK5P1vMMrxtNqHCruS" alt=""><figcaption></figcaption></figure>
 
 Khi hộp thoại xác nhận hiển thị, chọn **Yes** để đồng ý. Hệ thống chuyển về Student List, tài khoản mới xuất hiện ở đầu danh sách.
 
-{% hint style="success" %}
-Kết quả: Tài khoản học viên được tạo thành công.
-{% endhint %}
+✅ Kết quả: Tài khoản học viên được tạo thành công.
 {% endstep %}
 {% endstepper %}
 
-### 3.3 Chỉnh sửa thông tin học viên (Edit Student)
+</details>
+
+<details>
+
+<summary>3.3 Chỉnh sửa thông tin học viên (Edit Student)</summary>
 
 {% stepper %}
 {% step %}
@@ -179,25 +191,23 @@ Kết quả: Tài khoản học viên được tạo thành công.
 
 Có 3 cách truy cập màn hình chỉnh sửa thông tin học viên:
 
-* **Cách 1**: Tại Student List → nhấn **Action** → chọn **Edit**.
+*   **Cách 1**: Tại Student List → nhấn **Action** → chọn **Edit**.
 
-![](<.gitbook/assets/image (45)>)
+    <figure><img src="https://sapp-academy.gitbook.io/files/EG9CwcrvW385vw5pn4ox" alt=""><figcaption></figcaption></figure>
+*   **Cách 2**: Nhấn vào tên học viên → chọn **Edit Profile**.
 
-* **Cách 2**: Nhấn vào tên học viên → chọn **Edit Profile**.
+    <figure><img src="https://sapp-academy.gitbook.io/files/8H9N6Srt3xcmSuDaXyBi" alt=""><figcaption></figcaption></figure>
+*   **Cách 3**: Nhấn vào tên học viên → chọn tab **Setting**.
 
-![](<.gitbook/assets/image (48)>)
-
-* **Cách 3**: Nhấn vào tên học viên → chọn tab **Setting**.
-
-![](<.gitbook/assets/image (50)>)
+    <figure><img src="https://sapp-academy.gitbook.io/files/Mvlb8yDuTYeAXt0rcgQj" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Chỉnh sửa thông tin
 
-**📑 Chỉnh sửa thông tin General Information**
+### 📑 Chỉnh sửa thông tin General Information
 
-![](<.gitbook/assets/image (51)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/IA00SNsFpgB7rcHHvc1j" alt=""><figcaption></figcaption></figure>
 
 Các trường **có thể** chỉnh sửa:
 
@@ -224,9 +234,9 @@ Các trường có **quy trình riêng**:
 
 * **Email (\*)**: Người dùng không thể tự chỉnh sửa email tại Setting profile. Để edit email, người dùng cần có quyền Edit student. Xem hướng dẫn chỉnh sửa email [tại đây](/broken/pages/4305e525ed4a6587e6734c572f49702984bd314b#id-3.4-edit-email).
 
-**📑 Chỉnh sửa thông tin liên quan Chương trình học**
+### 📑 Chỉnh sửa thông tin liên quan Chương trình học
 
-![](<.gitbook/assets/image (53)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/cJT3rlqkL14cq5thuu8X" alt=""><figcaption></figcaption></figure>
 
 Các thông tin **có thể** chỉnh sửa:
 
@@ -242,17 +252,19 @@ Các thông tin **KHÔNG** được chỉnh sửa:
 {% step %}
 ## Lưu thay đổi
 
-![](<.gitbook/assets/image (56)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/BEeXPAmlWZICKgqSegdl" alt=""><figcaption></figcaption></figure>
 
 Nhấn **Save Changes** → chọn **Yes, save** khi hộp thoại xác nhận hiển thị.
 
-{% hint style="success" %}
-Kết quả: Thông tin học viên được cập nhật thành công.
-{% endhint %}
+✅ Kết quả: Thông tin học viên được cập nhật thành công.
 {% endstep %}
 {% endstepper %}
 
-### 3.4 Trạng thái học viên
+</details>
+
+<details>
+
+<summary>3.4 Trạng thái học viên</summary>
 
 Hệ thống hỗ trợ 2 trạng thái tài khoản học viên:
 
@@ -269,7 +281,7 @@ Có 3 cách thay đổi trạng thái:
 
 Tại Student List, nhấn **Action** tương ứng với học viên cần đổi trạng thái → chọn **Block** (áp dụng cho tài khoản đang Active) → Xác nhận thay đổi trạng thái.
 
-![](<.gitbook/assets/image (58)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/1Owx6dCITMAg1DIvk4D3" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -277,7 +289,7 @@ Tại Student List, nhấn **Action** tương ứng với học viên cần đ�
 
 Tại Student List, nhấn chuyển **Status** tương ứng với học viên cần đổi trạng thái tại cột thông tin Status → chọn **Block** (áp dụng cho tài khoản đang Active) / chọn **Active** (áp dụng cho tài khoản đang Block) → Xác nhận thay đổi trạng thái.
 
-![](<.gitbook/assets/image (60)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/BdPrRrSLGB7egt72L07B" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -285,15 +297,19 @@ Tại Student List, nhấn chuyển **Status** tương ứng với học viên c
 
 Nhấn trực tiếp vào giá trị trường **Status** trên trang Student Profile → Setting → chọn giá trị mới (Active / Block) để chuyển đổi trạng thái.
 
-![](<.gitbook/assets/image (62)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/3iFhJQiV4z7FbI6Iu7K8" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Khi học viên bị **Block**, hệ thống sẽ tự động đăng xuất tất cả thiết bị đang đăng nhập của học viên đó.
+{% endhint %}
 {% endstep %}
 {% endstepper %}
 
-{% hint style="info" %}
-Khi học viên bị **Block**, hệ thống sẽ tự động đăng xuất tất cả thiết bị đang đăng nhập của học viên đó.
-{% endhint %}
+</details>
 
-### 3.5 Import hàng loạt học viên
+<details>
+
+<summary>3.5 Import hàng loạt học viên</summary>
 
 {% stepper %}
 {% step %}
@@ -301,7 +317,7 @@ Khi học viên bị **Block**, hệ thống sẽ tự động đăng xuất t�
 
 Tại Student List, nhấn nút **Import** để hiển thị hộp thoại tải file.
 
-![](<.gitbook/assets/image (64)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/hlkwSNt6vvTJM41nTwhJ" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -309,14 +325,14 @@ Tại Student List, nhấn nút **Import** để hiển thị hộp thoại tả
 
 Chọn **Browse** để chọn file từ thiết bị (chỉ chấp nhận **.csv** hoặc **.xlsx**). Mỗi lần chỉ được chọn 1 file.
 
-![](<.gitbook/assets/image (65)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/AlikfgfGSE0RpdF6LZB5" alt=""><figcaption></figcaption></figure>
 
 Người dùng có thể tải file mẫu về để tham khảo cách điền các thông tin hợp lệ. Các trường bắt buộc trong file bao gồm:
 
 | Trường        | Điều kiện                                                                                                                                      |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Username      | 6–40 ký tự, không chứa khoảng trắng, không chứa ký tự tiếng Việt có dấu và ký tự đặc biệt (ngoại trừ . - \_), không trùng username đã tồn tại. |
-| Email         | Đúng định dạng abc@abc.abc, không trùng email đã tồn tại.                                                                                      |
+| Email         | Đúng định dạng [abc@abc.abc](mailto:abc@abc.abc), không trùng email đã tồn tại.                                                                |
 | Phone         | 10–11 ký tự số, bắt đầu bằng 0, không trùng SĐT đã tồn tại.                                                                                    |
 | Full Name     | Họ và tên đầy đủ của học viên.                                                                                                                 |
 | Status        | Active hoặc Block.                                                                                                                             |
@@ -327,7 +343,7 @@ Người dùng có thể tải file mẫu về để tham khảo cách điền c
 {% step %}
 ## Click "Import" để tải file lên hệ thống
 
-![](<.gitbook/assets/image (66)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/z48RsDlJSjtECAAFKOKD" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -342,16 +358,19 @@ Hộp thoại hiển thị trạng thái tạo tài khoản:
 
 Nhấp vào **View Log** để xem chi tiết tình trạng tạo tài khoản. Những trường không hợp lệ sẽ được bôi đỏ, kèm lỗi cụ thể tại cột **Errors**.
 
-![](<.gitbook/assets/image (67)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/GvFs4SHM5oE0lDyodntq" alt=""><figcaption></figcaption></figure>
 
 View log sẽ hiển thị như sau:
 
-![](<.gitbook/assets/image (68)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/nCyzDCBvMzxCQeIEC2TZ" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
+</details>
+
 ## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
 
+{% hint style="warning" %}
 ### Lưu ý quan trọng
 
 1. **Fullname KHÔNG được phép chỉnh sửa** sau khi tạo tài khoản.
@@ -361,7 +380,9 @@ View log sẽ hiển thị như sau:
 5. File Import chỉ chấp nhận định dạng **.csv** hoặc **.xlsx**; mỗi lần chỉ import 1 file.
 6. Các trường Username, Email, SĐT trong file import phải là duy nhất, không trùng dữ liệu đã có trong hệ thống.
 7. Học viên thuộc Account Type **Student Account** cần có Record ID HubSpot để đồng bộ Contact.
+{% endhint %}
 
+{% hint style="info" %}
 ### Mẹo sử dụng
 
 1. Tải file mẫu (template) trước khi import để đảm bảo đúng định dạng cột và dữ liệu.
@@ -369,6 +390,7 @@ View log sẽ hiển thị như sau:
 3. Kết hợp nhiều bộ lọc (Search + Status + Gender + Date) để thu hẹp kết quả tìm kiếm nhanh hơn.
 4. Sắp xếp danh sách theo cột Họ tên (Sort by) để dễ dàng tìm kiếm thủ công.
 5. Trước khi tạo tài khoản mới, dùng Search để kiểm tra học viên đã tồn tại hay chưa, tránh trùng dữ liệu.
+{% endhint %}
 
 ## V. Các Lỗi Thường Gặp & Cách Xử Lý
 

@@ -21,7 +21,7 @@ Kết quả đạt được: Các sản phẩm đơn lẻ được tạo sẵn s
 #### Phạm vi & Module liên quan
 
 * **Module chính**: Product
-* **Module liên quan**: [Program & Subject](../khoa-hoc-course/program-and-subject.md), [Combo Product](combo.md), [Promotion Codes](promotion-code.md), [List of Orders](order-list.md)
+* **Module liên quan**: [Program & Subject](/broken/pages/60d8ad886d1deb674dc83f513d97c407496f5c4d), [Combo Product](combo.md), [Promotion Codes](promotion-code.md), [List of Orders](order-list.md)
 * **Hệ thống tích hợp**: Không có
 
 ### Điều kiện tiên quyết

@@ -1,2 +1,0 @@
-# khoa-hoc-course
-

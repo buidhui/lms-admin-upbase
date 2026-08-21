@@ -1,14 +1,10 @@
-# Quản lý nhân viên (Staff)
-
-Tài liệu hướng dẫn quản lý toàn bộ tài khoản Nhân viên trong hệ thống OPS
+# quan ly nhan vien staff
 
 ## Record of Changes
 
 _A - Add | M - Modify | D - Delete_
 
-| Effective Date | Update Person | A,M,D | Change Description             | Version |
-| -------------- | ------------- | ----- | ------------------------------ | ------- |
-| 28 May 2026    | Lê Thị Huế    | M     | Chuẩn hóa nội dung lên Gitbook | 4.2.0   |
+<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>28 May 2026</td><td>Lê Thị Huế</td><td>M</td><td>Chuẩn hóa nội dung lên Gitbook</td><td>4.2.0</td><td>28 May 2026</td></tr></tbody></table>
 
 ### Definitions and Acronyms
 
@@ -21,21 +17,27 @@ _A - Add | M - Modify | D - Delete_
 
 ## I. Thông tin chung
 
+{% hint style="info" %}
 **Dành cho:** Admin, Operator
 
 **Đường dẫn:** User & Org Management → Staffs → Staff List
+{% endhint %}
 
+{% hint style="info" %}
 #### Phạm vi & Module liên quan
 
 * **Module chính:** Staff Management (thuộc User Management)
 * **Module liên quan:** Department, Title, Role Management
+{% endhint %}
 
+{% hint style="warning" %}
 #### Điều kiện tiên quyết
 
 * Đã có tài khoản và được cấp quyền truy cập hệ thống OPS.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 * Đã nắm rõ cấu trúc Phòng ban (Department), Chức danh (Title), Cấp bậc (Level), Chương trình (Program) và Role hiện có trong hệ thống.
+{% endhint %}
 
 ## II. Tổng Quan Giao Diện
 
@@ -56,13 +58,17 @@ Màn hình **Staff Management** bao gồm các khu vực chính:
 
 ## III. Các Bước Thực Hiện Chi Tiết
 
-### 3.1 Quản lý Phòng ban (Department)
+<details>
+
+<summary>3.1 Quản lý Phòng ban (Department)</summary>
 
 Hệ thống tổ chức tài khoản nhân viên theo các cấp bậc phòng ban:
 
 **Board > Block > Division > Department > Sub-department**
 
-#### 3.1.1 Xem danh sách phòng ban
+***
+
+### 3.1.1 Xem danh sách phòng ban
 
 🎯 Mục tiêu: Xem toàn bộ danh sách phòng ban và số nhân viên thuộc phòng ban đó theo cấp bậc.
 
@@ -72,15 +78,17 @@ Hệ thống tổ chức tài khoản nhân viên theo các cấp bậc phòng b
 
 Từ thanh điều hướng bên trái, chọn **User & Org Management** → chọn **Departments**. Danh sách bộ phận hiển thị dưới dạng cấp bậc phòng ban.
 
-![](<.gitbook/assets/image (69)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/lAY4DQTk5miLinm39v2A" alt=""><figcaption></figcaption></figure>
 
-Có thể rút gọn nếu không muốn xem chi tiết, chọn ![](<.gitbook/assets/image (70)>):
+Có thể rút gọn nếu không muốn xem chi tiết, chọn ![](https://sapp-academy.gitbook.io/files/38RApUZw7EnoUhyvdB5r):
 
-![](<.gitbook/assets/image (71)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/se9lLk4Nuv3f5DpJ1VG8" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-#### 3.1.2 Xem chi tiết phòng ban
+***
+
+### 3.1.2 Xem chi tiết phòng ban
 
 🎯 Mục tiêu: Xem chi tiết thông tin của một phòng ban.
 
@@ -90,15 +98,17 @@ Có thể rút gọn nếu không muốn xem chi tiết, chọn ![](<.gitbook/as
 
 Tại danh sách phòng ban, chọn tên phòng ban muốn xem chi tiết.
 
-![](<.gitbook/assets/image (72)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/sb0wAg9AycGox2A5GMb4" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Thông tin chi tiết của phòng ban sẽ hiển thị. Người dùng có thể chỉnh sửa thông tin phòng ban đó.
 
-![](<.gitbook/assets/image (73)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/zHMJq8fELgaf0D9kucaz" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-#### 3.1.3 Chỉnh sửa thông tin phòng ban
+***
+
+### 3.1.3 Chỉnh sửa thông tin phòng ban
 
 🎯 Mục tiêu: Chỉnh sửa các thông tin chi tiết của một phòng ban cụ thể.
 
@@ -110,15 +120,15 @@ Có 3 cách truy cập chỉnh sửa phòng ban:
 
 **Cách 1:** Tại Department List chọn **Action** → **Edit** phòng ban cần chỉnh sửa:
 
-![](<.gitbook/assets/image (74)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/qpKFqQ2winrl48FKZg2I" alt=""><figcaption></figcaption></figure>
 
 **Cách 2:** Truy cập Department Detail → chọn **Edit Department**:
 
-![](<.gitbook/assets/image (75)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/5f8BVqxQpUDkNhhumaNG" alt=""><figcaption></figcaption></figure>
 
 **Cách 3:** Truy cập Department Detail → chọn **Setting**:
 
-![](<.gitbook/assets/image (76)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Dv3BAoS5ZQsXmrNJD1gg" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -133,21 +143,23 @@ Cho phép chỉnh sửa các thông tin sau (\*: trường bắt buộc):
 * **Unit** (\*): Đơn vị kinh doanh
 * **Description:** Mô tả phòng ban
 
-![](<.gitbook/assets/image (77)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/4uZ1ddpJiXomgMVTUa7m" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Nhấn lưu và xác nhận thông tin
 
-Nhấn ![](<.gitbook/assets/image (78)>) và xác nhận lưu thông tin.
+Nhấn <img src="https://sapp-academy.gitbook.io/files/oITjQG6Ep0ML9ub79s8w" alt="" data-size="line"> và xác nhận lưu thông tin.
 
-![](<.gitbook/assets/image (79)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Wta61YEzv37FnXoMJGBl" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Thông tin phòng ban được cập nhật thành công.
 {% endstep %}
 {% endstepper %}
 
-#### 3.1.5 Tạo mới phòng ban
+***
+
+### 3.1.5 Tạo mới phòng ban
 
 🎯 Mục tiêu: Tạo mới phòng ban trên hệ thống.
 
@@ -157,7 +169,7 @@ Nhấn ![](<.gitbook/assets/image (78)>) và xác nhận lưu thông tin.
 
 Truy cập danh mục **Department**, tại Department List chọn **Create Department**.
 
-![](<.gitbook/assets/image (80)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/aU6LhCNftUtdNZCJ5QCt" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -170,21 +182,23 @@ Truy cập danh mục **Department**, tại Department List chọn **Create Depa
 * **Unit** (\*): chọn đơn vị kinh doanh từ dropdown
 * **Description:** nhập mô tả (tùy chọn)
 
-![](<.gitbook/assets/image (81)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/BEB9C2O038Q4VqH0qWTg" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Nhấn Submit và xác nhận để lưu thông tin
 
-Người dùng chọn ![](<.gitbook/assets/image (82)>) để hoàn tất lưu thông tin.
+Người dùng chọn ![](https://sapp-academy.gitbook.io/files/TL50qMeHKLh8zhXxeN3I) để hoàn tất lưu thông tin.
 
 ✅ Kết quả: Thông tin phòng ban mới sẽ được tạo, hệ thống hiển thị thông báo
 
-![](<.gitbook/assets/image (83)>)
+![](https://sapp-academy.gitbook.io/files/sPj52fgdgjOuPCZwKnlh)
 {% endstep %}
 {% endstepper %}
 
-#### 3.1.6 Xóa phòng ban
+***
+
+### 3.1.6 Xóa phòng ban
 
 Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và không có staff, role nào gắn với phòng ban đó.
 
@@ -192,26 +206,34 @@ Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và kh�
 {% step %}
 ## Truy cập Department List → chọn Action → Delete
 
-![](<.gitbook/assets/image (84)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/JOZoVNRudHBk5HdP7XJr" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Xác nhận xóa
 
-![](<.gitbook/assets/image (85)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/eX8Qp9GszK9PuDqY7h59" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Hệ thống xóa thành công phòng ban và hiển thị
 {% endstep %}
 {% endstepper %}
 
-### 3.2 Quản lý Chức danh (Title)
+</details>
 
+<details>
+
+<summary>3.2 Quản lý Chức danh (Title)</summary>
+
+{% hint style="warning" %}
 #### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống Ops.
 * Người dùng được cấp quyền tương ứng (xem / tạo / chỉnh sửa chức danh).
+{% endhint %}
 
-#### 3.2.1 Xem danh sách chức danh (Title List)
+***
+
+### 3.2.1 Xem danh sách chức danh (Title List)
 
 🎯 Mục tiêu: Truy cập và xem toàn bộ danh sách chức danh hiện có trong hệ thống.
 
@@ -221,7 +243,7 @@ Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và kh�
 
 Từ menu điều hướng bên trái, chọn: **User & Org Management** → **Title List**.
 
-![](<.gitbook/assets/image (86)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/DnIRT56aQ2dFXJ4seFzL" alt=""><figcaption></figcaption></figure>
 
 Màn hình Title List gồm các khu vực chính:
 
@@ -250,7 +272,7 @@ Các trường thông tin trong danh sách:
 * Sử dụng bộ lọc **Filter** để thu hẹp kết quả theo Department Level, Department, Status hoặc khoảng thời gian From Date – To Date.
 * Nhấn **Search** để áp dụng điều kiện lọc. Nhấn **Reset** để xóa bộ lọc.
 
-![](<.gitbook/assets/image (87)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/yO0banZo6JZXOBrlmEjo" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả:
 
@@ -260,7 +282,9 @@ Click trực tiếp vào Name để mở màn hình chỉnh sửa, hoặc chọn
 {% endstep %}
 {% endstepper %}
 
-#### 3.2.2 Tạo mới chức danh (Create Title)
+***
+
+### 3.2.2 Tạo mới chức danh (Create Title)
 
 🎯 Mục tiêu: Thêm một chức danh mới vào hệ thống.
 
@@ -270,13 +294,13 @@ Click trực tiếp vào Name để mở màn hình chỉnh sửa, hoặc chọn
 
 Tại màn hình Title List, nhấn nút **Create** (góc phải phía trên).
 
-![](<.gitbook/assets/image (88)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/GATYJofpdMLmImeHaVVy" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Nhập thông tin chức danh
 
-![](<.gitbook/assets/image (89)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/HkzztpdUiAOVHvqwYmEs" alt=""><figcaption></figcaption></figure>
 
 Điền đầy đủ các trường thông tin:
 
@@ -299,7 +323,9 @@ Tại màn hình Title List, nhấn nút **Create** (góc phải phía trên).
 {% endstep %}
 {% endstepper %}
 
-#### 3.2.3 Chỉnh sửa chức danh (Edit Title)
+***
+
+### 3.2.3 Chỉnh sửa chức danh (Edit Title)
 
 🎯 Mục tiêu: Cập nhật thông tin chức danh đã có trong hệ thống.
 
@@ -309,17 +335,17 @@ Tại màn hình Title List, nhấn nút **Create** (góc phải phía trên).
 
 **Cách 1:** Tại màn hình Title List, click trực tiếp vào **Name** của chức danh cần chỉnh sửa.
 
-![](<.gitbook/assets/image (90)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/JYXckwW6kZFfnTcboQmf" alt=""><figcaption></figcaption></figure>
 
 **Cách 2:** Tại dòng chức danh, chọn icon **Action (⋮)** → **Edit**.
 
-![](<.gitbook/assets/image (91)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/5K4VIl2Qox5kaSnhEBjN" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Chỉnh sửa thông tin
 
-![](<.gitbook/assets/image (92)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/IymimwhkjNxEsrX1bccw" alt=""><figcaption></figcaption></figure>
 
 Cập nhật các trường thông tin theo nhu cầu:
 
@@ -341,7 +367,9 @@ Nhấn nút **Save** để lưu thay đổi vào hệ thống.
 {% endstep %}
 {% endstepper %}
 
-#### 3.2.4 Thay đổi trạng thái chức danh (Status)
+***
+
+### 3.2.4 Thay đổi trạng thái chức danh (Status)
 
 Người dùng có thể thay đổi trạng thái chức danh trực tiếp từ màn hình Edit hoặc từ danh sách:
 
@@ -352,21 +380,25 @@ Người dùng có thể thay đổi trạng thái chức danh trực tiếp t�
 {% step %}
 ## Truy cập Title List, cập nhật thông tin tại cột Status
 
-![](<.gitbook/assets/image (93)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/72xzjVQ2hUxeXRgQUZCL" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Xác nhận thay đổi trạng thái
 
-![](<.gitbook/assets/image (94)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/WMJB6EZRe81xHCexGZvS" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Hệ thống cập nhật thành công trạng thái của chức danh.
 {% endstep %}
 {% endstepper %}
 
-### 3.3 Quản lý Nhân viên (Staff)
+</details>
 
-#### 3.3.1 Xem danh sách nhân viên
+<details>
+
+<summary>3.3 Quản lý Nhân viên (Staff)</summary>
+
+### 3.3.1 Xem danh sách nhân viên
 
 🎯 Mục tiêu: Xem toàn bộ danh sách tài khoản nhân viên vận hành trong hệ thống và tìm kiếm thông tin nhân viên cụ thể.
 
@@ -376,13 +408,13 @@ Người dùng có thể thay đổi trạng thái chức danh trực tiếp t�
 
 Từ thanh điều hướng bên trái, nhấn **User & Org Management** → chọn **Staff**. Danh sách nhân viên hiển thị theo thời gian tạo giảm dần.
 
-![](<.gitbook/assets/image (95)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/WO8XDyK3w5odQDdYaE6E" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Tìm kiếm và lọc
 
-![](<.gitbook/assets/image (96)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/3OfUrDWuyyPiKc08rIsH" alt=""><figcaption></figcaption></figure>
 
 Sử dụng các bộ lọc phía trên bảng danh sách:
 
@@ -393,7 +425,7 @@ Sử dụng các bộ lọc phía trên bảng danh sách:
 * **Gender:** chọn giới tính.
 * **From Date – To Date:** lọc theo ngày cập nhật thông tin.
 
-Nhấn ![](<.gitbook/assets/image (97)>) để áp dụng. Nhấn ![](<.gitbook/assets/image (98)>) để xóa toàn bộ bộ lọc.
+Nhấn ![](https://sapp-academy.gitbook.io/files/Fcga5aGIvE2dzilylSes) để áp dụng. Nhấn ![](https://sapp-academy.gitbook.io/files/s7JPUrPpWKzu16TE5uih) để xóa toàn bộ bộ lọc.
 {% endstep %}
 
 {% step %}
@@ -403,11 +435,11 @@ Có 2 cách truy cập thông tin chi tiết nhân viên:
 
 **Cách 1:** Từ **List Staffs** chọn **Action** → **View Profile**:
 
-![](<.gitbook/assets/image (99)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Ra0mU25wTAWkF3YJTyYS" alt=""><figcaption></figcaption></figure>
 
 **Cách 2:** Nhấn trực tiếp vào tên Staff:
 
-![](<.gitbook/assets/image (100)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/lMgPghR0rjrlGrUNEXae" alt=""><figcaption></figcaption></figure>
 
 Màn hình **Staff Profile** hiển thị các thông tin Overview:
 
@@ -418,13 +450,13 @@ Màn hình **Staff Profile** hiển thị các thông tin Overview:
 * Trạng thái, Giới tính
 * Thời gian cập nhật.
 
-![](<.gitbook/assets/image (101)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/ktW8nzZ3ccFFXEKb6lfw" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Xuất danh sách ra Excel
 
-![](<.gitbook/assets/image (102)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/1rHvMSgwO8LrjGx4IHIX" alt=""><figcaption></figcaption></figure>
 
 Tại Staff List, nhấn **Export**. Hệ thống xuất danh sách nhân viên (theo điều kiện tìm kiếm hiện tại) thành file Excel và tự động tải về thiết bị.
 
@@ -432,7 +464,9 @@ Tại Staff List, nhấn **Export**. Hệ thống xuất danh sách nhân viên 
 {% endstep %}
 {% endstepper %}
 
-#### 3.3.2 Tạo tài khoản nhân viên
+***
+
+### 3.3.2 Tạo tài khoản nhân viên
 
 🎯 Mục tiêu: Tạo mới một tài khoản nhân viên vận hành trong hệ thống OPS.
 
@@ -442,13 +476,13 @@ Tại Staff List, nhấn **Export**. Hệ thống xuất danh sách nhân viên 
 
 Tại Staff List, nhấn nút **Create** để mở màn hình Create Staff.
 
-![](<.gitbook/assets/image (103)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/co9Orys2yxYYn0dQJawT" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Điền thông tin nhân viên
 
-![](<.gitbook/assets/image (104)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/HAaEJPB6jpAx22BH2ru7" alt=""><figcaption></figcaption></figure>
 
 Điền các trường thông tin. Các trường có dấu **(\*)** là bắt buộc:
 
@@ -470,13 +504,15 @@ Tại Staff List, nhấn nút **Create** để mở màn hình Create Staff.
 
 Nhấn **Save** tại góc phải màn hình → chọn **Yes** khi hộp thoại xác nhận hiển thị.
 
-![](<.gitbook/assets/image (105)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/jvhhHh03fdV2Lx5KtNdD" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Tài khoản nhân viên được tạo thành công và xuất hiện ở đầu danh sách Staff List.
 {% endstep %}
 {% endstepper %}
 
-#### 3.3.3 Chỉnh sửa thông tin nhân viên
+***
+
+### 3.3.3 Chỉnh sửa thông tin nhân viên
 
 🎯 Mục tiêu: Cập nhật thông tin cơ bản, tổ chức và phân quyền của tài khoản nhân viên đã có.
 
@@ -488,21 +524,21 @@ Có 3 cách truy cập màn hình chỉnh sửa thông tin nhân viên:
 
 **Cách 1:** Tại Staff List → nhấn **Action** → chọn **Edit**:
 
-![](<.gitbook/assets/image (106)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/ZL7zyBfopRcUg4OgqdPm" alt=""><figcaption></figcaption></figure>
 
 **Cách 2:** Nhấn vào tên nhân viên → chọn **Edit Profile**:
 
-![](<.gitbook/assets/image (107)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/w4lu2x5d06G6a5b5K6We" alt=""><figcaption></figcaption></figure>
 
 **Cách 3:** Nhấn vào tên nhân viên → chọn tab **Setting**:
 
-![](<.gitbook/assets/image (108)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/7kECmbGQm1ommgvi1rNV" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Chỉnh sửa thông tin
 
-![](<.gitbook/assets/image (109)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/NSiWMVqWNKYBqbjQW9y3" alt=""><figcaption></figcaption></figure>
 
 **Các trường có thể chỉnh sửa:** Avatar, Full Name (\*), Gender (\*), Department, Job Position (Title & Level — tối đa 2 vị trí), Program, Role, Status.
 
@@ -513,13 +549,13 @@ Có 3 cách truy cập màn hình chỉnh sửa thông tin nhân viên:
 
 **Thay đổi Email** (có quy trình riêng — cần xác thực OTP):
 
-Tại trang edit profile nhấn ![](<.gitbook/assets/image (110)>), hệ thống sẽ gửi OTP xác nhận đổi email vào tài khoản email gốc.
+Tại trang edit profile nhấn ![](https://sapp-academy.gitbook.io/files/KkIaHd41uAAtNr79UdfA), hệ thống sẽ gửi OTP xác nhận đổi email vào tài khoản email gốc.
 
-![](<.gitbook/assets/image (111)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/8c3Qw3KWpeCSqsz786eY" alt=""><figcaption></figcaption></figure>
 
 Nhập tài khoản email mới và mã OTP (có hiệu lực trong 15 giây) được gửi về email gốc:
 
-![](<.gitbook/assets/image (112)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/A70UPGEtZNPoYBnvAafF" alt=""><figcaption></figcaption></figure>
 
 Nhấn **Save** để hoàn tất chỉnh sửa email.
 
@@ -528,11 +564,11 @@ Nhấn **Save** để hoàn tất chỉnh sửa email.
 * Mỗi nhân viên tối thiểu 1, tối đa 2 Job Position.
 * Dùng nút **Add job position** để thêm vị trí:
 
-![](<.gitbook/assets/image (113)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/lSxvANfmH5QqoCbOmW5Y" alt=""><figcaption></figcaption></figure>
 
 * Dùng nút **Delete** để xóa bớt vị trí (chỉ xóa được khi còn nhiều hơn 1 Job Position):
 
-![](<.gitbook/assets/image (114)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/ra0EnHINtUYJ1Axey3Zi" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -542,15 +578,17 @@ Nhấn **Save Changes** để lưu thay đổi.
 
 ✅ Kết quả: Thông tin nhân viên được cập nhật thành công.
 
-![](<.gitbook/assets/image (115)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/99Ea24QoBbrCpStzawWK" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-#### 3.3.4 Thay đổi trạng thái nhân viên
+***
+
+### 3.3.4 Thay đổi trạng thái nhân viên
 
 🎯 Mục tiêu: Thay đổi trạng thái hoạt động của tài khoản nhân viên (kích hoạt hoặc khóa tài khoản).
 
-**Cách 1: Thay đổi từ màn hình List Staffs**
+#### Cách 1: Thay đổi từ màn hình List Staffs
 
 {% stepper %}
 {% step %}
@@ -558,7 +596,7 @@ Nhấn **Save Changes** để lưu thay đổi.
 
 Tại Staff List, nhấn **Action** tương ứng với nhân viên cần đổi trạng thái → chọn **Block** (áp dụng cho tài khoản đang Active) hoặc **Active** (áp dụng cho tài khoản đang Block).
 
-![](<.gitbook/assets/image (116)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/NTzlqgKVdEsmKVA9bGZa" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -566,11 +604,11 @@ Tại Staff List, nhấn **Action** tương ứng với nhân viên cần đổi
 
 Chọn **Yes** để cập nhật trạng thái thành công.
 
-![](<.gitbook/assets/image (117)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/aUsPm0QVuwVawxLFARy0" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
-**Cách 2: Thay đổi qua Staff Profile**
+#### Cách 2: Thay đổi qua Staff Profile
 
 {% stepper %}
 {% step %}
@@ -578,21 +616,23 @@ Chọn **Yes** để cập nhật trạng thái thành công.
 
 Nhấn trực tiếp vào giá trị trường **Status** trong bảng danh sách hoặc trên trang Staff Profile → chọn giá trị mới (Active / Block) để chuyển đổi trạng thái.
 
-![](<.gitbook/assets/image (118)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/cNsbjwEJN3FMeQfTpOWg" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ## Nhấn "Save changes" để lưu trạng thái tài khoản
 
 {% hint style="warning" %}
-Khi nhân viên bị Block, các Role đã gán vẫn được giữ nguyên nhưng nhân viên không thể đăng nhập. Khi chuyển về Active, nhân viên có thể đăng nhập lại với các Role hiện có.
+⚠️ Khi nhân viên bị Block, các Role đã gán vẫn được giữ nguyên nhưng nhân viên không thể đăng nhập. Khi chuyển về Active, nhân viên có thể đăng nhập lại với các Role hiện có.
 {% endhint %}
 
 ✅ Kết quả: Trạng thái tài khoản nhân viên được cập nhật thành công.
 {% endstep %}
 {% endstepper %}
 
-#### 3.3.5 Import hàng loạt nhân viên
+***
+
+### 3.3.5 Import hàng loạt nhân viên
 
 🎯 Mục tiêu: Tạo nhiều tài khoản nhân viên cùng lúc bằng cách tải lên file Excel/CSV.
 
@@ -602,7 +642,7 @@ Khi nhân viên bị Block, các Role đã gán vẫn được giữ nguyên nh�
 
 Tại màn hình Staff List, nhấn nút **Import** để hiển thị hộp thoại tải file.
 
-![](<.gitbook/assets/image (119)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/jEgt3r42yxrajOCgxuGj" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -610,14 +650,14 @@ Tại màn hình Staff List, nhấn nút **Import** để hiển thị hộp tho
 
 Chọn **Browse** để chọn file từ thiết bị (chỉ chấp nhận `.csv` hoặc `.xlsx`; mỗi lần chỉ được chọn 1 file). Người dùng có thể tải file mẫu về để tham khảo cách điền các thông tin hợp lệ.
 
-![](<.gitbook/assets/image (120)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/gTsHXotwvYw6q02FFD5l" alt=""><figcaption></figcaption></figure>
 
 Các trường bắt buộc trong file Import:
 
 | Trường        | Điều kiện                                                                                                                                      |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Username      | 6–40 ký tự, không chứa khoảng trắng, không chứa ký tự tiếng Việt có dấu và ký tự đặc biệt (ngoại trừ . - \_), không trùng username đã tồn tại. |
-| Email         | Đúng định dạng abc@abc.abc, không trùng email đã tồn tại.                                                                                      |
+| Email         | Đúng định dạng [abc@abc.abc](mailto:abc@abc.abc), không trùng email đã tồn tại.                                                                |
 | Phone         | 10–11 ký tự số, bắt đầu bằng 0, không trùng SĐT đã tồn tại.                                                                                    |
 | Full Name     | Họ và tên đầy đủ của nhân viên.                                                                                                                |
 | Status        | Active hoặc Block.                                                                                                                             |
@@ -628,7 +668,7 @@ Các trường bắt buộc trong file Import:
 {% step %}
 ## Click "Import" để tải file lên hệ thống
 
-![](<.gitbook/assets/image (121)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/nQ05sgcR6A49ZhZHnAzl" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -643,22 +683,25 @@ Hộp thoại hiển thị trạng thái tạo tài khoản:
 
 Nhấp vào **View Log** để xem chi tiết tình trạng tạo tài khoản. Những trường không hợp lệ sẽ được bôi đỏ, kèm lỗi cụ thể tại cột **'Errors'**.
 
-![](<.gitbook/assets/image (122)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/ruyvHWw6eSF2YAcdFR1r" alt=""><figcaption></figcaption></figure>
 
 View log sẽ hiển thị như sau:
 
-![](<.gitbook/assets/image (123)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Ip940oIZsh5LZYxylFYu" alt=""><figcaption></figcaption></figure>
 
 ✅ Kết quả: Tài khoản nhân viên hợp lệ được tạo thành công. Tài khoản lỗi được ghi nhận trong log để người dùng kiểm tra, sửa và import lại.
 
 {% hint style="warning" %}
-Sau khi import, các trường liên quan đến nội dung giảng dạy (Teaching Program, Primary Responsibility, Mức độ ưu tiên môn học) cần được bổ sung thủ công cho từng giảng viên qua màn hình Edit.
+⚠️ Lưu ý: Sau khi import, các trường liên quan đến nội dung giảng dạy (Teaching Program, Primary Responsibility, Mức độ ưu tiên môn học) cần được bổ sung thủ công cho từng giảng viên qua màn hình Edit.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
 
+</details>
+
 ## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
 
+{% hint style="warning" %}
 ### Lưu ý quan trọng
 
 1. **Username** và **Số điện thoại** KHÔNG được phép chỉnh sửa sau khi tạo tài khoản — đây là định danh duy nhất của nhân viên.
@@ -671,7 +714,9 @@ Sau khi import, các trường liên quan đến nội dung giảng dạy (Teach
 8. File Import chỉ chấp nhận định dạng `.csv` hoặc `.xlsx`; mỗi lần chỉ import 1 file.
 9. Các trường Username, Email, SĐT trong file import phải là duy nhất, không trùng dữ liệu đã có trong hệ thống.
 10. Thông tin Department / Job Position / Program / Role không được nhập qua Import — phải bổ sung thủ công sau khi tạo tài khoản.
+{% endhint %}
 
+{% hint style="info" %}
 ### Mẹo sử dụng
 
 1. Tải file mẫu (template) trước khi import để đảm bảo đúng định dạng cột và dữ liệu.
@@ -679,6 +724,7 @@ Sau khi import, các trường liên quan đến nội dung giảng dạy (Teach
 3. Kết hợp nhiều bộ lọc (Search + Status + Role + Gender + Date) để thu hẹp kết quả tìm kiếm nhanh hơn.
 4. Gán **Role** ngay sau khi tạo tài khoản để nhân viên có thể truy cập các chức năng cần thiết.
 5. Khi cần điều chuyển nội bộ, dùng tính năng **Edit Job Position** thay vì tạo tài khoản mới.
+{% endhint %}
 
 ## V. Các Lỗi Thường Gặp & Cách Xử Lý
 
@@ -699,104 +745,104 @@ Sau khi import, các trường liên quan đến nội dung giảng dạy (Teach
 
 <details>
 
-<summary>Tôi không thấy tài khoản nhân viên cần tìm dù đã tìm kiếm?</summary>
+<summary>Q: Tôi không thấy tài khoản nhân viên cần tìm dù đã tìm kiếm?</summary>
 
-Kiểm tra lại bộ lọc đang áp dụng — nhấn **Reset** để xóa tất cả bộ lọc và tìm lại. Lưu ý ô Search cần nhập đủ từ. Nếu vẫn không thấy, tài khoản có thể không thuộc phạm vi quyền xem của bạn — liên hệ Admin.
-
-</details>
-
-<details>
-
-<summary>Tại sao tôi không chỉnh sửa được Username và Số điện thoại của nhân viên?</summary>
-
-Đây là quy tắc nghiệp vụ để đảm bảo tính nhất quán dữ liệu. Username và SĐT là định danh duy nhất của tài khoản, không được phép thay đổi sau khi tạo. Nếu cần sửa, phải tạo tài khoản mới.
+A: Kiểm tra lại bộ lọc đang áp dụng — nhấn **Reset** để xóa tất cả bộ lọc và tìm lại. Lưu ý ô Search cần nhập đủ từ. Nếu vẫn không thấy, tài khoản có thể không thuộc phạm vi quyền xem của bạn — liên hệ Admin.
 
 </details>
 
 <details>
 
-<summary>Một nhân viên có thể có mấy Job Position?</summary>
+<summary>Q: Tại sao tôi không chỉnh sửa được Username và Số điện thoại của nhân viên?</summary>
 
-Tối thiểu 1 và tối đa 2 Job Position. Dùng nút **Add job position** để thêm vị trí và nút **Delete** để xóa bớt (chỉ xóa được khi còn nhiều hơn 1 vị trí).
-
-</details>
-
-<details>
-
-<summary>Khi nào bắt buộc phải chọn Chương trình (Program)?</summary>
-
-Khi Phòng ban (Department) khác 'HO' thì bắt buộc phải chọn Chương trình. Riêng phòng ban HO thì Chương trình là tùy chọn, không bắt buộc.
+A: Đây là quy tắc nghiệp vụ để đảm bảo tính nhất quán dữ liệu. Username và SĐT là định danh duy nhất của tài khoản, không được phép thay đổi sau khi tạo. Nếu cần sửa, phải tạo tài khoản mới.
 
 </details>
 
 <details>
 
-<summary>Một nhân viên có thể có mấy Role?</summary>
+<summary>Q: Một nhân viên có thể có mấy Job Position?</summary>
 
-Không giới hạn. Một nhân viên có thể được gán nhiều Role cùng lúc tùy theo nhu cầu công việc. Hệ thống sẽ tổng hợp quyền từ tất cả Role được gán.
-
-</details>
-
-<details>
-
-<summary>Tại sao danh sách Title thay đổi khi tôi chọn Department khác?</summary>
-
-Vì Title (chức danh) được cấu hình theo từng Phòng ban. Mỗi phòng ban có một bộ chức danh riêng. Khi đổi Department, hệ thống tự động cập nhật lại danh sách Title tương ứng.
+A: Tối thiểu 1 và tối đa 2 Job Position. Dùng nút **Add job position** để thêm vị trí và nút **Delete** để xóa bớt (chỉ xóa được khi còn nhiều hơn 1 vị trí).
 
 </details>
 
 <details>
 
-<summary>File import của tôi có nhiều dòng lỗi, tôi cần làm gì?</summary>
+<summary>Q: Khi nào bắt buộc phải chọn Chương trình (Program)?</summary>
 
-Sau khi import, nhấn **View Log** để xem chi tiết các dòng lỗi. Mở lại file gốc, sửa các dòng bị bôi đỏ theo hướng dẫn tại cột 'Errors', sau đó import lại file đã sửa. Bạn cũng có thể truy cập Staffs → Import Report để xem lại lịch sử.
-
-</details>
-
-<details>
-
-<summary>Sau khi import, tại sao nhân viên không truy cập được hệ thống?</summary>
-
-Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone, Full Name, Status). Các thông tin về Department, Job Position, Program và đặc biệt là **Role** cần được bổ sung thủ công qua màn hình Edit. Nhân viên chưa có Role sẽ không thấy được menu/chức năng trong OPS.
+A: Khi Phòng ban (Department) khác 'HO' thì bắt buộc phải chọn Chương trình. Riêng phòng ban HO thì Chương trình là tùy chọn, không bắt buộc.
 
 </details>
 
 <details>
 
-<summary>Nhân viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
+<summary>Q: Một nhân viên có thể có mấy Role?</summary>
 
-Không. Chỉ người dùng có quyền trên hệ thống OPS (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
-
-</details>
-
-<details>
-
-<summary>Tôi có thể xóa một chức danh không?</summary>
-
-Hệ thống hiện không hỗ trợ xóa chức danh. Để vô hiệu hóa, hãy chuyển Status sang **Inactive**.
+A: Không giới hạn. Một nhân viên có thể được gán nhiều Role cùng lúc tùy theo nhu cầu công việc. Hệ thống sẽ tổng hợp quyền từ tất cả Role được gán.
 
 </details>
 
 <details>
 
-<summary>Tại sao tôi không thấy nút Create?</summary>
+<summary>Q: Tại sao danh sách Title thay đổi khi tôi chọn Department khác?</summary>
 
-Bạn chưa được cấp quyền tạo mới chức danh. Liên hệ quản trị viên hệ thống để được cấp quyền.
-
-</details>
-
-<details>
-
-<summary>Có thể gán một chức danh cho nhiều phòng ban không?</summary>
-
-Có. Tại màn hình Edit, trường Department hỗ trợ **Multiple select** — bạn có thể chọn nhiều phòng ban cùng lúc.
+A: Vì Title (chức danh) được cấu hình theo từng Phòng ban. Mỗi phòng ban có một bộ chức danh riêng. Khi đổi Department, hệ thống tự động cập nhật lại danh sách Title tương ứng.
 
 </details>
 
 <details>
 
-<summary>Sau khi tạo mới, chức danh có trạng thái gì?</summary>
+<summary>Q: File import của tôi có nhiều dòng lỗi, tôi cần làm gì?</summary>
 
-Sau khi tạo thành công, Status mặc định của chức danh là **Active**.
+A: Sau khi import, nhấn **View Log** để xem chi tiết các dòng lỗi. Mở lại file gốc, sửa các dòng bị bôi đỏ theo hướng dẫn tại cột 'Errors', sau đó import lại file đã sửa. Bạn cũng có thể truy cập Staffs → Import Report để xem lại lịch sử.
+
+</details>
+
+<details>
+
+<summary>Q: Sau khi import, tại sao nhân viên không truy cập được hệ thống?</summary>
+
+A: Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone, Full Name, Status). Các thông tin về Department, Job Position, Program và đặc biệt là **Role** cần được bổ sung thủ công qua màn hình Edit. Nhân viên chưa có Role sẽ không thấy được menu/chức năng trong OPS.
+
+</details>
+
+<details>
+
+<summary>Q: Nhân viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
+
+A: Không. Chỉ người dùng có quyền trên hệ thống OPS (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
+
+</details>
+
+<details>
+
+<summary>Q: Tôi có thể xóa một chức danh không?</summary>
+
+A: Hệ thống hiện không hỗ trợ xóa chức danh. Để vô hiệu hóa, hãy chuyển Status sang **Inactive**.
+
+</details>
+
+<details>
+
+<summary>Q: Tại sao tôi không thấy nút Create?</summary>
+
+A: Bạn chưa được cấp quyền tạo mới chức danh. Liên hệ quản trị viên hệ thống để được cấp quyền.
+
+</details>
+
+<details>
+
+<summary>Q: Có thể gán một chức danh cho nhiều phòng ban không?</summary>
+
+A: Có. Tại màn hình Edit, trường Department hỗ trợ **Multiple select** — bạn có thể chọn nhiều phòng ban cùng lúc.
+
+</details>
+
+<details>
+
+<summary>Q: Sau khi tạo mới, chức danh có trạng thái gì?</summary>
+
+A: Sau khi tạo thành công, Status mặc định của chức danh là **Active**.
 
 </details>

@@ -21,7 +21,7 @@ Kết quả đạt được: Các nhóm sản phẩm được tạo ra từ các
 #### Phạm vi & Module liên quan
 
 * **Module chính**: Combo Product
-* **Module liên quan**: [Program & Subject](../khoa-hoc-course/program-and-subject.md), [Product](product.md), [Promotion Codes](promotion-code.md), [List of Orders](order-list.md)
+* **Module liên quan**: [Program & Subject](/broken/pages/60d8ad886d1deb674dc83f513d97c407496f5c4d), [Product](product.md), [Promotion Codes](promotion-code.md), [List of Orders](order-list.md)
 * **Hệ thống tích hợp**: Không có
 
 ### Điều kiện tiên quyết

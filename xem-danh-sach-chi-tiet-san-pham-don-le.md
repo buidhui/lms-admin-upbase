@@ -31,7 +31,7 @@ Tài liệu này hướng dẫn người dùng cách xem danh sách sản phẩm
 ### 1.3 Phạm vi & Module liên quan
 
 * **Module chính:** Products
-* **Module liên quan:** [Program](khoa-hoc-course/program-and-subject.md)
+* **Module liên quan:** [Program](/broken/pages/60d8ad886d1deb674dc83f513d97c407496f5c4d)
 * **Hệ thống tích hợp:** Không áp dụng
 
 ### 1.4 Điều kiện tiên quyết

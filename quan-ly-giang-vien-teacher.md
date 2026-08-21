@@ -1,4 +1,4 @@
-# Quản lý giảng viên (Teacher)
+# quan ly giang vien teacher
 
 ## Record of changes
 
@@ -21,21 +21,27 @@ _A - Add, M - Modify, D - Delete_
 
 ## I. Thông tin chung
 
+{% hint style="info" %}
 **Dành cho:** Admin, Operator
 
 **Đường dẫn:** User Management → Teachers → Teacher List
+{% endhint %}
 
+{% hint style="info" %}
 #### Phạm vi & Module liên quan
 
 * **Module chính:** Teacher Management (thuộc User Management)
 * **Module liên quan:** Teaching Program, LMS Pro
+{% endhint %}
 
+{% hint style="warning" %}
 #### Điều kiện tiên quyết
 
 * Đã có tài khoản và được cấp quyền truy cập hệ thống OPS.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 * Đã nắm danh sách Chương trình (Program) và các môn học (Subject) hiện có trong hệ thống.
+{% endhint %}
 
 ## II. Tổng Quan Giao Diện
 
@@ -56,21 +62,23 @@ Màn hình **Teacher Management** bao gồm các khu vực chính:
 
 ## III. Các Bước Thực Hiện Chi Tiết
 
-### 3.1 Xem danh sách và truy cập chi tiết giảng viên
+<details>
+
+<summary>3.1 Xem danh sách và truy cập chi tiết giảng viên</summary>
 
 {% stepper %}
 {% step %}
-#### Truy cập Teacher List
+## Truy cập Teacher List
 
 Từ thanh điều hướng bên trái, nhấn vào **Teachers** → chọn **Teacher List**. Danh sách giảng viên hiển thị theo thời gian tạo giảm dần.
 
-![](<.gitbook/assets/image (19)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/2T2OuDhHuh0CAbngUj7d" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Tìm kiếm và lọc giảng viên
+## Tìm kiếm và lọc giảng viên
 
-![](<.gitbook/assets/image (20)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/pVjPE8ZZhFRMGoZFSi6T" alt=""><figcaption></figcaption></figure>
 
 Sử dụng các bộ lọc phía trên bảng danh sách:
 
@@ -88,47 +96,53 @@ Nhấn **Search** để hiển thị kết quả. Nhấn **Reset** để xóa to
 {% endstep %}
 
 {% step %}
-#### Xem thông tin chi tiết giảng viên
+## Xem thông tin chi tiết giảng viên
 
-![](<.gitbook/assets/image (21)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/XGB1rkmdcwlytaSZGBgh" alt=""><figcaption></figcaption></figure>
 
 Nhấn vào tên giảng viên hoặc nhấn **Action → View Profile**. Màn hình Teacher Profile hiển thị các tab:
 
-*   **Overview:** Code, Full Name, Username, Email, Address, Phone Number, Account Status, Test Account, Teaching Status, Person in Charge, Gender, Job Title, D.O.B, Facility, Current Company, Facebook, Youtube, LinkedIn, Certificate File, Updated At, Description.
+* **Overview:** Code, Full Name, Username, Email, Address, Phone Number, Account Status, Test Account, Teaching Status, Person in Charge, Gender, Job Title, D.O.B, Facility, Current Company, Facebook, Youtube, LinkedIn, Certificate File, Updated At, Description.
 
-    ![](<.gitbook/assets/image (22)>)
-*   **Setting:** Cho phép cập nhật các thông tin: Code, Full Name, Address, Phone, Status, File chứng chỉ đi kèm, Job Title, Teaching Status, Person in Charge, Facebook, Youtube, LinkedIn, Description.
+<figure><img src="https://sapp-academy.gitbook.io/files/zfmB6pnfZCBDudK20Bx0" alt=""><figcaption></figcaption></figure>
 
-    ![](<.gitbook/assets/image (24)>)
-*   **Teaching Program:** Nội dung giảng dạy theo từng chương trình (CFA/ACCA/CMA), danh sách môn và mức độ ưu tiên.
+* **Setting:** Cho phép cập nhật các thông tin: Code, Full Name, Address, Phone, Status, File chứng chỉ đi kèm, Job Title, Teaching Status, Person in Charge, Facebook, Youtube, LinkedIn, Description.
 
-    ![](<.gitbook/assets/image (26)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/OWIlSpFZgKJgPhgUONvV" alt=""><figcaption></figcaption></figure>
+
+* **Teaching Program:** Nội dung giảng dạy theo từng chương trình (CFA/ACCA/CMA), danh sách môn và mức độ ưu tiên.
+
+<figure><img src="https://sapp-academy.gitbook.io/files/mDFNQoXjs1Dy3IGHLL5r" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Xuất danh sách ra Excel
+## Xuất danh sách ra Excel
 
-![](<.gitbook/assets/image (28)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/9uwbWFOYvwyoUOyGqrIT" alt=""><figcaption></figcaption></figure>
 
 Tại màn hình Teacher List, nhấn **Export**. Hệ thống xuất danh sách giảng viên (theo điều kiện tìm kiếm hiện tại) thành file Excel và tự động tải về thiết bị.
 {% endstep %}
 {% endstepper %}
 
-### 3.2 Tạo tài khoản giảng viên
+</details>
+
+<details>
+
+<summary>3.2 Tạo tài khoản giảng viên</summary>
 
 {% stepper %}
 {% step %}
-#### Truy cập màn hình tạo tài khoản
+## Truy cập màn hình tạo tài khoản
 
-![](<.gitbook/assets/image (30)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/QEGWM8fKUMGSRXoRsAOh" alt=""><figcaption></figcaption></figure>
 
 Tại màn hình Teacher List, nhấn nút **Create** để chuyển đến màn hình Create Teacher.
 {% endstep %}
 
 {% step %}
-#### Điền thông tin giảng viên
+## Điền thông tin giảng viên
 
-![](<.gitbook/assets/image (32)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/mNaHyFiE7AOlVw82WOXC" alt=""><figcaption></figcaption></figure>
 
 Điền các trường thông tin. Các trường có dấu **(\*)** là bắt buộc:
 
@@ -169,37 +183,43 @@ Tại màn hình Teacher List, nhấn nút **Create** để chuyển đến màn
 {% endstep %}
 
 {% step %}
-#### Lưu tài khoản
+## Lưu tài khoản
 
-![](<.gitbook/assets/image (34)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/jmyL1Ep7uYIhtJZUDvGl" alt=""><figcaption></figcaption></figure>
 
 Nhấn **Save** → chọn **Yes** khi hộp thoại xác nhận hiển thị. Tài khoản mới xuất hiện ở đầu danh sách Teacher List.
 {% endstep %}
 {% endstepper %}
 
-### 3.3 Chỉnh sửa thông tin giảng viên
+</details>
+
+<details>
+
+<summary>3.3 Chỉnh sửa thông tin giảng viên</summary>
 
 {% stepper %}
 {% step %}
-#### Truy cập màn hình chỉnh sửa
+## Truy cập màn hình chỉnh sửa
 
 Có 3 cách truy cập màn hình chỉnh sửa thông tin giảng viên:
 
-*   **Cách 1:** Tại Teacher List → nhấn **Action** → chọn **Edit**.
+* **Cách 1:** Tại Teacher List → nhấn **Action** → chọn **Edit**.
 
-    ![](<.gitbook/assets/image (37)>)
-*   **Cách 2:** Nhấn vào tên giảng viên → chọn **Edit Profile**.
+<figure><img src="https://sapp-academy.gitbook.io/files/lgWoiokGCy1FWmW9Nw4u" alt=""><figcaption></figcaption></figure>
 
-    ![](<.gitbook/assets/image (39)>)
-*   **Cách 3:** Nhấn vào tên giảng viên → chọn tab **Setting**.
+* **Cách 2:** Nhấn vào tên giảng viên → chọn **Edit Profile**.
 
-    ![](<.gitbook/assets/image (41)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/DAFerJCyUn7UmDOu3IHM" alt=""><figcaption></figcaption></figure>
+
+* **Cách 3:** Nhấn vào tên giảng viên → chọn tab **Setting**.
+
+<figure><img src="https://sapp-academy.gitbook.io/files/1OGhNg2yTcVd4Z5cg1Bg" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Chỉnh sửa thông tin cơ bản
+## Chỉnh sửa thông tin cơ bản
 
-![](<.gitbook/assets/image (44)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/IDQg28BM7EUtZxp7G9u3" alt=""><figcaption></figcaption></figure>
 
 **Các trường có thể chỉnh sửa:** Avatar, Full Name (\*), Gender (\*), DOB, Facility (\*), Job Title, Teaching Status (\*), Person in Charge (\*), Facebook, LinkedIn, Youtube, Description, File chứng chỉ.
 
@@ -217,9 +237,9 @@ Nhấn **Save** để lưu thay đổi.
 {% endstep %}
 
 {% step %}
-#### Thay đổi môn học giảng dạy (Teaching Program)
+## Thay đổi môn học giảng dạy (Teaching Program)
 
-![](<.gitbook/assets/image (46)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/pYPJwNNXoVHBkUhhAXai" alt=""><figcaption></figcaption></figure>
 
 Tại trang chi tiết giảng viên, chọn tab **Teaching Program** → chọn chương trình muốn chỉnh sửa → nhấn **Edit Subjects**. Tại đây có thể:
 
@@ -229,15 +249,17 @@ Tại trang chi tiết giảng viên, chọn tab **Teaching Program** → chọn
 
 Nhấn **Save** → chọn **Yes** khi hộp thoại xác nhận hiển thị.
 
-![](<.gitbook/assets/image (47)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/K2cuyLegEKWhKPYfxOEf" alt=""><figcaption></figcaption></figure>
 
-{% hint style="success" %}
-**Kết quả:** Thông tin giảng viên được cập nhật thành công.
-{% endhint %}
+✅ Kết quả: Thông tin giảng viên được cập nhật thành công.
 {% endstep %}
 {% endstepper %}
 
-### 3.4 Thay đổi trạng thái giảng viên
+</details>
+
+<details>
+
+<summary>3.4 Thay đổi trạng thái giảng viên</summary>
 
 Hệ thống hỗ trợ 2 trạng thái tài khoản giảng viên:
 
@@ -248,25 +270,25 @@ Hệ thống hỗ trợ 2 trạng thái tài khoản giảng viên:
 
 {% stepper %}
 {% step %}
-#### Cách 1 — Thay đổi qua nút Action
+## Cách 1 — Thay đổi qua nút Action
 
 Tại Teacher List, nhấn **Action** tương ứng với giảng viên cần đổi trạng thái → chọn **Block** (áp dụng cho tài khoản đang Active).
 
-![](<.gitbook/assets/image (49)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/qzaq4WvLE0bozBnKro0E" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Cách 2 — Thay đổi qua trường Status
+## Cách 2 — Thay đổi qua trường Status
 
 Nhấn trực tiếp vào giá trị trường **Status** trong bảng danh sách hoặc trên trang Teacher Profile → chọn giá trị mới (Active / Block) để chuyển đổi trạng thái.
 
-![](<.gitbook/assets/image (52)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/2f2Re9gVvbqkmyrwTG2R" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Xác nhận thay đổi trạng thái
+## Xác nhận thay đổi trạng thái
 
-![](<.gitbook/assets/image (54)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Sq4Ze1WrMIpGZeXlOwbZ" alt=""><figcaption></figcaption></figure>
 
 Xác nhận khi hộp thoại hiển thị.
 
@@ -276,19 +298,23 @@ Khi giảng viên bị **Block**, các lớp/khóa học đã được phân cô
 {% endstep %}
 {% endstepper %}
 
-### 3.5 Import hàng loạt giảng viên
+</details>
+
+<details>
+
+<summary>3.5 Import hàng loạt giảng viên</summary>
 
 {% stepper %}
 {% step %}
-#### Mở hộp thoại Import
+## Mở hộp thoại Import
 
 Tại màn hình Teacher List, nhấn nút **Import** để hiển thị hộp thoại tải file.
 
-![](<.gitbook/assets/image (55)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/PGde5eMpMEDB8sgLGaEO" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Chọn file và kiểm tra định dạng
+## Chọn file và kiểm tra định dạng
 
 Chọn **Browse** để chọn file từ thiết bị. Lưu ý:
 
@@ -296,14 +322,14 @@ Chọn **Browse** để chọn file từ thiết bị. Lưu ý:
 * Mỗi lần chỉ được chọn 1 file.
 * Người dùng có thể tải **file mẫu (template)** về để tham khảo cách điền thông tin hợp lệ.
 
-![](<.gitbook/assets/image (57)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/os7pfy4DIQQp14yIS66Q" alt=""><figcaption></figcaption></figure>
 
 Các trường bắt buộc trong file import:
 
 | Trường        | Điều kiện                                                                                                                                      |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Username      | 6–40 ký tự, không chứa khoảng trắng, không chứa ký tự tiếng Việt có dấu và ký tự đặc biệt (ngoại trừ . - \_), không trùng username đã tồn tại. |
-| Email         | Đúng định dạng abc@abc.abc, không trùng email đã tồn tại.                                                                                      |
+| Email         | Đúng định dạng [abc@abc.abc](mailto:abc@abc.abc), không trùng email đã tồn tại.                                                                |
 | Phone         | 10–11 ký tự số, bắt đầu bằng 0, không trùng SĐT đã tồn tại.                                                                                    |
 | Full Name     | Họ và tên đầy đủ của giảng viên.                                                                                                               |
 | Status        | Active hoặc Block.                                                                                                                             |
@@ -312,15 +338,15 @@ Các trường bắt buộc trong file import:
 {% endstep %}
 
 {% step %}
-#### Click "Import" để tải file lên hệ thống
+## Click "Import" để tải file lên hệ thống
 
 Nhấn **Import** để bắt đầu xử lý file.
 
-![](<.gitbook/assets/image (59)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/xEXH3Jura5e4HcFMTvKe" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-#### Kiểm tra kết quả và xem log lỗi
+## Kiểm tra kết quả và xem log lỗi
 
 Hộp thoại kết quả hiển thị các thông tin:
 
@@ -329,20 +355,23 @@ Hộp thoại kết quả hiển thị các thông tin:
 * **Successfully:** số tài khoản được tạo thành công.
 * **Error:** số tài khoản tạo thất bại.
 
-![](<.gitbook/assets/image (61)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/Irc33sIxeSPjwYOHn8nm" alt=""><figcaption></figcaption></figure>
 
 Nhấp vào **View Log** để xem chi tiết tình trạng tạo tài khoản. Những trường không hợp lệ sẽ được bôi đỏ, kèm lỗi cụ thể tại cột **Errors**.
 
-![](<.gitbook/assets/image (63)>)
+<figure><img src="https://sapp-academy.gitbook.io/files/RBm5IRL72sQ9sTu9BPTY" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Sau khi import, các thông tin về **Teaching Program** (Primary Responsibility, môn học, mức độ ưu tiên) cần được bổ sung thủ công cho từng giảng viên qua màn hình Edit.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
 
+</details>
+
 ## IV. Lưu Ý & Quy Tắc Nghiệp Vụ
 
+{% hint style="warning" %}
 ### Lưu ý quan trọng
 
 1. **Username** và **Số điện thoại** KHÔNG được phép chỉnh sửa sau khi tạo tài khoản — đây là định danh duy nhất của giảng viên.
@@ -354,7 +383,9 @@ Sau khi import, các thông tin về **Teaching Program** (Primary Responsibilit
 7. File Import chỉ chấp nhận định dạng **.csv** hoặc **.xlsx**; mỗi lần chỉ import 1 file.
 8. Các trường **Username, Email, SĐT** trong file import phải là duy nhất, không trùng dữ liệu đã có trong hệ thống.
 9. Thông tin **Teaching Program** không được nhập qua Import — phải bổ sung thủ công sau khi tạo tài khoản.
+{% endhint %}
 
+{% hint style="info" %}
 ### Mẹo sử dụng
 
 1. Tải **file mẫu (template)** trước khi import để đảm bảo đúng định dạng cột và dữ liệu.
@@ -362,6 +393,7 @@ Sau khi import, các thông tin về **Teaching Program** (Primary Responsibilit
 3. Kết hợp nhiều bộ lọc (Search + Status + Gender + Date) để thu hẹp kết quả tìm kiếm nhanh hơn.
 4. Cập nhật đầy đủ **Teaching Program** và mức độ ưu tiên ngay sau khi tạo tài khoản để hệ thống phân lớp/khóa được chính xác.
 5. Sử dụng tab **Teaching Program** để xem nhanh năng lực giảng dạy của giảng viên trước khi phân công lớp.
+{% endhint %}
 
 ## V. Các Lỗi Thường Gặp & Cách Xử Lý
 
