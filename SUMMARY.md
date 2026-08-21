@@ -10,9 +10,9 @@
 
 ## Academic Management
 
-* [Quản lý khóa học (Courses)](academic-management/quan-ly-khoa-hoc-courses/README.md)
-  * [Danh sách khóa học (Course List)](academic-management/quan-ly-khoa-hoc-courses/xem-danh-sach-khoa-hoc-course-list.md)
-  * [Tạo khóa học (Course Infor)](academic-management/quan-ly-khoa-hoc-courses/tao-khoa-hoc-course-infor.md)
+* [Quản lý khóa học](academic-management/quan-ly-khoa-hoc-courses/README.md)
+  * [Danh sách khóa học](academic-management/quan-ly-khoa-hoc-courses/xem-danh-sach-khoa-hoc-course-list.md)
+  * [Tạo khóa học](academic-management/quan-ly-khoa-hoc-courses/tao-khoa-hoc-course-infor.md)
   * [Tạo nội dung khóa học (Course content)](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/README.md)
     * [Tạo cấu phần học (Section, Subsection, Unit, Activity)](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-cau-phan-hoc-section-subsection-unit-activity.md)
     * [Tạo bài Test/Quiz cho khóa học](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-bai-test-quiz-cho-khoa-hoc.md)
