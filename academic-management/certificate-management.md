@@ -22,13 +22,13 @@ _A - Add | M - Modify | D - Delete_
 
 * **Module chính:** Course & Materials
 * **Chức năng chính:** Certificate Management
-* **Module liên quan:** Course, Resources, Learning Progress / Certificate Logic, LMS học viên
+* **Module liên quan:** Course, Resources, Learning Progress / Certificate Logic, UpLMS học viên
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Ops**.
+* Người dùng đã đăng nhập thành công vào hệ thống vận hành **UpLMS Ops**.
 * Tài khoản đã được cấp quyền truy cập chức năng **Certificates**.
 {% endhint %}
 

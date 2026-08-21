@@ -35,7 +35,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống vận hành LMS Ops.
+* Người dùng đã đăng nhập thành công vào hệ thống vận hành UpLMS Ops.
 * Tài khoản người dùng có quyền truy cập nhóm chức năng **Course**.
 {% endhint %}
 

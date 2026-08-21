@@ -31,7 +31,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống LMS Ops.
+* Người dùng đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Tài khoản có quyền tạo/chỉnh sửa Question và Course.
 * Khóa học có **Program Category = "ACCA"** (mục Grading Files / Context File chỉ hiển thị với khóa ACCA).
 {% endhint %}
@@ -46,7 +46,7 @@ _A - Add | M - Modify | D - Delete_
 
 {% stepper %}
 {% step %}
-**Đăng nhập hệ thống LMS Ops**
+**Đăng nhập hệ thống UpLMS Ops**
 {% endstep %}
 
 {% step %}
@@ -132,7 +132,7 @@ Mỗi file/text cần điền thêm:
 
 {% stepper %}
 {% step %}
-**Đăng nhập hệ thống LMS Ops**
+**Đăng nhập hệ thống UpLMS Ops**
 {% endstep %}
 
 {% step %}
@@ -176,7 +176,7 @@ Mục Context File for AI chỉ hiển thị khi chọn ACCA.
 
 {% stepper %}
 {% step %}
-**Đăng nhập hệ thống LMS Ops**
+**Đăng nhập hệ thống UpLMS Ops**
 {% endstep %}
 
 {% step %}

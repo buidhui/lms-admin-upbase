@@ -21,13 +21,13 @@ _A - Add | M - Modify | D - Delete_
 
 * **Module chính:** Academic Management / Class
 * **Chức năng chính:** Class Detail / Resources
-* **Module liên quan:** Class List, Class Detail, Resources, Lesson, Student LMS, Teacher LMS
+* **Module liên quan:** Class List, Class Detail, Resources, Lesson, Student UpLMS, Teacher UpLMS
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản có quyền truy cập module **Class**, quyền xem chi tiết lớp học và truy cập tab **Resources** trong Class Detail.
 * Lớp học đã được tạo trên hệ thống.
 * Nếu cần upload: có quyền tạo thư mục hoặc tải tài liệu lên hệ thống.
@@ -149,9 +149,9 @@ Tại mục **Share Resource**, người dùng chọn đối tượng chia sẻ 
 
 | Trường     | Mô tả                                                                                                                                  |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Student    | Mặc định được tích chọn. Tích chọn nếu muốn chia sẻ tài liệu cho học viên; tài liệu hiển thị trên Class Resource của LMS học viên.     |
-| Teacher    | Mặc định được tích chọn. Tích chọn nếu muốn chia sẻ tài liệu cho giảng viên; tài liệu hiển thị trên Class Resource của LMS giảng viên. |
-| Permission | **Viewer:** chỉ được xem trên LMS, không tải về. **Downloader:** được xem và tải tài liệu.                                             |
+| Student    | Mặc định được tích chọn. Tích chọn nếu muốn chia sẻ tài liệu cho học viên; tài liệu hiển thị trên Class Resource của UpLMS học viên.     |
+| Teacher    | Mặc định được tích chọn. Tích chọn nếu muốn chia sẻ tài liệu cho giảng viên; tài liệu hiển thị trên Class Resource của UpLMS giảng viên. |
+| Permission | **Viewer:** chỉ được xem trên UpLMS, không tải về. **Downloader:** được xem và tải tài liệu.                                             |
 
 * Đối với tài liệu không phải mp3/mp4: mặc định quyền **Downloader**.
 * Đối với Video/file âm thanh mp3: chỉ có quyền **Viewer**, không thể chuyển sang Downloader.
@@ -205,7 +205,7 @@ Chọn **Action → Edit** tại tài liệu muốn chỉnh sửa, sau đó đi�
 | Attach to the lesson | Mặc định theo cấu hình hiện tại. Chọn buổi học cần gắn với tài liệu (có thể chọn nhiều buổi).                   |
 | Student              | Mặc định theo cấu hình hiện tại. Tích chọn nếu muốn chia sẻ tài liệu cho học viên.                              |
 | Teacher              | Mặc định theo cấu hình hiện tại. Tích chọn nếu muốn chia sẻ tài liệu cho giảng viên.                            |
-| Permission           | **Viewer:** chỉ xem trên LMS, không tải. **Downloader:** xem và tải. Video/mp3 mặc định Viewer, không đổi được. |
+| Permission           | **Viewer:** chỉ xem trên UpLMS, không tải. **Downloader:** xem và tải. Video/mp3 mặc định Viewer, không đổi được. |
 
 Sau khi chỉnh sửa, chọn **Save** để lưu.
 {% endstep %}

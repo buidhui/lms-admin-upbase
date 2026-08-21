@@ -26,13 +26,13 @@ _A - Add | M - Modify | D - Delete_
   * Storyline
   * Resources
   * Class
-  * LMS học viên
+  * UpLMS học viên
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Admin đã đăng nhập thành công vào hệ thống LMS Ops.
+* Admin đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Tài khoản Admin có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công ở bước **Course Info**.
 {% endhint %}
@@ -267,12 +267,12 @@ Hệ thống hiển thị form tạo mới Activity như hình.
 | --------------------------- | -------- | --------------------------------------------------------------------------------------------------- |
 | **Activity Name**           | Y        | Tên hoạt động học tập.                                                                              |
 | **Duration (Hour/Minutes)** | Y        | Thời lượng của Activity.                                                                            |
-| **Type of Activity**        | Y        | Loại Activity hiển thị icon trên giao diện học viên LMS, gồm Text, Video, Quiz, Pass Exam Analysis. |
+| **Type of Activity**        | Y        | Loại Activity hiển thị icon trên giao diện học viên UpLMS, gồm Text, Video, Quiz, Pass Exam Analysis. |
 | **Grade Activity**          | Y        | Xác định Activity có tính điểm hay không. Hệ thống mặc định chọn Yes.                               |
 | **Choose Learning Outcome** | N        | Chọn một hoặc nhiều Learning Outcome đã tạo.                                                        |
 | **Upload File**             | N        | Đính kèm tài liệu vào nội dung Activity.                                                            |
 
-Với phần upload file, Admin có thể chọn tài liệu từ kho tài liệu LMS hoặc upload trực tiếp từ thiết bị cá nhân; kích cỡ file tối đa là 500MB và có thể thêm một hoặc nhiều tài liệu đính kèm.
+Với phần upload file, Admin có thể chọn tài liệu từ kho tài liệu UpLMS hoặc upload trực tiếp từ thiết bị cá nhân; kích cỡ file tối đa là 500MB và có thể thêm một hoặc nhiều tài liệu đính kèm.
 {% endstep %}
 
 {% step %}

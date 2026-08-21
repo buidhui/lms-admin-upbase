@@ -31,7 +31,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập LMS Ops với role **Mentor phụ trách** của bài làm.
+* Người dùng đã đăng nhập UpLMS Ops với role **Mentor phụ trách** của bài làm.
 * Học viên đã nộp bài và có ít nhất 1 câu được AI chấm thành công.
 * Trạng thái bài làm = **"Awaiting Grading"** hoặc **"Regrading"**.
 {% endhint %}

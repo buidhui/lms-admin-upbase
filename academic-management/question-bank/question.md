@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator
+**Dành cho:** Admin, UpLMS Operator
 
 **Đường dẫn:** [https://ops.upbase.asia/question-bank/question](https://ops.upbase.asia/question-bank/question)
 {% endhint %}
@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản đã được cấp quyền truy cập module **Question Bank** và quyền thao tác với câu hỏi.
 {% endhint %}
 

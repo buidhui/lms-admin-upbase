@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Mentor, Mentor chính (Admin / LMS Operator)
+**Dành cho:** Mentor, Mentor chính (Admin / UpLMS Operator)
 
 **Đường dẫn:** Operations → Class
 {% endhint %}

@@ -23,13 +23,13 @@ _A - Add | M - Modify | D - Delete_
   * Course Info
   * Course Content
   * Resources
-  * LMS học viên
+  * UpLMS học viên
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống LMS Ops.
+* Người dùng đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Tài khoản người dùng có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công tại bước **Course Info**.
 {% endhint %}

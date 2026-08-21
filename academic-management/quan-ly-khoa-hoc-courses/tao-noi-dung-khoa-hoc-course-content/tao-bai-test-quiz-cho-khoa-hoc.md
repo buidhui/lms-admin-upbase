@@ -26,13 +26,13 @@ _A - Add | M - Modify | D - Delete_
   * Storyline
   * Resources
   * Class
-  * LMS học viên
+  * UpLMS học viên
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Admin đã đăng nhập thành công vào hệ thống LMS Ops.
+* Admin đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Tài khoản Admin có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công ở bước **Course Info**.
 {% endhint %}

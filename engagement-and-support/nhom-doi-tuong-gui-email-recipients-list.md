@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator
+**Dành cho:** Admin, UpLMS Operator
 
 **Đường dẫn:** Engagement & Support → Notice & Email → Recipients List
 {% endhint %}
@@ -26,7 +26,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống LMS Ops.
+* Đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Đã được cấp quyền tương ứng với chức năng Recipients List (xem / tạo / chỉnh sửa / xóa Nhóm người nhận).
 * Hệ thống có sẵn danh sách User để chọn làm thành viên Nhóm.
 {% endhint %}

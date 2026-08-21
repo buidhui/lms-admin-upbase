@@ -18,7 +18,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin / LMS Operator, Giảng viên (Teacher), Quản lý chương trình
+**Dành cho:** Admin / UpLMS Operator, Giảng viên (Teacher), Quản lý chương trình
 
 **Đường dẫn:** Dashboard → SIS Operational Dashboard
 {% endhint %}
@@ -32,8 +32,8 @@ _A - Add | M - Modify | D - Delete_
   * Tỉ lệ đầu vào
   * Phân phối điểm các bài kiểm tra
   * Tỉ lệ ghi điểm trên từng câu/chủ đề kiến thức
-  * Tiến độ học trên LMS
-* **Module liên quan:** Class Management (dữ liệu lớp học), Test Management (dữ liệu bài kiểm tra), LMS (dữ liệu tiến độ học tập)
+  * Tiến độ học trên UpLMS
+* **Module liên quan:** Class Management (dữ liệu lớp học), Test Management (dữ liệu bài kiểm tra), UpLMS (dữ liệu tiến độ học tập)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -41,7 +41,7 @@ _A - Add | M - Modify | D - Delete_
 
 * Đã có tài khoản và được cấp quyền truy cập hệ thống SIS.
 * Đã đăng nhập vào hệ thống.
-* Dữ liệu lớp học, bài kiểm tra và tiến độ LMS đã được khởi tạo/đồng bộ trong hệ thống.
+* Dữ liệu lớp học, bài kiểm tra và tiến độ UpLMS đã được khởi tạo/đồng bộ trong hệ thống.
 {% endhint %}
 
 ## II. Tổng quan giao diện
@@ -56,7 +56,7 @@ Tại giao diện, bấm vào dropdown list **"Chọn loại biểu đồ"** đ�
 * Tỉ lệ đầu vào
 * Phân phối điểm các bài kiểm tra
 * Tỉ lệ ghi điểm trên từng câu/chủ đề kiến thức
-* Tiến độ học trên LMS
+* Tiến độ học trên UpLMS
 
 Mỗi dashboard gồm **2 vùng chính**:
 
@@ -355,15 +355,15 @@ Khi di chuột vào một cột bất kỳ, tooltip hiển thị:
 
 <details>
 
-<summary>Dashboard Tiến độ học trên LMS</summary>
+<summary>Dashboard Tiến độ học trên UpLMS</summary>
 
-Theo dõi mức độ tham gia học tập (engagement) của học viên trên hệ thống LMS theo từng topic hoặc nội dung bài học. Từ đó, giảng viên và quản lý chương trình có thể đánh giá tiến độ học tập của lớp, nhận biết số học viên đã hoàn thành, đang học, hoặc chưa bắt đầu khóa học.
+Theo dõi mức độ tham gia học tập (engagement) của học viên trên hệ thống UpLMS theo từng topic hoặc nội dung bài học. Từ đó, giảng viên và quản lý chương trình có thể đánh giá tiến độ học tập của lớp, nhận biết số học viên đã hoàn thành, đang học, hoặc chưa bắt đầu khóa học.
 
 {% stepper %}
 {% step %}
-**Truy cập Dashboard Tiến độ học trên LMS**
+**Truy cập Dashboard Tiến độ học trên UpLMS**
 
-Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tiến độ học trên LMS**.
+Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tiến độ học trên UpLMS**.
 
 <figure><img src="../.gitbook/assets/image (354)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -386,11 +386,11 @@ Tại dropdown list **"Chọn loại biểu đồ"**, bấm chọn **Tiến đ�
 {% endstep %}
 
 {% step %}
-**Xem biểu đồ Student engagement on LMS**
+**Xem biểu đồ Student engagement on UpLMS**
 
 Cấu trúc hiển thị:
 
-* **Tên Dashboard:** _Student engagement on LMS_ — Biểu đồ thể hiện tiến độ học tập của học viên trên hệ thống LMS.
+* **Tên Dashboard:** _Student engagement on UpLMS_ — Biểu đồ thể hiện tiến độ học tập của học viên trên hệ thống UpLMS.
 * **Khóa học:** Hiển thị tên chương trình/khóa học (ví dụ: _Chartered Financial Analyst – CFA Level I_).
 * **Mã lớp học:** Hiển thị ở góc phải trên, ví dụ: `CFA103.44`.
 * **Biểu đồ cột:**
@@ -447,14 +447,14 @@ Người dùng có thể tìm kiếm, lọc hoặc sắp xếp theo tiến độ
 4. Khi lọc theo thời gian (From-to), hệ thống chỉ lấy các lớp có **Start date nằm trong khoảng đã chọn**.
 5. Course chỉ lấy dữ liệu ở **cấp 4 level**.
 6. Filter **Test** chỉ chọn được sau khi đã chọn Course; chỉ hiển thị Midterm / Final / Mocktest thuộc khóa học đã chọn.
-7. Filter **Section / Subsection / Unit** (Dashboard LMS) có quan hệ phân cấp — chọn theo thứ tự Course → Section → Subsection → Unit.
+7. Filter **Section / Subsection / Unit** (Dashboard UpLMS) có quan hệ phân cấp — chọn theo thứ tự Course → Section → Subsection → Unit.
 {% endhint %}
 
 {% hint style="info" %}
 ### Mẹo sử dụng
 
 1. **Hover lên cột/phần biểu đồ** để xem nhanh số liệu chi tiết trước khi mở popup danh sách học viên.
-2. Dùng filter **Section / Subsection / Unit** (Dashboard LMS) để bóc tách tiến độ theo từng cấp nội dung — hữu ích khi cần phân tích sâu một chương cụ thể.
+2. Dùng filter **Section / Subsection / Unit** (Dashboard UpLMS) để bóc tách tiến độ theo từng cấp nội dung — hữu ích khi cần phân tích sâu một chương cụ thể.
 3. So sánh **đường trung bình** với cột của lớp (Dashboard Tỉ lệ ghi điểm, Phân phối điểm) để nhận biết điểm mạnh/yếu của lớp.
 4. Khi cần so sánh **giữa các lớp**, chọn nhiều Class code (tối đa 4) để mỗi lớp hiển thị 1 biểu đồ riêng cạnh nhau.
 5. Tại popup danh sách học viên, sử dụng chức năng **tìm kiếm/lọc/sắp xếp** để xử lý danh sách nhanh hơn (đặc biệt với lớp đông học viên).
@@ -471,6 +471,6 @@ Người dùng có thể tìm kiếm, lọc hoặc sắp xếp theo tiến độ
 | Không hiển thị Course trong dropdown            | Course không thuộc cấp 4 level (hệ thống chỉ lấy course 4 level) | Kiểm tra cấu hình Course tại module quản lý khóa học.                                                        |
 | Lớp không xuất hiện khi lọc theo thời gian      | Start date của lớp nằm ngoài khoảng From-to đã chọn              | Mở rộng khoảng From-to hoặc bỏ filter thời gian.                                                             |
 | Không thể chọn thêm lớp thứ 5 ở Class code      | Mỗi dashboard chỉ hiển thị tối đa 4 lớp                          | Bỏ chọn 1 lớp hiện có trước khi chọn lớp mới.                                                                |
-| Tooltip / Popup không hiển thị                  | Có thể do dữ liệu chưa đồng bộ hoặc lớp không có dữ liệu         | Kiểm tra lớp đã có dữ liệu chuyên cần / bài test / tiến độ LMS chưa; làm mới trang nếu cần.                  |
+| Tooltip / Popup không hiển thị                  | Có thể do dữ liệu chưa đồng bộ hoặc lớp không có dữ liệu         | Kiểm tra lớp đã có dữ liệu chuyên cần / bài test / tiến độ UpLMS chưa; làm mới trang nếu cần.                  |
 | Không thấy danh sách học viên khi click vào cột | Lớp/buổi học không có học viên hoặc dữ liệu chưa được ghi nhận   | Kiểm tra danh sách học viên của lớp; xác nhận đã có dữ liệu điểm danh / nộp bài / tiến độ học tập tương ứng. |
 | Filter bị reset khi đổi Course                  | Class code và các filter cấp dưới phụ thuộc vào Course           | Đây là hành vi đúng — chọn lại Class code và các filter phụ thuộc sau khi đổi Course.                        |

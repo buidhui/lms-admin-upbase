@@ -29,7 +29,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản đã được cấp quyền truy cập module **Question Bank** và quyền xem danh sách **Case Study**.
 * Đối với thao tác tạo mới/chỉnh sửa: tài khoản cần có quyền tạo mới/chỉnh sửa **Case Study** tương ứng.
 {% endhint %}

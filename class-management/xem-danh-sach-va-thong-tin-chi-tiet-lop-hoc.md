@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator, CX User
+**Dành cho:** Admin, UpLMS Operator, CX User
 
 **Đường dẫn:** Academic Management → Class → Class List
 {% endhint %}
@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
 * Tài khoản có quyền xem danh sách lớp học.
 * Tài khoản có quyền xem thông tin chi tiết lớp học.

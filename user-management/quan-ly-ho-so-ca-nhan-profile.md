@@ -3,7 +3,7 @@
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** LMS Operator
+**Dành cho:** UpLMS Operator
 
 **Đường dẫn:** [https://ops.upbase.asia](https://ops.upbase.asia/auth/login)
 {% endhint %}
@@ -11,7 +11,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Ops.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống UpLMS Ops.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện.
 {% endhint %}
 
@@ -23,15 +23,15 @@
 
 {% stepper %}
 {% step %}
-**Truy cập hệ thống LMS Ops**
+**Truy cập hệ thống UpLMS Ops**
 
-Mở trình duyệt và truy cập đường dẫn hệ thống LMS Ops: [https://ops.staging.upbase.asia/](https://ops.staging.upbase.asia/)
+Mở trình duyệt và truy cập đường dẫn hệ thống UpLMS Ops: [https://ops.staging.upbase.asia/](https://ops.staging.upbase.asia/)
 {% endstep %}
 
 {% step %}
 **Đăng nhập**
 
-Nhập Username và Password vào trường tương ứng, chọn Sign In để tiến hành đăng nhập vào hệ thống LMS Ops
+Nhập Username và Password vào trường tương ứng, chọn Sign In để tiến hành đăng nhập vào hệ thống UpLMS Ops
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -39,7 +39,7 @@ Nhập Username và Password vào trường tương ứng, chọn Sign In để 
 {% step %}
 **Đăng xuất**
 
-Chọn vào biểu tượng Đăng xuất ở góc dưới bên trái màn hình để đăng xuất khỏi hệ thống LMS Ops
+Chọn vào biểu tượng Đăng xuất ở góc dưới bên trái màn hình để đăng xuất khỏi hệ thống UpLMS Ops
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}

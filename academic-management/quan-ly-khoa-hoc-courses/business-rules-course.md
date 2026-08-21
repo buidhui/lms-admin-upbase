@@ -6,7 +6,7 @@
 
 | Mã rule       | Business Rule                                                                                                                                     |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BR-COURSE-001 | Người dùng chỉ được truy cập module Course khi đã đăng nhập thành công vào hệ thống LMS Ops và được phân quyền phù hợp.                               |
+| BR-COURSE-001 | Người dùng chỉ được truy cập module Course khi đã đăng nhập thành công vào hệ thống UpLMS Ops và được phân quyền phù hợp.                               |
 | BR-COURSE-002 | Người dùng chỉ được tạo, chỉnh sửa, xóa hoặc thay đổi trạng thái khóa học nếu tài khoản có quyền tương ứng.                                       |
 | BR-COURSE-003 | Một khóa học sau khi tạo mặc định ở trạng thái **Draft**.                                                                                         |
 | BR-COURSE-004 | Một khóa học hoàn chỉnh cần đi qua 4 bước cấu hình: **Course Info → Course Content → Resource → Certificate**.                                    |
@@ -80,7 +80,7 @@
 | BR-CONTENT-007 | Một Activity có thể được gắn với một hoặc nhiều Learning Outcome đã tạo.                                                               |
 | BR-CONTENT-008 | Các mã **Section Code, Subsection Code, Unit Code, Activity Code** được hệ thống tạo tự động theo rule của khóa học.                   |
 | BR-CONTENT-009 | Mỗi Activity bắt buộc nhập **Tên activity, Activity Code, Duration, Type of Activity, Grade Activity**.                                |
-| BR-CONTENT-010 | **Type of Activity** dùng để hiển thị icon trên giao diện học viên LMS.                                                                |
+| BR-CONTENT-010 | **Type of Activity** dùng để hiển thị icon trên giao diện học viên UpLMS.                                                                |
 | BR-CONTENT-011 | Type of Activity gồm: **Text, Video, Quiz, Pass Exam Analysis**.                                                                       |
 | BR-CONTENT-012 | **Grade Activity** xác định Activity có tính điểm hay không. Hệ thống mặc định chọn **Yes**.                                           |
 | BR-CONTENT-013 | Activity có thể đính kèm một hoặc nhiều Resource.                                                                                      |
@@ -319,10 +319,10 @@
 | BR-SCHEDULE-006 | Mỗi version hiển thị thông tin: Version, Last updated, Changed by.                                    |
 | BR-SCHEDULE-007 | Version hiện tại được đánh dấu là **Current**.                                                        |
 | BR-SCHEDULE-008 | Khi tạo hoặc chỉnh sửa buổi học, các trường bắt buộc gồm **Lesson Name, Study hour, Course content**. |
-| BR-SCHEDULE-009 | Checkbox **Online LMS** dùng để đánh dấu buổi học Online trên LMS.                                    |
-| BR-SCHEDULE-010 | Trường **View on LMS** chỉ áp dụng với buổi học Offline.                                              |
-| BR-SCHEDULE-011 | Nếu View on LMS được tick, học viên được phép xem lại nội dung buổi học trên LMS.                     |
-| BR-SCHEDULE-012 | Nếu View on LMS không được tick, học viên không được xem lại nội dung buổi học trên LMS.              |
+| BR-SCHEDULE-009 | Checkbox **Online LMS** dùng để đánh dấu buổi học Online trên UpLMS.                                    |
+| BR-SCHEDULE-010 | Trường **View on UpLMS** chỉ áp dụng với buổi học Offline.                                              |
+| BR-SCHEDULE-011 | Nếu View on UpLMS được tick, học viên được phép xem lại nội dung buổi học trên UpLMS.                     |
+| BR-SCHEDULE-012 | Nếu View on UpLMS không được tick, học viên không được xem lại nội dung buổi học trên UpLMS.              |
 | BR-SCHEDULE-013 | Course content trong buổi học chỉ hiển thị các cấu phần học chưa được thêm vào buổi nào.              |
 | BR-SCHEDULE-014 | Người dùng có thể xóa buổi học sau khi xác nhận tại popup.                                            |
 | BR-SCHEDULE-015 | Người dùng có thể khôi phục Learning Schedule từ phiên bản cũ bằng chức năng Restore.                 |

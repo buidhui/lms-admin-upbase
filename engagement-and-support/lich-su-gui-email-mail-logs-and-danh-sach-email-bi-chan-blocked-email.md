@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator
+**Dành cho:** Admin, UpLMS Operator
 
 **Đường dẫn:**
 
@@ -30,7 +30,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống LMS Ops.
+* Đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Đã được cấp quyền tương ứng (xem Mail Logs, gửi lại email, xem và gỡ chặn Blocked Mail).
 * Đã có email được gửi từ hệ thống để hiển thị lịch sử trong Mail Logs.
 {% endhint %}

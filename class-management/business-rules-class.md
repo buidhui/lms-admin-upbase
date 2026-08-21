@@ -6,7 +6,7 @@
 
 | Mã rule      | Business Rule                                                                                                                                                                  |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| BR-CLASS-001 | Người dùng chỉ được truy cập module **Class** khi đã đăng nhập thành công vào hệ thống LMS Operations.                                                                         |
+| BR-CLASS-001 | Người dùng chỉ được truy cập module **Class** khi đã đăng nhập thành công vào hệ thống UpLMS Operations.                                                                         |
 | BR-CLASS-002 | Người dùng chỉ được xem danh sách lớp học nếu tài khoản có quyền truy cập màn hình **Class List**.                                                                             |
 | BR-CLASS-003 | Người dùng chỉ được tạo, chỉnh sửa, import hoặc thao tác với lớp học nếu có quyền tương ứng.                                                                                   |
 | BR-CLASS-004 | Danh sách lớp học mặc định được hiển thị theo **thời gian tạo giảm dần**.                                                                                                      |

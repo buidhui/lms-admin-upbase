@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to LMS Ops - UpBase](README.md)
+* [Welcome to UpLMS Ops - UpBase](README.md)
 
 ## User Management
 

@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator, Academic/CX User
+**Dành cho:** Admin, UpLMS Operator, Academic/CX User
 
 **Đường dẫn:** Class → Class List → (Action → Edit) hoặc Class Detail → Settings
 {% endhint %}
@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
 * Tài khoản có quyền chỉnh sửa lớp học.
 {% endhint %}
@@ -296,7 +296,7 @@ Hệ thống gửi mail và tạo ticket trên HubSpot cho **CX Supervisor** the
 | **Start Date - Create Date >= 7 ngày** | Gửi lúc 9:00 sáng, trước 7 ngày so với Start Date. |
 | **Start Date - Create Date < 7 ngày**  | Gửi lúc 9:00 sáng ngày hôm sau.                    |
 
-Đối với các ticket được tạo ra do học viên chọn kỳ thi trên LMS, hệ thống tự động assign ticket về **Class Owner** của lớp chính.
+Đối với các ticket được tạo ra do học viên chọn kỳ thi trên UpLMS, hệ thống tự động assign ticket về **Class Owner** của lớp chính.
 
 {% hint style="info" %}
 ### Mẹo sử dụng

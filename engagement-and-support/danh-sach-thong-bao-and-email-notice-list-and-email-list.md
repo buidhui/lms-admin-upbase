@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator
+**Dành cho:** Admin, UpLMS Operator
 
 **Đường dẫn:** Engagement & Support → Notice & Email → Notification List & Email List
 {% endhint %}
@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống LMS Ops.
+* Đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Đã được cấp quyền tương ứng với chức năng Notification (xem / tạo / chỉnh sửa).
 * Đối với gửi Notification/Email: cần có Nhóm người nhận đã được tạo trước đó tại **Recipients List**.
 {% endhint %}
@@ -64,7 +64,7 @@ Các trường thông tin hiển thị bao gồm:
     * Thu hồi: thu hồi những thông báo có Status = ‘Đã gửi’ và có Type = ‘Notification’.
   * Đối với thông báo có Type = Pinned Notification
     * Hẹn giờ gửi: thời gian hiển thị của thông báo được cài đặt trước, và chưa đến thời gian hiển thị thông báo.
-    * Đang hiển thị: thông báo đang hiển thị bên hệ thống LMS.
+    * Đang hiển thị: thông báo đang hiển thị bên hệ thống UpLMS.
     * Hủy: hủy không hiển thị những thông báo đang có Status = ‘Hẹn giờ gửi’.
     * Thu hồi: thu hồi những thông báo có Status = ‘Đang hiển thị'.
     * Kết thúc: những thông báo đã hết thời gian hiển thị.
@@ -168,7 +168,7 @@ Chọn **Save** để lưu thông báo. Hệ thống hiển thị thông báo t�
 
 <summary>Tạo mới Pinned Notification</summary>
 
-_**Pinned Notification là các thông báo được ghim tại đầu trang giao diện học viên LMS, hiển thị ở mọi màn hình.**_
+_**Pinned Notification là các thông báo được ghim tại đầu trang giao diện học viên UpLMS, hiển thị ở mọi màn hình.**_
 
 {% stepper %}
 {% step %}
@@ -193,7 +193,7 @@ Những trường có (\*) là những trường thông tin bắt buộc.
 
 <figure><img src="../.gitbook/assets/image (380)" alt=""><figcaption></figcaption></figure>
 
-⚠️ Khoảng thời gian xuất hiện của Pinned Notification mới tạo **không được trùng** với khoảng thời gian hiển thị của các Pinned Notification đã tạo trước đó. Nội dung hiển thị cho **Tất cả** học viên LMS nên không có lựa chọn Send to.
+⚠️ Khoảng thời gian xuất hiện của Pinned Notification mới tạo **không được trùng** với khoảng thời gian hiển thị của các Pinned Notification đã tạo trước đó. Nội dung hiển thị cho **Tất cả** học viên UpLMS nên không có lựa chọn Send to.
 {% endstep %}
 
 {% step %}

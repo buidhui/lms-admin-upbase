@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator, CX
+**Dành cho:** Admin, UpLMS Operator, CX
 
 **Đường dẫn:** LMS → Class List → Chọn lớp học → Student
 {% endhint %}
@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản có quyền truy cập module **Class** và quyền quản lý học viên trong lớp.
 * Lớp học đã được tạo trên hệ thống.
 * Học viên cần thêm đã tồn tại trên hệ thống.

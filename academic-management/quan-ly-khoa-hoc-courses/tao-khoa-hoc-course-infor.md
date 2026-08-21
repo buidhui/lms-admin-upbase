@@ -38,7 +38,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống LMS Ops.
+* Người dùng đã đăng nhập thành công vào hệ thống UpLMS Ops.
 * Tài khoản người dùng có quyền tạo mới khóa học.
 {% endhint %}
 
@@ -78,7 +78,7 @@ Lúc này, hệ thống chuyển đến bước **Course Info.**
 {% step %}
 **Admin cần nhập Tên khóa học (Course Name)**
 
-Đây là trường bắt buộc dùng để hiển thị tên khóa học trên hệ thống và hiển thị cho học viên tại LMS.
+Đây là trường bắt buộc dùng để hiển thị tên khóa học trên hệ thống và hiển thị cho học viên tại UpLMS.
 
 <figure><img src="../../.gitbook/assets/image (483)" alt=""><figcaption></figcaption></figure>
 {% endstep %}

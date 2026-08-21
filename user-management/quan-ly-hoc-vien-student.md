@@ -3,7 +3,7 @@
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** LMS Operator
+**Dành cho:** UpLMS Operator
 
 **Đường dẫn:** User Management → Students
 {% endhint %}
@@ -17,7 +17,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Ops.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống UpLMS Ops.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (crud).
 {% endhint %}
 
@@ -58,7 +58,7 @@ Màn hình Student Profile hiển thị các tab:
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-* _**Security**_: Lịch sử đăng nhập LMS.
+* _**Security**_: Lịch sử đăng nhập UpLMS.
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -85,7 +85,7 @@ Tài khoản học viên được đồng bộ tự động từ hệ thông tin
 
 <summary>Chỉnh sửa thông tin học viên</summary>
 
-Thông tin học viên được đồng bộ từ thông tin nhân sự của tổ chức. Do đó không thể thay đổi thông tin học viên trên LMS, ngoại trừ trường tên đăng nhập (Username)
+Thông tin học viên được đồng bộ từ thông tin nhân sự của tổ chức. Do đó không thể thay đổi thông tin học viên trên UpLMS, ngoại trừ trường tên đăng nhập (Username)
 
 </details>
 
@@ -97,7 +97,7 @@ Học viên có 2 trạng thái:
 
 | Trạng thái | Mô tả                                                   |
 | ---------- | ------------------------------------------------------- |
-| Active     | Tài khoản đang được kích hoạt, có thể đăng nhập vào LMS |
+| Active     | Tài khoản đang được kích hoạt, có thể đăng nhập vào UpLMS |
 | Block      | Tài khoản bị khóa, không thể đăng nhập vào LMS Student  |
 
 Có 4 cách thay đổi trạng thái:
@@ -130,7 +130,7 @@ Student Profile → Setting → chọn giá trị mới (Active/ Block) để ch
 {% step %}
 **Cách 4: Xóa thông tin nhân sự trong hệ thống thông tin của tổ chức**
 
-Khi tài khoản nhân sự bị xóa trong hệ thống thông tin của tổ chức do nghỉ việc, hệ thống LMS Ops tự động chuyển tài khoản học viên đó sang trạng thái Block.
+Khi tài khoản nhân sự bị xóa trong hệ thống thông tin của tổ chức do nghỉ việc, hệ thống UpLMS Ops tự động chuyển tài khoản học viên đó sang trạng thái Block.
 {% endstep %}
 {% endstepper %}
 
@@ -145,4 +145,4 @@ Khi học viên bị **Block**, hệ thống sẽ tự động đăng xuất t�
 | Lỗi / Tình huống                                           | Nguyên nhân                          | Cách xử lý                                                                                              |
 | ---------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------- |
 | Không tìm thấy học viên trong danh sách                    | Bộ lọc quá hẹp hoặc nhập sai từ khóa | Nhấn **Reset** để xóa toàn bộ bộ lọc, thử lại với từ khóa khác.                                         |
-| Học viên bị Block có thể tự kích hoạt lại tài khoản không? |                                      | Không. Chỉ người dùng có quyền trên hệ thống LMS Ops mới có thể thay đổi trạng thái từ Block về Active. |
+| Học viên bị Block có thể tự kích hoạt lại tài khoản không? |                                      | Không. Chỉ người dùng có quyền trên hệ thống UpLMS Ops mới có thể thay đổi trạng thái từ Block về Active. |

@@ -9,7 +9,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator, Academic/CX User
+**Dành cho:** Admin, UpLMS Operator, Academic/CX User
 
 **Đường dẫn:** Class → Class List → Import Class
 {% endhint %}
@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
 * Tài khoản có quyền import lớp học.
 {% endhint %}

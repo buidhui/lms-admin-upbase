@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="info" %}
 **Dành cho:** Học viên
 
-**Đường dẫn:** [https://lms.upbase.asia/](https://lms.upbase.asia/)
+**Đường dẫn:** [https://uplms.upbase.asia/](https://uplms.upbase.asia/)
 {% endhint %}
 
 {% hint style="info" %}
@@ -21,14 +21,14 @@ _A - Add | M - Modify | D - Delete_
 * **Chức năng chính:** Học viên xem điểm và nhận xét sau khi Mentor hoàn tất chấm
 * **Bước thực hiện:** Xem kết quả bài Test · Xem chi tiết điểm & nhận xét · Xem Grading Files
 * **Module liên quan:**
-  * My Course (LMS)
+  * My Course (UpLMS)
   * Test/Quiz Result
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập LMS với role **Học viên**.
+* Người dùng đã đăng nhập UpLMS với role **Học viên**.
 * **Mentor phụ trách đã Finish** chấm bài.
 {% endhint %}
 
@@ -42,7 +42,7 @@ _A - Add | M - Modify | D - Delete_
 
 {% stepper %}
 {% step %}
-**Đăng nhập hệ thống LMS**
+**Đăng nhập hệ thống UpLMS**
 {% endstep %}
 
 {% step %}

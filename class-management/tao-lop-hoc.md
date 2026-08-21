@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator, CX User
+**Dành cho:** Admin, UpLMS Operator, CX User
 
 **Đường dẫn:** Class → Class List → Create Class
 {% endhint %}
@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản có quyền truy cập module **Class**.
 * Tài khoản có quyền tạo mới lớp học.
 {% endhint %}
@@ -268,7 +268,7 @@ Hệ thống đồng bộ thông tin từ lớp gốc sang lớp Hybrid, gồm: 
 4. Với lớp **Trial**, mỗi khóa học thử chỉ được gắn với một lớp học; không thể tạo nhiều lớp với cùng một Trial Course.
 5. Nếu Construction Mode là **Offline/Blended**, trường **Facility** là bắt buộc; nếu là **Online LMS/Live Online** thì không bắt buộc.
 6. Checkbox **Create Hybrid Class** chỉ hiển thị khi Construction Mode là **Offline/Blended** và Type là **Lesson**; khi tick thì bắt buộc nhập **Hybrid Class Code**.
-7. Checkbox **Cho phép học viên chọn kỳ thi** chỉ hiển thị khi Type của lớp là **Revision** và **lớp được tạo thủ công**; khi tick checkbox này, HV sẽ được chọn kỳ thi phía LMS pro và chỉ tạo ticket cho CX, **không add HV vào lớp Revision có gán kỳ thi tương ứng khác**.
+7. Checkbox **Cho phép học viên chọn kỳ thi** chỉ hiển thị khi Type của lớp là **Revision** và **lớp được tạo thủ công**; khi tick checkbox này, HV sẽ được chọn kỳ thi phía UpLMS pro và chỉ tạo ticket cho CX, **không add HV vào lớp Revision có gán kỳ thi tương ứng khác**.
 8. Với lớp **Lesson** có Course thuộc program **ACCA, CFA, CMA, Cert/Dip, CGMA**, hai trường **Class Owner** và **CX Admin** là bắt buộc.
 9. Danh sách Course hiển thị theo Type của lớp: Lesson → Normal Course; Revision → Practice Course; Trial → Trial Course.
 10. Danh sách Exam hiển thị theo Program của Course đã chọn.

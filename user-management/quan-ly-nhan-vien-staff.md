@@ -3,7 +3,7 @@
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** LMS Operator
+**Dành cho:** UpLMS Operator
 
 **Đường dẫn:** User Management → Staffs
 {% endhint %}
@@ -17,7 +17,7 @@
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Ops.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống UpLMS Ops.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (crud).
 {% endhint %}
 
@@ -25,7 +25,7 @@
 
 <details>
 
-<summary>Danh sách và chi tiết nhân sự vận hành LMS</summary>
+<summary>Danh sách và chi tiết nhân sự vận hành UpLMS</summary>
 
 {% stepper %}
 {% step %}
@@ -42,7 +42,7 @@ Sử dụng các bộ lọc:
 {% endstep %}
 
 {% step %}
-**Xem chi tiết thông tin nhân sự vận hành LMS**
+**Xem chi tiết thông tin nhân sự vận hành UpLMS**
 
 Nhấn vào tên học viên hoặc nhấn **Action → View Profile**.
 
@@ -52,7 +52,7 @@ Nhấn vào tên học viên hoặc nhấn **Action → View Profile**.
 {% step %}
 **Xuất danh sách ra Excel**
 
-* Tại màn hình Staff List, chọn **Export** để hệ thống xuất danh sách nhân sự vận hành LMS (theo điều kiện tìm kiếm hiện tại) thành file Excel và tự động tải về thiết bị.
+* Tại màn hình Staff List, chọn **Export** để hệ thống xuất danh sách nhân sự vận hành UpLMS (theo điều kiện tìm kiếm hiện tại) thành file Excel và tự động tải về thiết bị.
 {% endstep %}
 {% endstepper %}
 
@@ -60,7 +60,7 @@ Nhấn vào tên học viên hoặc nhấn **Action → View Profile**.
 
 <details>
 
-<summary>Tạo tài khoản nhân sự vận hành LMS</summary>
+<summary>Tạo tài khoản nhân sự vận hành UpLMS</summary>
 
 
 
@@ -68,7 +68,7 @@ Nhấn vào tên học viên hoặc nhấn **Action → View Profile**.
 
 <details>
 
-<summary>Chỉnh sửa thông tin nhân sự vận hành LMS</summary>
+<summary>Chỉnh sửa thông tin nhân sự vận hành UpLMS</summary>
 
 
 
@@ -76,14 +76,14 @@ Nhấn vào tên học viên hoặc nhấn **Action → View Profile**.
 
 <details>
 
-<summary>Trạng thái nhân sự vận hành LMS</summary>
+<summary>Trạng thái nhân sự vận hành UpLMS</summary>
 
 Học viên có 2 trạng thái:
 
 | Trạng thái | Mô tả                                                       |
 | ---------- | ----------------------------------------------------------- |
-| Active     | Tài khoản đang được kích hoạt, có thể đăng nhập vào LMS Ops |
-| Block      | Tài khoản bị khóa, không thể đăng nhập vào LMS Ops          |
+| Active     | Tài khoản đang được kích hoạt, có thể đăng nhập vào UpLMS Ops |
+| Block      | Tài khoản bị khóa, không thể đăng nhập vào UpLMS Ops          |
 
 Có 3 cách thay đổi trạng thái:
 
@@ -99,7 +99,7 @@ Tại Staff List → **Action** → **Block** (áp dụng cho tài khoản đang
 {% step %}
 **Cách 2: Thay đổi qua cột Status trong bảng danh sách**
 
-Tại Staff List, nhấn chuyển **Status** tương ứng với nhân sự vận hành LMS cần đổi trạng thái tại cột thông tin Status → chọn **Block** (áp dụng cho tài khoản đang Active) / chọn **Active** (áp dụng cho tài khoản đang Block) → Xác nhận thay đổi trạng thái.
+Tại Staff List, nhấn chuyển **Status** tương ứng với nhân sự vận hành UpLMS cần đổi trạng thái tại cột thông tin Status → chọn **Block** (áp dụng cho tài khoản đang Active) / chọn **Active** (áp dụng cho tài khoản đang Block) → Xác nhận thay đổi trạng thái.
 
 
 {% endstep %}
@@ -107,12 +107,12 @@ Tại Staff List, nhấn chuyển **Status** tương ứng với nhân sự vậ
 {% step %}
 **Cách 3: Thay đổi qua trường Status trong Staff Profile**
 
-Staff Profile → Setting → chọn giá trị mới (Active/ Block) để chuyển đổi trạng thái tài khoản nhân sự vận hành LMS đó.
+Staff Profile → Setting → chọn giá trị mới (Active/ Block) để chuyển đổi trạng thái tài khoản nhân sự vận hành UpLMS đó.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-Khi tài khoản nhân sự vận hành LMS bị **Block**, hệ thống LMS Ops sẽ tự động đăng xuất tất cả thiết bị đang đăng nhập của nhân sự đó.
+Khi tài khoản nhân sự vận hành UpLMS bị **Block**, hệ thống UpLMS Ops sẽ tự động đăng xuất tất cả thiết bị đang đăng nhập của nhân sự đó.
 {% endhint %}
 
 </details>
@@ -123,7 +123,7 @@ Khi tài khoản nhân sự vận hành LMS bị **Block**, hệ thống LMS Ops
 ### Lưu ý quan trọng
 
 1. **Username** và P**hone** KHÔNG được phép chỉnh sửa sau khi tạo tài khoản.
-2. Tài khoản nhân viên bị **Block** sẽ không thể đăng nhập vào hệ thống LMS Ops.
+2. Tài khoản nhân viên bị **Block** sẽ không thể đăng nhập vào hệ thống UpLMS Ops.
 3. Mỗi nhân viên có thể được gán nhiều **Role** cùng lúc.
 4. File Import chỉ chấp nhận định dạng `.csv` hoặc `.xlsx,` mỗi lần chỉ import 1 file.
 5. Các trường Username, Email, SĐT trong file import phải là duy nhất, không trùng dữ liệu đã có trong hệ thống.
@@ -146,5 +146,5 @@ Khi tài khoản nhân sự vận hành LMS bị **Block**, hệ thống LMS Ops
 | Không thể lưu tài khoản mới                               | Thiếu trường bắt buộc (\*) hoặc dữ liệu không hợp lệ  | Kiểm tra các trường có dấu (\*), đảm bảo Username/ Email/ Phone chưa tồn tại trong hệ thống.                                         |
 | File import bị lỗi một số dòng                            | Dữ liệu các cột không đúng định dạng yêu cầu          | Nhấn **View Log** để xem chi tiết dòng lỗi, sửa file theo hướng dẫn tại cột 'Errors' và import lại.                                  |
 | Nhân viên đăng nhập được nhưng không thấy menu/chức năng  | Chưa được gán Role hoặc Role không có quyền tương ứng | Vào Staff Profile → Edit → gán Role phù hợp với phạm vi công việc của nhân sự đó.                                                    |
-| Nhân sự bị Block có thể tự kích hoạt lại tài khoản không? |                                                       | Không. Chỉ tài khoản của nhân sự có quyền và còn có thể truy cập hệ thống LMS Ops mới có thể thay đổi trạng thái từ Block về Active. |
+| Nhân sự bị Block có thể tự kích hoạt lại tài khoản không? |                                                       | Không. Chỉ tài khoản của nhân sự có quyền và còn có thể truy cập hệ thống UpLMS Ops mới có thể thay đổi trạng thái từ Block về Active. |
 | Tại sao không thấy nút Create?                            |                                                       | Chưa được cấp quyền tạo mới staff. Liên hệ quản trị viên hệ thống để được cấp quyền.                                                 |

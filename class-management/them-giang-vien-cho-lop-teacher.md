@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, LMS Operator, CX/Admin lớp
+**Dành cho:** Admin, UpLMS Operator, CX/Admin lớp
 
 **Đường dẫn:** LMS → Class List → Chọn lớp học → Teachers
 {% endhint %}
@@ -21,13 +21,13 @@ _A - Add | M - Modify | D - Delete_
 
 * **Module chính:** Class
 * **Chức năng chính:** Teacher
-* **Module liên quan:** Class List, Class Detail, Course Content, Section, Learning Schedule, Teacher Calendar, LMS Teacher Request
+* **Module liên quan:** Class List, Class Detail, Course Content, Section, Learning Schedule, Teacher Calendar, UpLMS Teacher Request
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **LMS Operations**.
+* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản có quyền truy cập module **Class** và quyền xem chi tiết lớp học.
 * Tài khoản có quyền thêm/chỉnh sửa giảng viên trong lớp.
 * Lớp học đã được tạo, khóa học đã được gắn vào lớp và Course đã có cấu trúc **Section**.
