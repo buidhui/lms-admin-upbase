@@ -1,39 +1,10 @@
-# Tạo cấu phần học (Section, Subsection, Unit, Activity)
-
-## Record of changes
-
-_A - Add | M - Modify | D - Delete_
-
-<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+# Tạo hoạt động học
 
 ## I. Giới thiệu chung
-
-{% hint style="info" %}
-**Dành cho:** Admin, SX
-
-**Đường dẫn:** [https://ops.upbase.asia/courses?page\_index=1\&page\_size=10](https://ops.upbase.asia/courses?page_index=1\&page_size=10)
-{% endhint %}
-
-{% hint style="info" %}
-#### Phạm vi & Module liên quan
-
-* **Module chính:** Course & Materials
-* **Chức năng chính:** Course 4 Level > Course Content
-* **Module liên quan:**
-  * Course Info
-  * Question Bank
-  * Case Study
-  * Storyline
-  * Resources
-  * Class
-  * UpLMS học viên
-{% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Admin đã đăng nhập thành công vào hệ thống UpLMS Ops.
-* Tài khoản Admin có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công ở bước **Course Info**.
 {% endhint %}
 
@@ -43,21 +14,7 @@ _A - Add | M - Modify | D - Delete_
 
 <summary>Truy cập bước Course Content</summary>
 
-{% stepper %}
-{% step %}
-**Admin hoàn thành bước Course Info và chọn Save để tạo khóa học.**
-
-<figure><img src="../../../.gitbook/assets/image (959)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Sau khi lưu Course Info, hệ thống chuyển sang bước Course Content.**
-
-<figure><img src="../../../.gitbook/assets/image (960)" alt=""><figcaption></figcaption></figure>
-
-Tại đây, Admin có thể bắt đầu tạo cấu trúc nội dung khóa học.
-{% endstep %}
-{% endstepper %}
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -67,25 +24,23 @@ Tại đây, Admin có thể bắt đầu tạo cấu trúc nội dung khóa h�
 
 {% stepper %}
 {% step %}
-**Tại màn hình Course Content, Admin chọn New Section.**
+**Tạo Section mới**
 
-<figure><img src="../../../.gitbook/assets/image (961)" alt=""><figcaption></figcaption></figure>
-
-Hệ thống hiển thị form tạo mới Section ở phía bên phải màn hình.
-
-<figure><img src="../../../.gitbook/assets/image (962)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Nhập thông tin Section, các trường thông tin bao gồm:**
+Điền thông tin Section
 
-| Trường thông tin       | Bắt buộc | Mô tả                                                                                                    |
-| ---------------------- | -------- | -------------------------------------------------------------------------------------------------------- |
-| **Section Name**       | Y        | Tên của Section.                                                                                         |
-| **Belong to**          | N        | Nội dung kiến thức của Section.                                                                          |
-| **Section Short name** | N        | Tên viết tắt của Section.                                                                                |
-| **Foundation content** | N        | Nội dung học quan trọng mà học viên cần hoàn thành trước khi học Section này. Có thể chọn nhiều giá trị. |
-| **Describe**           | N        | Mô tả Section.                                                                                           |
+<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+Các trường thông tin:
+
+* Section Name (bắt buộc): tên của section.
+* Section Short Name: tên viết tắt của section, dùng trong các trường hợp biều đồ hạn chế hiển thị tên quá dài.
+* Describe: mô tả nội dung section.
+
+Chọn Save để lưu section
 {% endstep %}
 
 {% step %}
@@ -263,14 +218,14 @@ Hệ thống hiển thị form tạo mới Activity như hình.
 {% step %}
 **Lúc này, admin có thể nhập thông tin Activity bao gồm:**
 
-| Trường thông tin            | Bắt buộc | Mô tả                                                                                               |
-| --------------------------- | -------- | --------------------------------------------------------------------------------------------------- |
-| **Activity Name**           | Y        | Tên hoạt động học tập.                                                                              |
-| **Duration (Hour/Minutes)** | Y        | Thời lượng của Activity.                                                                            |
+| Trường thông tin            | Bắt buộc | Mô tả                                                                                                 |
+| --------------------------- | -------- | ----------------------------------------------------------------------------------------------------- |
+| **Activity Name**           | Y        | Tên hoạt động học tập.                                                                                |
+| **Duration (Hour/Minutes)** | Y        | Thời lượng của Activity.                                                                              |
 | **Type of Activity**        | Y        | Loại Activity hiển thị icon trên giao diện học viên UpLMS, gồm Text, Video, Quiz, Pass Exam Analysis. |
-| **Grade Activity**          | Y        | Xác định Activity có tính điểm hay không. Hệ thống mặc định chọn Yes.                               |
-| **Choose Learning Outcome** | N        | Chọn một hoặc nhiều Learning Outcome đã tạo.                                                        |
-| **Upload File**             | N        | Đính kèm tài liệu vào nội dung Activity.                                                            |
+| **Grade Activity**          | Y        | Xác định Activity có tính điểm hay không. Hệ thống mặc định chọn Yes.                                 |
+| **Choose Learning Outcome** | N        | Chọn một hoặc nhiều Learning Outcome đã tạo.                                                          |
+| **Upload File**             | N        | Đính kèm tài liệu vào nội dung Activity.                                                              |
 
 Với phần upload file, Admin có thể chọn tài liệu từ kho tài liệu UpLMS hoặc upload trực tiếp từ thiết bị cá nhân; kích cỡ file tối đa là 500MB và có thể thêm một hoặc nhiều tài liệu đính kèm.
 {% endstep %}

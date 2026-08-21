@@ -1,10 +1,4 @@
-# Gắn chứng chỉ cho khóa học (Certificate)
-
-## Record of changes
-
-_A - Add | M - Modify | D - Delete_
-
-<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+# Tạo chứng chỉ cho khóa học
 
 ## I. Giới thiệu chung
 
