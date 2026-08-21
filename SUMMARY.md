@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Giới thiệu tổng quan - LMS Admin User Guide](README.md)
+* [Giới thiệu tổng quan - LMS Ops User Guide](README.md)
 
 ## Người dùng (User Management)
 

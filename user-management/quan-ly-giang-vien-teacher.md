@@ -12,7 +12,7 @@ _A - Add | M - Modify | D - Delete_
 
 | # | Term             | Definition                                            |
 | - | ---------------- | ----------------------------------------------------- |
-| 1 | LMS Admin        | Hệ thống quản lý vận hành                |
+| 1 | LMS Ops        | Hệ thống quản lý vận hành                |
 | 2 | LMS              | Learning Management System — Hệ thống quản lý học tập |
 | 3 | Person in charge | Nhân viên UpBase phụ trách giảng viên                   |
 | 4 | Facility         | Cơ sở giảng dạy của giảng viên                        |
@@ -22,7 +22,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator
+**Dành cho:** Admin, LMS Operator
 
 **Đường dẫn:** User Management → Teachers → Teacher List
 {% endhint %}
@@ -37,7 +37,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Ops.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 * Đã nắm danh sách Chương trình (Program) và các môn học (Subject) hiện có trong hệ thống.
@@ -58,7 +58,7 @@ Màn hình **Teacher Management** bao gồm các khu vực chính:
 | Đối tượng | Vai trò            | Quyền hạn                                                              |
 | --------- | ------------------ | ---------------------------------------------------------------------- |
 | Admin     | Quản trị hệ thống  | Toàn quyền — xem, tạo, chỉnh sửa, đổi trạng thái, import, export       |
-| Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống (xem / tạo / chỉnh sửa / import) |
+| LMS Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống (xem / tạo / chỉnh sửa / import) |
 
 ## III. Các bước thực hiện chi tiết
 
@@ -405,7 +405,7 @@ Sau khi import, các thông tin về **Teaching Program** (Primary Responsibilit
 | Không chọn được môn học cho giảng viên               | Chưa chọn Primary Responsibility hoặc môn không thuộc chương trình đã chọn | Vào tab **Teaching Program**, chọn **Primary Responsibility** trước, sau đó tick chọn các môn học tương ứng.          |
 | File import bị lỗi một số dòng                       | Dữ liệu các cột không đúng định dạng yêu cầu                               | Nhấn **View Log** để xem chi tiết dòng lỗi, sửa file theo hướng dẫn tại cột **Errors** và import lại.                 |
 | File import không tải được                           | Định dạng file không phải .csv / .xlsx hoặc file quá lớn                   | Kiểm tra lại định dạng file. Tách nhỏ file nếu quá lớn và import từng lần.                                            |
-| Giảng viên bị Block báo không đăng nhập được LMS Pro | Tài khoản đã bị khóa trên hệ thống LMS Admin                                     | Vào Teacher Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do block.                |
+| Giảng viên bị Block báo không đăng nhập được LMS Pro | Tài khoản đã bị khóa trên hệ thống LMS Ops                                     | Vào Teacher Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do block.                |
 | Danh sách không tải được                             | Mất kết nối hoặc lỗi server                                                | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                                                |
 
 ## VI. Câu hỏi thường gặp (FAQ)
@@ -462,7 +462,7 @@ Import chỉ tạo các thông tin tài khoản cơ bản (Username, Email, Phon
 
 <summary>Giảng viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
 
-Không. Chỉ người dùng có quyền trên hệ thống LMS Admin (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
+Không. Chỉ người dùng có quyền trên hệ thống LMS Ops (Admin / LMS Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
 
 </details>
 

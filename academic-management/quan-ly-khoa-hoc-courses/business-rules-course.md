@@ -6,7 +6,7 @@
 
 | Mã rule       | Business Rule                                                                                                                                     |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BR-COURSE-001 | Người dùng chỉ được truy cập module Course khi đã đăng nhập thành công vào hệ thống LMS Admin và được phân quyền phù hợp.                               |
+| BR-COURSE-001 | Người dùng chỉ được truy cập module Course khi đã đăng nhập thành công vào hệ thống LMS Ops và được phân quyền phù hợp.                               |
 | BR-COURSE-002 | Người dùng chỉ được tạo, chỉnh sửa, xóa hoặc thay đổi trạng thái khóa học nếu tài khoản có quyền tương ứng.                                       |
 | BR-COURSE-003 | Một khóa học sau khi tạo mặc định ở trạng thái **Draft**.                                                                                         |
 | BR-COURSE-004 | Một khóa học hoàn chỉnh cần đi qua 4 bước cấu hình: **Course Info → Course Content → Resource → Certificate**.                                    |

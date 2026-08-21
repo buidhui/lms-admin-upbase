@@ -1,5 +1,5 @@
 ---
-description: Tài liệu hướng dẫn quản lý toàn bộ tài khoản Nhân viên trong hệ thống LMS Admin
+description: Tài liệu hướng dẫn quản lý toàn bộ tài khoản Nhân viên trong hệ thống LMS Ops
 ---
 
 # Quản lý nhân viên (Staff)
@@ -14,7 +14,7 @@ _A - Add | M - Modify | D - Delete_
 
 | # | Term       | Definition                                               |
 | - | ---------- | -------------------------------------------------------- |
-| 1 | LMS Admin  | Hệ thống quản lý vận hành                   |
+| 1 | LMS Ops  | Hệ thống quản lý vận hành                   |
 | 2 | LMS        | Learning Management System — Hệ thống quản lý học tập    |
 | 3 | OTP        | One-Time Password — Mã xác thực một lần                  |
 | 4 | Import Log | Lịch sử file đã import, hiển thị trạng thái từng bản ghi |
@@ -22,7 +22,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator
+**Dành cho:** Admin, LMS Operator
 
 **Đường dẫn:** User & Org Management → Staffs → Staff List
 {% endhint %}
@@ -37,7 +37,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Ops.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 * Đã nắm rõ cấu trúc Phòng ban (Department), Chức danh (Title), Cấp bậc (Level), Chương trình (Program) và Role hiện có trong hệ thống.
@@ -58,7 +58,7 @@ Màn hình **Staff Management** bao gồm các khu vực chính:
 | Đối tượng | Vai trò            | Quyền hạn                                                                  |
 | --------- | ------------------ | -------------------------------------------------------------------------- |
 | Admin     | Quản trị hệ thống  | Toàn quyền — xem, tạo, chỉnh sửa, đổi trạng thái, import, export, gán Role |
-| Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống (xem / tạo / chỉnh sửa / import)     |
+| LMS Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống (xem / tạo / chỉnh sửa / import)     |
 
 ## III. Các bước thực hiện chi tiết
 
@@ -231,7 +231,7 @@ Cho phép xóa phòng ban khi không có phòng ban con nào thuộc nó và kh�
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống LMS Admin.
+* Người dùng đã đăng nhập thành công vào hệ thống LMS Ops.
 * Người dùng được cấp quyền tương ứng (xem / tạo / chỉnh sửa chức danh).
 {% endhint %}
 
@@ -472,7 +472,7 @@ Tại Staff List, nhấn **Export**. Hệ thống xuất danh sách nhân viên 
 
 **3.3.2 Tạo tài khoản nhân viên**
 
-🎯 Mục tiêu: Tạo mới một tài khoản nhân viên vận hành trong hệ thống LMS Admin.
+🎯 Mục tiêu: Tạo mới một tài khoản nhân viên vận hành trong hệ thống LMS Ops.
 
 {% stepper %}
 {% step %}
@@ -708,7 +708,7 @@ View log sẽ hiển thị như sau:
 
 1. **Username** và **Số điện thoại** KHÔNG được phép chỉnh sửa sau khi tạo tài khoản — đây là định danh duy nhất của nhân viên.
 2. Thay đổi **Email** yêu cầu xác thực OTP gửi về Email cũ — cần đảm bảo Email cũ còn hoạt động.
-3. Tài khoản nhân viên bị **Block** sẽ không thể đăng nhập vào hệ thống LMS Admin.
+3. Tài khoản nhân viên bị **Block** sẽ không thể đăng nhập vào hệ thống LMS Ops.
 4. Mỗi nhân viên có tối thiểu **1**, tối đa **2 Job Position** (tổ hợp Title + Level).
 5. Phòng ban khác **'HO'** BẮT BUỘC phải chọn Chương trình (Program); phòng ban 'HO' thì không bắt buộc.
 6. Danh sách Title (chức danh) hiển thị phụ thuộc vào Department đã chọn — chọn Department trước, rồi mới chọn Title.
@@ -740,7 +740,7 @@ View log sẽ hiển thị như sau:
 | Không xóa được Job Position                              | Chỉ còn 1 Job Position duy nhất                       | Mỗi nhân viên phải có tối thiểu 1 Job Position. Thêm vị trí mới trước khi xóa vị trí cũ.            |
 | File import bị lỗi một số dòng                           | Dữ liệu các cột không đúng định dạng yêu cầu          | Nhấn **View Log** để xem chi tiết dòng lỗi, sửa file theo hướng dẫn tại cột 'Errors' và import lại. |
 | Nhân viên đăng nhập được nhưng không thấy menu/chức năng | Chưa được gán Role hoặc Role không có quyền tương ứng | Vào Staff Profile → Edit → gán Role phù hợp với công việc của nhân viên.                            |
-| Nhân viên bị Block báo không đăng nhập được              | Tài khoản đã bị khóa trên hệ thống LMS Admin                | Vào Staff Profile, đổi trạng thái về Active (nếu được phép) hoặc xác nhận với Admin lý do block.    |
+| Nhân viên bị Block báo không đăng nhập được              | Tài khoản đã bị khóa trên hệ thống LMS Ops                | Vào Staff Profile, đổi trạng thái về Active (nếu được phép) hoặc xác nhận với Admin lý do block.    |
 | Danh sách không tải được                                 | Mất kết nối hoặc lỗi server                           | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                              |
 
 ## VI. Câu hỏi thường gặp (FAQ)
@@ -805,7 +805,7 @@ A: Sau khi import, nhấn **View Log** để xem chi tiết các dòng lỗi. M�
 
 <summary>Q: Sau khi import, tại sao nhân viên không truy cập được hệ thống?</summary>
 
-A: Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone, Full Name, Status). Các thông tin về Department, Job Position, Program và đặc biệt là **Role** cần được bổ sung thủ công qua màn hình Edit. Nhân viên chưa có Role sẽ không thấy được menu/chức năng trong LMS Admin.
+A: Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone, Full Name, Status). Các thông tin về Department, Job Position, Program và đặc biệt là **Role** cần được bổ sung thủ công qua màn hình Edit. Nhân viên chưa có Role sẽ không thấy được menu/chức năng trong LMS Ops.
 
 </details>
 
@@ -813,7 +813,7 @@ A: Import chỉ tạo thông tin tài khoản cơ bản (Username, Email, Phone,
 
 <summary>Q: Nhân viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
 
-A: Không. Chỉ người dùng có quyền trên hệ thống LMS Admin (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
+A: Không. Chỉ người dùng có quyền trên hệ thống LMS Ops (Admin / LMS Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
 
 </details>
 

@@ -25,7 +25,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Admin**.
+* Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Ops**.
 * Tài khoản đã được cấp quyền truy cập menu **Storyline**.
 * Xem danh sách: cần quyền xem danh sách Storyline.
 * Tạo mới: cần quyền tạo Storyline.
@@ -139,7 +139,7 @@ Chọn **Add Document** để tạo Document cho Storyline Item. Document gồm 
 {% tab title="Text" %}
 | Name        | Description                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học Storyline của học viên_ |
+| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên LMS Ops, không hiển thị trên giao diện học Storyline của học viên_ |
 | Description | Nội dung Content của Text                                                                                                   |
 
 <figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
@@ -150,7 +150,7 @@ Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% tab title="Question" %}
 | Name        | Description                                                                                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học Storyline của học viên_ |
+| Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên LMS Ops, không hiển thị trên giao diện học Storyline của học viên_ |
 | Description | Nội dung Content của Text                                                                                                   |
 
 <figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
@@ -161,7 +161,7 @@ Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% tab title="Video" %}
 | Name       | Description                                                                                                |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| Video Name | Tên của Video. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học của học viên_ |
+| Video Name | Tên của Video. _Lưu ý: Tên Document chỉ hiển thị trên LMS Ops, không hiển thị trên giao diện học của học viên_ |
 | Upload     | Button Upload Video: chọn Upload từ thiết bị hoặc chọn Video có sẵn trên hệ thống                          |
 
 <figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
@@ -178,7 +178,7 @@ Sau khi chọn **Interaction**, trường **Interaction Type** mặc định là
 
 | Name             | Mandatory                    | Description                                                                                                |
 | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Document Name    | Yes                          | Tên Document. _Lưu ý: Tên Document chỉ hiển thị trên LMS Admin, không hiển thị trên giao diện học của học viên._ |
+| Document Name    | Yes                          | Tên Document. _Lưu ý: Tên Document chỉ hiển thị trên LMS Ops, không hiển thị trên giao diện học của học viên._ |
 | Interaction Type | Yes                          | Loại Interaction. Giai đoạn này mặc định là **Labeled Graphic**.                                           |
 | Background Image | Yes                          | Ảnh nền để đặt Marker. Hỗ trợ: JPG, JPEG, PNG, GIF, WEBP.                                                  |
 | Marker List      | Yes (tối thiểu 1, tối đa 10) | Danh sách Marker đã thêm vào ảnh. Mỗi Marker gồm: Marker Title, Marker Content, Marker Style.              |

@@ -38,7 +38,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống LMS Admin.
+* Người dùng đã đăng nhập thành công vào hệ thống LMS Ops.
 * Tài khoản người dùng có quyền tạo mới khóa học.
 {% endhint %}
 

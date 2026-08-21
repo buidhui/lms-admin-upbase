@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator
+**Dành cho:** Admin, LMS Operator
 
 **Đường dẫn:** Engagement & Support → Notice & Email → Notification List & Email List
 {% endhint %}
@@ -27,7 +27,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống LMS Admin.
+* Đã đăng nhập thành công vào hệ thống LMS Ops.
 * Đã được cấp quyền tương ứng với chức năng Notification (xem / tạo / chỉnh sửa).
 * Đối với gửi Notification/Email: cần có Nhóm người nhận đã được tạo trước đó tại **Recipients List**.
 {% endhint %}

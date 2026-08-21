@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator
+**Dành cho:** Admin, LMS Operator
 
 **Đường dẫn:** [https://ops.upbase.asia/question-bank/question](https://ops.upbase.asia/question-bank/question)
 {% endhint %}

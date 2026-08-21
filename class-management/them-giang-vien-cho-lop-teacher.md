@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator, CX/Admin lớp
+**Dành cho:** Admin, LMS Operator, CX/Admin lớp
 
 **Đường dẫn:** LMS → Class List → Chọn lớp học → Teachers
 {% endhint %}

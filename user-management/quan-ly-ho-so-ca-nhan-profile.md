@@ -12,12 +12,12 @@ _A - Add | M - Modify | D - Delete_
 
 | # | Term | Definition |
 | - | ---- | ---------- |
-| 1 | LMS Admin | Hệ thống quản lý vận hành |
+| 1 | LMS Ops | Hệ thống quản lý vận hành |
 
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator
+**Dành cho:** Admin, LMS Operator
 
 **Đường dẫn:** [https://ops.upbase.asia/auth/login](https://ops.upbase.asia/auth/login) (truy cập hồ sơ qua avatar góc dưới bên trái → **My profile**)
 {% endhint %}
@@ -31,7 +31,7 @@ Module **Hồ sơ cá nhân** cho phép người vận hành xem và chỉnh s�
 | Đối tượng | Vai trò            | Quyền hạn                                     |
 | --------- | ------------------ | --------------------------------------------- |
 | Admin     | Quản trị hệ thống  | Toàn quyền — xem, tạo, chỉnh sửa, xóa, import |
-| Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống         |
+| LMS Operator  | Nhân viên vận hành | Tùy theo Role được cấp trong hệ thống         |
 
 {% hint style="info" %}
 #### Phạm vi & Module liên quan
@@ -44,7 +44,7 @@ Module **Hồ sơ cá nhân** cho phép người vận hành xem và chỉnh s�
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Ops.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện.
 {% endhint %}
@@ -66,13 +66,13 @@ Quản lý hồ sơ cá nhân bao gồm các khu vực chính:
 
 <summary>Login</summary>
 
-🎯 **Mục tiêu:** Đăng nhập thành công vào hệ thống LMS Admin để thực hiện các thao tác quản lý.
+🎯 **Mục tiêu:** Đăng nhập thành công vào hệ thống LMS Ops để thực hiện các thao tác quản lý.
 
 {% stepper %}
 {% step %}
-**Truy cập hệ thống LMS Admin**
+**Truy cập hệ thống LMS Ops**
 
-Mở trình duyệt và truy cập đường dẫn hệ thống LMS Admin [tại đây](https://ops.upbase.asia/auth/login).
+Mở trình duyệt và truy cập đường dẫn hệ thống LMS Ops [tại đây](https://ops.upbase.asia/auth/login).
 {% endstep %}
 
 {% step %}

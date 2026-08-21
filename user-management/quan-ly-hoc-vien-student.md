@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator
+**Dành cho:** Admin, LMS Operator
 
 **Đường dẫn:** User & Org Management → Students
 {% endhint %}
@@ -26,7 +26,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Admin.
+* Đã có tài khoản và được cấp quyền truy cập hệ thống LMS Ops.
 * Đã đăng nhập thành công vào hệ thống.
 * Tài khoản có quyền tương ứng với từng chức năng cần thực hiện (xem / tạo / chỉnh sửa / import).
 {% endhint %}
@@ -380,7 +380,7 @@ View log sẽ hiển thị như sau:
 1. **Fullname KHÔNG được phép chỉnh sửa** sau khi tạo tài khoản.
 2. Người có quyền Edit thông tin Students/Teachers/Staffs có quyền **Thay đổi Email** — yêu cầu xác thực OTP gửi về email cũ, cần đảm bảo email cũ còn hoạt động.
 3. Tài khoản học viên bị **Block** sẽ không thể đăng nhập vào LMS Student.
-4. Mỗi học viên chỉ được phép đăng nhập tối đa **3 thiết bị**. Nếu vượt quá, học viên cần liên hệ LMS Admin để xóa thiết bị tại tab Security.
+4. Mỗi học viên chỉ được phép đăng nhập tối đa **3 thiết bị**. Nếu vượt quá, học viên cần liên hệ LMS Ops để xóa thiết bị tại tab Security.
 5. File Import chỉ chấp nhận định dạng **.csv** hoặc **.xlsx**; mỗi lần chỉ import 1 file.
 6. Các trường Username, Email, SĐT trong file import phải là duy nhất, không trùng dữ liệu đã có trong hệ thống.
 7. Học viên thuộc Account Type **Student Account** cần có Record ID HubSpot để đồng bộ Contact.
@@ -406,7 +406,7 @@ View log sẽ hiển thị như sau:
 | File import bị lỗi một số dòng             | Dữ liệu các cột không đúng định dạng yêu cầu           | Nhấn **View Log** để xem chi tiết dòng lỗi, sửa file theo hướng dẫn tại cột **Errors** và import lại.     |
 | File import không tải được                 | Định dạng file không phải .csv/.xlsx hoặc file quá lớn | Kiểm tra lại định dạng file. Tách nhỏ file nếu quá lớn và import từng lần.                                |
 | Học viên không đăng nhập được thiết bị mới | Đã đăng nhập đủ 3 thiết bị                             | Vào Student Profile → tab **Security** → xóa bớt thiết bị cũ.                                             |
-| Học viên bị Block báo không đăng nhập được | Tài khoản đã bị khóa trên hệ thống LMS Admin                 | Vào Student Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do Block.    |
+| Học viên bị Block báo không đăng nhập được | Tài khoản đã bị khóa trên hệ thống LMS Ops                 | Vào Student Profile, đổi trạng thái về **Active** (nếu được phép) hoặc xác nhận với Admin lý do Block.    |
 | Danh sách không tải được                   | Mất kết nối hoặc lỗi server                            | Tải lại trang (F5). Nếu vẫn lỗi, liên hệ IT để hỗ trợ.                                                    |
 
 ## VI. Câu hỏi thường gặp
@@ -439,7 +439,7 @@ A: Sau khi import, nhấn **View Log** để xem chi tiết các dòng lỗi. M�
 
 <summary>Q: Học viên bị Block có thể tự kích hoạt lại tài khoản không?</summary>
 
-A: Không. Chỉ người dùng có quyền trên hệ thống LMS Admin (Admin / Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
+A: Không. Chỉ người dùng có quyền trên hệ thống LMS Ops (Admin / LMS Operator có quyền) mới có thể thay đổi trạng thái từ Block về Active.
 
 </details>
 
@@ -455,6 +455,6 @@ A: Employee Account dùng cho nhân viên nội bộ UpBase (cần điền mã n
 
 <summary>Q: Học viên đăng nhập tối đa bao nhiêu thiết bị?</summary>
 
-A: Tối đa 3 thiết bị. Khi vượt quá, học viên cần liên hệ LMS Admin để xóa bớt thiết bị tại tab Security trong Student Profile.
+A: Tối đa 3 thiết bị. Khi vượt quá, học viên cần liên hệ LMS Ops để xóa bớt thiết bị tại tab Security trong Student Profile.
 
 </details>

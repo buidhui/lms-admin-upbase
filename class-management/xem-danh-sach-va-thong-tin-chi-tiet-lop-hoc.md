@@ -11,7 +11,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, Operator, CX User
+**Dành cho:** Admin, LMS Operator, CX User
 
 **Đường dẫn:** Academic Management → Class → Class List
 {% endhint %}

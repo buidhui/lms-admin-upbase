@@ -18,7 +18,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin / Operator, Giảng viên (Teacher), Quản lý chương trình
+**Dành cho:** Admin / LMS Operator, Giảng viên (Teacher), Quản lý chương trình
 
 **Đường dẫn:** Dashboard → SIS Operational Dashboard
 {% endhint %}

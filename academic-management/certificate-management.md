@@ -28,7 +28,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Admin**.
+* Người dùng đã đăng nhập thành công vào hệ thống vận hành **LMS Ops**.
 * Tài khoản đã được cấp quyền truy cập chức năng **Certificates**.
 {% endhint %}
 

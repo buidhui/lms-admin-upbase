@@ -32,7 +32,7 @@ _A - Add | M - Modify | D - Delete_
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Admin đã đăng nhập thành công vào hệ thống LMS Admin.
+* Admin đã đăng nhập thành công vào hệ thống LMS Ops.
 * Tài khoản Admin có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công ở bước **Course Info**.
 {% endhint %}
