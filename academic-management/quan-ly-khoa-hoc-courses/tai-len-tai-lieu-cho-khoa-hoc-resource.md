@@ -1,36 +1,10 @@
-# Tải lên tài liệu cho khóa học (Resource)
-
-## Record of changes
-
-_A - Add | M - Modify | D - Delete_
-
-<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 20, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
+# Thêm tài liệu khóa học
 
 ## I. Giới thiệu chung
-
-{% hint style="info" %}
-**Dành cho:** Admin, SX
-
-**Đường dẫn:** [https://ops.upbase.asia/course-full/undefined](https://ops.upbase.asia/course-full/undefined)
-{% endhint %}
-
-{% hint style="info" %}
-#### Phạm vi & Module liên quan
-
-* **Module chính:** Academic Management > Course & Materials
-* **Chức năng chính:** Course 4 Level > Resource
-* **Module liên quan:**
-  * Course Info
-  * Course Content
-  * Resources
-  * UpLMS học viên
-{% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống UpLMS Ops.
-* Tài khoản người dùng có quyền tạo hoặc chỉnh sửa khóa học.
 * Khóa học đã được tạo thành công tại bước **Course Info**.
 {% endhint %}
 

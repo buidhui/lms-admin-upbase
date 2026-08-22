@@ -16,7 +16,7 @@
   * [Tạo nội dung khóa học](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/README.md)
     * [Tạo hoạt động học](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-cau-phan-hoc-section-subsection-unit-activity.md)
     * [Tạo hoạt động kiểm tra](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-bai-test-quiz-cho-khoa-hoc.md)
-  * [Tải tài liệu cho khóa học](academic-management/quan-ly-khoa-hoc-courses/tai-len-tai-lieu-cho-khoa-hoc-resource.md)
+  * [Thêm tài liệu khóa học](academic-management/quan-ly-khoa-hoc-courses/tai-len-tai-lieu-cho-khoa-hoc-resource.md)
   * [Tạo chứng chỉ cho khóa học](academic-management/quan-ly-khoa-hoc-courses/gan-chung-chi-cho-khoa-hoc-certificate.md)
 * [Ngân hàng câu hỏi](academic-management/question-bank/README.md)
   * [Item Set](academic-management/question-bank/item-set.md)
